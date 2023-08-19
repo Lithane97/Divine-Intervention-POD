@@ -54,3 +54,63 @@ interaction_debug_main = {
 	index = 9
 	desc =  "DEBUG_MAIN"
 }
+
+interaction_category_holyarts = {
+	index = 10
+	desc =  "HOLYARTS_ACTIONS"
+}
+
+interaction_category_specialweapons = {
+	index = 11
+	desc =  "SPECIALWEAPONS_ACTIONS"
+}
+
+interaction_category_psychic = {
+	index = 12
+	desc =  "PSYCHIC_ACTIONS"
+}
+
+interaction_category_possessed = {
+	index = 13
+	desc =  "POSSESSED_ACTIONS"
+}
+
+interaction_category_vampire = {
+	index = 14
+	desc =  "VAMPIRE_ACTIONS"
+}
+
+interaction_category_wraith = {
+	index = 15
+	desc = "WRAITH_ACTIONS"
+}
+
+interaction_category_ghoul = {
+	index = 16
+	desc =  "GHOUL_ACTIONS"
+}
+
+interaction_category_mummy = {
+	index = 17
+	desc =  "MUMMY_ACTIONS"
+}
+
+interaction_category_werewolf = {
+	index = 18
+	desc =  "WEREWOLF_ACTIONS"
+}
+
+interaction_category_demon = {
+	index = 19
+	desc =  "DEMON_ACTIONS"
+}
+
+interaction_category_mage = {
+	index = 20
+	desc =  "MAGE_ACTIONS"
+}
+
+interaction_category_fae = {
+	index = 21
+	desc =  "FAE_ACTIONS"
+}

@@ -1626,6 +1626,314 @@ DI_add_innovation_all_things = {
 	}
 }
 
+### Prince of Darkness Innovations ###
+# military
+# innovation_tenaille
+DI_culture_has_innovation_tenaille = {
+	scope = culture
+
+	is_valid = {
+		has_innovation = innovation_tenaille
+	}
+}
+
+DI_add_innovation_tenaille = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_tenaille
+		}
+	}
+}
+
+# innovation_trunnions
+DI_culture_has_innovation_trunnions = {
+	scope = culture
+
+	is_valid = {
+		has_innovation = innovation_trunnions
+	}
+}
+
+DI_add_innovation_trunnions = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_trunnions
+		}
+	}
+}
+
+# innovation_professional_officers
+DI_culture_has_innovation_professional_officers = {
+	scope = culture
+
+	is_valid = {
+		has_innovation = innovation_professional_officers
+	}
+}
+
+DI_add_innovation_professional_officers = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_professional_officers
+		}
+	}
+}
+
+# innovation_early_modern_military
+DI_culture_has_innovation_early_modern_military = {
+	scope = culture
+
+	is_valid = {
+		has_innovation = innovation_early_modern_military
+	}
+}
+
+DI_add_innovation_early_modern_military = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_early_modern_military
+		}
+	}
+}
+
+# innovation_standardized_pikes
+DI_culture_has_innovation_standardized_pikes = {
+	scope = culture
+
+	is_valid = {
+		has_innovation = innovation_standardized_pikes
+	}
+}
+
+DI_add_innovation_standardized_pikes = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_standardized_pikes
+		}
+	}
+}
+
+# innovation_musketmen
+DI_culture_has_innovation_musketmen = {
+	scope = culture
+
+	is_valid = {
+		has_innovation = innovation_musketmen
+	}
+}
+
+DI_add_innovation_musketmen = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_musketmen
+		}
+	}
+}
+
+# civic
+# innovation_early_modern_administration
+DI_culture_has_innovation_early_modern_administration = {
+	scope = culture
+
+	is_valid = {
+		has_innovation = innovation_early_modern_administration
+	}
+}
+
+DI_add_innovation_early_modern_administration = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_early_modern_administration
+		}
+	}
+}
+
+# innovation_land_clearance
+DI_culture_has_innovation_land_clearance = {
+	scope = culture
+
+	is_valid = {
+		has_innovation = innovation_land_clearance
+	}
+}
+
+DI_add_innovation_land_clearance = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_land_clearance
+		}
+	}
+}
+
+# innovation_constitution
+DI_culture_has_innovation_constitution = {
+	scope = culture
+
+	is_valid = {
+		has_innovation = innovation_constitution
+	}
+}
+
+DI_add_innovation_constitution = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_constitution
+		}
+	}
+}
+
+# innovation_absolute_rulership
+DI_culture_has_innovation_absolute_rulership = {
+	scope = culture
+
+	is_valid = {
+		has_innovation = innovation_absolute_rulership
+	}
+}
+
+DI_add_innovation_absolute_rulership = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_absolute_rulership
+		}
+	}
+}
+
+# innovation_textile_manufactory
+DI_culture_has_innovation_textile_manufactory = {
+	scope = culture
+
+	is_valid = {
+		has_innovation = innovation_textile_manufactory
+	}
+}
+
+DI_add_innovation_textile_manufactory = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_textile_manufactory
+		}
+	}
+}
+
+# innovation_renaissance_thought
+DI_culture_has_innovation_renaissance_thought = {
+	scope = culture
+
+	is_valid = {
+		has_innovation = innovation_renaissance_thought
+	}
+}
+
+DI_add_innovation_renaissance_thought = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_renaissance_thought
+		}
+	}
+}
+
+# innovation_separation_of_powers
+DI_culture_has_innovation_separation_of_powers = {
+	scope = culture
+
+	is_valid = {
+		has_innovation = innovation_separation_of_powers
+	}
+}
+
+DI_add_innovation_separation_of_powers = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_separation_of_powers
+		}
+	}
+}
+
+# culture_group_regional
+# innovation_spanish_square
+DI_culture_has_innovation_spanish_square = {
+	scope = culture
+
+	is_valid = {
+		has_innovation = innovation_spanish_square
+	}
+}
+
+DI_add_innovation_spanish_square = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_spanish_square
+		}
+	}
+}
+
+# innovation_new_world
+DI_culture_has_innovation_new_world = {
+	scope = culture
+
+	is_valid = {
+		has_innovation = innovation_new_world
+	}
+}
+
+DI_add_innovation_new_world = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_new_world
+		}
+	}
+}
+
+# innovation_the_mughals
+DI_culture_has_innovation_the_mughals = {
+	scope = culture
+
+	is_valid = {
+		has_innovation = innovation_the_mughals
+	}
+}
+
+DI_add_innovation_the_mughals = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_the_mughals
+		}
+	}
+}
+
 ### Remove Innovations ###
 ##########################
 
@@ -2606,6 +2914,187 @@ DI_remove_innovation_deccan_unity = {
 	effect = {
 		var:DI_innovation_selected_culture = {
 			remove_innovation = innovation_deccan_unity
+		}
+	}
+}
+
+### Prince of Darkness Innovations ###
+
+# military
+# innovation_tenaille
+DI_remove_innovation_tenaille = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_tenaille
+		}
+	}
+}
+
+# innovation_trunnions
+DI_remove_innovation_trunnions = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_trunnions
+		}
+	}
+}
+
+# innovation_professional_officers
+DI_remove_innovation_professional_officers = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_professional_officers
+		}
+	}
+}
+
+# innovation_early_modern_military
+DI_remove_innovation_early_modern_military = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_early_modern_military
+		}
+	}
+}
+
+# innovation_standardized_pikes
+DI_remove_innovation_standardized_pikes = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_standardized_pikes
+		}
+	}
+}
+
+# innovation_musketmen
+DI_remove_innovation_musketmen = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_musketmen
+		}
+	}
+}
+
+# civic
+# innovation_early_modern_administration
+DI_remove_innovation_early_modern_administration = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_early_modern_administration
+		}
+	}
+}
+
+# innovation_land_clearance
+DI_remove_innovation_land_clearance = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_land_clearance
+		}
+	}
+}
+
+# innovation_constitution
+DI_remove_innovation_constitution = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_constitution
+		}
+	}
+}
+
+# innovation_absolute_rulership
+DI_remove_innovation_absolute_rulership = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_absolute_rulership
+		}
+	}
+}
+
+# innovation_textile_manufactory
+DI_remove_innovation_textile_manufactory = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_textile_manufactory
+		}
+	}
+}
+
+# innovation_renaissance_thought
+DI_remove_innovation_renaissance_thought = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_renaissance_thought
+		}
+	}
+}
+
+# innovation_separation_of_powers
+DI_remove_innovation_separation_of_powers = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_separation_of_powers
+		}
+	}
+}
+
+# culture_group_regional
+# innovation_spanish_square
+DI_remove_innovation_spanish_square = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_spanish_square
+		}
+	}
+}
+
+# innovation_new_world
+DI_remove_innovation_new_world = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_new_world
+		}
+	}
+}
+
+# innovation_the_mughals
+DI_remove_innovation_the_mughals = {
+	scope = character
+
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_the_mughals
 		}
 	}
 }

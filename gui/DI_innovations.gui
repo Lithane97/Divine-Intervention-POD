@@ -1,4 +1,4 @@
-### Innovation Window ###
+﻿### Innovation Window ###
 
 window = {
 	name = "DI_innovations_window"
@@ -24,6 +24,7 @@ window = {
 	vbox = {
 		using = DI_Innovation_Header
 		using = DI_Innovation_Eras_Vanilla
+		using = DI_Innovation_Eras_POD
 		
 		scrollbox = {
 			layoutpolicy_horizontal = expanding
@@ -41,14 +42,17 @@ window = {
 						using = DI_Military_Group
 						
 						using = DI_Innovation_Military_Vanilla
+						using = DI_Innovation_Military_POD
 						
 						using = DI_Civic_Group
 						
 						using = DI_Innovation_Civic_Vanilla
+						using = DI_Innovation_Civic_POD
 						
 						using = DI_Regional_Group
 						
 						using = DI_Innovation_Regional_Vanilla
+						using = DI_Innovation_Regional_POD
 					}
 				}
 				
