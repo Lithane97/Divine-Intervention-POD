@@ -802,3 +802,2273 @@ DI_remove_learning_pp = {
 	}
 }
 
+# animal lifestyle
+DI_add_animal_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					
+					add_animal_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_animal_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_animal_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_animal_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_animal_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# choleric lifestyle
+DI_add_choleric_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_choleric_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_choleric_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_choleric_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_choleric_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_choleric_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# melancholy lifestyle
+DI_add_melancholy_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_melancholy_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_melancholy_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_melancholy_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_melancholy_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_melancholy_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# phlegmatic lifestyle
+DI_add_phlegmatic_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_phlegmatic_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_phlegmatic_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_phlegmatic_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_phlegmatic_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_phlegmatic_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# sanguine lifestyle
+DI_add_sanguine_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_sanguine_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_sanguine_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_sanguine_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_sanguine_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_sanguine_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# faith lifestyle
+DI_add_faith_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_faith_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_faith_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_faith_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_faith_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_faith_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# endowments lifestyle
+DI_add_endowments_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_endowments_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_endowments_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_endowments_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_endowments_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_endowments_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# psi lifestyle
+DI_add_psi_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_psi_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_psi_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_psi_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_psi_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_psi_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# sorcery lifestyle
+DI_add_sorcery_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_sorcery_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_sorcery_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_sorcery_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_sorcery_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_sorcery_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# godbodies lifestyle
+DI_add_godbodies_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_godbodies_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_godbodies_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_godbodies_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_godbodies_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_godbodies_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# shintai lifestyle
+DI_add_shintai_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_shintai_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_shintai_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_shintai_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_shintai_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_shintai_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# chi arts lifestyle
+DI_add_chi_arts_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_chi_arts_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_chi_arts_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_chi_arts_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_chi_arts_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_chi_arts_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# soul arts lifestyle
+DI_add_soul_arts_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_soul_arts_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_soul_arts_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_soul_arts_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_soul_arts_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_soul_arts_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# demon arts lifestyle
+DI_add_demon_arts_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_demon_arts_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_demon_arts_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_demon_arts_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_demon_arts_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_demon_arts_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# alternate techniques lifestyle
+DI_add_alternate_techniques_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_alternate_techniques_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_alternate_techniques_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_alternate_techniques_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_alternate_techniques_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_alternate_techniques_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# qiao lifestyle
+DI_add_qiao_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_qiao_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_qiao_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_qiao_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_qiao_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_qiao_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# hekau alchemy lifestyle
+DI_add_hekau_alchemy_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_hekau_alchemy_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_hekau_alchemy_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_hekau_alchemy_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_hekau_alchemy_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_hekau_alchemy_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# hekau amulets lifestyle
+DI_add_hekau_amulets_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_hekau_amulets_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_hekau_amulets_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_hekau_amulets_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_hekau_amulets_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_hekau_amulets_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# hekau celestial lifestyle
+DI_add_hekau_celestial_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_hekau_celestial_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_hekau_celestial_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_hekau_celestial_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_hekau_celestial_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_hekau_celestial_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# hekau effigy lifestyle
+DI_add_hekau_effigy_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_hekau_effigy_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_hekau_effigy_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_hekau_effigy_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_hekau_effigy_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_hekau_effigy_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# hekau necromancy lifestyle
+DI_add_hekau_necromancy_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_hekau_necromancy_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_hekau_necromancy_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_hekau_necromancy_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_hekau_necromancy_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_hekau_necromancy_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# hekau nomenclature lifestyle
+DI_add_hekau_nomenclature_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = { 
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_hekau_nomenclature_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_hekau_nomenclature_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_hekau_nomenclature_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_hekau_nomenclature_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_hekau_nomenclature_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# tan lifestyle
+DI_add_tan_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_tan_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_tan_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_tan_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_tan_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_tan_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# breedgifts lifestyle
+DI_add_breedgifts_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_breedgifts_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_breedgifts_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_breedgifts_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_breedgifts_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_breedgifts_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# auspicegifts lifestyle
+DI_add_auspicegifts_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_auspicegifts_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_auspicegifts_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_auspicegifts_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_auspicegifts_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_auspicegifts_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# tribegifts lifestyle
+DI_add_tribegifts_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_tribegifts_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_tribegifts_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_tribegifts_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_tribegifts_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_tribegifts_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# bastettribegifts lifestyle
+DI_add_bastettribegifts_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_bastettribegifts_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_bastettribegifts_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_bastettribegifts_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_bastettribegifts_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_bastettribegifts_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# planetarygifts lifestyle
+DI_add_planetarygifts_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_planetarygifts_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_planetarygifts_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_planetarygifts_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_planetarygifts_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_planetarygifts_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# arcanoi lifestyle
+DI_add_arcanoi_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_arcanoi_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_arcanoi_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_arcanoi_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_arcanoi_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_arcanoi_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# jade arcanoi lifestyle
+DI_add_jade_arcanoi_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_jade_arcanoi_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_jade_arcanoi_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_jade_arcanoi_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_jade_arcanoi_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_jade_arcanoi_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# horror lifestyle
+DI_add_horror_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_horror_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_horror_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_horror_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_horror_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_horror_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# thorn lifestyle
+DI_add_thorn_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_thorn_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_thorn_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_thorn_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+
+				hidden_effect = {
+					add_thorn_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_thorn_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# arcana lifestyle
+DI_add_arcana_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_arcana_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_arcana_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_arcana_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_arcana_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_arcana_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# lore lifestyle
+DI_add_lore_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_lore_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_lore_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_lore_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_lore_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_lore_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# investiture lifestyle
+DI_add_investiture_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_investiture_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_investiture_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_investiture_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_investiture_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_investiture_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# possessedpower lifestyle
+DI_add_possessedpower_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_possessedpower_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_possessedpower_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_possessedpower_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_possessedpower_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_possessedpower_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# pattern spheres lifestyle
+DI_add_pattern_spheres_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_pattern_spheres_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_pattern_spheres_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_pattern_spheres_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_pattern_spheres_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_pattern_spheres_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# foundational spheres lifestyle
+DI_add_foundational_spheres_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_foundational_spheres_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_foundational_spheres_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_foundational_spheres_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+				every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_foundational_spheres_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_foundational_spheres_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# spiritual spheres lifestyle
+DI_add_spiritual_spheres_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_spiritual_spheres_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_spiritual_spheres_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_spiritual_spheres_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_spiritual_spheres_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_spiritual_spheres_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# realm lifestyle
+DI_add_realm_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_realm_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_realm_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_realm_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_realm_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_realm_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# common arts lifestyle
+DI_add_common_arts_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_common_arts_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_common_arts_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_common_arts_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_common_arts_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_common_arts_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# rare arts lifestyle
+DI_add_rare_arts_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_rare_arts_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_rare_arts_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_rare_arts_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_rare_arts_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_rare_arts_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# kith arts lifestyle
+DI_add_kith_arts_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_kith_arts_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_kith_arts_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_kith_arts_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_kith_arts_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_kith_arts_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# slivers lifestyle
+DI_add_slivers_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_slivers_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_slivers_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+
+DI_remove_slivers_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_slivers_lifestyle_perk_points = -1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_slivers_lifestyle_perk_points = -1
+			}
+		}
+	}
+}
+
+# wu tan lifestyle
+DI_add_wu_tan_pp = {
+	scope = character
+	
+	effect = {
+		if = {
+			limit = {
+				has_variable = DI_marked_char_var
+			}
+			
+			every_living_character = {
+				limit = { has_character_flag = marked_for_edit }
+				
+				hidden_effect = {
+					add_wu_tan_lifestyle_perk_points = 1
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				add_wu_tan_lifestyle_perk_points = 1
+			}
+		}
+	}
+}
+

@@ -167,7 +167,7 @@ window = {
 					
 											icon = {
 												size = { 35 35 }
-												framesize = { 180 180 }
+												framesize = { 140 140 }
 												frame = "1"
 												texture = "gfx/interface/icons/alerts/action_can_spend_perk_point.dds"
 											}

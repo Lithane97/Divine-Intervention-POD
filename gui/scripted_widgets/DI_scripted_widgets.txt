@@ -17,3 +17,4 @@ gui/DI_army_spawner.gui = DI_army_spawner_window
 gui/DI_artifact_creator.gui = DI_artifact_window
 gui/DI_artifact_creator.gui = DI_artifact_list_window
 gui/DI_innovations.gui = DI_innovations_window
+gui/DI_perk_point.gui = DI_char_editor_perk_point_window
