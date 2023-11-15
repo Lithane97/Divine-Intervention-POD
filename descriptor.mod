@@ -3,4 +3,4 @@ tags={
 	"Utilities"
 }
 name="Divine Intervetion POD"
-supported_version="1.9.2.1"
+supported_version="1.11.0.1"

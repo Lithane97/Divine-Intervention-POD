@@ -18,6 +18,33 @@ DI_innovation_select_char = {
 	}
 }
 
+### Select Character ###
+DI_innovation_select_char_copy = {
+	scope = character
+	
+	effect = {
+		save_scope_as = select_char
+
+		scope:target = {
+			set_variable = {
+				name = DI_innovation_selected_char_copy
+				value = scope:select_char
+			}
+			set_variable = {
+				name = DI_innovation_selected_culture_copy
+				value = scope:select_char.culture
+			}
+
+			if = {
+				limit = {
+					has_variable = DI_innovation_selected_char_copy
+					has_variable = DI_innovation_selected_culture_copy
+				}
+			}
+		}
+	}
+}
+
 ### Select Character Init ###
 DI_innovation_select_char_init = {
 	scope = character
@@ -1602,8 +1629,14 @@ DI_add_innovation_varangian_adventurers = {
 	scope = character
 
 	effect = {
-		var:DI_innovation_selected_culture = {
-			add_innovation = innovation_varangian_adventurers
+		if = {
+			limit = {
+				has_fp1_dlc_trigger = yes
+			}
+
+			var:DI_innovation_selected_culture = {
+				add_innovation = innovation_varangian_adventurers
+			}
 		}
 	}
 }
@@ -1620,8 +1653,14 @@ DI_add_innovation_all_things = {
 	scope = character
 
 	effect = {
-		var:DI_innovation_selected_culture = {
-			add_innovation = innovation_all_things
+		if = {
+			limit = {
+				has_fp1_dlc_trigger = yes
+			}
+			
+			var:DI_innovation_selected_culture = {
+				add_innovation = innovation_all_things
+			}
 		}
 	}
 }
@@ -2680,8 +2719,14 @@ DI_remove_innovation_varangian_adventurers = {
 	scope = character
 
 	effect = {
-		var:DI_innovation_selected_culture = {
-			remove_innovation = innovation_varangian_adventurers
+		if = {
+			limit = {
+				has_fp1_dlc_trigger = yes
+			}
+
+			var:DI_innovation_selected_culture = {
+				remove_innovation = innovation_varangian_adventurers
+			}
 		}
 	}
 }
@@ -2691,8 +2736,14 @@ DI_remove_innovation_all_things = {
 	scope = character
 
 	effect = {
-		var:DI_innovation_selected_culture = {
-			remove_innovation = innovation_all_things
+		if = {
+			limit = {
+				has_fp1_dlc_trigger = yes
+			}
+			
+			var:DI_innovation_selected_culture = {
+				remove_innovation = innovation_all_things
+			}
 		}
 	}
 }
