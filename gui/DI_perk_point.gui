@@ -18,6 +18,7 @@ window = {
 	state = {
 		name = _show
 		using = Animation_FadeIn_Quick
+        on_finish = "[PdxGuiWidget.StackTop]"
 	}
 	
 	state = {
@@ -50,7 +51,13 @@ window = {
             size = { 250 400 }
             vbox = {
                 layoutpolicy_horizontal = expanding
-
+                spacing = 5
+                margin = { 0 5 }
+                margin_top = 10
+                margin_left = 0
+                margin_right = 0
+                margin_bottom = 50
+                
                 expand = {}
                 scrollbox = {
                     name = "perk_point_scrollbox"
