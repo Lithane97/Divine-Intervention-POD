@@ -134,18 +134,23 @@ interaction_category_grand_city = {
 	desc =  "GRAND_CITY_ACTIONS"
 }
 
-interaction_category_uncategorized = {
+interaction_category_umbra = {
 	index = 26
+	desc =  "UMBRA_ACTIONS"
+}
+
+interaction_category_uncategorized = {
+	index = 27
 	default = yes
 	desc = "UNCATEGORIZED_ACTIONS"
 }
 
 interaction_debug_main = {
-	index = 27
+	index = 28
 	desc =  "DEBUG_MAIN"
 }
 
 interaction_debug_admin = {
-    index = 28
+    index = 29
     desc = "interaction_debug_admin"
 }
