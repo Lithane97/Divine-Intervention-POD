@@ -9,128 +9,143 @@ interaction_category_cheat_menu = {
 	desc = "CHEAT_ACTIONS"
 }
 
+interaction_category_admin = {
+    index = 1
+    desc = "ADMIN_ACTIONS"
+}
+
 interaction_category_diplomacy = {
-	index = 1
+	index = 2
 	desc = "DIPLOMACY_ACTIONS"
 }
 
 interaction_category_friendly = {
-	index = 2
+	index = 3
 	desc = "FRIENDLY_ACTIONS"
 }
 
 interaction_category_journeys = {
-	index = 3
+	index = 4
 	desc = "JOURNEYS_ACTIONS"
 }
 
 interaction_category_coterie = {
-	index = 4
+	index = 5
 	desc = "COTERIE_ACTIONS"
 }
 
 interaction_category_sect = {
-	index = 5
+	index = 6
 	desc =  "SECT_ACTIONS"
 }
 
 interaction_category_clan = {
-	index = 6
+	index = 7
 	desc = "CLAN_ACTIONS"
 }
 
+interaction_category_laamp =  {
+    index = 8
+    desc = "LAAMP_ACTIONS"
+}
+
 interaction_category_hostile = {
-	index = 7
+	index = 9
 	desc = "HOSTILE_ACTIONS"
 }
 
 interaction_category_diarch = {
-	index = 8
+	index = 10
 	desc = "DIARCH_ACTIONS"
 }
 
 interaction_category_vassal = {
-	index = 9
+	index = 11
 	desc = "VASSAL_ACTIONS"
 }
 
 interaction_category_prison = {
-	index = 10
+	index = 12
 	desc = "IMPRISOMENT_ACTIONS"
 }
 
 interaction_category_religion = {
-	index = 11
+	index = 13
 	desc = "RELIGIOUS_ACTIONS"
 }
 
 interaction_category_holyarts = {
-	index = 12
+	index = 14
 	desc =  "HOLYARTS_ACTIONS"
 }
 
 interaction_category_psychic = {
-	index = 13
+	index = 15
 	desc =  "PSYCHIC_ACTIONS"
 }
 
 interaction_category_possessed = {
-	index = 14
+	index = 16
 	desc =  "POSSESSED_ACTIONS"
 }
 
 interaction_category_vampire = {
-	index = 15
+	index = 17
 	desc =  "VAMPIRE_ACTIONS"
 }
 
 interaction_category_wraith = {
-	index = 16
+	index = 18
 	desc = "WRAITH_ACTIONS"
 }
 
 interaction_category_ghoul = {
-	index = 17
+	index = 19
 	desc =  "GHOUL_ACTIONS"
 }
 
 interaction_category_mummy = {
-	index = 18
+	index = 20
 	desc =  "MUMMY_ACTIONS"
 }
 
 interaction_category_werewolf = {
-	index = 19
+	index = 21
 	desc =  "WEREWOLF_ACTIONS"
 }
 
 interaction_category_demon = {
-	index = 20
+	index = 22
 	desc =  "DEMON_ACTIONS"
 }
 
 interaction_category_mage = {
-	index = 21
+	index = 23
 	desc =  "MAGE_ACTIONS"
 }
 
 interaction_category_fae = {
-	index = 22
+	index = 24
 	desc =  "FAE_ACTIONS"
 }
 
 interaction_category_grand_city = {
-	index = 23
+	index = 25
 	desc =  "GRAND_CITY_ACTIONS"
 }
 
 interaction_category_uncategorized = {
-	index = 24
+	index = 26
 	default = yes
 	desc = "UNCATEGORIZED_ACTIONS"
 }
 
 interaction_debug_main = {
-	index = 25
+	index = 27
 	desc =  "DEBUG_MAIN"
+}
+
+interaction_debug_admin = {
+    index = 28
+    desc = "interaction_debug_admin"
 }

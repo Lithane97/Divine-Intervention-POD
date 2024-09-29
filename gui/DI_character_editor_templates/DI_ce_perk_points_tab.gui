@@ -1,0 +1,394 @@
+template DI_CE_Perk_Points_Tab
+{
+    vbox = {
+        name = "perk_points_tab"
+        visible = "[GetVariableSystem.HasValue('char_editor_tab', 'perk_points')]"
+        layoutpolicy_horizontal = expanding
+
+        margin = { 20 5 }
+
+        using = Animation_Tab_Switch
+
+        vbox = {
+            scrollbox = {
+                layoutpolicy_horizontal = expanding
+                size = { 400 350 }
+
+                blockoverride "scrollbox_content"
+                {
+                    vbox = {
+                        name = "perk_points_list"
+                        layoutpolicy_horizontal = expanding
+                        spacing = 5
+
+                        # Diplomacy
+                        DI_perk_point_button = {
+                            datacontext = "[GetLifestyle('diplomacy_lifestyle')]"
+                            onclick = "[GetScriptedGui('DI_add_diplomacy_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                            onrightclick = "[GetScriptedGui('DI_remove_diplomacy_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                        }
+
+						# Martial
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('martial_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_martial_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_martial_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Stewardship
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('stewardship_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_stewardship_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_stewardship_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Intrigue
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('intrigue_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_intrigue_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_intrigue_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Learning
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('learning_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_learning_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_learning_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Animal
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('animal_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_animal_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_animal_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Choleric
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('choleric_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_choleric_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_choleric_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Melancholy
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('melancholy_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_melancholy_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_melancholy_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Phlegmatic
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('phlegmatic_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_phlegmatic_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_phlegmatic_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Sanguine
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('sanguine_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_sanguine_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_sanguine_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Faith
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('faith_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_faith_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_faith_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Endowments
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('endowments_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_endowments_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_endowments_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Psi
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('psi_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_psi_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_psi_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Sorcery
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('sorcery_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_sorcery_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_sorcery_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Godbodies
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('godbodies_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_godbodies_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_godbodies_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Shintai
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('shintai_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_shintai_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_shintai_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Chi Arts
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('chi_arts_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_chi_arts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_chi_arts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Soul Arts
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('soul_arts_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_soul_arts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_soul_arts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Demon Arts
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('demon_arts_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_demon_arts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_demon_arts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Alternate Techniques
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('alternate_techniques_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_alternate_techniques_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_alternate_techniques_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Qiao
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('qiao_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_qiao_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_qiao_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Hekau Alchemy
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('hekau_alchemy_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_hekau_alchemy_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_hekau_alchemy_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Hekau Amulets
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('hekau_amulets_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_hekau_amulets_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_hekau_amulets_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Hekau Celestial
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('hekau_celestial_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_hekau_celestial_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_hekau_celestial_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Hekau Effigy
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('hekau_effigy_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_hekau_effigy_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_hekau_effigy_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Hekau Necromancy
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('hekau_necromancy_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_hekau_necromancy_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_hekau_necromancy_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Hekau Nomenclature
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('hekau_nomenclature_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_hekau_nomenclature_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_hekau_nomenclature_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Tan
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('tan_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_tan_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_tan_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Breedgifts
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('breedgifts_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_breedgifts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_breedgifts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Auspicegifts
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('auspicegifts_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_auspicegifts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_auspicegifts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Tribegifts
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('tribegifts_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_tribegifts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_tribegifts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Planetarygifts
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('planetarygifts_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_planetarygifts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_planetarygifts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Arcanoi
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('arcanoi_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_arcanoi_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_arcanoi_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Jade Arcanoi
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('jade_arcanoi_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_jade_arcanoi_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_jade_arcanoi_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Horror
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('horror_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_horror_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_horror_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Thorn
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('thorn_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_thorn_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_thorn_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Arcana
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('arcana_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_arcana_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_arcana_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Lore
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('lore_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_lore_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_lore_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Investiture
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('investiture_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_investiture_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_investiture_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Possessedpower
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('possessedpower_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_possessedpower_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_possessedpower_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Realm
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('realm_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_realm_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_realm_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Common Arts
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('common_arts_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_common_arts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_common_arts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Rare Arts
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('rare_arts_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_rare_arts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_rare_arts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Kith Arts
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('kith_arts_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_kith_arts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_kith_arts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Slivers
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('slivers_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_slivers_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_slivers_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+
+						# Wu Tan
+						DI_perk_point_button = {
+							datacontext = "[GetLifestyle('wu_tan_lifestyle')]"
+							onclick = "[GetScriptedGui('DI_add_wu_tan_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							onrightclick = "[GetScriptedGui('DI_remove_wu_tan_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+						}
+                    }
+                }
+            }
+        }
+    }
+}
+
+types DIPerkPointsShared
+{
+    type DI_perk_point_button = button_standard_clean {
+        button_ignore = none
+		layoutpolicy_horizontal = expanding
+        size = { 0 60 }
+
+        background = {
+            using = Background_Area_Dark
+
+            modify_texture = {
+                texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
+                blend_mode = alphamultiply
+                alpha = 0.3
+                rotate_uv = 90
+                mirror = vertical
+            }
+        }
+
+        hbox = {
+            margin = { 5 0 }
+            margin_right = 10
+            spacing = 10
+
+            icon = {
+                parentanchor = left|top
+                size = { 50 50 }
+                framesize = { 160 160 }
+                frame = "1"
+                texture = "[Lifestyle.GetIcon]"
+            }
+
+            text_single = {
+                layoutpolicy_horizontal = expanding
+                text = "[Lifestyle.GetNameNoTooltip]"
+                default_format = "#bold"
+            }
+        }
+
+        tooltip = "DI_perk_point_tt"
+        using = tooltip_ne
+    }
+}
