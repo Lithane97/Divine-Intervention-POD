@@ -1,6 +1,6 @@
 version="1"
 tags={
-	"Utilities"
+"Utilities"
 }
 name="Divine Intervetion POD"
-supported_version="1.11.0.1"
+supported_version="1.18.3.1"

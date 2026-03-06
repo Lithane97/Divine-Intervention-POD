@@ -1,0 +1,214 @@
+﻿### Cultural Editor Innovations ###
+
+# Remove all innovations
+DI_ce_remove_all_innovations = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            DI_remove_innovations_tribal_effect = yes
+            DI_remove_innovations_early_medieval_effect = yes
+            DI_remove_innovations_high_medieval_effect = yes
+            DI_remove_innovations_late_medieval_effect = yes
+            DI_remove_innovations_dark_fantastic_effect = yes
+            DI_remove_innovations_gothic_victorian_effect = yes
+            DI_remove_innovations_final_nights_effect = yes
+        }
+    }
+}
+
+# Add Cultural Editor Innovations
+DI_ce_add_all_innovations = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            DI_add_innovations_tribal_effect = yes
+            DI_add_innovations_early_medieval_effect = yes
+            DI_add_innovations_high_medieval_effect = yes
+            DI_add_innovations_late_medieval_effect = yes
+            DI_add_innovations_dark_fantastic_effect = yes
+            DI_add_innovations_gothic_victorian_effect = yes
+            DI_add_innovations_final_nights_effect = yes
+        }
+    }
+}
+
+# Tribal Innovations
+DI_ce_add_tribal_innovations = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            DI_add_innovations_tribal_effect = yes
+        }
+    }
+}
+
+DI_ce_remove_tribal_innovations = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            DI_remove_innovations_tribal_effect = yes
+        }
+    }
+}
+
+# Early Medieval Innovations
+DI_ce_add_early_medieval_innovations = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            DI_add_innovations_early_medieval_effect = yes
+        }
+    }
+}
+
+DI_ce_remove_early_medieval_innovations = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            DI_remove_innovations_early_medieval_effect = yes
+        }
+    }
+}
+
+# High Medieval Innovations
+DI_ce_add_high_medieval_innovations = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            DI_add_innovations_high_medieval_effect = yes
+        }
+    }
+}
+
+DI_ce_remove_high_medieval_innovations = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            DI_remove_innovations_high_medieval_effect = yes
+        }
+    }
+}
+
+# Late Medieval Innovations
+DI_ce_add_late_medieval_innovations = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            DI_add_innovations_late_medieval_effect = yes
+        }
+    }
+}
+
+DI_ce_remove_late_medieval_innovations = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            DI_remove_innovations_late_medieval_effect = yes
+        }
+    }
+}
+
+# Dark Fantastic Innovations
+DI_ce_add_dark_fantastic_innovations = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            DI_add_innovations_dark_fantastic_effect = yes
+        }
+    }
+}
+
+DI_ce_remove_dark_fantastic_innovations = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            DI_remove_innovations_dark_fantastic_effect = yes
+        }
+    }
+}
+
+# Gothic Victorian Innovations
+DI_ce_add_gothic_victorian_innovations = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            DI_add_innovations_gothic_victorian_effect = yes
+        }
+    }
+}
+
+DI_ce_remove_gothic_victorian_innovations = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            DI_remove_innovations_gothic_victorian_effect = yes
+        }
+    }
+}
+
+# Final Nights Innovations
+DI_ce_add_final_nights_innovations = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            DI_add_innovations_final_nights_effect = yes
+        }
+    }
+}
+
+DI_ce_remove_final_nights_innovations = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            DI_remove_innovations_final_nights_effect = yes
+        }
+    }
+}
