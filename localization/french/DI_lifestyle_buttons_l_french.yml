@@ -1,0 +1,159 @@
+﻿l_french:
+
+ # === DI UPDATER TOOL: LIFESTYLE BUTTONS (AUTO-GENERATED) ===
+ # Generated from CK3 common/lifestyle_perks/*.txt
+ DI_ce_animal_lifestyle_button: "All Animal Lifestyle Perks"
+ DI_ce_animal_lifestyle_button_tt: "#Bold Left-Click#! to finish the animal lifestyle tree.\n#Bold Right-Click#! to clear the animal lifestyle tree."
+
+ DI_ce_arcana_lifestyle_button: "All Arcana Lifestyle Perks"
+ DI_ce_arcana_lifestyle_button_tt: "#Bold Left-Click#! to finish the arcana lifestyle tree.\n#Bold Right-Click#! to clear the arcana lifestyle tree."
+
+ DI_ce_arcanoi_lifestyle_button: "All Arcanoi Lifestyle Perks"
+ DI_ce_arcanoi_lifestyle_button_tt: "#Bold Left-Click#! to finish the arcanoi lifestyle tree.\n#Bold Right-Click#! to clear the arcanoi lifestyle tree."
+
+ DI_ce_blood_magic_lifestyle_button: "All Blood Magic Lifestyle Perks"
+ DI_ce_blood_magic_lifestyle_button_tt: "#Bold Left-Click#! to finish the blood magic lifestyle tree.\n#Bold Right-Click#! to clear the blood magic lifestyle tree."
+
+ DI_ce_breedgifts_lifestyle_button: "All Breedgifts Lifestyle Perks"
+ DI_ce_breedgifts_lifestyle_button_tt: "#Bold Left-Click#! to finish the breedgifts lifestyle tree.\n#Bold Right-Click#! to clear the breedgifts lifestyle tree."
+
+ DI_ce_chi_arts_lifestyle_button: "All Chi Arts Lifestyle Perks"
+ DI_ce_chi_arts_lifestyle_button_tt: "#Bold Left-Click#! to finish the chi arts lifestyle tree.\n#Bold Right-Click#! to clear the chi arts lifestyle tree."
+
+ DI_ce_choleric_lifestyle_button: "All Choleric Lifestyle Perks"
+ DI_ce_choleric_lifestyle_button_tt: "#Bold Left-Click#! to finish the choleric lifestyle tree.\n#Bold Right-Click#! to clear the choleric lifestyle tree."
+
+ DI_ce_common_arts_lifestyle_button: "All Common Arts Lifestyle Perks"
+ DI_ce_common_arts_lifestyle_button_tt: "#Bold Left-Click#! to finish the common arts lifestyle tree.\n#Bold Right-Click#! to clear the common arts lifestyle tree."
+
+ DI_ce_commongifts_lifestyle_button: "All Commongifts Lifestyle Perks"
+ DI_ce_commongifts_lifestyle_button_tt: "#Bold Left-Click#! to finish the commongifts lifestyle tree.\n#Bold Right-Click#! to clear the commongifts lifestyle tree."
+
+ DI_ce_dark_arcanoi_lifestyle_button: "All Dark Arcanoi Lifestyle Perks"
+ DI_ce_dark_arcanoi_lifestyle_button_tt: "#Bold Left-Click#! to finish the dark arcanoi lifestyle tree.\n#Bold Right-Click#! to clear the dark arcanoi lifestyle tree."
+
+ DI_ce_demon_arts_lifestyle_button: "All Demon Arts Lifestyle Perks"
+ DI_ce_demon_arts_lifestyle_button_tt: "#Bold Left-Click#! to finish the demon arts lifestyle tree.\n#Bold Right-Click#! to clear the demon arts lifestyle tree."
+
+ DI_ce_diplomacy_lifestyle_button: "All Diplomacy Lifestyle Perks"
+ DI_ce_diplomacy_lifestyle_button_tt: "#Bold Left-Click#! to finish the diplomacy lifestyle tree.\n#Bold Right-Click#! to clear the diplomacy lifestyle tree."
+
+ DI_ce_endowments_lifestyle_button: "All Endowments Lifestyle Perks"
+ DI_ce_endowments_lifestyle_button_tt: "#Bold Left-Click#! to finish the endowments lifestyle tree.\n#Bold Right-Click#! to clear the endowments lifestyle tree."
+
+ DI_ce_faith_lifestyle_button: "All Faith Lifestyle Perks"
+ DI_ce_faith_lifestyle_button_tt: "#Bold Left-Click#! to finish the faith lifestyle tree.\n#Bold Right-Click#! to clear the faith lifestyle tree."
+
+ DI_ce_hekau_alchemy_lifestyle_button: "All Hekau Alchemy Lifestyle Perks"
+ DI_ce_hekau_alchemy_lifestyle_button_tt: "#Bold Left-Click#! to finish the hekau alchemy lifestyle tree.\n#Bold Right-Click#! to clear the hekau alchemy lifestyle tree."
+
+ DI_ce_hekau_amulets_lifestyle_button: "All Hekau Amulets Lifestyle Perks"
+ DI_ce_hekau_amulets_lifestyle_button_tt: "#Bold Left-Click#! to finish the hekau amulets lifestyle tree.\n#Bold Right-Click#! to clear the hekau amulets lifestyle tree."
+
+ DI_ce_hekau_celestial_lifestyle_button: "All Hekau Celestial Lifestyle Perks"
+ DI_ce_hekau_celestial_lifestyle_button_tt: "#Bold Left-Click#! to finish the hekau celestial lifestyle tree.\n#Bold Right-Click#! to clear the hekau celestial lifestyle tree."
+
+ DI_ce_hekau_effigy_lifestyle_button: "All Hekau Effigy Lifestyle Perks"
+ DI_ce_hekau_effigy_lifestyle_button_tt: "#Bold Left-Click#! to finish the hekau effigy lifestyle tree.\n#Bold Right-Click#! to clear the hekau effigy lifestyle tree."
+
+ DI_ce_hekau_necromancy_lifestyle_button: "All Hekau Necromancy Lifestyle Perks"
+ DI_ce_hekau_necromancy_lifestyle_button_tt: "#Bold Left-Click#! to finish the hekau necromancy lifestyle tree.\n#Bold Right-Click#! to clear the hekau necromancy lifestyle tree."
+
+ DI_ce_hekau_nomenclature_lifestyle_button: "All Hekau Nomenclature Lifestyle Perks"
+ DI_ce_hekau_nomenclature_lifestyle_button_tt: "#Bold Left-Click#! to finish the hekau nomenclature lifestyle tree.\n#Bold Right-Click#! to clear the hekau nomenclature lifestyle tree."
+
+ DI_ce_hengeyokaigifts_lifestyle_button: "All Hengeyokaigifts Lifestyle Perks"
+ DI_ce_hengeyokaigifts_lifestyle_button_tt: "#Bold Left-Click#! to finish the hengeyokaigifts lifestyle tree.\n#Bold Right-Click#! to clear the hengeyokaigifts lifestyle tree."
+
+ DI_ce_intrigue_lifestyle_button: "All Intrigue Lifestyle Perks"
+ DI_ce_intrigue_lifestyle_button_tt: "#Bold Left-Click#! to finish the intrigue lifestyle tree.\n#Bold Right-Click#! to clear the intrigue lifestyle tree."
+
+ DI_ce_investiture_lifestyle_button: "All Investiture Lifestyle Perks"
+ DI_ce_investiture_lifestyle_button_tt: "#Bold Left-Click#! to finish the investiture lifestyle tree.\n#Bold Right-Click#! to clear the investiture lifestyle tree."
+
+ DI_ce_jade_arcanoi_lifestyle_button: "All Jade Arcanoi Lifestyle Perks"
+ DI_ce_jade_arcanoi_lifestyle_button_tt: "#Bold Left-Click#! to finish the jade arcanoi lifestyle tree.\n#Bold Right-Click#! to clear the jade arcanoi lifestyle tree."
+
+ DI_ce_kith_arts_lifestyle_button: "All Kith Arts Lifestyle Perks"
+ DI_ce_kith_arts_lifestyle_button_tt: "#Bold Left-Click#! to finish the kith arts lifestyle tree.\n#Bold Right-Click#! to clear the kith arts lifestyle tree."
+
+ DI_ce_learning_lifestyle_button: "All Learning Lifestyle Perks"
+ DI_ce_learning_lifestyle_button_tt: "#Bold Left-Click#! to finish the learning lifestyle tree.\n#Bold Right-Click#! to clear the learning lifestyle tree."
+
+ DI_ce_lore_lifestyle_button: "All Lore Lifestyle Perks"
+ DI_ce_lore_lifestyle_button_tt: "#Bold Left-Click#! to finish the lore lifestyle tree.\n#Bold Right-Click#! to clear the lore lifestyle tree."
+
+ DI_ce_lunar_auspicegifts_lifestyle_button: "All Lunar Auspicegifts Lifestyle Perks"
+ DI_ce_lunar_auspicegifts_lifestyle_button_tt: "#Bold Left-Click#! to finish the lunar auspicegifts lifestyle tree.\n#Bold Right-Click#! to clear the lunar auspicegifts lifestyle tree."
+
+ DI_ce_martial_lifestyle_button: "All Martial Lifestyle Perks"
+ DI_ce_martial_lifestyle_button_tt: "#Bold Left-Click#! to finish the martial lifestyle tree.\n#Bold Right-Click#! to clear the martial lifestyle tree."
+
+ DI_ce_melancholy_lifestyle_button: "All Melancholy Lifestyle Perks"
+ DI_ce_melancholy_lifestyle_button_tt: "#Bold Left-Click#! to finish the melancholy lifestyle tree.\n#Bold Right-Click#! to clear the melancholy lifestyle tree."
+
+ DI_ce_misc_arcanoi_lifestyle_button: "All Misc Arcanoi Lifestyle Perks"
+ DI_ce_misc_arcanoi_lifestyle_button_tt: "#Bold Left-Click#! to finish the misc arcanoi lifestyle tree.\n#Bold Right-Click#! to clear the misc arcanoi lifestyle tree."
+
+ DI_ce_necro_magic_lifestyle_button: "All Necro Magic Lifestyle Perks"
+ DI_ce_necro_magic_lifestyle_button_tt: "#Bold Left-Click#! to finish the necro magic lifestyle tree.\n#Bold Right-Click#! to clear the necro magic lifestyle tree."
+
+ DI_ce_phlegmatic_lifestyle_button: "All Phlegmatic Lifestyle Perks"
+ DI_ce_phlegmatic_lifestyle_button_tt: "#Bold Left-Click#! to finish the phlegmatic lifestyle tree.\n#Bold Right-Click#! to clear the phlegmatic lifestyle tree."
+
+ DI_ce_planetarygifts_lifestyle_button: "All Planetarygifts Lifestyle Perks"
+ DI_ce_planetarygifts_lifestyle_button_tt: "#Bold Left-Click#! to finish the planetarygifts lifestyle tree.\n#Bold Right-Click#! to clear the planetarygifts lifestyle tree."
+
+ DI_ce_possessedpower_lifestyle_button: "All Possessedpower Lifestyle Perks"
+ DI_ce_possessedpower_lifestyle_button_tt: "#Bold Left-Click#! to finish the possessedpower lifestyle tree.\n#Bold Right-Click#! to clear the possessedpower lifestyle tree."
+
+ DI_ce_psi_lifestyle_button: "All Psi Lifestyle Perks"
+ DI_ce_psi_lifestyle_button_tt: "#Bold Left-Click#! to finish the psi lifestyle tree.\n#Bold Right-Click#! to clear the psi lifestyle tree."
+
+ DI_ce_qiao_lifestyle_button: "All Qiao Lifestyle Perks"
+ DI_ce_qiao_lifestyle_button_tt: "#Bold Left-Click#! to finish the qiao lifestyle tree.\n#Bold Right-Click#! to clear the qiao lifestyle tree."
+
+ DI_ce_rare_arts_lifestyle_button: "All Rare Arts Lifestyle Perks"
+ DI_ce_rare_arts_lifestyle_button_tt: "#Bold Left-Click#! to finish the rare arts lifestyle tree.\n#Bold Right-Click#! to clear the rare arts lifestyle tree."
+
+ DI_ce_realm_lifestyle_button: "All Realm Lifestyle Perks"
+ DI_ce_realm_lifestyle_button_tt: "#Bold Left-Click#! to finish the realm lifestyle tree.\n#Bold Right-Click#! to clear the realm lifestyle tree."
+
+ DI_ce_sanguine_lifestyle_button: "All Sanguine Lifestyle Perks"
+ DI_ce_sanguine_lifestyle_button_tt: "#Bold Left-Click#! to finish the sanguine lifestyle tree.\n#Bold Right-Click#! to clear the sanguine lifestyle tree."
+
+ DI_ce_shintai_lifestyle_button: "All Shintai Lifestyle Perks"
+ DI_ce_shintai_lifestyle_button_tt: "#Bold Left-Click#! to finish the shintai lifestyle tree.\n#Bold Right-Click#! to clear the shintai lifestyle tree."
+
+ DI_ce_slivers_lifestyle_button: "All Slivers Lifestyle Perks"
+ DI_ce_slivers_lifestyle_button_tt: "#Bold Left-Click#! to finish the slivers lifestyle tree.\n#Bold Right-Click#! to clear the slivers lifestyle tree."
+
+ DI_ce_sorcery_lifestyle_button: "All Sorcery Lifestyle Perks"
+ DI_ce_sorcery_lifestyle_button_tt: "#Bold Left-Click#! to finish the sorcery lifestyle tree.\n#Bold Right-Click#! to clear the sorcery lifestyle tree."
+
+ DI_ce_soul_arts_lifestyle_button: "All Soul Arts Lifestyle Perks"
+ DI_ce_soul_arts_lifestyle_button_tt: "#Bold Left-Click#! to finish the soul arts lifestyle tree.\n#Bold Right-Click#! to clear the soul arts lifestyle tree."
+
+ DI_ce_stewardship_lifestyle_button: "All Stewardship Lifestyle Perks"
+ DI_ce_stewardship_lifestyle_button_tt: "#Bold Left-Click#! to finish the stewardship lifestyle tree.\n#Bold Right-Click#! to clear the stewardship lifestyle tree."
+
+ DI_ce_tan_lifestyle_button: "All Tan Lifestyle Perks"
+ DI_ce_tan_lifestyle_button_tt: "#Bold Left-Click#! to finish the tan lifestyle tree.\n#Bold Right-Click#! to clear the tan lifestyle tree."
+
+ DI_ce_theurgy_lifestyle_button: "All Theurgy Lifestyle Perks"
+ DI_ce_theurgy_lifestyle_button_tt: "#Bold Left-Click#! to finish the theurgy lifestyle tree.\n#Bold Right-Click#! to clear the theurgy lifestyle tree."
+
+ DI_ce_thorn_lifestyle_button: "All Thorn Lifestyle Perks"
+ DI_ce_thorn_lifestyle_button_tt: "#Bold Left-Click#! to finish the thorn lifestyle tree.\n#Bold Right-Click#! to clear the thorn lifestyle tree."
+
+ DI_ce_tribalgifts_lifestyle_button: "All Tribalgifts Lifestyle Perks"
+ DI_ce_tribalgifts_lifestyle_button_tt: "#Bold Left-Click#! to finish the tribalgifts lifestyle tree.\n#Bold Right-Click#! to clear the tribalgifts lifestyle tree."
+
+ DI_ce_wanderer_lifestyle_button: "All Wanderer Lifestyle Perks"
+ DI_ce_wanderer_lifestyle_button_tt: "#Bold Left-Click#! to finish the wanderer lifestyle tree.\n#Bold Right-Click#! to clear the wanderer lifestyle tree."
+
+ DI_ce_wu_tan_lifestyle_button: "All Wu Tan Lifestyle Perks"
+ DI_ce_wu_tan_lifestyle_button_tt: "#Bold Left-Click#! to finish the wu tan lifestyle tree.\n#Bold Right-Click#! to clear the wu tan lifestyle tree."
+
+ DI_ce_all_lifestyle_button: "All Lifestyle Perks"
+ DI_ce_all_lifestyle_button_tt: "#Bold Left-Click#! to finish all lifestyle trees.\n#Bold Right-Click#! to clear all lifestyle trees."

@@ -1,0 +1,254 @@
+﻿no_lifestyle_animal = {
+    icon = social_positive
+    monthly_animal_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_arcana = {
+    icon = social_positive
+    monthly_arcana_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_arcanoi = {
+    icon = social_positive
+    monthly_arcanoi_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_blood_magic = {
+    icon = social_positive
+    monthly_blood_magic_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_breedgifts = {
+    icon = social_positive
+    monthly_breedgifts_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_chi_arts = {
+    icon = social_positive
+    monthly_chi_arts_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_choleric = {
+    icon = social_positive
+    monthly_choleric_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_common_arts = {
+    icon = social_positive
+    monthly_common_arts_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_commongifts = {
+    icon = social_positive
+    monthly_commongifts_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_dark_arcanoi = {
+    icon = social_positive
+    monthly_dark_arcanoi_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_demon_arts = {
+    icon = social_positive
+    monthly_demon_arts_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_diplomacy = {
+    icon = diplomacy_positive
+    monthly_diplomacy_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_endowments = {
+    icon = social_positive
+    monthly_endowments_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_faith = {
+    icon = social_positive
+    monthly_faith_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_hekau_alchemy = {
+    icon = social_positive
+    monthly_hekau_alchemy_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_hekau_amulets = {
+    icon = social_positive
+    monthly_hekau_amulets_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_hekau_celestial = {
+    icon = social_positive
+    monthly_hekau_celestial_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_hekau_effigy = {
+    icon = social_positive
+    monthly_hekau_effigy_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_hekau_necromancy = {
+    icon = social_positive
+    monthly_hekau_necromancy_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_hekau_nomenclature = {
+    icon = social_positive
+    monthly_hekau_nomenclature_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_hengeyokaigifts = {
+    icon = social_positive
+    monthly_hengeyokaigifts_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_intrigue = {
+    icon = intrigue_positive
+    monthly_intrigue_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_investiture = {
+    icon = social_positive
+    monthly_investiture_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_jade_arcanoi = {
+    icon = social_positive
+    monthly_jade_arcanoi_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_kith_arts = {
+    icon = social_positive
+    monthly_kith_arts_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_learning = {
+    icon = learning_positive
+    monthly_learning_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_lore = {
+    icon = social_positive
+    monthly_lore_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_lunar_auspicegifts = {
+    icon = social_positive
+    monthly_lunar_auspicegifts_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_martial = {
+    icon = martial_positive
+    monthly_martial_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_melancholy = {
+    icon = social_positive
+    monthly_melancholy_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_misc_arcanoi = {
+    icon = social_positive
+    monthly_misc_arcanoi_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_necro_magic = {
+    icon = social_positive
+    monthly_necro_magic_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_phlegmatic = {
+    icon = social_positive
+    monthly_phlegmatic_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_planetarygifts = {
+    icon = social_positive
+    monthly_planetarygifts_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_possessedpower = {
+    icon = social_positive
+    monthly_possessedpower_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_psi = {
+    icon = social_positive
+    monthly_psi_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_qiao = {
+    icon = social_positive
+    monthly_qiao_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_rare_arts = {
+    icon = social_positive
+    monthly_rare_arts_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_realm = {
+    icon = social_positive
+    monthly_realm_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_sanguine = {
+    icon = social_positive
+    monthly_sanguine_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_shintai = {
+    icon = social_positive
+    monthly_shintai_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_slivers = {
+    icon = social_positive
+    monthly_slivers_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_sorcery = {
+    icon = social_positive
+    monthly_sorcery_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_soul_arts = {
+    icon = social_positive
+    monthly_soul_arts_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_stewardship = {
+    icon = stewardship_positive
+    monthly_stewardship_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_tan = {
+    icon = social_positive
+    monthly_tan_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_theurgy = {
+    icon = social_positive
+    monthly_theurgy_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_thorn = {
+    icon = social_positive
+    monthly_thorn_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_tribalgifts = {
+    icon = social_positive
+    monthly_tribalgifts_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_wanderer = {
+    icon = social_positive
+    monthly_wanderer_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_wu_tan = {
+    icon = social_positive
+    monthly_wu_tan_lifestyle_xp_gain_mult = -10
+}

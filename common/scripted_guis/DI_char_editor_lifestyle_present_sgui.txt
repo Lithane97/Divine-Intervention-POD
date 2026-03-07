@@ -1,0 +1,3215 @@
+﻿### Add All Lifestyle Perks
+DI_ce_add_all_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_animal_present_effect = yes
+                DI_lifestyle_arcana_present_effect = yes
+                DI_lifestyle_arcanoi_present_effect = yes
+                DI_lifestyle_blood_magic_present_effect = yes
+                DI_lifestyle_breedgifts_present_effect = yes
+                DI_lifestyle_chi_arts_present_effect = yes
+                DI_lifestyle_choleric_present_effect = yes
+                DI_lifestyle_common_arts_present_effect = yes
+                DI_lifestyle_commongifts_present_effect = yes
+                DI_lifestyle_dark_arcanoi_present_effect = yes
+                DI_lifestyle_demon_arts_present_effect = yes
+                DI_lifestyle_diplomacy_present_effect = yes
+                DI_lifestyle_endowments_present_effect = yes
+                DI_lifestyle_faith_present_effect = yes
+                DI_lifestyle_hekau_alchemy_present_effect = yes
+                DI_lifestyle_hekau_amulets_present_effect = yes
+                DI_lifestyle_hekau_celestial_present_effect = yes
+                DI_lifestyle_hekau_effigy_present_effect = yes
+                DI_lifestyle_hekau_necromancy_present_effect = yes
+                DI_lifestyle_hekau_nomenclature_present_effect = yes
+                DI_lifestyle_hengeyokaigifts_present_effect = yes
+                DI_lifestyle_intrigue_present_effect = yes
+                DI_lifestyle_investiture_present_effect = yes
+                DI_lifestyle_jade_arcanoi_present_effect = yes
+                DI_lifestyle_kith_arts_present_effect = yes
+                DI_lifestyle_learning_present_effect = yes
+                DI_lifestyle_lore_present_effect = yes
+                DI_lifestyle_lunar_auspicegifts_present_effect = yes
+                DI_lifestyle_martial_present_effect = yes
+                DI_lifestyle_melancholy_present_effect = yes
+                DI_lifestyle_misc_arcanoi_present_effect = yes
+                DI_lifestyle_necro_magic_present_effect = yes
+                DI_lifestyle_phlegmatic_present_effect = yes
+                DI_lifestyle_planetarygifts_present_effect = yes
+                DI_lifestyle_possessedpower_present_effect = yes
+                DI_lifestyle_psi_present_effect = yes
+                DI_lifestyle_qiao_present_effect = yes
+                DI_lifestyle_rare_arts_present_effect = yes
+                DI_lifestyle_realm_present_effect = yes
+                DI_lifestyle_sanguine_present_effect = yes
+                DI_lifestyle_shintai_present_effect = yes
+                DI_lifestyle_slivers_present_effect = yes
+                DI_lifestyle_sorcery_present_effect = yes
+                DI_lifestyle_soul_arts_present_effect = yes
+                DI_lifestyle_stewardship_present_effect = yes
+                DI_lifestyle_tan_present_effect = yes
+                DI_lifestyle_theurgy_present_effect = yes
+                DI_lifestyle_thorn_present_effect = yes
+                DI_lifestyle_tribalgifts_present_effect = yes
+                DI_lifestyle_wanderer_present_effect = yes
+                DI_lifestyle_wu_tan_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_animal_present_effect = yes
+            DI_lifestyle_arcana_present_effect = yes
+            DI_lifestyle_arcanoi_present_effect = yes
+            DI_lifestyle_blood_magic_present_effect = yes
+            DI_lifestyle_breedgifts_present_effect = yes
+            DI_lifestyle_chi_arts_present_effect = yes
+            DI_lifestyle_choleric_present_effect = yes
+            DI_lifestyle_common_arts_present_effect = yes
+            DI_lifestyle_commongifts_present_effect = yes
+            DI_lifestyle_dark_arcanoi_present_effect = yes
+            DI_lifestyle_demon_arts_present_effect = yes
+            DI_lifestyle_diplomacy_present_effect = yes
+            DI_lifestyle_endowments_present_effect = yes
+            DI_lifestyle_faith_present_effect = yes
+            DI_lifestyle_hekau_alchemy_present_effect = yes
+            DI_lifestyle_hekau_amulets_present_effect = yes
+            DI_lifestyle_hekau_celestial_present_effect = yes
+            DI_lifestyle_hekau_effigy_present_effect = yes
+            DI_lifestyle_hekau_necromancy_present_effect = yes
+            DI_lifestyle_hekau_nomenclature_present_effect = yes
+            DI_lifestyle_hengeyokaigifts_present_effect = yes
+            DI_lifestyle_intrigue_present_effect = yes
+            DI_lifestyle_investiture_present_effect = yes
+            DI_lifestyle_jade_arcanoi_present_effect = yes
+            DI_lifestyle_kith_arts_present_effect = yes
+            DI_lifestyle_learning_present_effect = yes
+            DI_lifestyle_lore_present_effect = yes
+            DI_lifestyle_lunar_auspicegifts_present_effect = yes
+            DI_lifestyle_martial_present_effect = yes
+            DI_lifestyle_melancholy_present_effect = yes
+            DI_lifestyle_misc_arcanoi_present_effect = yes
+            DI_lifestyle_necro_magic_present_effect = yes
+            DI_lifestyle_phlegmatic_present_effect = yes
+            DI_lifestyle_planetarygifts_present_effect = yes
+            DI_lifestyle_possessedpower_present_effect = yes
+            DI_lifestyle_psi_present_effect = yes
+            DI_lifestyle_qiao_present_effect = yes
+            DI_lifestyle_rare_arts_present_effect = yes
+            DI_lifestyle_realm_present_effect = yes
+            DI_lifestyle_sanguine_present_effect = yes
+            DI_lifestyle_shintai_present_effect = yes
+            DI_lifestyle_slivers_present_effect = yes
+            DI_lifestyle_sorcery_present_effect = yes
+            DI_lifestyle_soul_arts_present_effect = yes
+            DI_lifestyle_stewardship_present_effect = yes
+            DI_lifestyle_tan_present_effect = yes
+            DI_lifestyle_theurgy_present_effect = yes
+            DI_lifestyle_thorn_present_effect = yes
+            DI_lifestyle_tribalgifts_present_effect = yes
+            DI_lifestyle_wanderer_present_effect = yes
+            DI_lifestyle_wu_tan_present_effect = yes
+        }
+    }
+}
+
+### Remove All Lifestyle Perks
+DI_ce_remove_all_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_animal_present_no_effect = yes
+                DI_lifestyle_arcana_present_no_effect = yes
+                DI_lifestyle_arcanoi_present_no_effect = yes
+                DI_lifestyle_blood_magic_present_no_effect = yes
+                DI_lifestyle_breedgifts_present_no_effect = yes
+                DI_lifestyle_chi_arts_present_no_effect = yes
+                DI_lifestyle_choleric_present_no_effect = yes
+                DI_lifestyle_common_arts_present_no_effect = yes
+                DI_lifestyle_commongifts_present_no_effect = yes
+                DI_lifestyle_dark_arcanoi_present_no_effect = yes
+                DI_lifestyle_demon_arts_present_no_effect = yes
+                DI_lifestyle_diplomacy_present_no_effect = yes
+                DI_lifestyle_endowments_present_no_effect = yes
+                DI_lifestyle_faith_present_no_effect = yes
+                DI_lifestyle_hekau_alchemy_present_no_effect = yes
+                DI_lifestyle_hekau_amulets_present_no_effect = yes
+                DI_lifestyle_hekau_celestial_present_no_effect = yes
+                DI_lifestyle_hekau_effigy_present_no_effect = yes
+                DI_lifestyle_hekau_necromancy_present_no_effect = yes
+                DI_lifestyle_hekau_nomenclature_present_no_effect = yes
+                DI_lifestyle_hengeyokaigifts_present_no_effect = yes
+                DI_lifestyle_intrigue_present_no_effect = yes
+                DI_lifestyle_investiture_present_no_effect = yes
+                DI_lifestyle_jade_arcanoi_present_no_effect = yes
+                DI_lifestyle_kith_arts_present_no_effect = yes
+                DI_lifestyle_learning_present_no_effect = yes
+                DI_lifestyle_lore_present_no_effect = yes
+                DI_lifestyle_lunar_auspicegifts_present_no_effect = yes
+                DI_lifestyle_martial_present_no_effect = yes
+                DI_lifestyle_melancholy_present_no_effect = yes
+                DI_lifestyle_misc_arcanoi_present_no_effect = yes
+                DI_lifestyle_necro_magic_present_no_effect = yes
+                DI_lifestyle_phlegmatic_present_no_effect = yes
+                DI_lifestyle_planetarygifts_present_no_effect = yes
+                DI_lifestyle_possessedpower_present_no_effect = yes
+                DI_lifestyle_psi_present_no_effect = yes
+                DI_lifestyle_qiao_present_no_effect = yes
+                DI_lifestyle_rare_arts_present_no_effect = yes
+                DI_lifestyle_realm_present_no_effect = yes
+                DI_lifestyle_sanguine_present_no_effect = yes
+                DI_lifestyle_shintai_present_no_effect = yes
+                DI_lifestyle_slivers_present_no_effect = yes
+                DI_lifestyle_sorcery_present_no_effect = yes
+                DI_lifestyle_soul_arts_present_no_effect = yes
+                DI_lifestyle_stewardship_present_no_effect = yes
+                DI_lifestyle_tan_present_no_effect = yes
+                DI_lifestyle_theurgy_present_no_effect = yes
+                DI_lifestyle_thorn_present_no_effect = yes
+                DI_lifestyle_tribalgifts_present_no_effect = yes
+                DI_lifestyle_wanderer_present_no_effect = yes
+                DI_lifestyle_wu_tan_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_animal_present_no_effect = yes
+            DI_lifestyle_arcana_present_no_effect = yes
+            DI_lifestyle_arcanoi_present_no_effect = yes
+            DI_lifestyle_blood_magic_present_no_effect = yes
+            DI_lifestyle_breedgifts_present_no_effect = yes
+            DI_lifestyle_chi_arts_present_no_effect = yes
+            DI_lifestyle_choleric_present_no_effect = yes
+            DI_lifestyle_common_arts_present_no_effect = yes
+            DI_lifestyle_commongifts_present_no_effect = yes
+            DI_lifestyle_dark_arcanoi_present_no_effect = yes
+            DI_lifestyle_demon_arts_present_no_effect = yes
+            DI_lifestyle_diplomacy_present_no_effect = yes
+            DI_lifestyle_endowments_present_no_effect = yes
+            DI_lifestyle_faith_present_no_effect = yes
+            DI_lifestyle_hekau_alchemy_present_no_effect = yes
+            DI_lifestyle_hekau_amulets_present_no_effect = yes
+            DI_lifestyle_hekau_celestial_present_no_effect = yes
+            DI_lifestyle_hekau_effigy_present_no_effect = yes
+            DI_lifestyle_hekau_necromancy_present_no_effect = yes
+            DI_lifestyle_hekau_nomenclature_present_no_effect = yes
+            DI_lifestyle_hengeyokaigifts_present_no_effect = yes
+            DI_lifestyle_intrigue_present_no_effect = yes
+            DI_lifestyle_investiture_present_no_effect = yes
+            DI_lifestyle_jade_arcanoi_present_no_effect = yes
+            DI_lifestyle_kith_arts_present_no_effect = yes
+            DI_lifestyle_learning_present_no_effect = yes
+            DI_lifestyle_lore_present_no_effect = yes
+            DI_lifestyle_lunar_auspicegifts_present_no_effect = yes
+            DI_lifestyle_martial_present_no_effect = yes
+            DI_lifestyle_melancholy_present_no_effect = yes
+            DI_lifestyle_misc_arcanoi_present_no_effect = yes
+            DI_lifestyle_necro_magic_present_no_effect = yes
+            DI_lifestyle_phlegmatic_present_no_effect = yes
+            DI_lifestyle_planetarygifts_present_no_effect = yes
+            DI_lifestyle_possessedpower_present_no_effect = yes
+            DI_lifestyle_psi_present_no_effect = yes
+            DI_lifestyle_qiao_present_no_effect = yes
+            DI_lifestyle_rare_arts_present_no_effect = yes
+            DI_lifestyle_realm_present_no_effect = yes
+            DI_lifestyle_sanguine_present_no_effect = yes
+            DI_lifestyle_shintai_present_no_effect = yes
+            DI_lifestyle_slivers_present_no_effect = yes
+            DI_lifestyle_sorcery_present_no_effect = yes
+            DI_lifestyle_soul_arts_present_no_effect = yes
+            DI_lifestyle_stewardship_present_no_effect = yes
+            DI_lifestyle_tan_present_no_effect = yes
+            DI_lifestyle_theurgy_present_no_effect = yes
+            DI_lifestyle_thorn_present_no_effect = yes
+            DI_lifestyle_tribalgifts_present_no_effect = yes
+            DI_lifestyle_wanderer_present_no_effect = yes
+            DI_lifestyle_wu_tan_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Animal Lifestyle Perks
+DI_ce_add_animal_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_animal_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_animal_present_effect = yes
+        }
+    }
+}
+
+### Remove All Animal Lifestyle Perks
+DI_ce_remove_animal_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_animal_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_animal_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Arcana Lifestyle Perks
+DI_ce_add_arcana_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_arcana_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_arcana_present_effect = yes
+        }
+    }
+}
+
+### Remove All Arcana Lifestyle Perks
+DI_ce_remove_arcana_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_arcana_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_arcana_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Arcanoi Lifestyle Perks
+DI_ce_add_arcanoi_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_arcanoi_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_arcanoi_present_effect = yes
+        }
+    }
+}
+
+### Remove All Arcanoi Lifestyle Perks
+DI_ce_remove_arcanoi_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_arcanoi_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_arcanoi_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Blood Magic Lifestyle Perks
+DI_ce_add_blood_magic_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_blood_magic_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_blood_magic_present_effect = yes
+        }
+    }
+}
+
+### Remove All Blood Magic Lifestyle Perks
+DI_ce_remove_blood_magic_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_blood_magic_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_blood_magic_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Breedgifts Lifestyle Perks
+DI_ce_add_breedgifts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_breedgifts_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_breedgifts_present_effect = yes
+        }
+    }
+}
+
+### Remove All Breedgifts Lifestyle Perks
+DI_ce_remove_breedgifts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_breedgifts_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_breedgifts_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Chi Arts Lifestyle Perks
+DI_ce_add_chi_arts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_chi_arts_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_chi_arts_present_effect = yes
+        }
+    }
+}
+
+### Remove All Chi Arts Lifestyle Perks
+DI_ce_remove_chi_arts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_chi_arts_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_chi_arts_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Choleric Lifestyle Perks
+DI_ce_add_choleric_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_choleric_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_choleric_present_effect = yes
+        }
+    }
+}
+
+### Remove All Choleric Lifestyle Perks
+DI_ce_remove_choleric_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_choleric_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_choleric_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Common Arts Lifestyle Perks
+DI_ce_add_common_arts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_common_arts_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_common_arts_present_effect = yes
+        }
+    }
+}
+
+### Remove All Common Arts Lifestyle Perks
+DI_ce_remove_common_arts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_common_arts_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_common_arts_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Commongifts Lifestyle Perks
+DI_ce_add_commongifts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_commongifts_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_commongifts_present_effect = yes
+        }
+    }
+}
+
+### Remove All Commongifts Lifestyle Perks
+DI_ce_remove_commongifts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_commongifts_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_commongifts_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Dark Arcanoi Lifestyle Perks
+DI_ce_add_dark_arcanoi_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_dark_arcanoi_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_dark_arcanoi_present_effect = yes
+        }
+    }
+}
+
+### Remove All Dark Arcanoi Lifestyle Perks
+DI_ce_remove_dark_arcanoi_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_dark_arcanoi_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_dark_arcanoi_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Demon Arts Lifestyle Perks
+DI_ce_add_demon_arts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_demon_arts_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_demon_arts_present_effect = yes
+        }
+    }
+}
+
+### Remove All Demon Arts Lifestyle Perks
+DI_ce_remove_demon_arts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_demon_arts_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_demon_arts_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Diplomacy Lifestyle Perks
+DI_ce_add_diplomacy_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_diplomacy_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_diplomacy_present_effect = yes
+        }
+    }
+}
+
+### Remove All Diplomacy Lifestyle Perks
+DI_ce_remove_diplomacy_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_diplomacy_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_diplomacy_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Endowments Lifestyle Perks
+DI_ce_add_endowments_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_endowments_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_endowments_present_effect = yes
+        }
+    }
+}
+
+### Remove All Endowments Lifestyle Perks
+DI_ce_remove_endowments_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_endowments_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_endowments_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Faith Lifestyle Perks
+DI_ce_add_faith_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_faith_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_faith_present_effect = yes
+        }
+    }
+}
+
+### Remove All Faith Lifestyle Perks
+DI_ce_remove_faith_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_faith_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_faith_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Hekau Alchemy Lifestyle Perks
+DI_ce_add_hekau_alchemy_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_hekau_alchemy_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_hekau_alchemy_present_effect = yes
+        }
+    }
+}
+
+### Remove All Hekau Alchemy Lifestyle Perks
+DI_ce_remove_hekau_alchemy_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_hekau_alchemy_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_hekau_alchemy_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Hekau Amulets Lifestyle Perks
+DI_ce_add_hekau_amulets_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_hekau_amulets_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_hekau_amulets_present_effect = yes
+        }
+    }
+}
+
+### Remove All Hekau Amulets Lifestyle Perks
+DI_ce_remove_hekau_amulets_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_hekau_amulets_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_hekau_amulets_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Hekau Celestial Lifestyle Perks
+DI_ce_add_hekau_celestial_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_hekau_celestial_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_hekau_celestial_present_effect = yes
+        }
+    }
+}
+
+### Remove All Hekau Celestial Lifestyle Perks
+DI_ce_remove_hekau_celestial_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_hekau_celestial_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_hekau_celestial_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Hekau Effigy Lifestyle Perks
+DI_ce_add_hekau_effigy_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_hekau_effigy_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_hekau_effigy_present_effect = yes
+        }
+    }
+}
+
+### Remove All Hekau Effigy Lifestyle Perks
+DI_ce_remove_hekau_effigy_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_hekau_effigy_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_hekau_effigy_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Hekau Necromancy Lifestyle Perks
+DI_ce_add_hekau_necromancy_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_hekau_necromancy_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_hekau_necromancy_present_effect = yes
+        }
+    }
+}
+
+### Remove All Hekau Necromancy Lifestyle Perks
+DI_ce_remove_hekau_necromancy_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_hekau_necromancy_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_hekau_necromancy_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Hekau Nomenclature Lifestyle Perks
+DI_ce_add_hekau_nomenclature_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_hekau_nomenclature_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_hekau_nomenclature_present_effect = yes
+        }
+    }
+}
+
+### Remove All Hekau Nomenclature Lifestyle Perks
+DI_ce_remove_hekau_nomenclature_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_hekau_nomenclature_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_hekau_nomenclature_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Hengeyokaigifts Lifestyle Perks
+DI_ce_add_hengeyokaigifts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_hengeyokaigifts_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_hengeyokaigifts_present_effect = yes
+        }
+    }
+}
+
+### Remove All Hengeyokaigifts Lifestyle Perks
+DI_ce_remove_hengeyokaigifts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_hengeyokaigifts_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_hengeyokaigifts_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Intrigue Lifestyle Perks
+DI_ce_add_intrigue_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_intrigue_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_intrigue_present_effect = yes
+        }
+    }
+}
+
+### Remove All Intrigue Lifestyle Perks
+DI_ce_remove_intrigue_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_intrigue_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_intrigue_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Investiture Lifestyle Perks
+DI_ce_add_investiture_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_investiture_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_investiture_present_effect = yes
+        }
+    }
+}
+
+### Remove All Investiture Lifestyle Perks
+DI_ce_remove_investiture_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_investiture_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_investiture_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Jade Arcanoi Lifestyle Perks
+DI_ce_add_jade_arcanoi_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_jade_arcanoi_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_jade_arcanoi_present_effect = yes
+        }
+    }
+}
+
+### Remove All Jade Arcanoi Lifestyle Perks
+DI_ce_remove_jade_arcanoi_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_jade_arcanoi_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_jade_arcanoi_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Kith Arts Lifestyle Perks
+DI_ce_add_kith_arts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_kith_arts_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_kith_arts_present_effect = yes
+        }
+    }
+}
+
+### Remove All Kith Arts Lifestyle Perks
+DI_ce_remove_kith_arts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_kith_arts_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_kith_arts_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Learning Lifestyle Perks
+DI_ce_add_learning_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_learning_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_learning_present_effect = yes
+        }
+    }
+}
+
+### Remove All Learning Lifestyle Perks
+DI_ce_remove_learning_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_learning_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_learning_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Lore Lifestyle Perks
+DI_ce_add_lore_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_lore_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_lore_present_effect = yes
+        }
+    }
+}
+
+### Remove All Lore Lifestyle Perks
+DI_ce_remove_lore_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_lore_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_lore_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Lunar Auspicegifts Lifestyle Perks
+DI_ce_add_lunar_auspicegifts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_lunar_auspicegifts_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_lunar_auspicegifts_present_effect = yes
+        }
+    }
+}
+
+### Remove All Lunar Auspicegifts Lifestyle Perks
+DI_ce_remove_lunar_auspicegifts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_lunar_auspicegifts_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_lunar_auspicegifts_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Martial Lifestyle Perks
+DI_ce_add_martial_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_martial_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_martial_present_effect = yes
+        }
+    }
+}
+
+### Remove All Martial Lifestyle Perks
+DI_ce_remove_martial_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_martial_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_martial_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Melancholy Lifestyle Perks
+DI_ce_add_melancholy_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_melancholy_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_melancholy_present_effect = yes
+        }
+    }
+}
+
+### Remove All Melancholy Lifestyle Perks
+DI_ce_remove_melancholy_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_melancholy_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_melancholy_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Misc Arcanoi Lifestyle Perks
+DI_ce_add_misc_arcanoi_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_misc_arcanoi_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_misc_arcanoi_present_effect = yes
+        }
+    }
+}
+
+### Remove All Misc Arcanoi Lifestyle Perks
+DI_ce_remove_misc_arcanoi_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_misc_arcanoi_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_misc_arcanoi_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Necro Magic Lifestyle Perks
+DI_ce_add_necro_magic_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_necro_magic_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_necro_magic_present_effect = yes
+        }
+    }
+}
+
+### Remove All Necro Magic Lifestyle Perks
+DI_ce_remove_necro_magic_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_necro_magic_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_necro_magic_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Phlegmatic Lifestyle Perks
+DI_ce_add_phlegmatic_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_phlegmatic_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_phlegmatic_present_effect = yes
+        }
+    }
+}
+
+### Remove All Phlegmatic Lifestyle Perks
+DI_ce_remove_phlegmatic_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_phlegmatic_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_phlegmatic_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Planetarygifts Lifestyle Perks
+DI_ce_add_planetarygifts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_planetarygifts_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_planetarygifts_present_effect = yes
+        }
+    }
+}
+
+### Remove All Planetarygifts Lifestyle Perks
+DI_ce_remove_planetarygifts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_planetarygifts_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_planetarygifts_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Possessedpower Lifestyle Perks
+DI_ce_add_possessedpower_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_possessedpower_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_possessedpower_present_effect = yes
+        }
+    }
+}
+
+### Remove All Possessedpower Lifestyle Perks
+DI_ce_remove_possessedpower_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_possessedpower_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_possessedpower_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Psi Lifestyle Perks
+DI_ce_add_psi_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_psi_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_psi_present_effect = yes
+        }
+    }
+}
+
+### Remove All Psi Lifestyle Perks
+DI_ce_remove_psi_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_psi_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_psi_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Qiao Lifestyle Perks
+DI_ce_add_qiao_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_qiao_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_qiao_present_effect = yes
+        }
+    }
+}
+
+### Remove All Qiao Lifestyle Perks
+DI_ce_remove_qiao_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_qiao_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_qiao_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Rare Arts Lifestyle Perks
+DI_ce_add_rare_arts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_rare_arts_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_rare_arts_present_effect = yes
+        }
+    }
+}
+
+### Remove All Rare Arts Lifestyle Perks
+DI_ce_remove_rare_arts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_rare_arts_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_rare_arts_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Realm Lifestyle Perks
+DI_ce_add_realm_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_realm_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_realm_present_effect = yes
+        }
+    }
+}
+
+### Remove All Realm Lifestyle Perks
+DI_ce_remove_realm_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_realm_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_realm_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Sanguine Lifestyle Perks
+DI_ce_add_sanguine_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_sanguine_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_sanguine_present_effect = yes
+        }
+    }
+}
+
+### Remove All Sanguine Lifestyle Perks
+DI_ce_remove_sanguine_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_sanguine_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_sanguine_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Shintai Lifestyle Perks
+DI_ce_add_shintai_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_shintai_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_shintai_present_effect = yes
+        }
+    }
+}
+
+### Remove All Shintai Lifestyle Perks
+DI_ce_remove_shintai_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_shintai_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_shintai_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Slivers Lifestyle Perks
+DI_ce_add_slivers_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_slivers_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_slivers_present_effect = yes
+        }
+    }
+}
+
+### Remove All Slivers Lifestyle Perks
+DI_ce_remove_slivers_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_slivers_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_slivers_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Sorcery Lifestyle Perks
+DI_ce_add_sorcery_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_sorcery_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_sorcery_present_effect = yes
+        }
+    }
+}
+
+### Remove All Sorcery Lifestyle Perks
+DI_ce_remove_sorcery_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_sorcery_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_sorcery_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Soul Arts Lifestyle Perks
+DI_ce_add_soul_arts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_soul_arts_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_soul_arts_present_effect = yes
+        }
+    }
+}
+
+### Remove All Soul Arts Lifestyle Perks
+DI_ce_remove_soul_arts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_soul_arts_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_soul_arts_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Stewardship Lifestyle Perks
+DI_ce_add_stewardship_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_stewardship_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_stewardship_present_effect = yes
+        }
+    }
+}
+
+### Remove All Stewardship Lifestyle Perks
+DI_ce_remove_stewardship_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_stewardship_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_stewardship_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Tan Lifestyle Perks
+DI_ce_add_tan_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_tan_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_tan_present_effect = yes
+        }
+    }
+}
+
+### Remove All Tan Lifestyle Perks
+DI_ce_remove_tan_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_tan_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_tan_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Theurgy Lifestyle Perks
+DI_ce_add_theurgy_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_theurgy_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_theurgy_present_effect = yes
+        }
+    }
+}
+
+### Remove All Theurgy Lifestyle Perks
+DI_ce_remove_theurgy_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_theurgy_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_theurgy_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Thorn Lifestyle Perks
+DI_ce_add_thorn_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_thorn_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_thorn_present_effect = yes
+        }
+    }
+}
+
+### Remove All Thorn Lifestyle Perks
+DI_ce_remove_thorn_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_thorn_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_thorn_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Tribalgifts Lifestyle Perks
+DI_ce_add_tribalgifts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_tribalgifts_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_tribalgifts_present_effect = yes
+        }
+    }
+}
+
+### Remove All Tribalgifts Lifestyle Perks
+DI_ce_remove_tribalgifts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_tribalgifts_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_tribalgifts_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Wanderer Lifestyle Perks
+DI_ce_add_wanderer_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_wanderer_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_wanderer_present_effect = yes
+        }
+    }
+}
+
+### Remove All Wanderer Lifestyle Perks
+DI_ce_remove_wanderer_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_wanderer_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_wanderer_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Wu Tan Lifestyle Perks
+DI_ce_add_wu_tan_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_wu_tan_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_wu_tan_present_effect = yes
+        }
+    }
+}
+
+### Remove All Wu Tan Lifestyle Perks
+DI_ce_remove_wu_tan_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_wu_tan_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_wu_tan_present_no_effect = yes
+        }
+    }
+}
