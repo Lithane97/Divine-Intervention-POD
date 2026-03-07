@@ -64,35 +64,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('animal_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_animal_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_animal_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/animal_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_animal_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_animal_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -103,35 +78,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('arcana_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_arcana_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_arcana_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/arcana_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_arcana_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_arcana_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -142,35 +92,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('arcanoi_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_arcanoi_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_arcanoi_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/arcanoi_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_arcanoi_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_arcanoi_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -181,35 +106,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('blood_magic_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_blood_magic_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_blood_magic_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/blood_magic_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_blood_magic_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_blood_magic_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -220,35 +120,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('breedgifts_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_breedgifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_breedgifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/breedgifts_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_breedgifts_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_breedgifts_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -259,35 +134,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('chi_arts_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_chi_arts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_chi_arts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/chi_arts_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_chi_arts_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_chi_arts_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -298,35 +148,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('choleric_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_choleric_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_choleric_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/choleric_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_choleric_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_choleric_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -337,35 +162,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('common_arts_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_common_arts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_common_arts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/common_arts_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_common_arts_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_common_arts_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -376,35 +176,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('commongifts_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_commongifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_commongifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/commongifts_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_commongifts_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_commongifts_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -415,35 +190,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('dark_arcanoi_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_dark_arcanoi_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_dark_arcanoi_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/dark_arcanoi_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_dark_arcanoi_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_dark_arcanoi_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -454,35 +204,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('demon_arts_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_demon_arts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_demon_arts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/demon_arts_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_demon_arts_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_demon_arts_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -493,35 +218,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('diplomacy_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_diplomacy_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_diplomacy_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/diplomacy_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_diplomacy_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_diplomacy_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -532,35 +232,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('endowments_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_endowments_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_endowments_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/endowments_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_endowments_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_endowments_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -571,35 +246,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('faith_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_faith_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_faith_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/faith_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_faith_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_faith_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -610,35 +260,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('hekau_alchemy_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_hekau_alchemy_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_hekau_alchemy_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/hekau_alchemy_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_hekau_alchemy_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_hekau_alchemy_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -649,35 +274,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('hekau_amulets_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_hekau_amulets_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_hekau_amulets_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/hekau_amulets_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_hekau_amulets_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_hekau_amulets_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -688,35 +288,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('hekau_celestial_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_hekau_celestial_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_hekau_celestial_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/hekau_celestial_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_hekau_celestial_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_hekau_celestial_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -727,35 +302,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('hekau_effigy_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_hekau_effigy_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_hekau_effigy_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/hekau_effigy_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_hekau_effigy_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_hekau_effigy_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -766,35 +316,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('hekau_necromancy_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_hekau_necromancy_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_hekau_necromancy_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/hekau_necromancy_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_hekau_necromancy_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_hekau_necromancy_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -805,35 +330,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('hekau_nomenclature_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_hekau_nomenclature_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_hekau_nomenclature_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/hekau_nomenclature_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_hekau_nomenclature_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_hekau_nomenclature_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -844,35 +344,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('hengeyokaigifts_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_hengeyokaigifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_hengeyokaigifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/hengeyokaigifts_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_hengeyokaigifts_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_hengeyokaigifts_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -883,35 +358,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('intrigue_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_intrigue_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_intrigue_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/intrigue_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_intrigue_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_intrigue_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -922,35 +372,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('investiture_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_investiture_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_investiture_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/investiture_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_investiture_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_investiture_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -961,35 +386,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('jade_arcanoi_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_jade_arcanoi_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_jade_arcanoi_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/jade_arcanoi_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_jade_arcanoi_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_jade_arcanoi_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1000,35 +400,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('kith_arts_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_kith_arts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_kith_arts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/kith_arts_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_kith_arts_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_kith_arts_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1039,35 +414,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('learning_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_learning_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_learning_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/learning_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_learning_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_learning_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1078,35 +428,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('lore_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_lore_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_lore_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/lore_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_lore_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_lore_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1117,35 +442,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('lunar_auspicegifts_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_lunar_auspicegifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_lunar_auspicegifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/lunar_auspicegifts_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_lunar_auspicegifts_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_lunar_auspicegifts_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1156,35 +456,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('martial_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_martial_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_martial_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/martial_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_martial_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_martial_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1195,35 +470,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('melancholy_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_melancholy_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_melancholy_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/melancholy_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_melancholy_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_melancholy_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1234,35 +484,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('misc_arcanoi_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_misc_arcanoi_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_misc_arcanoi_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/misc_arcanoi_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_misc_arcanoi_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_misc_arcanoi_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1273,35 +498,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('necro_magic_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_necro_magic_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_necro_magic_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/necro_magic_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_necro_magic_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_necro_magic_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1312,35 +512,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('phlegmatic_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_phlegmatic_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_phlegmatic_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/phlegmatic_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_phlegmatic_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_phlegmatic_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1351,35 +526,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('planetarygifts_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_planetarygifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_planetarygifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/planetarygifts_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_planetarygifts_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_planetarygifts_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1390,35 +540,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('possessedpower_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_possessedpower_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_possessedpower_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/possessedpower_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_possessedpower_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_possessedpower_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1429,35 +554,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('psi_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_psi_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_psi_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/psi_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_psi_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_psi_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1468,35 +568,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('qiao_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_qiao_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_qiao_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/qiao_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_qiao_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_qiao_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1507,35 +582,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('rare_arts_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_rare_arts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_rare_arts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/rare_arts_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_rare_arts_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_rare_arts_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1546,35 +596,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('realm_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_realm_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_realm_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/realm_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_realm_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_realm_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1585,35 +610,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('sanguine_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_sanguine_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_sanguine_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/sanguine_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_sanguine_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_sanguine_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1624,35 +624,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('shintai_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_shintai_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_shintai_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/shintai_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_shintai_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_shintai_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1663,35 +638,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('slivers_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_slivers_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_slivers_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/slivers_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_slivers_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_slivers_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1702,35 +652,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('sorcery_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_sorcery_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_sorcery_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/sorcery_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_sorcery_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_sorcery_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1741,35 +666,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('soul_arts_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_soul_arts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_soul_arts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/soul_arts_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_soul_arts_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_soul_arts_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1780,35 +680,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('stewardship_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_stewardship_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_stewardship_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/stewardship_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_stewardship_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_stewardship_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1819,35 +694,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('tan_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_tan_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_tan_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/tan_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_tan_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_tan_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1858,35 +708,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('theurgy_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_theurgy_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_theurgy_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/theurgy_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_theurgy_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_theurgy_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1897,35 +722,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('thorn_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_thorn_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_thorn_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/thorn_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_thorn_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_thorn_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1936,35 +736,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('tribalgifts_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_tribalgifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_tribalgifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/tribalgifts_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_tribalgifts_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_tribalgifts_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -1975,35 +750,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('wanderer_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_wanderer_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_wanderer_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/wanderer_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_wanderer_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_wanderer_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -2014,35 +764,10 @@
                         hbox = {
                             layoutpolicy_horizontal = expanding
 
-                            button_standard = {
-                                layoutpolicy_horizontal = expanding
-                                size = { 0 50 }
-                                button_ignore = none
-
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('wu_tan_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_wu_tan_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_wu_tan_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-                                hbox = {
-                                    margin = { 5 0 }
-                                    margin_right = 10
-                                    spacing = 10
-
-                                    icon = {
-                                        size = { 35 35 }
-                                        framesize = { 160 160 }
-                                        frame = "1"
-                                        texture = "gfx/interface/icons/lifestyles/wu_tan_lifestyle.dds"
-                                    }
-
-                                    text_single = {
-                                        layoutpolicy_horizontal = expanding
-
-                                        text = DI_ce_wu_tan_lifestyle_button
-
-                                        default_format = "#clickable"
-                                    }
-                                }
-                                tooltip = DI_ce_wu_tan_lifestyle_button_tt
                             }
                             hbox = {
                                 minimumsize = { 76 -1 }
@@ -2053,5 +778,35 @@
                 }
             }
         }
+    }
+}
+
+types DILifestylePresentsShared
+{
+    type DI_lifestyle_present_button = button_standard {
+        layoutpolicy_horizontal = expanding
+        size = { 0 50 }
+        button_ignore = none
+
+        hbox = {
+            margin = { 5 0 }
+            margin_right = 10
+            spacing = 10
+
+            icon = {
+                size = { 35 35 }
+                framesize = { 160 160 }
+                frame = "1"
+                texture = "[Lifestyle.GetIcon]"
+            }
+
+            text_single = {
+                layoutpolicy_horizontal = expanding
+                text = "DI_ce_lifestyle_button"
+                default_format = "#clickable"
+            }
+        }
+
+        tooltip = "DI_ce_lifestyle_button_tt"
     }
 }
