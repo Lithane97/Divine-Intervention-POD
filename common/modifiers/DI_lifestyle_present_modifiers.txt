@@ -68,6 +68,11 @@ no_lifestyle_faith = {
     monthly_faith_lifestyle_xp_gain_mult = -10
 }
 
+no_lifestyle_fleshcrafting = {
+    icon = social_positive
+    monthly_fleshcrafting_lifestyle_xp_gain_mult = -10
+}
+
 no_lifestyle_hekau_alchemy = {
     icon = social_positive
     monthly_hekau_alchemy_lifestyle_xp_gain_mult = -10
@@ -153,6 +158,11 @@ no_lifestyle_misc_arcanoi = {
     monthly_misc_arcanoi_lifestyle_xp_gain_mult = -10
 }
 
+no_lifestyle_mnesis = {
+    icon = social_positive
+    monthly_mnesis_lifestyle_xp_gain_mult = -10
+}
+
 no_lifestyle_necro_magic = {
     icon = social_positive
     monthly_necro_magic_lifestyle_xp_gain_mult = -10
@@ -208,6 +218,11 @@ no_lifestyle_slivers = {
     monthly_slivers_lifestyle_xp_gain_mult = -10
 }
 
+no_lifestyle_solar_auspicegifts = {
+    icon = social_positive
+    monthly_solar_auspicegifts_lifestyle_xp_gain_mult = -10
+}
+
 no_lifestyle_sorcery = {
     icon = social_positive
     monthly_sorcery_lifestyle_xp_gain_mult = -10
@@ -221,6 +236,11 @@ no_lifestyle_soul_arts = {
 no_lifestyle_stewardship = {
     icon = stewardship_positive
     monthly_stewardship_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_streamgifts = {
+    icon = social_positive
+    monthly_streamgifts_lifestyle_xp_gain_mult = -10
 }
 
 no_lifestyle_tan = {
@@ -241,6 +261,11 @@ no_lifestyle_thorn = {
 no_lifestyle_tribalgifts = {
     icon = social_positive
     monthly_tribalgifts_lifestyle_xp_gain_mult = -10
+}
+
+no_lifestyle_urgetaints = {
+    icon = social_positive
+    monthly_urgetaints_lifestyle_xp_gain_mult = -10
 }
 
 no_lifestyle_wanderer = {

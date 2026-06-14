@@ -1,0 +1,166 @@
+﻿DI_add_trait_xp = {
+    switch = {
+        trigger = $TRACK$
+
+        flag:ashen_ambassador = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = ashen_ambassador
+                value = $VALUE$
+            }
+        }
+        flag:ashen_caravan = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = ashen_caravan
+                value = $VALUE$
+            }
+        }
+        flag:ashen_cult = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = ashen_cult
+                value = $VALUE$
+            }
+        }
+        flag:ashen_grandmaster = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = ashen_grandmaster
+                value = $VALUE$
+            }
+        }
+        flag:bandit = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = bandit
+                value = $VALUE$
+            }
+        }
+        flag:bow = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = bow
+                value = $VALUE$
+            }
+        }
+        flag:brewing = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = brewing
+                value = $VALUE$
+            }
+        }
+        flag:danger = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = danger
+                value = $VALUE$
+            }
+        }
+        flag:enhancing = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = enhancing
+                value = $VALUE$
+            }
+        }
+        flag:falconer = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = falconer
+                value = $VALUE$
+            }
+        }
+        flag:fetter = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = fetter
+                value = $VALUE$
+            }
+        }
+        flag:fetter_resolved = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = fetter_resolved
+                value = $VALUE$
+            }
+        }
+        flag:foot = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = foot
+                value = $VALUE$
+            }
+        }
+        flag:forging = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = forging
+                value = $VALUE$
+            }
+        }
+        flag:horse = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = horse
+                value = $VALUE$
+            }
+        }
+        flag:hunter = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = hunter
+                value = $VALUE$
+            }
+        }
+        flag:marauder = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = marauder
+                value = $VALUE$
+            }
+        }
+        flag:poacher = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = poacher
+                value = $VALUE$
+            }
+        }
+        flag:thief = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = thief
+                value = $VALUE$
+            }
+        }
+        flag:travel = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = travel
+                value = $VALUE$
+            }
+        }
+        flag:trickster = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = trickster
+                value = $VALUE$
+            }
+        }
+        flag:wit = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = wit
+                value = $VALUE$
+            }
+        }
+        fallback = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                value = $VALUE$
+            }
+        }
+    }
+}

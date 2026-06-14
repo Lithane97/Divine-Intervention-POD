@@ -224,6 +224,17 @@
                             }
                         }
 
+                        # All Fleshcrafting Lifestyle Button
+                        hbox = {
+                            layoutpolicy_horizontal = expanding
+
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('fleshcrafting_lifestyle')]"
+                                onclick = "[GetScriptedGui('DI_ce_add_fleshcrafting_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                                onrightclick = "[GetScriptedGui('DI_ce_remove_fleshcrafting_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                            }
+                        }
+
                         # All Hekau Alchemy Lifestyle Button
                         hbox = {
                             layoutpolicy_horizontal = expanding
@@ -411,6 +422,17 @@
                             }
                         }
 
+                        # All Mnesis Lifestyle Button
+                        hbox = {
+                            layoutpolicy_horizontal = expanding
+
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('mnesis_lifestyle')]"
+                                onclick = "[GetScriptedGui('DI_ce_add_mnesis_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                                onrightclick = "[GetScriptedGui('DI_ce_remove_mnesis_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                            }
+                        }
+
                         # All Necro Magic Lifestyle Button
                         hbox = {
                             layoutpolicy_horizontal = expanding
@@ -532,6 +554,17 @@
                             }
                         }
 
+                        # All Solar Auspicegifts Lifestyle Button
+                        hbox = {
+                            layoutpolicy_horizontal = expanding
+
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('solar_auspicegifts_lifestyle')]"
+                                onclick = "[GetScriptedGui('DI_ce_add_solar_auspicegifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                                onrightclick = "[GetScriptedGui('DI_ce_remove_solar_auspicegifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                            }
+                        }
+
                         # All Sorcery Lifestyle Button
                         hbox = {
                             layoutpolicy_horizontal = expanding
@@ -562,6 +595,17 @@
                                 datacontext = "[GetLifestyle('stewardship_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_stewardship_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_stewardship_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                            }
+                        }
+
+                        # All Streamgifts Lifestyle Button
+                        hbox = {
+                            layoutpolicy_horizontal = expanding
+
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('streamgifts_lifestyle')]"
+                                onclick = "[GetScriptedGui('DI_ce_add_streamgifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                                onrightclick = "[GetScriptedGui('DI_ce_remove_streamgifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                             }
                         }
 
@@ -606,6 +650,17 @@
                                 datacontext = "[GetLifestyle('tribalgifts_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_tribalgifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_tribalgifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                            }
+                        }
+
+                        # All Urgetaints Lifestyle Button
+                        hbox = {
+                            layoutpolicy_horizontal = expanding
+
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('urgetaints_lifestyle')]"
+                                onclick = "[GetScriptedGui('DI_ce_add_urgetaints_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                                onrightclick = "[GetScriptedGui('DI_ce_remove_urgetaints_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                             }
                         }
 

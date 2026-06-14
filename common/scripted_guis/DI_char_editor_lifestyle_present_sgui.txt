@@ -32,6 +32,7 @@ DI_ce_add_all_lifestyle = {
                 DI_lifestyle_diplomacy_present_effect = yes
                 DI_lifestyle_endowments_present_effect = yes
                 DI_lifestyle_faith_present_effect = yes
+                DI_lifestyle_fleshcrafting_present_effect = yes
                 DI_lifestyle_hekau_alchemy_present_effect = yes
                 DI_lifestyle_hekau_amulets_present_effect = yes
                 DI_lifestyle_hekau_celestial_present_effect = yes
@@ -49,6 +50,7 @@ DI_ce_add_all_lifestyle = {
                 DI_lifestyle_martial_present_effect = yes
                 DI_lifestyle_melancholy_present_effect = yes
                 DI_lifestyle_misc_arcanoi_present_effect = yes
+                DI_lifestyle_mnesis_present_effect = yes
                 DI_lifestyle_necro_magic_present_effect = yes
                 DI_lifestyle_phlegmatic_present_effect = yes
                 DI_lifestyle_planetarygifts_present_effect = yes
@@ -60,13 +62,16 @@ DI_ce_add_all_lifestyle = {
                 DI_lifestyle_sanguine_present_effect = yes
                 DI_lifestyle_shintai_present_effect = yes
                 DI_lifestyle_slivers_present_effect = yes
+                DI_lifestyle_solar_auspicegifts_present_effect = yes
                 DI_lifestyle_sorcery_present_effect = yes
                 DI_lifestyle_soul_arts_present_effect = yes
                 DI_lifestyle_stewardship_present_effect = yes
+                DI_lifestyle_streamgifts_present_effect = yes
                 DI_lifestyle_tan_present_effect = yes
                 DI_lifestyle_theurgy_present_effect = yes
                 DI_lifestyle_thorn_present_effect = yes
                 DI_lifestyle_tribalgifts_present_effect = yes
+                DI_lifestyle_urgetaints_present_effect = yes
                 DI_lifestyle_wanderer_present_effect = yes
                 DI_lifestyle_wu_tan_present_effect = yes
             }
@@ -86,6 +91,7 @@ DI_ce_add_all_lifestyle = {
             DI_lifestyle_diplomacy_present_effect = yes
             DI_lifestyle_endowments_present_effect = yes
             DI_lifestyle_faith_present_effect = yes
+            DI_lifestyle_fleshcrafting_present_effect = yes
             DI_lifestyle_hekau_alchemy_present_effect = yes
             DI_lifestyle_hekau_amulets_present_effect = yes
             DI_lifestyle_hekau_celestial_present_effect = yes
@@ -103,6 +109,7 @@ DI_ce_add_all_lifestyle = {
             DI_lifestyle_martial_present_effect = yes
             DI_lifestyle_melancholy_present_effect = yes
             DI_lifestyle_misc_arcanoi_present_effect = yes
+            DI_lifestyle_mnesis_present_effect = yes
             DI_lifestyle_necro_magic_present_effect = yes
             DI_lifestyle_phlegmatic_present_effect = yes
             DI_lifestyle_planetarygifts_present_effect = yes
@@ -114,13 +121,16 @@ DI_ce_add_all_lifestyle = {
             DI_lifestyle_sanguine_present_effect = yes
             DI_lifestyle_shintai_present_effect = yes
             DI_lifestyle_slivers_present_effect = yes
+            DI_lifestyle_solar_auspicegifts_present_effect = yes
             DI_lifestyle_sorcery_present_effect = yes
             DI_lifestyle_soul_arts_present_effect = yes
             DI_lifestyle_stewardship_present_effect = yes
+            DI_lifestyle_streamgifts_present_effect = yes
             DI_lifestyle_tan_present_effect = yes
             DI_lifestyle_theurgy_present_effect = yes
             DI_lifestyle_thorn_present_effect = yes
             DI_lifestyle_tribalgifts_present_effect = yes
+            DI_lifestyle_urgetaints_present_effect = yes
             DI_lifestyle_wanderer_present_effect = yes
             DI_lifestyle_wu_tan_present_effect = yes
         }
@@ -161,6 +171,7 @@ DI_ce_remove_all_lifestyle = {
                 DI_lifestyle_diplomacy_present_no_effect = yes
                 DI_lifestyle_endowments_present_no_effect = yes
                 DI_lifestyle_faith_present_no_effect = yes
+                DI_lifestyle_fleshcrafting_present_no_effect = yes
                 DI_lifestyle_hekau_alchemy_present_no_effect = yes
                 DI_lifestyle_hekau_amulets_present_no_effect = yes
                 DI_lifestyle_hekau_celestial_present_no_effect = yes
@@ -178,6 +189,7 @@ DI_ce_remove_all_lifestyle = {
                 DI_lifestyle_martial_present_no_effect = yes
                 DI_lifestyle_melancholy_present_no_effect = yes
                 DI_lifestyle_misc_arcanoi_present_no_effect = yes
+                DI_lifestyle_mnesis_present_no_effect = yes
                 DI_lifestyle_necro_magic_present_no_effect = yes
                 DI_lifestyle_phlegmatic_present_no_effect = yes
                 DI_lifestyle_planetarygifts_present_no_effect = yes
@@ -189,13 +201,16 @@ DI_ce_remove_all_lifestyle = {
                 DI_lifestyle_sanguine_present_no_effect = yes
                 DI_lifestyle_shintai_present_no_effect = yes
                 DI_lifestyle_slivers_present_no_effect = yes
+                DI_lifestyle_solar_auspicegifts_present_no_effect = yes
                 DI_lifestyle_sorcery_present_no_effect = yes
                 DI_lifestyle_soul_arts_present_no_effect = yes
                 DI_lifestyle_stewardship_present_no_effect = yes
+                DI_lifestyle_streamgifts_present_no_effect = yes
                 DI_lifestyle_tan_present_no_effect = yes
                 DI_lifestyle_theurgy_present_no_effect = yes
                 DI_lifestyle_thorn_present_no_effect = yes
                 DI_lifestyle_tribalgifts_present_no_effect = yes
+                DI_lifestyle_urgetaints_present_no_effect = yes
                 DI_lifestyle_wanderer_present_no_effect = yes
                 DI_lifestyle_wu_tan_present_no_effect = yes
             }
@@ -215,6 +230,7 @@ DI_ce_remove_all_lifestyle = {
             DI_lifestyle_diplomacy_present_no_effect = yes
             DI_lifestyle_endowments_present_no_effect = yes
             DI_lifestyle_faith_present_no_effect = yes
+            DI_lifestyle_fleshcrafting_present_no_effect = yes
             DI_lifestyle_hekau_alchemy_present_no_effect = yes
             DI_lifestyle_hekau_amulets_present_no_effect = yes
             DI_lifestyle_hekau_celestial_present_no_effect = yes
@@ -232,6 +248,7 @@ DI_ce_remove_all_lifestyle = {
             DI_lifestyle_martial_present_no_effect = yes
             DI_lifestyle_melancholy_present_no_effect = yes
             DI_lifestyle_misc_arcanoi_present_no_effect = yes
+            DI_lifestyle_mnesis_present_no_effect = yes
             DI_lifestyle_necro_magic_present_no_effect = yes
             DI_lifestyle_phlegmatic_present_no_effect = yes
             DI_lifestyle_planetarygifts_present_no_effect = yes
@@ -243,13 +260,16 @@ DI_ce_remove_all_lifestyle = {
             DI_lifestyle_sanguine_present_no_effect = yes
             DI_lifestyle_shintai_present_no_effect = yes
             DI_lifestyle_slivers_present_no_effect = yes
+            DI_lifestyle_solar_auspicegifts_present_no_effect = yes
             DI_lifestyle_sorcery_present_no_effect = yes
             DI_lifestyle_soul_arts_present_no_effect = yes
             DI_lifestyle_stewardship_present_no_effect = yes
+            DI_lifestyle_streamgifts_present_no_effect = yes
             DI_lifestyle_tan_present_no_effect = yes
             DI_lifestyle_theurgy_present_no_effect = yes
             DI_lifestyle_thorn_present_no_effect = yes
             DI_lifestyle_tribalgifts_present_no_effect = yes
+            DI_lifestyle_urgetaints_present_no_effect = yes
             DI_lifestyle_wanderer_present_no_effect = yes
             DI_lifestyle_wu_tan_present_no_effect = yes
         }
@@ -1064,6 +1084,64 @@ DI_ce_remove_faith_lifestyle = {
         }
         else = {
             DI_lifestyle_faith_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Fleshcrafting Lifestyle Perks
+DI_ce_add_fleshcrafting_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_fleshcrafting_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_fleshcrafting_present_effect = yes
+        }
+    }
+}
+
+### Remove All Fleshcrafting Lifestyle Perks
+DI_ce_remove_fleshcrafting_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_fleshcrafting_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_fleshcrafting_present_no_effect = yes
         }
     }
 }
@@ -2054,6 +2132,64 @@ DI_ce_remove_misc_arcanoi_lifestyle = {
     }
 }
 
+### Add All Mnesis Lifestyle Perks
+DI_ce_add_mnesis_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_mnesis_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_mnesis_present_effect = yes
+        }
+    }
+}
+
+### Remove All Mnesis Lifestyle Perks
+DI_ce_remove_mnesis_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_mnesis_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_mnesis_present_no_effect = yes
+        }
+    }
+}
+
 ### Add All Necro Magic Lifestyle Perks
 DI_ce_add_necro_magic_lifestyle = {
     scope = character
@@ -2692,6 +2828,64 @@ DI_ce_remove_slivers_lifestyle = {
     }
 }
 
+### Add All Solar Auspicegifts Lifestyle Perks
+DI_ce_add_solar_auspicegifts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_solar_auspicegifts_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_solar_auspicegifts_present_effect = yes
+        }
+    }
+}
+
+### Remove All Solar Auspicegifts Lifestyle Perks
+DI_ce_remove_solar_auspicegifts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_solar_auspicegifts_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_solar_auspicegifts_present_no_effect = yes
+        }
+    }
+}
+
 ### Add All Sorcery Lifestyle Perks
 DI_ce_add_sorcery_lifestyle = {
     scope = character
@@ -2862,6 +3056,64 @@ DI_ce_remove_stewardship_lifestyle = {
         }
         else = {
             DI_lifestyle_stewardship_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Streamgifts Lifestyle Perks
+DI_ce_add_streamgifts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_streamgifts_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_streamgifts_present_effect = yes
+        }
+    }
+}
+
+### Remove All Streamgifts Lifestyle Perks
+DI_ce_remove_streamgifts_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_streamgifts_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_streamgifts_present_no_effect = yes
         }
     }
 }
@@ -3094,6 +3346,64 @@ DI_ce_remove_tribalgifts_lifestyle = {
         }
         else = {
             DI_lifestyle_tribalgifts_present_no_effect = yes
+        }
+    }
+}
+
+### Add All Urgetaints Lifestyle Perks
+DI_ce_add_urgetaints_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_urgetaints_present_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_urgetaints_present_effect = yes
+        }
+    }
+}
+
+### Remove All Urgetaints Lifestyle Perks
+DI_ce_remove_urgetaints_lifestyle = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = {
+                    has_character_flag = pinned_for_edit
+                }
+                DI_lifestyle_urgetaints_present_no_effect = yes
+            }
+        }
+        else = {
+            DI_lifestyle_urgetaints_present_no_effect = yes
         }
     }
 }

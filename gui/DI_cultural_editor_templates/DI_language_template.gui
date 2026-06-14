@@ -300,17 +300,51 @@ template DI_language_template
             blockoverride "icon" {}
         }
 
-        # chaos_threnody
+        # wyrmspeak
         DI_widget_martial_pillar_item = {
             blockoverride "datacontext"
             {
-                datacontext = "[GetCulturePillar('language_chaos_threnody')]"
+                datacontext = "[GetCulturePillar('language_wyrmspeak')]"
                 datacontext = "[GetPlayer.GetCulture]"
             }
 
             blockoverride "onclick"
             {
-                onclick = "[GetScriptedGui('DI_language_chaos_threnody_sgui').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                onclick = "[GetScriptedGui('DI_language_wyrmspeak_sgui').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "highlight" {}
+            blockoverride "icon" {}
+        }
+
+        # corrupting_voice
+        DI_widget_martial_pillar_item = {
+            blockoverride "datacontext"
+            {
+                datacontext = "[GetCulturePillar('language_corrupting_voice')]"
+                datacontext = "[GetPlayer.GetCulture]"
+            }
+
+            blockoverride "onclick"
+            {
+                onclick = "[GetScriptedGui('DI_language_corrupting_voice_sgui').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "highlight" {}
+            blockoverride "icon" {}
+        }
+
+        # tainted_speech
+        DI_widget_martial_pillar_item = {
+            blockoverride "datacontext"
+            {
+                datacontext = "[GetCulturePillar('language_tainted_speech')]"
+                datacontext = "[GetPlayer.GetCulture]"
+            }
+
+            blockoverride "onclick"
+            {
+                onclick = "[GetScriptedGui('DI_language_tainted_speech_sgui').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
             }
 
             blockoverride "highlight" {}
@@ -447,6 +481,23 @@ template DI_language_template
             blockoverride "onclick"
             {
                 onclick = "[GetScriptedGui('DI_language_austronesian_sgui').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "highlight" {}
+            blockoverride "icon" {}
+        }
+
+        # carthaginian
+        DI_widget_martial_pillar_item = {
+            blockoverride "datacontext"
+            {
+                datacontext = "[GetCulturePillar('language_carthaginian')]"
+                datacontext = "[GetPlayer.GetCulture]"
+            }
+
+            blockoverride "onclick"
+            {
+                onclick = "[GetScriptedGui('DI_language_carthaginian_sgui').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
             }
 
             blockoverride "highlight" {}

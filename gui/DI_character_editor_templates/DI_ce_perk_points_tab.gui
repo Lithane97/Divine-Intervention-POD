@@ -119,6 +119,13 @@
                             onrightclick = "[GetScriptedGui('DI_remove_faith_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                         }
 
+                        # Fleshcrafting
+                        DI_perk_point_button = {
+                            datacontext = "[GetLifestyle('fleshcrafting_lifestyle')]"
+                            onclick = "[GetScriptedGui('DI_add_fleshcrafting_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                            onrightclick = "[GetScriptedGui('DI_remove_fleshcrafting_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                        }
+
                         # Hekau Alchemy
                         DI_perk_point_button = {
                             datacontext = "[GetLifestyle('hekau_alchemy_lifestyle')]"
@@ -238,6 +245,13 @@
                             onrightclick = "[GetScriptedGui('DI_remove_misc_arcanoi_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                         }
 
+                        # Mnesis
+                        DI_perk_point_button = {
+                            datacontext = "[GetLifestyle('mnesis_lifestyle')]"
+                            onclick = "[GetScriptedGui('DI_add_mnesis_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                            onrightclick = "[GetScriptedGui('DI_remove_mnesis_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                        }
+
                         # Necro Magic
                         DI_perk_point_button = {
                             datacontext = "[GetLifestyle('necro_magic_lifestyle')]"
@@ -315,6 +329,13 @@
                             onrightclick = "[GetScriptedGui('DI_remove_slivers_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                         }
 
+                        # Solar Auspicegifts
+                        DI_perk_point_button = {
+                            datacontext = "[GetLifestyle('solar_auspicegifts_lifestyle')]"
+                            onclick = "[GetScriptedGui('DI_add_solar_auspicegifts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                            onrightclick = "[GetScriptedGui('DI_remove_solar_auspicegifts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                        }
+
                         # Sorcery
                         DI_perk_point_button = {
                             datacontext = "[GetLifestyle('sorcery_lifestyle')]"
@@ -334,6 +355,13 @@
                             datacontext = "[GetLifestyle('stewardship_lifestyle')]"
                             onclick = "[GetScriptedGui('DI_add_stewardship_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                             onrightclick = "[GetScriptedGui('DI_remove_stewardship_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                        }
+
+                        # Streamgifts
+                        DI_perk_point_button = {
+                            datacontext = "[GetLifestyle('streamgifts_lifestyle')]"
+                            onclick = "[GetScriptedGui('DI_add_streamgifts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                            onrightclick = "[GetScriptedGui('DI_remove_streamgifts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                         }
 
                         # Tan
@@ -362,6 +390,13 @@
                             datacontext = "[GetLifestyle('tribalgifts_lifestyle')]"
                             onclick = "[GetScriptedGui('DI_add_tribalgifts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                             onrightclick = "[GetScriptedGui('DI_remove_tribalgifts_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                        }
+
+                        # Urgetaints
+                        DI_perk_point_button = {
+                            datacontext = "[GetLifestyle('urgetaints_lifestyle')]"
+                            onclick = "[GetScriptedGui('DI_add_urgetaints_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                            onrightclick = "[GetScriptedGui('DI_remove_urgetaints_pp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                         }
 
                         # Wanderer
