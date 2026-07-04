@@ -4,4 +4,5 @@ tags={
 }
 name="Divine Intervention POD"
 supported_version="1.19.0.6"
+path="C:/Users/YOUR_USER/Documents/Paradox Interactive/Crusader Kings III/mod/Divine Intervention POD"
 remote_file_id="3022680980"

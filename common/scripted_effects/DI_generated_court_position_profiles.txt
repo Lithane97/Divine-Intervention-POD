@@ -321,6 +321,10 @@ DI_apply_court_position_profile_effect = {
             }
             add_to_variable_list = {
                 name = DI_cs_trait_list
+                target = trait:assamite
+            }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
                 target = trait:diligent
             }
         }
@@ -687,6 +691,10 @@ DI_apply_court_position_profile_effect = {
             }
             add_to_variable_list = {
                 name = DI_cs_trait_list
+                target = trait:education_learning_5
+            }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
                 target = trait:generous
             }
             add_to_variable_list = {
@@ -797,6 +805,10 @@ DI_apply_court_position_profile_effect = {
             }
             add_to_variable_list = {
                 name = DI_cs_trait_list
+                target = trait:drunkard
+            }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
                 target = trait:humble
             }
             add_to_variable_list = {
@@ -858,6 +870,10 @@ DI_apply_court_position_profile_effect = {
             add_to_variable_list = {
                 name = DI_cs_trait_list
                 target = trait:intellect_good_3
+            }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
+                target = trait:lifestyle_mystic
             }
             add_to_variable_list = {
                 name = DI_cs_trait_list
@@ -1066,6 +1082,10 @@ DI_apply_court_position_profile_effect = {
             add_to_variable_list = {
                 name = DI_cs_trait_list
                 target = trait:lifestyle_blademaster
+            }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
+                target = trait:mokole
             }
             add_to_variable_list = {
                 name = DI_cs_trait_list
@@ -1451,6 +1471,10 @@ DI_apply_court_position_profile_effect = {
             }
             add_to_variable_list = {
                 name = DI_cs_trait_list
+                target = trait:gangrel
+            }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
                 target = trait:lifestyle_blademaster
             }
             add_to_variable_list = {
@@ -1474,6 +1498,10 @@ DI_apply_court_position_profile_effect = {
             add_to_variable_list = {
                 name = DI_cs_trait_list
                 target = trait:callous
+            }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
+                target = trait:gargoyle
             }
             add_to_variable_list = {
                 name = DI_cs_trait_list
@@ -1786,6 +1814,10 @@ DI_apply_court_position_profile_effect = {
             add_to_variable_list = {
                 name = DI_cs_trait_list
                 target = trait:lifestyle_mystic
+            }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
+                target = trait:mokole
             }
             add_to_variable_list = {
                 name = DI_cs_trait_list
@@ -2235,6 +2267,10 @@ DI_apply_court_position_profile_effect = {
             }
             add_to_variable_list = {
                 name = DI_cs_trait_list
+                target = trait:lasombra
+            }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
                 target = trait:schemer
             }
             add_to_variable_list = {
@@ -2280,6 +2316,10 @@ DI_apply_court_position_profile_effect = {
             add_to_variable_list = {
                 name = DI_cs_trait_list
                 target = trait:diligent
+            }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
+                target = trait:ventrue
             }
         }
         court_position_type:light_cavalry_captain_camp_officer = {
@@ -2361,6 +2401,10 @@ DI_apply_court_position_profile_effect = {
                 name = DI_cs_trait_list
                 target = trait:diligent
             }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
+                target = trait:ghoul
+            }
         }
         court_position_type:malkavian_primogen_court_position = {
             set_variable = {
@@ -2390,6 +2434,10 @@ DI_apply_court_position_profile_effect = {
             add_to_variable_list = {
                 name = DI_cs_trait_list
                 target = trait:lifestyle_mystic
+            }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
+                target = trait:malkavian
             }
         }
         court_position_type:master_assassin_court_position = {
@@ -2472,6 +2520,10 @@ DI_apply_court_position_profile_effect = {
             add_to_variable_list = {
                 name = DI_cs_trait_list
                 target = trait:shieldmaiden
+            }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
+                target = trait:werewolf
             }
         }
         court_position_type:master_of_arms_camp_officer = {
@@ -3145,6 +3197,10 @@ DI_apply_court_position_profile_effect = {
             }
             add_to_variable_list = {
                 name = DI_cs_trait_list
+                target = trait:salubri
+            }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
                 target = trait:scholar
             }
             add_to_variable_list = {
@@ -3499,6 +3555,10 @@ DI_apply_court_position_profile_effect = {
             }
             add_to_variable_list = {
                 name = DI_cs_trait_list
+                target = trait:setite
+            }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
                 target = trait:zealous
             }
         }
@@ -3522,6 +3582,10 @@ DI_apply_court_position_profile_effect = {
             add_to_variable_list = {
                 name = DI_cs_trait_list
                 target = trait:diligent
+            }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
+                target = trait:military_engineer
             }
             add_to_variable_list = {
                 name = DI_cs_trait_list
@@ -3621,6 +3685,10 @@ DI_apply_court_position_profile_effect = {
                 name = DI_cs_trait_list
                 target = trait:just
             }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
+                target = trait:ventrue
+            }
         }
         court_position_type:sun_herald_court_position = {
             set_variable = {
@@ -3654,6 +3722,10 @@ DI_apply_court_position_profile_effect = {
             add_to_variable_list = {
                 name = DI_cs_trait_list
                 target = trait:midnight_sun
+            }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
+                target = trait:mokole
             }
             add_to_variable_list = {
                 name = DI_cs_trait_list
@@ -3710,6 +3782,10 @@ DI_apply_court_position_profile_effect = {
             add_to_variable_list = {
                 name = DI_cs_trait_list
                 target = trait:lifestyle_poet
+            }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
+                target = trait:toreador
             }
         }
         court_position_type:touchstones_court_position = {
@@ -3835,6 +3911,10 @@ DI_apply_court_position_profile_effect = {
                 name = DI_cs_trait_list
                 target = trait:diligent
             }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
+                target = trait:ventrue
+            }
         }
         court_position_type:trod_wayfarer_court_position = {
             set_variable = {
@@ -3922,6 +4002,10 @@ DI_apply_court_position_profile_effect = {
             add_to_variable_list = {
                 name = DI_cs_trait_list
                 target = trait:just
+            }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
+                target = trait:wraith
             }
         }
         court_position_type:ventrue_primogen_court_position = {
@@ -4101,6 +4185,10 @@ DI_apply_court_position_profile_effect = {
             }
             add_to_variable_list = {
                 name = DI_cs_trait_list
+                target = trait:werewolf
+            }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
                 target = trait:wrathful
             }
         }
@@ -4169,6 +4257,10 @@ DI_apply_court_position_profile_effect = {
                 name = DI_cs_trait_list
                 target = trait:just
             }
+            add_to_variable_list = {
+                name = DI_cs_trait_list
+                target = trait:wraith
+            }
         }
         court_position_type:yurtchi_court_position = {
             set_variable = {
@@ -4194,6 +4286,1734 @@ DI_apply_court_position_profile_effect = {
             add_to_variable_list = {
                 name = DI_cs_trait_list
                 target = trait:overseer
+            }
+        }
+        fallback = { }
+    }
+}
+
+DI_apply_court_position_validity_effect = {
+    switch = {
+        trigger = $COURT_POSITION$
+        court_position_type:akolouthos_court_position = {
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            culture = culture:anglo_saxon
+                            culture = culture:danish
+                            culture = culture:english
+                            culture = culture:norse
+                            culture = culture:norwegian
+                            culture = culture:old_saxon
+                            culture = culture:scottish
+                            culture = culture:swedish
+                        }
+                    }
+                }
+                random_list = {
+                    1 = { set_culture = culture:anglo_saxon }
+                    1 = { set_culture = culture:danish }
+                    1 = { set_culture = culture:english }
+                    1 = { set_culture = culture:norse }
+                    1 = { set_culture = culture:norwegian }
+                    1 = { set_culture = culture:old_saxon }
+                    1 = { set_culture = culture:scottish }
+                    1 = { set_culture = culture:swedish }
+                }
+            }
+        }
+        court_position_type:alastor_court_position = {
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            faith = faith:camahumanity
+                        }
+                    }
+                }
+                random_list = {
+                    1 = { set_character_faith = faith:camahumanity }
+                }
+            }
+        }
+        court_position_type:armorer_camp_officer = {
+            random_list = {
+                1 = {
+                    add_trait = wrathful
+                }
+                1 = {
+                    add_trait = gregarious
+                }
+                1 = {
+                    add_trait = humble
+                }
+                1 = {
+                    add_trait = diligent
+                }
+            }
+        }
+        court_position_type:ashirra_imam_court_position = {
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            faith = faith:sheperdsofislam
+                            faith = faith:tariqelalaam
+                            faith = faith:tariqelatham
+                            faith = faith:tariqelbedouin
+                            faith = faith:tariqelharb
+                            faith = faith:tariqelsama
+                            faith = faith:tariqelumma
+                        }
+                    }
+                }
+                random_list = {
+                    1 = { set_character_faith = faith:sheperdsofislam }
+                    1 = { set_character_faith = faith:tariqelalaam }
+                    1 = { set_character_faith = faith:tariqelatham }
+                    1 = { set_character_faith = faith:tariqelbedouin }
+                    1 = { set_character_faith = faith:tariqelharb }
+                    1 = { set_character_faith = faith:tariqelsama }
+                    1 = { set_character_faith = faith:tariqelumma }
+                }
+            }
+        }
+        court_position_type:ashirra_mullah_court_position = {
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            faith = faith:sheperdsofislam
+                            faith = faith:tariqelalaam
+                            faith = faith:tariqelatham
+                            faith = faith:tariqelbedouin
+                            faith = faith:tariqelharb
+                            faith = faith:tariqelsama
+                            faith = faith:tariqelumma
+                        }
+                    }
+                }
+                random_list = {
+                    1 = { set_character_faith = faith:sheperdsofislam }
+                    1 = { set_character_faith = faith:tariqelalaam }
+                    1 = { set_character_faith = faith:tariqelatham }
+                    1 = { set_character_faith = faith:tariqelbedouin }
+                    1 = { set_character_faith = faith:tariqelharb }
+                    1 = { set_character_faith = faith:tariqelsama }
+                    1 = { set_character_faith = faith:tariqelumma }
+                }
+            }
+        }
+        court_position_type:ashirra_qadi_court_position = {
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            faith = faith:sheperdsofislam
+                            faith = faith:tariqelalaam
+                            faith = faith:tariqelatham
+                            faith = faith:tariqelbedouin
+                            faith = faith:tariqelharb
+                            faith = faith:tariqelsama
+                            faith = faith:tariqelumma
+                        }
+                    }
+                }
+                random_list = {
+                    1 = { set_character_faith = faith:sheperdsofislam }
+                    1 = { set_character_faith = faith:tariqelalaam }
+                    1 = { set_character_faith = faith:tariqelatham }
+                    1 = { set_character_faith = faith:tariqelbedouin }
+                    1 = { set_character_faith = faith:tariqelharb }
+                    1 = { set_character_faith = faith:tariqelsama }
+                    1 = { set_character_faith = faith:tariqelumma }
+                }
+            }
+        }
+        court_position_type:ashirra_ulama_court_position = {
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            faith = faith:sheperdsofislam
+                            faith = faith:tariqelalaam
+                            faith = faith:tariqelatham
+                            faith = faith:tariqelbedouin
+                            faith = faith:tariqelharb
+                            faith = faith:tariqelsama
+                            faith = faith:tariqelumma
+                        }
+                    }
+                }
+                random_list = {
+                    1 = { set_character_faith = faith:sheperdsofislam }
+                    1 = { set_character_faith = faith:tariqelalaam }
+                    1 = { set_character_faith = faith:tariqelatham }
+                    1 = { set_character_faith = faith:tariqelbedouin }
+                    1 = { set_character_faith = faith:tariqelharb }
+                    1 = { set_character_faith = faith:tariqelsama }
+                    1 = { set_character_faith = faith:tariqelumma }
+                }
+            }
+        }
+        court_position_type:bodyguard_court_position = {
+            remove_trait = blind
+            remove_trait = infirm
+        }
+        court_position_type:brujah_primogen_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = brujah
+                }
+                1 = {
+                    add_trait = truebrujah
+                }
+            }
+        }
+        court_position_type:brujah_warmaster_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = brujah
+                }
+                1 = {
+                    add_trait = truebrujah
+                }
+            }
+        }
+        court_position_type:camp_cook_camp_officer = {
+            random_list = {
+                1 = {
+                    add_trait = gluttonous
+                }
+                1 = {
+                    add_trait = humble
+                }
+                1 = {
+                    add_trait = diligent
+                }
+            }
+        }
+        court_position_type:camp_priest_camp_officer = {
+            random_list = {
+                1 = {
+                    add_trait = zealous
+                }
+                1 = {
+                    add_trait = gregarious
+                }
+                1 = {
+                    add_trait = compassionate
+                }
+                1 = {
+                    add_trait = diligent
+                }
+                1 = {
+                    add_trait = pilgrim
+                }
+                1 = {
+                    add_trait = holy_warrior
+                }
+                1 = {
+                    add_trait = faith_warrior
+                }
+            }
+            set_character_faith = scope:target.faith
+        }
+        court_position_type:cappadocian_primogen_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = cappadocian
+                }
+                1 = {
+                    add_trait = giovanni
+                }
+            }
+        }
+        court_position_type:champion_court_position = {
+            remove_trait = blind
+            remove_trait = infirm
+        }
+        court_position_type:chief_engineer_camp_officer = {
+            random_list = {
+                1 = {
+                    add_trait = patient
+                }
+                1 = {
+                    add_trait = stubborn
+                }
+                1 = {
+                    add_trait = eccentric
+                }
+                1 = {
+                    add_trait = diligent
+                }
+                1 = {
+                    add_trait = military_engineer
+                }
+                1 = {
+                    add_trait = logistician
+                }
+            }
+        }
+        court_position_type:chief_eunuch_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = eunuch_1
+                }
+                1 = {
+                    add_trait = beardless_eunuch
+                }
+            }
+        }
+        court_position_type:chief_forager_camp_officer = {
+            random_list = {
+                1 = {
+                    add_trait = humble
+                }
+                1 = {
+                    add_trait = eccentric
+                }
+                1 = {
+                    add_trait = deceitful
+                }
+                1 = {
+                    add_trait = diligent
+                }
+                1 = {
+                    add_trait = lifestyle_mystic
+                }
+                1 = {
+                    add_trait = lifestyle_gardener
+                }
+                1 = {
+                    add_trait = lifestyle_herbalist
+                }
+                1 = {
+                    add_trait = lifestyle_physician
+                }
+                1 = {
+                    add_trait = scholar
+                }
+            }
+        }
+        court_position_type:chief_qadi_court_position = {
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            faith = faith:alawite
+                            faith = faith:alevi
+                            faith = faith:ashari
+                            faith = faith:azariqa
+                            faith = faith:druze
+                            faith = faith:ghulat
+                            faith = faith:hafizi
+                            faith = faith:ibadi
+                            faith = faith:imami
+                            faith = faith:ismaili
+                            faith = faith:masmudi
+                            faith = faith:maturidi
+                            faith = faith:mutazila
+                            faith = faith:muwalladi
+                            faith = faith:najdat
+                            faith = faith:nizari
+                            faith = faith:qarmatian
+                            faith = faith:quranist
+                            faith = faith:sheperdsofislam
+                            faith = faith:sufri
+                            faith = faith:tariqelalaam
+                            faith = faith:tariqelatham
+                            faith = faith:tariqelbedouin
+                            faith = faith:tariqelharb
+                            faith = faith:tariqelsama
+                            faith = faith:tariqelumma
+                            faith = faith:zayidi
+                        }
+                    }
+                }
+                random_list = {
+                    1 = { set_character_faith = faith:alawite }
+                    1 = { set_character_faith = faith:alevi }
+                    1 = { set_character_faith = faith:ashari }
+                    1 = { set_character_faith = faith:azariqa }
+                    1 = { set_character_faith = faith:druze }
+                    1 = { set_character_faith = faith:ghulat }
+                    1 = { set_character_faith = faith:hafizi }
+                    1 = { set_character_faith = faith:ibadi }
+                    1 = { set_character_faith = faith:imami }
+                    1 = { set_character_faith = faith:ismaili }
+                    1 = { set_character_faith = faith:masmudi }
+                    1 = { set_character_faith = faith:maturidi }
+                    1 = { set_character_faith = faith:mutazila }
+                    1 = { set_character_faith = faith:muwalladi }
+                    1 = { set_character_faith = faith:najdat }
+                    1 = { set_character_faith = faith:nizari }
+                    1 = { set_character_faith = faith:qarmatian }
+                    1 = { set_character_faith = faith:quranist }
+                    1 = { set_character_faith = faith:sheperdsofislam }
+                    1 = { set_character_faith = faith:sufri }
+                    1 = { set_character_faith = faith:tariqelalaam }
+                    1 = { set_character_faith = faith:tariqelatham }
+                    1 = { set_character_faith = faith:tariqelbedouin }
+                    1 = { set_character_faith = faith:tariqelharb }
+                    1 = { set_character_faith = faith:tariqelsama }
+                    1 = { set_character_faith = faith:tariqelumma }
+                    1 = { set_character_faith = faith:zayidi }
+                }
+            }
+        }
+        court_position_type:court_astrologer_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = nomadic_philosophy
+                }
+                1 = {
+                    add_trait = lifestyle_mystic
+                }
+            }
+        }
+        court_position_type:court_brahmin_court_position = {
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            faith = faith:acharya
+                            faith = faith:advaitism
+                            faith = faith:ari
+                            faith = faith:avatamsaka
+                            faith = faith:dhyana
+                            faith = faith:kalikula_shaktism
+                            faith = faith:krishnaism
+                            faith = faith:lamaism
+                            faith = faith:mahayana
+                            faith = faith:maitreya
+                            faith = faith:mantrayana
+                            faith = faith:pundarika
+                            faith = faith:saura
+                            faith = faith:shaivism
+                            faith = faith:smartism
+                            faith = faith:srikula_shaktism
+                            faith = faith:sukhavati
+                            faith = faith:theravada
+                            faith = faith:vaishnavism
+                            faith = faith:vajrayana
+                            faith = faith:vinaya
+                            faith = faith:yogacara
+                        }
+                    }
+                }
+                random_list = {
+                    1 = { set_character_faith = faith:acharya }
+                    1 = { set_character_faith = faith:advaitism }
+                    1 = { set_character_faith = faith:ari }
+                    1 = { set_character_faith = faith:avatamsaka }
+                    1 = { set_character_faith = faith:dhyana }
+                    1 = { set_character_faith = faith:kalikula_shaktism }
+                    1 = { set_character_faith = faith:krishnaism }
+                    1 = { set_character_faith = faith:lamaism }
+                    1 = { set_character_faith = faith:mahayana }
+                    1 = { set_character_faith = faith:maitreya }
+                    1 = { set_character_faith = faith:mantrayana }
+                    1 = { set_character_faith = faith:pundarika }
+                    1 = { set_character_faith = faith:saura }
+                    1 = { set_character_faith = faith:shaivism }
+                    1 = { set_character_faith = faith:smartism }
+                    1 = { set_character_faith = faith:srikula_shaktism }
+                    1 = { set_character_faith = faith:sukhavati }
+                    1 = { set_character_faith = faith:theravada }
+                    1 = { set_character_faith = faith:vaishnavism }
+                    1 = { set_character_faith = faith:vajrayana }
+                    1 = { set_character_faith = faith:vinaya }
+                    1 = { set_character_faith = faith:yogacara }
+                }
+            }
+        }
+        court_position_type:court_brewmaster_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = lifestyle_reveler
+                }
+                1 = {
+                    add_trait = diligent
+                }
+                1 = {
+                    add_trait = patient
+                }
+            }
+            if = {
+                limit = { age < 16 }
+                set_age = 16
+            }
+        }
+        court_position_type:court_guru_court_position = {
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            faith = faith:acharya
+                            faith = faith:advaitism
+                            faith = faith:ari
+                            faith = faith:avatamsaka
+                            faith = faith:dhyana
+                            faith = faith:kalikula_shaktism
+                            faith = faith:krishnaism
+                            faith = faith:lamaism
+                            faith = faith:mahayana
+                            faith = faith:maitreya
+                            faith = faith:mantrayana
+                            faith = faith:pundarika
+                            faith = faith:saura
+                            faith = faith:shaivism
+                            faith = faith:smartism
+                            faith = faith:srikula_shaktism
+                            faith = faith:sukhavati
+                            faith = faith:theravada
+                            faith = faith:vaishnavism
+                            faith = faith:vajrayana
+                            faith = faith:vinaya
+                            faith = faith:yogacara
+                        }
+                    }
+                }
+                random_list = {
+                    1 = { set_character_faith = faith:acharya }
+                    1 = { set_character_faith = faith:advaitism }
+                    1 = { set_character_faith = faith:ari }
+                    1 = { set_character_faith = faith:avatamsaka }
+                    1 = { set_character_faith = faith:dhyana }
+                    1 = { set_character_faith = faith:kalikula_shaktism }
+                    1 = { set_character_faith = faith:krishnaism }
+                    1 = { set_character_faith = faith:lamaism }
+                    1 = { set_character_faith = faith:mahayana }
+                    1 = { set_character_faith = faith:maitreya }
+                    1 = { set_character_faith = faith:mantrayana }
+                    1 = { set_character_faith = faith:pundarika }
+                    1 = { set_character_faith = faith:saura }
+                    1 = { set_character_faith = faith:shaivism }
+                    1 = { set_character_faith = faith:smartism }
+                    1 = { set_character_faith = faith:srikula_shaktism }
+                    1 = { set_character_faith = faith:sukhavati }
+                    1 = { set_character_faith = faith:theravada }
+                    1 = { set_character_faith = faith:vaishnavism }
+                    1 = { set_character_faith = faith:vajrayana }
+                    1 = { set_character_faith = faith:vinaya }
+                    1 = { set_character_faith = faith:yogacara }
+                }
+            }
+        }
+        court_position_type:court_scholar_court_position = {
+            if = {
+                limit = { age < 16 }
+                set_age = 16
+            }
+        }
+        court_position_type:dogcatcher_court_position = {
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            faith = faith:camahumanity
+                        }
+                    }
+                }
+                random_list = {
+                    1 = { set_character_faith = faith:camahumanity }
+                }
+            }
+        }
+        court_position_type:doppelganger_court_position = {
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            faith = faith:camahumanity
+                        }
+                    }
+                }
+                random_list = {
+                    1 = { set_character_faith = faith:camahumanity }
+                }
+            }
+        }
+        court_position_type:eparch_court_position = {
+            remove_trait = beardless_eunuch
+            remove_trait = eunuch_1
+        }
+        court_position_type:executioner_court_position = {
+            if = {
+                limit = { age < 16 }
+                set_age = 16
+            }
+        }
+        court_position_type:fell_knight_court_position = {
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            faith = faith:avarice
+                            faith = faith:envy
+                            faith = faith:gluttony
+                            faith = faith:lust
+                            faith = faith:pride
+                            faith = faith:sloth
+                            faith = faith:wrath
+                        }
+                    }
+                }
+                random_list = {
+                    1 = { set_character_faith = faith:avarice }
+                    1 = { set_character_faith = faith:envy }
+                    1 = { set_character_faith = faith:gluttony }
+                    1 = { set_character_faith = faith:lust }
+                    1 = { set_character_faith = faith:pride }
+                    1 = { set_character_faith = faith:sloth }
+                    1 = { set_character_faith = faith:wrath }
+                }
+            }
+        }
+        court_position_type:first_oni_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = kueijin
+                }
+                1 = {
+                    add_trait = dhampyr
+                }
+                1 = {
+                    add_trait = hun_and_po
+                }
+            }
+        }
+        court_position_type:garuda_court_position = {
+            set_knight_status = force
+        }
+        court_position_type:gatekeeper_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = werewolf
+                }
+                1 = {
+                    add_trait = kinfolk
+                }
+            }
+        }
+        court_position_type:guardian_yava_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = bastet
+                }
+                1 = {
+                    add_trait = kinfolk
+                }
+            }
+        }
+        court_position_type:hanshii_arbiter_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = bastet
+                }
+                1 = {
+                    add_trait = kinfolk
+                }
+            }
+        }
+        court_position_type:head_groom_camp_officer = {
+            random_list = {
+                1 = {
+                    add_trait = patient
+                }
+                1 = {
+                    add_trait = calm
+                }
+                1 = {
+                    add_trait = diligent
+                }
+            }
+        }
+        court_position_type:head_porter_camp_officer = {
+            random_list = {
+                1 = {
+                    add_trait = humble
+                }
+                1 = {
+                    add_trait = content
+                }
+                1 = {
+                    add_trait = diligent
+                }
+                1 = {
+                    add_trait = athletic
+                }
+            }
+        }
+        court_position_type:hidden_minister_of_hushed_lanterns_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = kueijin
+                }
+                1 = {
+                    add_trait = dhampyr
+                }
+                1 = {
+                    add_trait = hun_and_po
+                }
+            }
+        }
+        court_position_type:hidden_minister_of_jade_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = kueijin
+                }
+                1 = {
+                    add_trait = dhampyr
+                }
+                1 = {
+                    add_trait = hun_and_po
+                }
+            }
+        }
+        court_position_type:hidden_minister_of_rites_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = kueijin
+                }
+                1 = {
+                    add_trait = dhampyr
+                }
+                1 = {
+                    add_trait = hun_and_po
+                }
+            }
+        }
+        court_position_type:hidden_minister_of_shen_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = kueijin
+                }
+                1 = {
+                    add_trait = dhampyr
+                }
+                1 = {
+                    add_trait = hun_and_po
+                }
+            }
+        }
+        court_position_type:hidden_minister_of_the_garden_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = kueijin
+                }
+                1 = {
+                    add_trait = dhampyr
+                }
+                1 = {
+                    add_trait = hun_and_po
+                }
+            }
+        }
+        court_position_type:hidden_minister_of_war_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = kueijin
+                }
+                1 = {
+                    add_trait = dhampyr
+                }
+                1 = {
+                    add_trait = hun_and_po
+                }
+            }
+        }
+        court_position_type:huntperson_camp_officer = {
+            random_list = {
+                1 = {
+                    add_trait = patient
+                }
+                1 = {
+                    add_trait = callous
+                }
+                1 = {
+                    add_trait = brave
+                }
+                1 = {
+                    add_trait = diligent
+                }
+                1 = {
+                    add_trait = lifestyle_hunter
+                }
+                1 = {
+                    add_trait = athletic
+                }
+            }
+        }
+        court_position_type:imperial_chancellor_court_position = {
+            remove_trait = mortal
+        }
+        court_position_type:imperial_envoy_court_position = {
+            remove_trait = mortal
+        }
+        court_position_type:imperial_minister_court_position = {
+            remove_trait = mortal
+        }
+        court_position_type:infant_devil_civilizer_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = kueijin
+                }
+                1 = {
+                    add_trait = dhampyr
+                }
+                1 = {
+                    add_trait = hun_and_po
+                }
+            }
+        }
+        court_position_type:josian_court_position = {
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            faith = faith:camahumanity
+                        }
+                    }
+                }
+                random_list = {
+                    1 = { set_character_faith = faith:camahumanity }
+                }
+            }
+        }
+        court_position_type:kennelperson_camp_officer = {
+            random_list = {
+                1 = {
+                    add_trait = gregarious
+                }
+                1 = {
+                    add_trait = stubborn
+                }
+                1 = {
+                    add_trait = diligent
+                }
+            }
+        }
+        court_position_type:laureate_camp_officer = {
+            random_list = {
+                1 = {
+                    add_trait = gregarious
+                }
+                1 = {
+                    add_trait = arrogant
+                }
+                1 = {
+                    add_trait = fickle
+                }
+                1 = {
+                    add_trait = lifestyle_poet
+                }
+                1 = {
+                    add_trait = lifestyle_reveler
+                }
+            }
+        }
+        court_position_type:master_bard_camp_officer = {
+            random_list = {
+                1 = {
+                    add_trait = gregarious
+                }
+                1 = {
+                    add_trait = arrogant
+                }
+                1 = {
+                    add_trait = deceitful
+                }
+                1 = {
+                    add_trait = diligent
+                }
+                1 = {
+                    add_trait = lifestyle_poet
+                }
+                1 = {
+                    add_trait = drunkard
+                }
+            }
+        }
+        court_position_type:master_of_arms_camp_officer = {
+            random_list = {
+                1 = {
+                    add_trait = brave
+                }
+                1 = {
+                    add_trait = stubborn
+                }
+                1 = {
+                    add_trait = callous
+                }
+                1 = {
+                    add_trait = diligent
+                }
+                1 = {
+                    add_trait = aggressive_attacker
+                }
+                1 = {
+                    add_trait = unyielding_defender
+                }
+                1 = {
+                    add_trait = organizer
+                }
+            }
+        }
+        court_position_type:master_of_hunt_court_position = {
+            remove_trait = blind
+            remove_trait = infirm
+        }
+        court_position_type:master_of_spoils_camp_officer = {
+            random_list = {
+                1 = {
+                    add_trait = greedy
+                }
+                1 = {
+                    add_trait = stubborn
+                }
+                1 = {
+                    add_trait = just
+                }
+                1 = {
+                    add_trait = diligent
+                }
+            }
+        }
+        court_position_type:master_rite_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = werewolf
+                }
+                1 = {
+                    add_trait = kinfolk
+                }
+            }
+        }
+        court_position_type:master_taghairm_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = bastet
+                }
+                1 = {
+                    add_trait = kinfolk
+                }
+            }
+        }
+        court_position_type:master_thief_camp_officer = {
+            random_list = {
+                1 = {
+                    add_trait = craven
+                }
+                1 = {
+                    add_trait = deceitful
+                }
+                1 = {
+                    add_trait = arbitrary
+                }
+                1 = {
+                    add_trait = diligent
+                }
+            }
+        }
+        court_position_type:minister_aurochs_court_position = {
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            faith = faith:avarice
+                            faith = faith:envy
+                            faith = faith:gluttony
+                            faith = faith:lust
+                            faith = faith:pride
+                            faith = faith:sloth
+                            faith = faith:wrath
+                        }
+                    }
+                }
+                random_list = {
+                    1 = { set_character_faith = faith:avarice }
+                    1 = { set_character_faith = faith:envy }
+                    1 = { set_character_faith = faith:gluttony }
+                    1 = { set_character_faith = faith:lust }
+                    1 = { set_character_faith = faith:pride }
+                    1 = { set_character_faith = faith:sloth }
+                    1 = { set_character_faith = faith:wrath }
+                }
+            }
+        }
+        court_position_type:minister_dragons_court_position = {
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            faith = faith:avarice
+                            faith = faith:envy
+                            faith = faith:gluttony
+                            faith = faith:lust
+                            faith = faith:pride
+                            faith = faith:sloth
+                            faith = faith:wrath
+                        }
+                    }
+                }
+                random_list = {
+                    1 = { set_character_faith = faith:avarice }
+                    1 = { set_character_faith = faith:envy }
+                    1 = { set_character_faith = faith:gluttony }
+                    1 = { set_character_faith = faith:lust }
+                    1 = { set_character_faith = faith:pride }
+                    1 = { set_character_faith = faith:sloth }
+                    1 = { set_character_faith = faith:wrath }
+                }
+            }
+        }
+        court_position_type:minister_dust_court_position = {
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            faith = faith:avarice
+                            faith = faith:envy
+                            faith = faith:gluttony
+                            faith = faith:lust
+                            faith = faith:pride
+                            faith = faith:sloth
+                            faith = faith:wrath
+                        }
+                    }
+                }
+                random_list = {
+                    1 = { set_character_faith = faith:avarice }
+                    1 = { set_character_faith = faith:envy }
+                    1 = { set_character_faith = faith:gluttony }
+                    1 = { set_character_faith = faith:lust }
+                    1 = { set_character_faith = faith:pride }
+                    1 = { set_character_faith = faith:sloth }
+                    1 = { set_character_faith = faith:wrath }
+                }
+            }
+        }
+        court_position_type:minister_eagles_court_position = {
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            faith = faith:avarice
+                            faith = faith:envy
+                            faith = faith:gluttony
+                            faith = faith:lust
+                            faith = faith:pride
+                            faith = faith:sloth
+                            faith = faith:wrath
+                        }
+                    }
+                }
+                random_list = {
+                    1 = { set_character_faith = faith:avarice }
+                    1 = { set_character_faith = faith:envy }
+                    1 = { set_character_faith = faith:gluttony }
+                    1 = { set_character_faith = faith:lust }
+                    1 = { set_character_faith = faith:pride }
+                    1 = { set_character_faith = faith:sloth }
+                    1 = { set_character_faith = faith:wrath }
+                }
+            }
+        }
+        court_position_type:minister_of_jade_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = kueijin
+                }
+                1 = {
+                    add_trait = dhampyr
+                }
+                1 = {
+                    add_trait = hun_and_po
+                }
+            }
+        }
+        court_position_type:minister_of_rites_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = kueijin
+                }
+                1 = {
+                    add_trait = dhampyr
+                }
+                1 = {
+                    add_trait = hun_and_po
+                }
+            }
+        }
+        court_position_type:minister_of_shen_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = kueijin
+                }
+                1 = {
+                    add_trait = dhampyr
+                }
+                1 = {
+                    add_trait = hun_and_po
+                }
+            }
+        }
+        court_position_type:minister_of_the_garden_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = kueijin
+                }
+                1 = {
+                    add_trait = dhampyr
+                }
+                1 = {
+                    add_trait = hun_and_po
+                }
+            }
+        }
+        court_position_type:minister_of_war_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = kueijin
+                }
+                1 = {
+                    add_trait = dhampyr
+                }
+                1 = {
+                    add_trait = hun_and_po
+                }
+            }
+        }
+        court_position_type:minister_swords_court_position = {
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            faith = faith:avarice
+                            faith = faith:envy
+                            faith = faith:gluttony
+                            faith = faith:lust
+                            faith = faith:pride
+                            faith = faith:sloth
+                            faith = faith:wrath
+                        }
+                    }
+                }
+                random_list = {
+                    1 = { set_character_faith = faith:avarice }
+                    1 = { set_character_faith = faith:envy }
+                    1 = { set_character_faith = faith:gluttony }
+                    1 = { set_character_faith = faith:lust }
+                    1 = { set_character_faith = faith:pride }
+                    1 = { set_character_faith = faith:sloth }
+                    1 = { set_character_faith = faith:wrath }
+                }
+            }
+        }
+        court_position_type:nosferatu_primogen_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = nosferatu
+                }
+                1 = {
+                    add_trait = kuntilanak
+                }
+            }
+        }
+        court_position_type:oathsworn_mount_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = pooka
+                }
+                1 = {
+                    add_trait = werewolf
+                }
+            }
+        }
+        court_position_type:person_haggler_camp_officer = {
+            random_list = {
+                1 = {
+                    add_trait = callous
+                }
+                1 = {
+                    add_trait = sadistic
+                }
+                1 = {
+                    add_trait = greedy
+                }
+                1 = {
+                    add_trait = diligent
+                }
+            }
+        }
+        court_position_type:praetor_court_position = {
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            faith = faith:camahumanity
+                        }
+                    }
+                }
+                random_list = {
+                    1 = { set_character_faith = faith:camahumanity }
+                }
+            }
+        }
+        court_position_type:quaesitor_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = bloodsorcery
+                }
+                1 = {
+                    add_trait = bloodsorceryadvanced
+                }
+            }
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            faith = faith:camahumanity
+                        }
+                    }
+                }
+                random_list = {
+                    1 = { set_character_faith = faith:camahumanity }
+                }
+            }
+        }
+        court_position_type:quartermaster_camp_officer = {
+            random_list = {
+                1 = {
+                    add_trait = greedy
+                }
+                1 = {
+                    add_trait = gluttonous
+                }
+                1 = {
+                    add_trait = diligent
+                }
+                1 = {
+                    add_trait = logistician
+                }
+                1 = {
+                    add_trait = organizer
+                }
+            }
+        }
+        court_position_type:ravnos_primogen_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = ravnos
+                }
+                1 = {
+                    add_trait = kizoku
+                }
+            }
+        }
+        court_position_type:scarlet_screen_artisans_court_position = {
+            remove_trait = ajaba
+            remove_trait = alien
+            remove_trait = ananasi
+            remove_trait = apis
+            remove_trait = asekh_sen
+            remove_trait = automaton
+            remove_trait = bastet
+            remove_trait = camazotz
+            remove_trait = changeling
+            remove_trait = corax
+            remove_trait = demon
+            remove_trait = dhampir
+            remove_trait = dhampyr
+            remove_trait = drone
+            remove_trait = entomos
+            remove_trait = fae
+            remove_trait = fomori
+            remove_trait = ghoul
+            remove_trait = gorgon
+            remove_trait = grondr
+            remove_trait = gurahl
+            remove_trait = kami
+            remove_trait = kinain
+            remove_trait = kinfolk
+            remove_trait = kitsune
+            remove_trait = kueijin
+            remove_trait = laham
+            remove_trait = mage
+            remove_trait = mokole
+            remove_trait = mummy
+            remove_trait = nagah
+            remove_trait = nephilim
+            remove_trait = nuwisha
+            remove_trait = ratkin
+            remove_trait = revenant
+            remove_trait = rokea
+            remove_trait = spirit
+            remove_trait = vampire
+            remove_trait = werewolf
+            remove_trait = wraith
+            remove_trait = zombu
+        }
+        court_position_type:scarlet_screen_family_court_position = {
+            remove_trait = ajaba
+            remove_trait = alien
+            remove_trait = ananasi
+            remove_trait = apis
+            remove_trait = asekh_sen
+            remove_trait = automaton
+            remove_trait = bastet
+            remove_trait = camazotz
+            remove_trait = changeling
+            remove_trait = corax
+            remove_trait = demon
+            remove_trait = dhampir
+            remove_trait = dhampyr
+            remove_trait = drone
+            remove_trait = entomos
+            remove_trait = fae
+            remove_trait = fomori
+            remove_trait = ghoul
+            remove_trait = gorgon
+            remove_trait = grondr
+            remove_trait = gurahl
+            remove_trait = kami
+            remove_trait = kinain
+            remove_trait = kinfolk
+            remove_trait = kitsune
+            remove_trait = kueijin
+            remove_trait = laham
+            remove_trait = mage
+            remove_trait = mokole
+            remove_trait = mummy
+            remove_trait = nagah
+            remove_trait = nephilim
+            remove_trait = nuwisha
+            remove_trait = ratkin
+            remove_trait = revenant
+            remove_trait = rokea
+            remove_trait = spirit
+            remove_trait = vampire
+            remove_trait = werewolf
+            remove_trait = wraith
+            remove_trait = zombu
+        }
+        court_position_type:scarlet_screen_inugumi_court_position = {
+            remove_trait = ajaba
+            remove_trait = alien
+            remove_trait = ananasi
+            remove_trait = apis
+            remove_trait = asekh_sen
+            remove_trait = automaton
+            remove_trait = bastet
+            remove_trait = camazotz
+            remove_trait = changeling
+            remove_trait = corax
+            remove_trait = demon
+            remove_trait = dhampir
+            remove_trait = dhampyr
+            remove_trait = drone
+            remove_trait = entomos
+            remove_trait = fae
+            remove_trait = fomori
+            remove_trait = ghoul
+            remove_trait = gorgon
+            remove_trait = grondr
+            remove_trait = gurahl
+            remove_trait = kami
+            remove_trait = kinain
+            remove_trait = kinfolk
+            remove_trait = kitsune
+            remove_trait = kueijin
+            remove_trait = laham
+            remove_trait = mage
+            remove_trait = mokole
+            remove_trait = mummy
+            remove_trait = nagah
+            remove_trait = nephilim
+            remove_trait = nuwisha
+            remove_trait = ratkin
+            remove_trait = revenant
+            remove_trait = rokea
+            remove_trait = spirit
+            remove_trait = vampire
+            remove_trait = werewolf
+            remove_trait = wraith
+            remove_trait = zombu
+        }
+        court_position_type:scarlet_screen_merchants_court_position = {
+            remove_trait = ajaba
+            remove_trait = alien
+            remove_trait = ananasi
+            remove_trait = apis
+            remove_trait = asekh_sen
+            remove_trait = automaton
+            remove_trait = bastet
+            remove_trait = camazotz
+            remove_trait = changeling
+            remove_trait = corax
+            remove_trait = demon
+            remove_trait = dhampir
+            remove_trait = dhampyr
+            remove_trait = drone
+            remove_trait = entomos
+            remove_trait = fae
+            remove_trait = fomori
+            remove_trait = ghoul
+            remove_trait = gorgon
+            remove_trait = grondr
+            remove_trait = gurahl
+            remove_trait = kami
+            remove_trait = kinain
+            remove_trait = kinfolk
+            remove_trait = kitsune
+            remove_trait = kueijin
+            remove_trait = laham
+            remove_trait = mage
+            remove_trait = mokole
+            remove_trait = mummy
+            remove_trait = nagah
+            remove_trait = nephilim
+            remove_trait = nuwisha
+            remove_trait = ratkin
+            remove_trait = revenant
+            remove_trait = rokea
+            remove_trait = spirit
+            remove_trait = vampire
+            remove_trait = werewolf
+            remove_trait = wraith
+            remove_trait = zombu
+        }
+        court_position_type:scarlet_screen_peasants_court_position = {
+            remove_trait = ajaba
+            remove_trait = alien
+            remove_trait = ananasi
+            remove_trait = apis
+            remove_trait = asekh_sen
+            remove_trait = automaton
+            remove_trait = bastet
+            remove_trait = camazotz
+            remove_trait = changeling
+            remove_trait = corax
+            remove_trait = demon
+            remove_trait = dhampir
+            remove_trait = dhampyr
+            remove_trait = drone
+            remove_trait = entomos
+            remove_trait = fae
+            remove_trait = fomori
+            remove_trait = ghoul
+            remove_trait = gorgon
+            remove_trait = grondr
+            remove_trait = gurahl
+            remove_trait = kami
+            remove_trait = kinain
+            remove_trait = kinfolk
+            remove_trait = kitsune
+            remove_trait = kueijin
+            remove_trait = laham
+            remove_trait = mage
+            remove_trait = mokole
+            remove_trait = mummy
+            remove_trait = nagah
+            remove_trait = nephilim
+            remove_trait = nuwisha
+            remove_trait = ratkin
+            remove_trait = revenant
+            remove_trait = rokea
+            remove_trait = spirit
+            remove_trait = vampire
+            remove_trait = werewolf
+            remove_trait = wraith
+            remove_trait = zombu
+        }
+        court_position_type:scarlet_screen_ryugumi_court_position = {
+            remove_trait = ajaba
+            remove_trait = alien
+            remove_trait = ananasi
+            remove_trait = apis
+            remove_trait = asekh_sen
+            remove_trait = automaton
+            remove_trait = bastet
+            remove_trait = camazotz
+            remove_trait = changeling
+            remove_trait = corax
+            remove_trait = demon
+            remove_trait = dhampir
+            remove_trait = dhampyr
+            remove_trait = drone
+            remove_trait = entomos
+            remove_trait = fae
+            remove_trait = fomori
+            remove_trait = ghoul
+            remove_trait = gorgon
+            remove_trait = grondr
+            remove_trait = gurahl
+            remove_trait = kami
+            remove_trait = kinain
+            remove_trait = kinfolk
+            remove_trait = kitsune
+            remove_trait = kueijin
+            remove_trait = laham
+            remove_trait = mage
+            remove_trait = mokole
+            remove_trait = mummy
+            remove_trait = nagah
+            remove_trait = nephilim
+            remove_trait = nuwisha
+            remove_trait = ratkin
+            remove_trait = revenant
+            remove_trait = rokea
+            remove_trait = spirit
+            remove_trait = vampire
+            remove_trait = werewolf
+            remove_trait = wraith
+            remove_trait = zombu
+        }
+        court_position_type:scarlet_screen_spies_court_position = {
+            remove_trait = ajaba
+            remove_trait = alien
+            remove_trait = ananasi
+            remove_trait = apis
+            remove_trait = asekh_sen
+            remove_trait = automaton
+            remove_trait = bastet
+            remove_trait = camazotz
+            remove_trait = changeling
+            remove_trait = corax
+            remove_trait = demon
+            remove_trait = dhampir
+            remove_trait = dhampyr
+            remove_trait = drone
+            remove_trait = entomos
+            remove_trait = fae
+            remove_trait = fomori
+            remove_trait = ghoul
+            remove_trait = gorgon
+            remove_trait = grondr
+            remove_trait = gurahl
+            remove_trait = kami
+            remove_trait = kinain
+            remove_trait = kinfolk
+            remove_trait = kitsune
+            remove_trait = kueijin
+            remove_trait = laham
+            remove_trait = mage
+            remove_trait = mokole
+            remove_trait = mummy
+            remove_trait = nagah
+            remove_trait = nephilim
+            remove_trait = nuwisha
+            remove_trait = ratkin
+            remove_trait = revenant
+            remove_trait = rokea
+            remove_trait = spirit
+            remove_trait = vampire
+            remove_trait = werewolf
+            remove_trait = wraith
+            remove_trait = zombu
+        }
+        court_position_type:seline_oracle_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = bastet
+                }
+                1 = {
+                    add_trait = kinfolk
+                }
+            }
+        }
+        court_position_type:solar_salvager_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = mokole
+                }
+                1 = {
+                    add_trait = kinfolk
+                }
+            }
+        }
+        court_position_type:talesinger_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = werewolf
+                }
+                1 = {
+                    add_trait = kinfolk
+                }
+            }
+        }
+        court_position_type:touchstones_court_position = {
+            remove_trait = ajaba
+            remove_trait = alien
+            remove_trait = ananasi
+            remove_trait = apis
+            remove_trait = asekh_sen
+            remove_trait = automaton
+            remove_trait = bastet
+            remove_trait = camazotz
+            remove_trait = changeling
+            remove_trait = corax
+            remove_trait = demon
+            remove_trait = dhampir
+            remove_trait = dhampyr
+            remove_trait = drone
+            remove_trait = entomos
+            remove_trait = fae
+            remove_trait = fomori
+            remove_trait = ghoul
+            remove_trait = gorgon
+            remove_trait = grondr
+            remove_trait = gurahl
+            remove_trait = kami
+            remove_trait = kinain
+            remove_trait = kinfolk
+            remove_trait = kitsune
+            remove_trait = kueijin
+            remove_trait = laham
+            remove_trait = mage
+            remove_trait = mokole
+            remove_trait = mummy
+            remove_trait = nagah
+            remove_trait = nephilim
+            remove_trait = nuwisha
+            remove_trait = ratkin
+            remove_trait = revenant
+            remove_trait = rokea
+            remove_trait = spirit
+            remove_trait = vampire
+            remove_trait = werewolf
+            remove_trait = wraith
+            remove_trait = zombu
+        }
+        court_position_type:tremere_primogen_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = tremere
+                }
+                1 = {
+                    add_trait = banpaia
+                }
+            }
+        }
+        court_position_type:trod_wayfarer_court_position = {
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            faith = faith:anagamin
+                            faith = faith:heavenlysuccessors
+                            faith = faith:innerpath
+                            faith = faith:klaitalpuk
+                            faith = faith:sacredthread
+                            faith = faith:stargazer
+                            faith = faith:trancerunners
+                            faith = faith:worldtree
+                            faith = faith:zephyr
+                        }
+                    }
+                }
+                random_list = {
+                    1 = { set_character_faith = faith:anagamin }
+                    1 = { set_character_faith = faith:heavenlysuccessors }
+                    1 = { set_character_faith = faith:innerpath }
+                    1 = { set_character_faith = faith:klaitalpuk }
+                    1 = { set_character_faith = faith:sacredthread }
+                    1 = { set_character_faith = faith:stargazer }
+                    1 = { set_character_faith = faith:trancerunners }
+                    1 = { set_character_faith = faith:worldtree }
+                    1 = { set_character_faith = faith:zephyr }
+                }
+            }
+        }
+        court_position_type:tzimisce_primogen_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = tzimisce
+                }
+                1 = {
+                    add_trait = chibo
+                }
+                1 = {
+                    add_trait = monomi
+                }
+                1 = {
+                    add_trait = kishu
+                }
+            }
+        }
+        court_position_type:umbra_ambassador_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = spirit
+                }
+                1 = {
+                    add_trait = werewolf
+                }
+                1 = {
+                    add_trait = bastet
+                }
+            }
+        }
+        court_position_type:ventrue_primogen_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = ventrue
+                }
+                1 = {
+                    add_trait = sangun
+                }
+            }
+        }
+        court_position_type:wallow_warden_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = mokole
+                }
+                1 = {
+                    add_trait = kinfolk
+                }
+            }
+        }
+        court_position_type:warleader_taklah_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = bastet
+                }
+                1 = {
+                    add_trait = kinfolk
+                }
+            }
+        }
+        court_position_type:wet_nurse_court_position = {
+            remove_trait = devoted
+        }
+        court_position_type:witness_camp_officer = {
+            random_list = {
+                1 = {
+                    add_trait = honest
+                }
+                1 = {
+                    add_trait = just
+                }
+                1 = {
+                    add_trait = brave
+                }
+            }
+        }
+        court_position_type:yang_ambassador_court_position = {
+            random_list = {
+                1 = {
+                    add_trait = spirit
+                }
+                1 = {
+                    add_trait = werewolf
+                }
+                1 = {
+                    add_trait = bastet
+                }
             }
         }
         fallback = { }
@@ -4285,15 +6105,100 @@ DI_apply_court_position_trait_xp_effect = {
     }
 }
 
+DI_select_ordered_court_position_holder_effect = {
+    switch = {
+        trigger = scope:court_position_type
+        court_position_type:bodyguard_court_position = {
+            ordered_court_position_holder = {
+                type = bodyguard_court_position
+                order_by = {
+                    value = aptitude:bodyguard_court_position
+                    multiply = -1
+                }
+                save_scope_as = DI_selected_court_position_holder
+            }
+        }
+        court_position_type:court_artificer_court_position = {
+            ordered_court_position_holder = {
+                type = court_artificer_court_position
+                order_by = {
+                    value = aptitude:court_artificer_court_position
+                    multiply = -1
+                }
+                save_scope_as = DI_selected_court_position_holder
+            }
+        }
+        court_position_type:garuda_court_position = {
+            ordered_court_position_holder = {
+                type = garuda_court_position
+                order_by = {
+                    value = aptitude:garuda_court_position
+                    multiply = -1
+                }
+                save_scope_as = DI_selected_court_position_holder
+            }
+        }
+        court_position_type:lady_in_waiting_court_position = {
+            ordered_court_position_holder = {
+                type = lady_in_waiting_court_position
+                order_by = {
+                    value = aptitude:lady_in_waiting_court_position
+                    multiply = -1
+                }
+                save_scope_as = DI_selected_court_position_holder
+            }
+        }
+        court_position_type:minister_bureaucrat_court_position = {
+            ordered_court_position_holder = {
+                type = minister_bureaucrat_court_position
+                order_by = {
+                    value = aptitude:minister_bureaucrat_court_position
+                    multiply = -1
+                }
+                save_scope_as = DI_selected_court_position_holder
+            }
+        }
+        court_position_type:touchstones_court_position = {
+            ordered_court_position_holder = {
+                type = touchstones_court_position
+                order_by = {
+                    value = aptitude:touchstones_court_position
+                    multiply = -1
+                }
+                save_scope_as = DI_selected_court_position_holder
+            }
+        }
+        fallback = { }
+    }
+}
+
+DI_revoke_selected_court_position_holder_effect = {
+    if = {
+        limit = { DI_should_use_ordered_court_position_revoke = yes }
+        DI_select_ordered_court_position_holder_effect = yes
+        if = {
+            limit = { exists = scope:DI_selected_court_position_holder }
+            revoke_court_position = {
+                recipient = scope:DI_selected_court_position_holder
+                court_position = scope:court_position_type
+            }
+        }
+    }
+    else = {
+        revoke_court_position = { court_position = scope:court_position_type }
+    }
+}
+
 DI_spawn_selected_court_position_effect = {
     DI_spawn_low_court_character_effect = yes
     scope:new_courtier = {
+        DI_apply_court_position_validity_effect = { COURT_POSITION = scope:court_position_type }
         DI_apply_court_position_trait_xp_effect = { COURT_POSITION = scope:court_position_type }
         DI_court_position_post_spawn_effect = { COURT_POSITION = scope:court_position_type }
     }
     if = {
-        limit = { NOT = { can_employ_court_position_type = scope:court_position_type } }
-        revoke_court_position = { court_position = scope:court_position_type }
+        limit = { NOT = { DI_can_employ_selected_court_position = yes } }
+        DI_revoke_selected_court_position_holder_effect = yes
     }
     appoint_court_position = {
         recipient = scope:new_courtier
