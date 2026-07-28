@@ -5,11 +5,11 @@
 #########################################################
 
 interaction_category_cheat_menu = {
-    index = 0
+	index = 0
 
-    color = { 1 0.5 0 1 } # orange
+	color = { 1 0.5 0 1 } # orange
 
-    desc = "CHEAT_ACTIONS"
+	desc = "CHEAT_ACTIONS"
 }
 
 interaction_category_favorites = {	
