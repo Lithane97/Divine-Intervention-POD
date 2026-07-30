@@ -260,39 +260,39 @@
     },
     "localization/english/gui/DI_holding_filters_l_english.yml": {
       "kind": "generated",
-      "last_written_hash": "948a5f615157ad7bd60743ba76a96e9821aa1034081f36d01d5b5a5e6489e589"
+      "last_written_hash": "81edaeb8a2c15d30878ebbdbf063a145f86d77da3bfd145ed59aa87819aa10d2"
     },
     "localization/french/gui/DI_holding_filters_l_french.yml": {
       "kind": "generated",
-      "last_written_hash": "3c4aeff5d2ea456ce77ed198cc1fbf551db395797575b9390015b035831e3b87"
+      "last_written_hash": "2bb3d431926308fe085c915e5c77436a5376a4cad62e21feef4fa456469eb6fd"
     },
     "localization/german/gui/DI_holding_filters_l_german.yml": {
       "kind": "generated",
-      "last_written_hash": "fd7e95ab62c7fba6bb9d540118a73d6084eab1e91514829583225b8ea035841e"
+      "last_written_hash": "b7602e8057bb870e33f66b7ca4cdd27cf4e477d8553ad52b1d98c61eeb8e8b8b"
     },
     "localization/japanese/gui/DI_holding_filters_l_japanese.yml": {
       "kind": "generated",
-      "last_written_hash": "c128502f2c3e1fd40cce333eacd44efe5d6e078a18f1c94561cf02ac56e2d5b8"
+      "last_written_hash": "d63f5b5ab2af5715e3302b52fd9011a28119429539bc8f45c2415008567e1729"
     },
     "localization/korean/gui/DI_holding_filters_l_korean.yml": {
       "kind": "generated",
-      "last_written_hash": "16e6c8fe5bf40d0a80f8b40b42c629f8325724d74c94fe2a16d5533cc253d7ed"
+      "last_written_hash": "b625c11419a02e3fff71a9dfa8aeec051536448f48eec26deab4fc00d20faaea"
     },
     "localization/polish/gui/DI_holding_filters_l_polish.yml": {
       "kind": "generated",
-      "last_written_hash": "4c1bde89cf9aeead89b8e27f8924fb4db6b214b6543107de6d68575e395e61dd"
+      "last_written_hash": "697d838f0033f3eb182aa76ced1020837a3675e2093d42db0fe869c0919a4aae"
     },
     "localization/russian/gui/DI_holding_filters_l_russian.yml": {
       "kind": "generated",
-      "last_written_hash": "0eb0c936fa128d97d0bf9a43c922c7319d60afbe399bf0a12137ed1fea2bf665"
+      "last_written_hash": "34f14b88fc8d7b8c4a702921db2295f6947c8312566ddd68107978d9135a9b0e"
     },
     "localization/simp_chinese/gui/DI_holding_filters_l_simp_chinese.yml": {
       "kind": "generated",
-      "last_written_hash": "5ad475188fb5fcbb850113e36767fa4bac3a79fb8af779f276ab8cf0aa29c64d"
+      "last_written_hash": "ca318af9b30dd2e16c3ecfc0e46e61fa790042bfbed9726e60e7aa747163bef1"
     },
     "localization/spanish/gui/DI_holding_filters_l_spanish.yml": {
       "kind": "generated",
-      "last_written_hash": "a80b66176f3e12855314263064a38851d9e30e313e8dc936b2478d1f66aadaf6"
+      "last_written_hash": "ae1de917d6d6c5a3cf320e2fa24cec67287b10b54e17d540103983040683c60d"
     },
     "common/scripted_effects/DI_title_manager_buildings_effects.txt": {
       "kind": "generated",
