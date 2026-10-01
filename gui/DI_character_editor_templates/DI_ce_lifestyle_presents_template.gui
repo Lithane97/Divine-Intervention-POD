@@ -345,17 +345,6 @@
                             }
                         }
 
-                        # All Kith Arts Lifestyle Button
-                        hbox = {
-                            layoutpolicy_horizontal = expanding
-
-                            DI_lifestyle_present_button = {
-                                datacontext = "[GetLifestyle('kith_arts_lifestyle')]"
-                                onclick = "[GetScriptedGui('DI_ce_add_kith_arts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-                                onrightclick = "[GetScriptedGui('DI_ce_remove_kith_arts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-                            }
-                        }
-
                         # All Learning Lifestyle Button
                         hbox = {
                             layoutpolicy_horizontal = expanding
@@ -386,6 +375,17 @@
                                 datacontext = "[GetLifestyle('lunar_auspicegifts_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_lunar_auspicegifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_lunar_auspicegifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                            }
+                        }
+
+                        # All Maeljingifts Lifestyle Button
+                        hbox = {
+                            layoutpolicy_horizontal = expanding
+
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('maeljingifts_lifestyle')]"
+                                onclick = "[GetScriptedGui('DI_ce_add_maeljingifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                                onrightclick = "[GetScriptedGui('DI_ce_remove_maeljingifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                             }
                         }
 
@@ -444,6 +444,17 @@
                             }
                         }
 
+                        # All Noble Arts Lifestyle Button
+                        hbox = {
+                            layoutpolicy_horizontal = expanding
+
+                            DI_lifestyle_present_button = {
+                                datacontext = "[GetLifestyle('noble_arts_lifestyle')]"
+                                onclick = "[GetScriptedGui('DI_ce_add_noble_arts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                                onrightclick = "[GetScriptedGui('DI_ce_remove_noble_arts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                            }
+                        }
+
                         # All Phlegmatic Lifestyle Button
                         hbox = {
                             layoutpolicy_horizontal = expanding
@@ -496,17 +507,6 @@
                                 datacontext = "[GetLifestyle('qiao_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_qiao_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_qiao_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-                            }
-                        }
-
-                        # All Rare Arts Lifestyle Button
-                        hbox = {
-                            layoutpolicy_horizontal = expanding
-
-                            DI_lifestyle_present_button = {
-                                datacontext = "[GetLifestyle('rare_arts_lifestyle')]"
-                                onclick = "[GetScriptedGui('DI_ce_add_rare_arts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-                                onrightclick = "[GetScriptedGui('DI_ce_remove_rare_arts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                             }
                         }
 
@@ -650,17 +650,6 @@
                                 datacontext = "[GetLifestyle('tribalgifts_lifestyle')]"
                                 onclick = "[GetScriptedGui('DI_ce_add_tribalgifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                                 onrightclick = "[GetScriptedGui('DI_ce_remove_tribalgifts_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-                            }
-                        }
-
-                        # All Urgetaints Lifestyle Button
-                        hbox = {
-                            layoutpolicy_horizontal = expanding
-
-                            DI_lifestyle_present_button = {
-                                datacontext = "[GetLifestyle('urgetaints_lifestyle')]"
-                                onclick = "[GetScriptedGui('DI_ce_add_urgetaints_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-                                onrightclick = "[GetScriptedGui('DI_ce_remove_urgetaints_lifestyle').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
                             }
                         }
 

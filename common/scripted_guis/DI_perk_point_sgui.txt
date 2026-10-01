@@ -1548,68 +1548,6 @@ DI_remove_jade_arcanoi_pp = {
     }
 }
 
-DI_add_kith_arts_pp = {
-    scope = character
-
-    effect = {
-        random_owned_story = {
-            limit = {
-                story_type = DI_misc_variables_story
-            }
-            save_scope_as = DI_story
-        }
-
-        if = {
-            limit = {
-                scope:DI_story = { has_variable = DI_pinned_char_var }
-            }
-            every_living_character = {
-                limit = { has_character_flag = pinned_for_edit }
-
-                hidden_effect = {
-                    add_kith_arts_lifestyle_perk_points = 1
-                }
-            }
-        }
-        else = {
-            hidden_effect = {
-                add_kith_arts_lifestyle_perk_points = 1
-            }
-        }
-    }
-}
-
-DI_remove_kith_arts_pp = {
-    scope = character
-
-    effect = {
-        random_owned_story = {
-            limit = {
-                story_type = DI_misc_variables_story
-            }
-            save_scope_as = DI_story
-        }
-
-        if = {
-            limit = {
-                scope:DI_story = { has_variable = DI_pinned_char_var }
-            }
-            every_living_character = {
-                limit = { has_character_flag = pinned_for_edit }
-
-                hidden_effect = {
-                    add_kith_arts_lifestyle_perk_points = -1
-                }
-            }
-        }
-        else = {
-            hidden_effect = {
-                add_kith_arts_lifestyle_perk_points = -1
-            }
-        }
-    }
-}
-
 DI_add_learning_pp = {
     scope = character
 
@@ -1791,6 +1729,68 @@ DI_remove_lunar_auspicegifts_pp = {
         else = {
             hidden_effect = {
                 add_lunar_auspicegifts_lifestyle_perk_points = -1
+            }
+        }
+    }
+}
+
+DI_add_maeljingifts_pp = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = { has_character_flag = pinned_for_edit }
+
+                hidden_effect = {
+                    add_maeljingifts_lifestyle_perk_points = 1
+                }
+            }
+        }
+        else = {
+            hidden_effect = {
+                add_maeljingifts_lifestyle_perk_points = 1
+            }
+        }
+    }
+}
+
+DI_remove_maeljingifts_pp = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = { has_character_flag = pinned_for_edit }
+
+                hidden_effect = {
+                    add_maeljingifts_lifestyle_perk_points = -1
+                }
+            }
+        }
+        else = {
+            hidden_effect = {
+                add_maeljingifts_lifestyle_perk_points = -1
             }
         }
     }
@@ -2106,6 +2106,68 @@ DI_remove_necro_magic_pp = {
     }
 }
 
+DI_add_noble_arts_pp = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = { has_character_flag = pinned_for_edit }
+
+                hidden_effect = {
+                    add_noble_arts_lifestyle_perk_points = 1
+                }
+            }
+        }
+        else = {
+            hidden_effect = {
+                add_noble_arts_lifestyle_perk_points = 1
+            }
+        }
+    }
+}
+
+DI_remove_noble_arts_pp = {
+    scope = character
+
+    effect = {
+        random_owned_story = {
+            limit = {
+                story_type = DI_misc_variables_story
+            }
+            save_scope_as = DI_story
+        }
+
+        if = {
+            limit = {
+                scope:DI_story = { has_variable = DI_pinned_char_var }
+            }
+            every_living_character = {
+                limit = { has_character_flag = pinned_for_edit }
+
+                hidden_effect = {
+                    add_noble_arts_lifestyle_perk_points = -1
+                }
+            }
+        }
+        else = {
+            hidden_effect = {
+                add_noble_arts_lifestyle_perk_points = -1
+            }
+        }
+    }
+}
+
 DI_add_phlegmatic_pp = {
     scope = character
 
@@ -2411,68 +2473,6 @@ DI_remove_qiao_pp = {
         else = {
             hidden_effect = {
                 add_qiao_lifestyle_perk_points = -1
-            }
-        }
-    }
-}
-
-DI_add_rare_arts_pp = {
-    scope = character
-
-    effect = {
-        random_owned_story = {
-            limit = {
-                story_type = DI_misc_variables_story
-            }
-            save_scope_as = DI_story
-        }
-
-        if = {
-            limit = {
-                scope:DI_story = { has_variable = DI_pinned_char_var }
-            }
-            every_living_character = {
-                limit = { has_character_flag = pinned_for_edit }
-
-                hidden_effect = {
-                    add_rare_arts_lifestyle_perk_points = 1
-                }
-            }
-        }
-        else = {
-            hidden_effect = {
-                add_rare_arts_lifestyle_perk_points = 1
-            }
-        }
-    }
-}
-
-DI_remove_rare_arts_pp = {
-    scope = character
-
-    effect = {
-        random_owned_story = {
-            limit = {
-                story_type = DI_misc_variables_story
-            }
-            save_scope_as = DI_story
-        }
-
-        if = {
-            limit = {
-                scope:DI_story = { has_variable = DI_pinned_char_var }
-            }
-            every_living_character = {
-                limit = { has_character_flag = pinned_for_edit }
-
-                hidden_effect = {
-                    add_rare_arts_lifestyle_perk_points = -1
-                }
-            }
-        }
-        else = {
-            hidden_effect = {
-                add_rare_arts_lifestyle_perk_points = -1
             }
         }
     }
@@ -3279,68 +3279,6 @@ DI_remove_tribalgifts_pp = {
         else = {
             hidden_effect = {
                 add_tribalgifts_lifestyle_perk_points = -1
-            }
-        }
-    }
-}
-
-DI_add_urgetaints_pp = {
-    scope = character
-
-    effect = {
-        random_owned_story = {
-            limit = {
-                story_type = DI_misc_variables_story
-            }
-            save_scope_as = DI_story
-        }
-
-        if = {
-            limit = {
-                scope:DI_story = { has_variable = DI_pinned_char_var }
-            }
-            every_living_character = {
-                limit = { has_character_flag = pinned_for_edit }
-
-                hidden_effect = {
-                    add_urgetaints_lifestyle_perk_points = 1
-                }
-            }
-        }
-        else = {
-            hidden_effect = {
-                add_urgetaints_lifestyle_perk_points = 1
-            }
-        }
-    }
-}
-
-DI_remove_urgetaints_pp = {
-    scope = character
-
-    effect = {
-        random_owned_story = {
-            limit = {
-                story_type = DI_misc_variables_story
-            }
-            save_scope_as = DI_story
-        }
-
-        if = {
-            limit = {
-                scope:DI_story = { has_variable = DI_pinned_char_var }
-            }
-            every_living_character = {
-                limit = { has_character_flag = pinned_for_edit }
-
-                hidden_effect = {
-                    add_urgetaints_lifestyle_perk_points = -1
-                }
-            }
-        }
-        else = {
-            hidden_effect = {
-                add_urgetaints_lifestyle_perk_points = -1
             }
         }
     }

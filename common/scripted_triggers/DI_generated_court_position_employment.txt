@@ -254,6 +254,18 @@ DI_can_employ_selected_court_position = {
         court_position_type:infant_devil_civilizer_court_position = {
             can_employ_court_position_type = infant_devil_civilizer_court_position
         }
+        court_position_type:jerusalem_ashen_muhtasib_court_position = {
+            can_employ_court_position_type = jerusalem_ashen_muhtasib_court_position
+        }
+        court_position_type:jerusalem_crown_speaker_court_position = {
+            can_employ_court_position_type = jerusalem_crown_speaker_court_position
+        }
+        court_position_type:jerusalem_puppeteer_grand_masters_court_position = {
+            can_employ_court_position_type = jerusalem_puppeteer_grand_masters_court_position
+        }
+        court_position_type:jerusalem_socher_court_position = {
+            can_employ_court_position_type = jerusalem_socher_court_position
+        }
         court_position_type:josian_court_position = {
             can_employ_court_position_type = josian_court_position
         }
@@ -268,6 +280,9 @@ DI_can_employ_selected_court_position = {
         }
         court_position_type:kennelperson_camp_officer = {
             can_employ_court_position_type = kennelperson_camp_officer
+        }
+        court_position_type:kertilsveinr_court_position = {
+            can_employ_court_position_type = kertilsveinr_court_position
         }
         court_position_type:khlon_glan_court_position = {
             can_employ_court_position_type = khlon_glan_court_position
@@ -374,6 +389,12 @@ DI_can_employ_selected_court_position = {
         court_position_type:pike_captain_camp_officer = {
             can_employ_court_position_type = pike_captain_camp_officer
         }
+        court_position_type:pillar_of_darkness_court_position = {
+            can_employ_court_position_type = pillar_of_darkness_court_position
+        }
+        court_position_type:pillar_of_light_court_position = {
+            can_employ_court_position_type = pillar_of_light_court_position
+        }
         court_position_type:praetor_court_position = {
             can_employ_court_position_type = praetor_court_position
         }
@@ -431,6 +452,9 @@ DI_can_employ_selected_court_position = {
         court_position_type:siege_engineer_court_position = {
             can_employ_court_position_type = siege_engineer_court_position
         }
+        court_position_type:skutilsveinr_court_position = {
+            can_employ_court_position_type = skutilsveinr_court_position
+        }
         court_position_type:solar_salvager_court_position = {
             can_employ_court_position_type = solar_salvager_court_position
         }
@@ -460,6 +484,9 @@ DI_can_employ_selected_court_position = {
         }
         court_position_type:tribunes_court_position = {
             can_employ_court_position_type = tribunes_court_position
+        }
+        court_position_type:triumvir_court_position = {
+            can_employ_court_position_type = triumvir_court_position
         }
         court_position_type:trod_wayfarer_court_position = {
             can_employ_court_position_type = trod_wayfarer_court_position
@@ -544,6 +571,12 @@ DI_should_use_ordered_court_position_revoke = {
             any_court_position_holder = {
                 type = touchstones_court_position
                 count >= 3
+            }
+        }
+        court_position_type:triumvir_court_position = {
+            any_court_position_holder = {
+                type = triumvir_court_position
+                count >= 2
             }
         }
         fallback = { always = no }

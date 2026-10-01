@@ -70,10 +70,6 @@ DI_clear_special_building_effect = {
     if = { limit = { has_building = giovanni_mausoleum_01 } remove_building = giovanni_mausoleum_01 }
     if = { limit = { has_building = giovanni_mausoleum_02 } remove_building = giovanni_mausoleum_02 }
     if = { limit = { has_building = giovanni_mausoleum_03 } remove_building = giovanni_mausoleum_03 }
-    if = { limit = { has_building = pit_of_malkav_01 } remove_building = pit_of_malkav_01 }
-    if = { limit = { has_building = pit_of_malkav_02 } remove_building = pit_of_malkav_02 }
-    if = { limit = { has_building = pit_of_malkav_03 } remove_building = pit_of_malkav_03 }
-    if = { limit = { has_building = pit_of_malkav_04 } remove_building = pit_of_malkav_04 }
     if = { limit = { has_building = well_of_sacrifice_01 } remove_building = well_of_sacrifice_01 }
     if = { limit = { has_building = well_of_sacrifice_02 } remove_building = well_of_sacrifice_02 }
     if = { limit = { has_building = well_of_sacrifice_03 } remove_building = well_of_sacrifice_03 }
@@ -99,6 +95,7 @@ DI_clear_special_building_effect = {
     if = { limit = { has_building = everard_players_02 } remove_building = everard_players_02 }
     if = { limit = { has_building = everard_players_03 } remove_building = everard_players_03 }
     if = { limit = { has_building = northern_throne_01 } remove_building = northern_throne_01 }
+    if = { limit = { has_building = ergenekon_01 } remove_building = ergenekon_01 }
     if = { limit = { has_building = aphrodisium_01 } remove_building = aphrodisium_01 }
     if = { limit = { has_building = aphrodisium_02 } remove_building = aphrodisium_02 }
     if = { limit = { has_building = aphrodisium_03 } remove_building = aphrodisium_03 }
@@ -135,6 +132,9 @@ DI_clear_special_building_effect = {
     if = { limit = { has_building = library_malta_01 } remove_building = library_malta_01 }
     if = { limit = { has_building = library_malta_02 } remove_building = library_malta_02 }
     if = { limit = { has_building = library_malta_03 } remove_building = library_malta_03 }
+    if = { limit = { has_building = monastery_sao_vicente_01 } remove_building = monastery_sao_vicente_01 }
+    if = { limit = { has_building = monastery_sao_vicente_02 } remove_building = monastery_sao_vicente_02 }
+    if = { limit = { has_building = monastery_sao_vicente_03 } remove_building = monastery_sao_vicente_03 }
     if = { limit = { has_building = hamilcar_palaestra_01 } remove_building = hamilcar_palaestra_01 }
     if = { limit = { has_building = hamilcar_palaestra_02 } remove_building = hamilcar_palaestra_02 }
     if = { limit = { has_building = hamilcar_palaestra_03 } remove_building = hamilcar_palaestra_03 }
@@ -191,7 +191,6 @@ DI_clear_special_building_effect = {
     if = { limit = { has_building = mestha_farmstead_02 } remove_building = mestha_farmstead_02 }
     if = { limit = { has_building = mestha_farmstead_03 } remove_building = mestha_farmstead_03 }
     if = { limit = { has_building = rome_tiber_01 } remove_building = rome_tiber_01 }
-    if = { limit = { has_building = hanging_gardens_01 } remove_building = hanging_gardens_01 }
     if = { limit = { has_building = kashi_bazaar_01 } remove_building = kashi_bazaar_01 }
     if = { limit = { has_building = kashi_bazaar_02 } remove_building = kashi_bazaar_02 }
     if = { limit = { has_building = kashi_bazaar_03 } remove_building = kashi_bazaar_03 }
@@ -238,6 +237,42 @@ DI_clear_special_building_effect = {
     if = { limit = { has_building = secret_library_of_shigatse_01 } remove_building = secret_library_of_shigatse_01 }
     if = { limit = { has_building = shrine_st_olwen_01 } remove_building = shrine_st_olwen_01 }
     if = { limit = { has_building = house_perfumed_waters_01 } remove_building = house_perfumed_waters_01 }
+    if = { limit = { has_building = damburrow_01 } remove_building = damburrow_01 }
+    if = { limit = { has_building = st_brigid_01 } remove_building = st_brigid_01 }
+    if = { limit = { has_building = tomb_el_cid_01 } remove_building = tomb_el_cid_01 }
+    if = { limit = { has_building = tomb_el_cid_02 } remove_building = tomb_el_cid_02 }
+    if = { limit = { has_building = tomb_el_cid_03 } remove_building = tomb_el_cid_03 }
+    if = { limit = { has_building = tomb_el_cid_04 } remove_building = tomb_el_cid_04 }
+    if = { limit = { has_building = sanctum_st_james_01 } remove_building = sanctum_st_james_01 }
+    if = { limit = { has_building = sanctum_st_james_02 } remove_building = sanctum_st_james_02 }
+    if = { limit = { has_building = sanctum_st_james_03 } remove_building = sanctum_st_james_03 }
+    if = { limit = { has_building = sanctum_st_james_04 } remove_building = sanctum_st_james_04 }
+    if = { limit = { has_building = silver_mines_baebelo_01 } remove_building = silver_mines_baebelo_01 }
+    if = { limit = { has_building = silver_mines_baebelo_02 } remove_building = silver_mines_baebelo_02 }
+    if = { limit = { has_building = silver_mines_baebelo_03 } remove_building = silver_mines_baebelo_03 }
+    if = { limit = { has_building = silver_mines_baebelo_04 } remove_building = silver_mines_baebelo_04 }
+    if = { limit = { has_building = silver_mines_baebelo_05 } remove_building = silver_mines_baebelo_05 }
+    if = { limit = { has_building = plaza_zocodover_01 } remove_building = plaza_zocodover_01 }
+    if = { limit = { has_building = plaza_zocodover_02 } remove_building = plaza_zocodover_02 }
+    if = { limit = { has_building = plaza_zocodover_03 } remove_building = plaza_zocodover_03 }
+    if = { limit = { has_building = plaza_zocodover_04 } remove_building = plaza_zocodover_04 }
+    if = { limit = { has_building = plaza_zocodover_05 } remove_building = plaza_zocodover_05 }
+    if = { limit = { has_building = plaza_zocodover_06 } remove_building = plaza_zocodover_06 }
+    if = { limit = { has_building = albaicin_quarter_01 } remove_building = albaicin_quarter_01 }
+    if = { limit = { has_building = albaicin_quarter_02 } remove_building = albaicin_quarter_02 }
+    if = { limit = { has_building = albaicin_quarter_03 } remove_building = albaicin_quarter_03 }
+    if = { limit = { has_building = albaicin_quarter_04 } remove_building = albaicin_quarter_04 }
+    if = { limit = { has_building = portus_hispalensis_01 } remove_building = portus_hispalensis_01 }
+    if = { limit = { has_building = portus_hispalensis_02 } remove_building = portus_hispalensis_02 }
+    if = { limit = { has_building = portus_hispalensis_03 } remove_building = portus_hispalensis_03 }
+    if = { limit = { has_building = portus_hispalensis_04 } remove_building = portus_hispalensis_04 }
+    if = { limit = { has_building = madinat_al_zahra_01 } remove_building = madinat_al_zahra_01 }
+    if = { limit = { has_building = madinat_al_zahra_02 } remove_building = madinat_al_zahra_02 }
+    if = { limit = { has_building = madinat_al_zahra_03 } remove_building = madinat_al_zahra_03 }
+    if = { limit = { has_building = madinat_al_zahra_04 } remove_building = madinat_al_zahra_04 }
+    if = { limit = { has_building = alcazaba_badajoz_01 } remove_building = alcazaba_badajoz_01 }
+    if = { limit = { has_building = alcazaba_badajoz_02 } remove_building = alcazaba_badajoz_02 }
+    if = { limit = { has_building = alcazaba_badajoz_03 } remove_building = alcazaba_badajoz_03 }
     if = { limit = { has_building = holy_site_cathedral_01 } remove_building = holy_site_cathedral_01 }
     if = { limit = { has_building = holy_site_mosque_01 } remove_building = holy_site_mosque_01 }
     if = { limit = { has_building = holy_site_fire_temple_01 } remove_building = holy_site_fire_temple_01 }
@@ -713,6 +748,10 @@ DI_clear_special_building_effect = {
     if = { limit = { has_building = citadel_linan_01 } remove_building = citadel_linan_01 }
     if = { limit = { has_building = temples_angkor_01 } remove_building = temples_angkor_01 }
     if = { limit = { has_building = temples_angkor_02 } remove_building = temples_angkor_02 }
+    if = { limit = { has_building = pam_abbey_of_st_gall_01 } remove_building = pam_abbey_of_st_gall_01 }
+    if = { limit = { has_building = pam_palais_de_papes_01 } remove_building = pam_palais_de_papes_01 }
+    if = { limit = { has_building = pam_lateran_basilica_01 } remove_building = pam_lateran_basilica_01 }
+    if = { limit = { has_building = pam_reims_cathedral_01 } remove_building = pam_reims_cathedral_01 }
     if = { limit = { has_building = silver_refuge_01 } remove_building = silver_refuge_01 }
     if = { limit = { has_building = chui_mal_01 } remove_building = chui_mal_01 }
     if = { limit = { has_building = temple_bastet_01 } remove_building = temple_bastet_01 }
@@ -795,6 +834,59 @@ DI_clear_special_building_effect = {
     if = { limit = { has_building = white_nights_01 } remove_building = white_nights_01 }
     if = { limit = { has_building = bygone_visions_01 } remove_building = bygone_visions_01 }
     if = { limit = { has_building = unshriven_zealot_01 } remove_building = unshriven_zealot_01 }
+    if = { limit = { has_building = protector_caern_01 } remove_building = protector_caern_01 }
+    if = { limit = { has_building = caern_grey_rock_01 } remove_building = caern_grey_rock_01 }
+    if = { limit = { has_building = caern_enchanted_enclosure_01 } remove_building = caern_enchanted_enclosure_01 }
+    if = { limit = { has_building = caern_black_tumulus_01 } remove_building = caern_black_tumulus_01 }
+    if = { limit = { has_building = caern_azure_bassin_01 } remove_building = caern_azure_bassin_01 }
+    if = { limit = { has_building = caern_amber_mount_01 } remove_building = caern_amber_mount_01 }
+    if = { limit = { has_building = underground_forum_caern_01 } remove_building = underground_forum_caern_01 }
+    if = { limit = { has_building = spirit_stone_01 } remove_building = spirit_stone_01 }
+    if = { limit = { has_building = thunderstrike_caern_01 } remove_building = thunderstrike_caern_01 }
+    if = { limit = { has_building = brooding_sky_01 } remove_building = brooding_sky_01 }
+    if = { limit = { has_building = blood_sea_caern_01 } remove_building = blood_sea_caern_01 }
+    if = { limit = { has_building = artic_axe_caern_01 } remove_building = artic_axe_caern_01 }
+    if = { limit = { has_building = falling_water_01 } remove_building = falling_water_01 }
+    if = { limit = { has_building = crystal_mind_caern_01 } remove_building = crystal_mind_caern_01 }
+    if = { limit = { has_building = siberian_wilds_caern_01 } remove_building = siberian_wilds_caern_01 }
+    if = { limit = { has_building = mother_peach_trees_01 } remove_building = mother_peach_trees_01 }
+    if = { limit = { has_building = suzhou_creek_caern_01 } remove_building = suzhou_creek_caern_01 }
+    if = { limit = { has_building = rock_three_kingdoms_01 } remove_building = rock_three_kingdoms_01 }
+    if = { limit = { has_building = arkwasiye_caern_01 } remove_building = arkwasiye_caern_01 }
+    if = { limit = { has_building = tullu_demtu_01 } remove_building = tullu_demtu_01 }
+    if = { limit = { has_building = gish_abbai_caern_01 } remove_building = gish_abbai_caern_01 }
+    if = { limit = { has_building = baba_yaga_stone_01 } remove_building = baba_yaga_stone_01 }
+    if = { limit = { has_building = masculine_dignity_01 } remove_building = masculine_dignity_01 }
+    if = { limit = { has_building = lake_moutniy_caern_01 } remove_building = lake_moutniy_caern_01 }
+    if = { limit = { has_building = chimtarga_peak_caern_01 } remove_building = chimtarga_peak_caern_01 }
+    if = { limit = { has_building = three_gorges_caern_01 } remove_building = three_gorges_caern_01 }
+    if = { limit = { has_building = red_cedar_01 } remove_building = red_cedar_01 }
+    if = { limit = { has_building = lion_fury_01 } remove_building = lion_fury_01 }
+    if = { limit = { has_building = lion_fury_02 } remove_building = lion_fury_02 }
+    if = { limit = { has_building = lion_fury_03 } remove_building = lion_fury_03 }
+    if = { limit = { has_building = ctesiphon_the_shadowed_pheonix_ctesiphon_01 } remove_building = ctesiphon_the_shadowed_pheonix_ctesiphon_01 }
+    if = { limit = { has_building = ctesiphon_the_shadowed_pheonix_ctesiphon_02 } remove_building = ctesiphon_the_shadowed_pheonix_ctesiphon_02 }
+    if = { limit = { has_building = ctesiphon_the_shadowed_pheonix_ctesiphon_03 } remove_building = ctesiphon_the_shadowed_pheonix_ctesiphon_03 }
+    if = { limit = { has_building = baghdad_jewel_of_allah_baghdad_01 } remove_building = baghdad_jewel_of_allah_baghdad_01 }
+    if = { limit = { has_building = baghdad_jewel_of_allah_baghdad_02 } remove_building = baghdad_jewel_of_allah_baghdad_02 }
+    if = { limit = { has_building = baghdad_jewel_of_allah_baghdad_03 } remove_building = baghdad_jewel_of_allah_baghdad_03 }
+    if = { limit = { has_building = baghdad_looted_baghdad_01 } remove_building = baghdad_looted_baghdad_01 }
+    if = { limit = { has_building = baghdad_looted_baghdad_02 } remove_building = baghdad_looted_baghdad_02 }
+    if = { limit = { has_building = baghdad_rebuilt_baghdad_01 } remove_building = baghdad_rebuilt_baghdad_01 }
+    if = { limit = { has_building = baghdad_rebuilt_baghdad_02 } remove_building = baghdad_rebuilt_baghdad_02 }
+    if = { limit = { has_building = baghdad_rebuilt_baghdad_03 } remove_building = baghdad_rebuilt_baghdad_03 }
+    if = { limit = { has_building = baghdad_sinful_baghdad_01 } remove_building = baghdad_sinful_baghdad_01 }
+    if = { limit = { has_building = baghdad_sinful_baghdad_02 } remove_building = baghdad_sinful_baghdad_02 }
+    if = { limit = { has_building = baghdad_sinful_baghdad_03 } remove_building = baghdad_sinful_baghdad_03 }
+    if = { limit = { has_building = bjarkarey_hollr_01 } remove_building = bjarkarey_hollr_01 }
+    if = { limit = { has_building = bjarkarey_hollr_02 } remove_building = bjarkarey_hollr_02 }
+    if = { limit = { has_building = bjarkarey_hollr_03 } remove_building = bjarkarey_hollr_03 }
+    if = { limit = { has_building = bjarkarey_hvitakristr_01 } remove_building = bjarkarey_hvitakristr_01 }
+    if = { limit = { has_building = bjarkarey_hvitakristr_02 } remove_building = bjarkarey_hvitakristr_02 }
+    if = { limit = { has_building = bjarkarey_hvitakristr_03 } remove_building = bjarkarey_hvitakristr_03 }
+    if = { limit = { has_building = bjarkarey_taema_01 } remove_building = bjarkarey_taema_01 }
+    if = { limit = { has_building = bjarkarey_taema_02 } remove_building = bjarkarey_taema_02 }
+    if = { limit = { has_building = bjarkarey_taema_03 } remove_building = bjarkarey_taema_03 }
     if = { limit = { has_building = cairo_ancient_01 } remove_building = cairo_ancient_01 }
     if = { limit = { has_building = cairo_ancient_02 } remove_building = cairo_ancient_02 }
     if = { limit = { has_building = cairo_ancient_03 } remove_building = cairo_ancient_03 }
@@ -813,6 +905,22 @@ DI_clear_special_building_effect = {
     if = { limit = { has_building = constantinople_reform_constantinople_01 } remove_building = constantinople_reform_constantinople_01 }
     if = { limit = { has_building = constantinople_reform_constantinople_02 } remove_building = constantinople_reform_constantinople_02 }
     if = { limit = { has_building = constantinople_reform_constantinople_03 } remove_building = constantinople_reform_constantinople_03 }
+    if = { limit = { has_building = jerusalem_christian_holy_sepulcher_01 } remove_building = jerusalem_christian_holy_sepulcher_01 }
+    if = { limit = { has_building = jerusalem_christian_holy_sepulcher_02 } remove_building = jerusalem_christian_holy_sepulcher_02 }
+    if = { limit = { has_building = jerusalem_christian_holy_sepulcher_03 } remove_building = jerusalem_christian_holy_sepulcher_03 }
+    if = { limit = { has_building = jerusalem_christian_holy_sepulcher_04 } remove_building = jerusalem_christian_holy_sepulcher_04 }
+    if = { limit = { has_building = jerusalem_divided_temple_mount_catacombs_01 } remove_building = jerusalem_divided_temple_mount_catacombs_01 }
+    if = { limit = { has_building = jerusalem_divided_temple_mount_catacombs_02 } remove_building = jerusalem_divided_temple_mount_catacombs_02 }
+    if = { limit = { has_building = jerusalem_divided_temple_mount_catacombs_03 } remove_building = jerusalem_divided_temple_mount_catacombs_03 }
+    if = { limit = { has_building = jerusalem_divided_temple_mount_catacombs_04 } remove_building = jerusalem_divided_temple_mount_catacombs_04 }
+    if = { limit = { has_building = jerusalem_jewish_third_temple_01 } remove_building = jerusalem_jewish_third_temple_01 }
+    if = { limit = { has_building = jerusalem_jewish_third_temple_02 } remove_building = jerusalem_jewish_third_temple_02 }
+    if = { limit = { has_building = jerusalem_jewish_third_temple_03 } remove_building = jerusalem_jewish_third_temple_03 }
+    if = { limit = { has_building = jerusalem_jewish_third_temple_04 } remove_building = jerusalem_jewish_third_temple_04 }
+    if = { limit = { has_building = jerusalem_muslim_dome_rock_01 } remove_building = jerusalem_muslim_dome_rock_01 }
+    if = { limit = { has_building = jerusalem_muslim_dome_rock_02 } remove_building = jerusalem_muslim_dome_rock_02 }
+    if = { limit = { has_building = jerusalem_muslim_dome_rock_03 } remove_building = jerusalem_muslim_dome_rock_03 }
+    if = { limit = { has_building = jerusalem_muslim_dome_rock_04 } remove_building = jerusalem_muslim_dome_rock_04 }
     if = { limit = { has_building = paris_chivalric_01 } remove_building = paris_chivalric_01 }
     if = { limit = { has_building = paris_chivalric_02 } remove_building = paris_chivalric_02 }
     if = { limit = { has_building = paris_chivalric_03 } remove_building = paris_chivalric_03 }

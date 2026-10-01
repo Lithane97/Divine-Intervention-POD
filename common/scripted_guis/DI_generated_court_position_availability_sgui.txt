@@ -179,7 +179,6 @@ DI_court_position_available = {
                 has_dlc_feature = roads_to_power
             }
             court_position_type:wet_nurse_court_position = {
-                has_dlc_feature = wards_and_wardens
                 any_owned_story = {
                     story_type = DI_misc_variables_story
                     has_variable = DI_char_spawner_female
@@ -228,4 +227,34 @@ DI_court_position_category_other_sgui = {
     scope = character
     saved_scopes = { court_position_type }
     is_valid = { DI_court_position_category_other = yes }
+}
+
+DI_court_position_category_target_county_sgui = {
+    scope = character
+    saved_scopes = { court_position_type }
+    is_valid = { DI_court_position_category_target_county = yes }
+}
+
+DI_court_position_category_target_duchy_sgui = {
+    scope = character
+    saved_scopes = { court_position_type }
+    is_valid = { DI_court_position_category_target_duchy = yes }
+}
+
+DI_court_position_category_target_kingdom_sgui = {
+    scope = character
+    saved_scopes = { court_position_type }
+    is_valid = { DI_court_position_category_target_kingdom = yes }
+}
+
+DI_court_position_category_target_empire_sgui = {
+    scope = character
+    saved_scopes = { court_position_type }
+    is_valid = { DI_court_position_category_target_empire = yes }
+}
+
+DI_court_position_category_target_other_sgui = {
+    scope = character
+    saved_scopes = { court_position_type }
+    is_valid = { DI_court_position_category_target_other = yes }
 }

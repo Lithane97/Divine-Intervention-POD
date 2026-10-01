@@ -612,7 +612,6 @@ DI_lifestyle_blood_magic_present_effect = {
     if = { limit = { NOT = { has_perk = bestowment_of_scales_perk } } add_perk = bestowment_of_scales_perk }
     if = { limit = { NOT = { has_perk = biting_gale_perk } } add_perk = biting_gale_perk }
     if = { limit = { NOT = { has_perk = blood_marionette_perk } } add_perk = blood_marionette_perk }
-    if = { limit = { NOT = { has_perk = blood_permanency_perk } } add_perk = blood_permanency_perk }
     if = { limit = { NOT = { has_perk = blood_rage_perk } } add_perk = blood_rage_perk }
     if = { limit = { NOT = { has_perk = blood_to_water_perk } } add_perk = blood_to_water_perk }
     if = { limit = { NOT = { has_perk = body_failure_perk } } add_perk = body_failure_perk }
@@ -621,9 +620,15 @@ DI_lifestyle_blood_magic_present_effect = {
     if = { limit = { NOT = { has_perk = breeze_of_lethargy_perk } } add_perk = breeze_of_lethargy_perk }
     if = { limit = { NOT = { has_perk = bs_a_taste_for_blood_perk } } add_perk = bs_a_taste_for_blood_perk }
     if = { limit = { NOT = { has_perk = bs_blood_of_potency_perk } } add_perk = bs_blood_of_potency_perk }
+    if = { limit = { NOT = { has_perk = bs_bonfire_perk } } add_perk = bs_bonfire_perk }
+    if = { limit = { NOT = { has_perk = bs_campfire_perk } } add_perk = bs_campfire_perk }
+    if = { limit = { NOT = { has_perk = bs_candle_perk } } add_perk = bs_candle_perk }
     if = { limit = { NOT = { has_perk = bs_cauldron_of_blood_perk } } add_perk = bs_cauldron_of_blood_perk }
     if = { limit = { NOT = { has_perk = bs_flight_perk } } add_perk = bs_flight_perk }
     if = { limit = { NOT = { has_perk = bs_heat_wave_perk } } add_perk = bs_heat_wave_perk }
+    if = { limit = { NOT = { has_perk = bs_inferno_perk } } add_perk = bs_inferno_perk }
+    if = { limit = { NOT = { has_perk = bs_palm_of_fire_perk } } add_perk = bs_palm_of_fire_perk }
+    if = { limit = { NOT = { has_perk = bs_permanency_perk } } add_perk = bs_permanency_perk }
     if = { limit = { NOT = { has_perk = bs_theft_of_vitae_perk } } add_perk = bs_theft_of_vitae_perk }
     if = { limit = { NOT = { has_perk = burebistas_throne_perk } } add_perk = burebistas_throne_perk }
     if = { limit = { NOT = { has_perk = call_the_children_perk } } add_perk = call_the_children_perk }
@@ -631,6 +636,7 @@ DI_lifestyle_blood_magic_present_effect = {
     if = { limit = { NOT = { has_perk = certain_fate_perk } } add_perk = certain_fate_perk }
     if = { limit = { NOT = { has_perk = combust_perk } } add_perk = combust_perk }
     if = { limit = { NOT = { has_perk = command_the_freshly_dead_perk } } add_perk = command_the_freshly_dead_perk }
+    if = { limit = { NOT = { has_perk = command_wind_perk } } add_perk = command_wind_perk }
     if = { limit = { NOT = { has_perk = commuta_perk } } add_perk = commuta_perk }
     if = { limit = { NOT = { has_perk = complex_nectar_perk } } add_perk = complex_nectar_perk }
     if = { limit = { NOT = { has_perk = comrades_at_arms_perk } } add_perk = comrades_at_arms_perk }
@@ -640,11 +646,7 @@ DI_lifestyle_blood_magic_present_effect = {
     if = { limit = { NOT = { has_perk = contortion_perk } } add_perk = contortion_perk }
     if = { limit = { NOT = { has_perk = contradict_perk } } add_perk = contradict_perk }
     if = { limit = { NOT = { has_perk = control_fog_perk } } add_perk = control_fog_perk }
-    if = { limit = { NOT = { has_perk = control_lightning_perk } } add_perk = control_lightning_perk }
     if = { limit = { NOT = { has_perk = control_perk } } add_perk = control_perk }
-    if = { limit = { NOT = { has_perk = control_rain_perk } } add_perk = control_rain_perk }
-    if = { limit = { NOT = { has_perk = control_storm_perk } } add_perk = control_storm_perk }
-    if = { limit = { NOT = { has_perk = control_wind_perk } } add_perk = control_wind_perk }
     if = { limit = { NOT = { has_perk = course_of_the_beast_perk } } add_perk = course_of_the_beast_perk }
     if = { limit = { NOT = { has_perk = cross_addiction_perk } } add_perk = cross_addiction_perk }
     if = { limit = { NOT = { has_perk = cycle_of_the_midgard_serpent_perk } } add_perk = cycle_of_the_midgard_serpent_perk }
@@ -655,6 +657,7 @@ DI_lifestyle_blood_magic_present_effect = {
     if = { limit = { NOT = { has_perk = dependence_perk } } add_perk = dependence_perk }
     if = { limit = { NOT = { has_perk = dissociate_perk } } add_perk = dissociate_perk }
     if = { limit = { NOT = { has_perk = domain_breach_perk } } add_perk = domain_breach_perk }
+    if = { limit = { NOT = { has_perk = dominate_lightning_perk } } add_perk = dominate_lightning_perk }
     if = { limit = { NOT = { has_perk = doom_tide_perk } } add_perk = doom_tide_perk }
     if = { limit = { NOT = { has_perk = dual_thought_perk } } add_perk = dual_thought_perk }
     if = { limit = { NOT = { has_perk = duality_perk } } add_perk = duality_perk }
@@ -695,7 +698,6 @@ DI_lifestyle_blood_magic_present_effect = {
     if = { limit = { NOT = { has_perk = high_nectar_perk } } add_perk = high_nectar_perk }
     if = { limit = { NOT = { has_perk = hikma_allah_perk } } add_perk = hikma_allah_perk }
     if = { limit = { NOT = { has_perk = hope_dissolves_perk } } add_perk = hope_dissolves_perk }
-    if = { limit = { NOT = { has_perk = huge_flames_perk } } add_perk = huge_flames_perk }
     if = { limit = { NOT = { has_perk = humiliation_perk } } add_perk = humiliation_perk }
     if = { limit = { NOT = { has_perk = hunger_of_the_void_perk } } add_perk = hunger_of_the_void_perk }
     if = { limit = { NOT = { has_perk = hungry_earth_perk } } add_perk = hungry_earth_perk }
@@ -710,10 +712,9 @@ DI_lifestyle_blood_magic_present_effect = {
     if = { limit = { NOT = { has_perk = love_dies_perk } } add_perk = love_dies_perk }
     if = { limit = { NOT = { has_perk = magic_of_the_smith_perk } } add_perk = magic_of_the_smith_perk }
     if = { limit = { NOT = { has_perk = manipulate_perk } } add_perk = manipulate_perk }
+    if = { limit = { NOT = { has_perk = manipulate_rain_perk } } add_perk = manipulate_rain_perk }
     if = { limit = { NOT = { has_perk = maskims_touch_perk } } add_perk = maskims_touch_perk }
-    if = { limit = { NOT = { has_perk = massive_flames_perk } } add_perk = massive_flames_perk }
     if = { limit = { NOT = { has_perk = master_of_samsara_perk } } add_perk = master_of_samsara_perk }
-    if = { limit = { NOT = { has_perk = medium_flames_perk } } add_perk = medium_flames_perk }
     if = { limit = { NOT = { has_perk = minions_of_deep_marmora_perk } } add_perk = minions_of_deep_marmora_perk }
     if = { limit = { NOT = { has_perk = minions_of_the_deep_perk } } add_perk = minions_of_the_deep_perk }
     if = { limit = { NOT = { has_perk = mouth_of_djabalek_perk } } add_perk = mouth_of_djabalek_perk }
@@ -756,7 +757,6 @@ DI_lifestyle_blood_magic_present_effect = {
     if = { limit = { NOT = { has_perk = shroud_of_oblivion_perk } } add_perk = shroud_of_oblivion_perk }
     if = { limit = { NOT = { has_perk = sight_of_the_jackal_perk } } add_perk = sight_of_the_jackal_perk }
     if = { limit = { NOT = { has_perk = simple_nectar_perk } } add_perk = simple_nectar_perk }
-    if = { limit = { NOT = { has_perk = small_flames_perk } } add_perk = small_flames_perk }
     if = { limit = { NOT = { has_perk = spectral_cloak_perk } } add_perk = spectral_cloak_perk }
     if = { limit = { NOT = { has_perk = strike_at_the_true_flesh_perk } } add_perk = strike_at_the_true_flesh_perk }
     if = { limit = { NOT = { has_perk = strike_true_perk } } add_perk = strike_true_perk }
@@ -765,6 +765,7 @@ DI_lifestyle_blood_magic_present_effect = {
     if = { limit = { NOT = { has_perk = suffocation_of_the_tomb_perk } } add_perk = suffocation_of_the_tomb_perk }
     if = { limit = { NOT = { has_perk = sultat_nabi_perk } } add_perk = sultat_nabi_perk }
     if = { limit = { NOT = { has_perk = summon_elemental_perk } } add_perk = summon_elemental_perk }
+    if = { limit = { NOT = { has_perk = summon_storm_perk } } add_perk = summon_storm_perk }
     if = { limit = { NOT = { has_perk = summon_the_simplest_form_perk } } add_perk = summon_the_simplest_form_perk }
     if = { limit = { NOT = { has_perk = swallow_the_tail_perk } } add_perk = swallow_the_tail_perk }
     if = { limit = { NOT = { has_perk = temperance_perk } } add_perk = temperance_perk }
@@ -782,7 +783,6 @@ DI_lifestyle_blood_magic_present_effect = {
     if = { limit = { NOT = { has_perk = the_withering_of_ages_perk } } add_perk = the_withering_of_ages_perk }
     if = { limit = { NOT = { has_perk = threads_of_the_past_perk } } add_perk = threads_of_the_past_perk }
     if = { limit = { NOT = { has_perk = thrones_crumble_perk } } add_perk = thrones_crumble_perk }
-    if = { limit = { NOT = { has_perk = tiny_flames_perk } } add_perk = tiny_flames_perk }
     if = { limit = { NOT = { has_perk = tongue_of_the_tempter_perk } } add_perk = tongue_of_the_tempter_perk }
     if = { limit = { NOT = { has_perk = transmutate_perk } } add_perk = transmutate_perk }
     if = { limit = { NOT = { has_perk = treacherous_bonds_perk } } add_perk = treacherous_bonds_perk }
@@ -829,7 +829,6 @@ DI_lifestyle_blood_magic_present_no_effect = {
     if = { limit = { has_perk = bestowment_of_scales_perk } remove_perk = bestowment_of_scales_perk }
     if = { limit = { has_perk = biting_gale_perk } remove_perk = biting_gale_perk }
     if = { limit = { has_perk = blood_marionette_perk } remove_perk = blood_marionette_perk }
-    if = { limit = { has_perk = blood_permanency_perk } remove_perk = blood_permanency_perk }
     if = { limit = { has_perk = blood_rage_perk } remove_perk = blood_rage_perk }
     if = { limit = { has_perk = blood_to_water_perk } remove_perk = blood_to_water_perk }
     if = { limit = { has_perk = body_failure_perk } remove_perk = body_failure_perk }
@@ -838,9 +837,15 @@ DI_lifestyle_blood_magic_present_no_effect = {
     if = { limit = { has_perk = breeze_of_lethargy_perk } remove_perk = breeze_of_lethargy_perk }
     if = { limit = { has_perk = bs_a_taste_for_blood_perk } remove_perk = bs_a_taste_for_blood_perk }
     if = { limit = { has_perk = bs_blood_of_potency_perk } remove_perk = bs_blood_of_potency_perk }
+    if = { limit = { has_perk = bs_bonfire_perk } remove_perk = bs_bonfire_perk }
+    if = { limit = { has_perk = bs_campfire_perk } remove_perk = bs_campfire_perk }
+    if = { limit = { has_perk = bs_candle_perk } remove_perk = bs_candle_perk }
     if = { limit = { has_perk = bs_cauldron_of_blood_perk } remove_perk = bs_cauldron_of_blood_perk }
     if = { limit = { has_perk = bs_flight_perk } remove_perk = bs_flight_perk }
     if = { limit = { has_perk = bs_heat_wave_perk } remove_perk = bs_heat_wave_perk }
+    if = { limit = { has_perk = bs_inferno_perk } remove_perk = bs_inferno_perk }
+    if = { limit = { has_perk = bs_palm_of_fire_perk } remove_perk = bs_palm_of_fire_perk }
+    if = { limit = { has_perk = bs_permanency_perk } remove_perk = bs_permanency_perk }
     if = { limit = { has_perk = bs_theft_of_vitae_perk } remove_perk = bs_theft_of_vitae_perk }
     if = { limit = { has_perk = burebistas_throne_perk } remove_perk = burebistas_throne_perk }
     if = { limit = { has_perk = call_the_children_perk } remove_perk = call_the_children_perk }
@@ -848,6 +853,7 @@ DI_lifestyle_blood_magic_present_no_effect = {
     if = { limit = { has_perk = certain_fate_perk } remove_perk = certain_fate_perk }
     if = { limit = { has_perk = combust_perk } remove_perk = combust_perk }
     if = { limit = { has_perk = command_the_freshly_dead_perk } remove_perk = command_the_freshly_dead_perk }
+    if = { limit = { has_perk = command_wind_perk } remove_perk = command_wind_perk }
     if = { limit = { has_perk = commuta_perk } remove_perk = commuta_perk }
     if = { limit = { has_perk = complex_nectar_perk } remove_perk = complex_nectar_perk }
     if = { limit = { has_perk = comrades_at_arms_perk } remove_perk = comrades_at_arms_perk }
@@ -857,11 +863,7 @@ DI_lifestyle_blood_magic_present_no_effect = {
     if = { limit = { has_perk = contortion_perk } remove_perk = contortion_perk }
     if = { limit = { has_perk = contradict_perk } remove_perk = contradict_perk }
     if = { limit = { has_perk = control_fog_perk } remove_perk = control_fog_perk }
-    if = { limit = { has_perk = control_lightning_perk } remove_perk = control_lightning_perk }
     if = { limit = { has_perk = control_perk } remove_perk = control_perk }
-    if = { limit = { has_perk = control_rain_perk } remove_perk = control_rain_perk }
-    if = { limit = { has_perk = control_storm_perk } remove_perk = control_storm_perk }
-    if = { limit = { has_perk = control_wind_perk } remove_perk = control_wind_perk }
     if = { limit = { has_perk = course_of_the_beast_perk } remove_perk = course_of_the_beast_perk }
     if = { limit = { has_perk = cross_addiction_perk } remove_perk = cross_addiction_perk }
     if = { limit = { has_perk = cycle_of_the_midgard_serpent_perk } remove_perk = cycle_of_the_midgard_serpent_perk }
@@ -872,6 +874,7 @@ DI_lifestyle_blood_magic_present_no_effect = {
     if = { limit = { has_perk = dependence_perk } remove_perk = dependence_perk }
     if = { limit = { has_perk = dissociate_perk } remove_perk = dissociate_perk }
     if = { limit = { has_perk = domain_breach_perk } remove_perk = domain_breach_perk }
+    if = { limit = { has_perk = dominate_lightning_perk } remove_perk = dominate_lightning_perk }
     if = { limit = { has_perk = doom_tide_perk } remove_perk = doom_tide_perk }
     if = { limit = { has_perk = dual_thought_perk } remove_perk = dual_thought_perk }
     if = { limit = { has_perk = duality_perk } remove_perk = duality_perk }
@@ -912,7 +915,6 @@ DI_lifestyle_blood_magic_present_no_effect = {
     if = { limit = { has_perk = high_nectar_perk } remove_perk = high_nectar_perk }
     if = { limit = { has_perk = hikma_allah_perk } remove_perk = hikma_allah_perk }
     if = { limit = { has_perk = hope_dissolves_perk } remove_perk = hope_dissolves_perk }
-    if = { limit = { has_perk = huge_flames_perk } remove_perk = huge_flames_perk }
     if = { limit = { has_perk = humiliation_perk } remove_perk = humiliation_perk }
     if = { limit = { has_perk = hunger_of_the_void_perk } remove_perk = hunger_of_the_void_perk }
     if = { limit = { has_perk = hungry_earth_perk } remove_perk = hungry_earth_perk }
@@ -927,10 +929,9 @@ DI_lifestyle_blood_magic_present_no_effect = {
     if = { limit = { has_perk = love_dies_perk } remove_perk = love_dies_perk }
     if = { limit = { has_perk = magic_of_the_smith_perk } remove_perk = magic_of_the_smith_perk }
     if = { limit = { has_perk = manipulate_perk } remove_perk = manipulate_perk }
+    if = { limit = { has_perk = manipulate_rain_perk } remove_perk = manipulate_rain_perk }
     if = { limit = { has_perk = maskims_touch_perk } remove_perk = maskims_touch_perk }
-    if = { limit = { has_perk = massive_flames_perk } remove_perk = massive_flames_perk }
     if = { limit = { has_perk = master_of_samsara_perk } remove_perk = master_of_samsara_perk }
-    if = { limit = { has_perk = medium_flames_perk } remove_perk = medium_flames_perk }
     if = { limit = { has_perk = minions_of_deep_marmora_perk } remove_perk = minions_of_deep_marmora_perk }
     if = { limit = { has_perk = minions_of_the_deep_perk } remove_perk = minions_of_the_deep_perk }
     if = { limit = { has_perk = mouth_of_djabalek_perk } remove_perk = mouth_of_djabalek_perk }
@@ -973,7 +974,6 @@ DI_lifestyle_blood_magic_present_no_effect = {
     if = { limit = { has_perk = shroud_of_oblivion_perk } remove_perk = shroud_of_oblivion_perk }
     if = { limit = { has_perk = sight_of_the_jackal_perk } remove_perk = sight_of_the_jackal_perk }
     if = { limit = { has_perk = simple_nectar_perk } remove_perk = simple_nectar_perk }
-    if = { limit = { has_perk = small_flames_perk } remove_perk = small_flames_perk }
     if = { limit = { has_perk = spectral_cloak_perk } remove_perk = spectral_cloak_perk }
     if = { limit = { has_perk = strike_at_the_true_flesh_perk } remove_perk = strike_at_the_true_flesh_perk }
     if = { limit = { has_perk = strike_true_perk } remove_perk = strike_true_perk }
@@ -982,6 +982,7 @@ DI_lifestyle_blood_magic_present_no_effect = {
     if = { limit = { has_perk = suffocation_of_the_tomb_perk } remove_perk = suffocation_of_the_tomb_perk }
     if = { limit = { has_perk = sultat_nabi_perk } remove_perk = sultat_nabi_perk }
     if = { limit = { has_perk = summon_elemental_perk } remove_perk = summon_elemental_perk }
+    if = { limit = { has_perk = summon_storm_perk } remove_perk = summon_storm_perk }
     if = { limit = { has_perk = summon_the_simplest_form_perk } remove_perk = summon_the_simplest_form_perk }
     if = { limit = { has_perk = swallow_the_tail_perk } remove_perk = swallow_the_tail_perk }
     if = { limit = { has_perk = temperance_perk } remove_perk = temperance_perk }
@@ -999,7 +1000,6 @@ DI_lifestyle_blood_magic_present_no_effect = {
     if = { limit = { has_perk = the_withering_of_ages_perk } remove_perk = the_withering_of_ages_perk }
     if = { limit = { has_perk = threads_of_the_past_perk } remove_perk = threads_of_the_past_perk }
     if = { limit = { has_perk = thrones_crumble_perk } remove_perk = thrones_crumble_perk }
-    if = { limit = { has_perk = tiny_flames_perk } remove_perk = tiny_flames_perk }
     if = { limit = { has_perk = tongue_of_the_tempter_perk } remove_perk = tongue_of_the_tempter_perk }
     if = { limit = { has_perk = transmutate_perk } remove_perk = transmutate_perk }
     if = { limit = { has_perk = treacherous_bonds_perk } remove_perk = treacherous_bonds_perk }
@@ -1025,38 +1025,38 @@ DI_lifestyle_blood_magic_present_no_effect = {
 }
 
 DI_lifestyle_breedgifts_present_effect = {
-    if = { limit = { NOT = { has_perk = apecraftsblessings_perk } } add_perk = apecraftsblessings_perk }
-    if = { limit = { NOT = { has_perk = assimilation_perk } } add_perk = assimilation_perk }
-    if = { limit = { NOT = { has_perk = axis_mundi_perk } } add_perk = axis_mundi_perk }
+    if = { limit = { NOT = { has_perk = apecrafts_blessing_perk } } add_perk = apecrafts_blessing_perk }
     if = { limit = { NOT = { has_perk = babels_cure_perk } } add_perk = babels_cure_perk }
-    if = { limit = { NOT = { has_perk = beast_life_perk } } add_perk = beast_life_perk }
-    if = { limit = { NOT = { has_perk = beyond_human_perk } } add_perk = beyond_human_perk }
-    if = { limit = { NOT = { has_perk = boon_fathers_perk } } add_perk = boon_fathers_perk }
+    if = { limit = { NOT = { has_perk = blinding_moonbeam_gaze_perk } } add_perk = blinding_moonbeam_gaze_perk }
+    if = { limit = { NOT = { has_perk = body_shift_perk } } add_perk = body_shift_perk }
     if = { limit = { NOT = { has_perk = cat_claws_perk } } add_perk = cat_claws_perk }
-    if = { limit = { NOT = { has_perk = catfeet_perk } } add_perk = catfeet_perk }
-    if = { limit = { NOT = { has_perk = craft_of_the_maker_perk } } add_perk = craft_of_the_maker_perk }
+    if = { limit = { NOT = { has_perk = cousins_coat_perk } } add_perk = cousins_coat_perk }
     if = { limit = { NOT = { has_perk = deny_the_hungry_perk } } add_perk = deny_the_hungry_perk }
+    if = { limit = { NOT = { has_perk = devils_child_perk } } add_perk = devils_child_perk }
     if = { limit = { NOT = { has_perk = divide_perk } } add_perk = divide_perk }
     if = { limit = { NOT = { has_perk = eavesdroppers_ear_perk } } add_perk = eavesdroppers_ear_perk }
     if = { limit = { NOT = { has_perk = elemental_gift_perk } } add_perk = elemental_gift_perk }
-    if = { limit = { NOT = { has_perk = hand_of_will_perk } } add_perk = hand_of_will_perk }
-    if = { limit = { NOT = { has_perk = judgement_of_pestilence_perk } } add_perk = judgement_of_pestilence_perk }
-    if = { limit = { NOT = { has_perk = killers_leap_perk } } add_perk = killers_leap_perk }
+    if = { limit = { NOT = { has_perk = false_comfort_perk } } add_perk = false_comfort_perk }
+    if = { limit = { NOT = { has_perk = fist_of_cahlash_perk } } add_perk = fist_of_cahlash_perk }
+    if = { limit = { NOT = { has_perk = gift_of_the_porcupine_perk } } add_perk = gift_of_the_porcupine_perk }
+    if = { limit = { NOT = { has_perk = hares_leap_perk } } add_perk = hares_leap_perk }
     if = { limit = { NOT = { has_perk = kittens_cry_perk } } add_perk = kittens_cry_perk }
+    if = { limit = { NOT = { has_perk = lord_of_the_wilds_perk } } add_perk = lord_of_the_wilds_perk }
     if = { limit = { NOT = { has_perk = madness_perk } } add_perk = madness_perk }
     if = { limit = { NOT = { has_perk = mark_as_mine_perk } } add_perk = mark_as_mine_perk }
-    if = { limit = { NOT = { has_perk = monkeys_uncle_perk } } add_perk = monkeys_uncle_perk }
+    if = { limit = { NOT = { has_perk = moon_sense_perk } } add_perk = moon_sense_perk }
+    if = { limit = { NOT = { has_perk = moons_gateway_perk } } add_perk = moons_gateway_perk }
     if = { limit = { NOT = { has_perk = perfect_cover_perk } } add_perk = perfect_cover_perk }
     if = { limit = { NOT = { has_perk = persuasion_perk } } add_perk = persuasion_perk }
-    if = { limit = { NOT = { has_perk = predators_arsenal_perk } } add_perk = predators_arsenal_perk }
-    if = { limit = { NOT = { has_perk = reshape_objects_perk } } add_perk = reshape_objects_perk }
-    if = { limit = { NOT = { has_perk = revolt_of_the_land_perk } } add_perk = revolt_of_the_land_perk }
-    if = { limit = { NOT = { has_perk = speech_of_the_world_perk } } add_perk = speech_of_the_world_perk }
+    if = { limit = { NOT = { has_perk = redeem_the_waste_perk } } add_perk = redeem_the_waste_perk }
+    if = { limit = { NOT = { has_perk = reshape_object_perk } } add_perk = reshape_object_perk }
+    if = { limit = { NOT = { has_perk = sense_the_unnatural_perk } } add_perk = sense_the_unnatural_perk }
     if = { limit = { NOT = { has_perk = staredown_perk } } add_perk = staredown_perk }
     if = { limit = { NOT = { has_perk = sweet_hunters_smile_perk } } add_perk = sweet_hunters_smile_perk }
-    if = { limit = { NOT = { has_perk = terror_direwolf_perk } } add_perk = terror_direwolf_perk }
+    if = { limit = { NOT = { has_perk = umbral_body_perk } } add_perk = umbral_body_perk }
     if = { limit = { NOT = { has_perk = underbelly_perk } } add_perk = underbelly_perk }
-    if = { limit = { NOT = { has_perk = wyld_ferocity_perk } } add_perk = wyld_ferocity_perk }
+    if = { limit = { NOT = { has_perk = weave_of_steel_perk } } add_perk = weave_of_steel_perk }
+    if = { limit = { NOT = { has_perk = wrath_of_nala_perk } } add_perk = wrath_of_nala_perk }
     add_character_modifier = {
         modifier = no_lifestyle_breedgifts
         days = -1
@@ -1064,38 +1064,38 @@ DI_lifestyle_breedgifts_present_effect = {
 }
 
 DI_lifestyle_breedgifts_present_no_effect = {
-    if = { limit = { has_perk = apecraftsblessings_perk } remove_perk = apecraftsblessings_perk }
-    if = { limit = { has_perk = assimilation_perk } remove_perk = assimilation_perk }
-    if = { limit = { has_perk = axis_mundi_perk } remove_perk = axis_mundi_perk }
+    if = { limit = { has_perk = apecrafts_blessing_perk } remove_perk = apecrafts_blessing_perk }
     if = { limit = { has_perk = babels_cure_perk } remove_perk = babels_cure_perk }
-    if = { limit = { has_perk = beast_life_perk } remove_perk = beast_life_perk }
-    if = { limit = { has_perk = beyond_human_perk } remove_perk = beyond_human_perk }
-    if = { limit = { has_perk = boon_fathers_perk } remove_perk = boon_fathers_perk }
+    if = { limit = { has_perk = blinding_moonbeam_gaze_perk } remove_perk = blinding_moonbeam_gaze_perk }
+    if = { limit = { has_perk = body_shift_perk } remove_perk = body_shift_perk }
     if = { limit = { has_perk = cat_claws_perk } remove_perk = cat_claws_perk }
-    if = { limit = { has_perk = catfeet_perk } remove_perk = catfeet_perk }
-    if = { limit = { has_perk = craft_of_the_maker_perk } remove_perk = craft_of_the_maker_perk }
+    if = { limit = { has_perk = cousins_coat_perk } remove_perk = cousins_coat_perk }
     if = { limit = { has_perk = deny_the_hungry_perk } remove_perk = deny_the_hungry_perk }
+    if = { limit = { has_perk = devils_child_perk } remove_perk = devils_child_perk }
     if = { limit = { has_perk = divide_perk } remove_perk = divide_perk }
     if = { limit = { has_perk = eavesdroppers_ear_perk } remove_perk = eavesdroppers_ear_perk }
     if = { limit = { has_perk = elemental_gift_perk } remove_perk = elemental_gift_perk }
-    if = { limit = { has_perk = hand_of_will_perk } remove_perk = hand_of_will_perk }
-    if = { limit = { has_perk = judgement_of_pestilence_perk } remove_perk = judgement_of_pestilence_perk }
-    if = { limit = { has_perk = killers_leap_perk } remove_perk = killers_leap_perk }
+    if = { limit = { has_perk = false_comfort_perk } remove_perk = false_comfort_perk }
+    if = { limit = { has_perk = fist_of_cahlash_perk } remove_perk = fist_of_cahlash_perk }
+    if = { limit = { has_perk = gift_of_the_porcupine_perk } remove_perk = gift_of_the_porcupine_perk }
+    if = { limit = { has_perk = hares_leap_perk } remove_perk = hares_leap_perk }
     if = { limit = { has_perk = kittens_cry_perk } remove_perk = kittens_cry_perk }
+    if = { limit = { has_perk = lord_of_the_wilds_perk } remove_perk = lord_of_the_wilds_perk }
     if = { limit = { has_perk = madness_perk } remove_perk = madness_perk }
     if = { limit = { has_perk = mark_as_mine_perk } remove_perk = mark_as_mine_perk }
-    if = { limit = { has_perk = monkeys_uncle_perk } remove_perk = monkeys_uncle_perk }
+    if = { limit = { has_perk = moon_sense_perk } remove_perk = moon_sense_perk }
+    if = { limit = { has_perk = moons_gateway_perk } remove_perk = moons_gateway_perk }
     if = { limit = { has_perk = perfect_cover_perk } remove_perk = perfect_cover_perk }
     if = { limit = { has_perk = persuasion_perk } remove_perk = persuasion_perk }
-    if = { limit = { has_perk = predators_arsenal_perk } remove_perk = predators_arsenal_perk }
-    if = { limit = { has_perk = reshape_objects_perk } remove_perk = reshape_objects_perk }
-    if = { limit = { has_perk = revolt_of_the_land_perk } remove_perk = revolt_of_the_land_perk }
-    if = { limit = { has_perk = speech_of_the_world_perk } remove_perk = speech_of_the_world_perk }
+    if = { limit = { has_perk = redeem_the_waste_perk } remove_perk = redeem_the_waste_perk }
+    if = { limit = { has_perk = reshape_object_perk } remove_perk = reshape_object_perk }
+    if = { limit = { has_perk = sense_the_unnatural_perk } remove_perk = sense_the_unnatural_perk }
     if = { limit = { has_perk = staredown_perk } remove_perk = staredown_perk }
     if = { limit = { has_perk = sweet_hunters_smile_perk } remove_perk = sweet_hunters_smile_perk }
-    if = { limit = { has_perk = terror_direwolf_perk } remove_perk = terror_direwolf_perk }
+    if = { limit = { has_perk = umbral_body_perk } remove_perk = umbral_body_perk }
     if = { limit = { has_perk = underbelly_perk } remove_perk = underbelly_perk }
-    if = { limit = { has_perk = wyld_ferocity_perk } remove_perk = wyld_ferocity_perk }
+    if = { limit = { has_perk = weave_of_steel_perk } remove_perk = weave_of_steel_perk }
+    if = { limit = { has_perk = wrath_of_nala_perk } remove_perk = wrath_of_nala_perk }
     remove_character_modifier = no_lifestyle_breedgifts
 }
 
@@ -1390,31 +1390,51 @@ DI_lifestyle_choleric_present_no_effect = {
 }
 
 DI_lifestyle_common_arts_present_effect = {
-    if = { limit = { NOT = { has_perk = art_ensnare_perk } } add_perk = art_ensnare_perk }
-    if = { limit = { NOT = { has_perk = augury_perk } } add_perk = augury_perk }
-    if = { limit = { NOT = { has_perk = captive_heart_perk } } add_perk = captive_heart_perk }
-    if = { limit = { NOT = { has_perk = effigy_perk } } add_perk = effigy_perk }
-    if = { limit = { NOT = { has_perk = elder_form_perk } } add_perk = elder_form_perk }
-    if = { limit = { NOT = { has_perk = eldritch_prime_perk } } add_perk = eldritch_prime_perk }
-    if = { limit = { NOT = { has_perk = fair_is_foul_foul_is_fair_perk } } add_perk = fair_is_foul_foul_is_fair_perk }
-    if = { limit = { NOT = { has_perk = fate_fire_perk } } add_perk = fate_fire_perk }
-    if = { limit = { NOT = { has_perk = flicker_flash_perk } } add_perk = flicker_flash_perk }
-    if = { limit = { NOT = { has_perk = fuddle_perk } } add_perk = fuddle_perk }
-    if = { limit = { NOT = { has_perk = fugue_perk } } add_perk = fugue_perk }
-    if = { limit = { NOT = { has_perk = gimmix_perk } } add_perk = gimmix_perk }
-    if = { limit = { NOT = { has_perk = haunted_heart_perk } } add_perk = haunted_heart_perk }
-    if = { limit = { NOT = { has_perk = heathe_balm_holly_strike_perk } } add_perk = heathe_balm_holly_strike_perk }
-    if = { limit = { NOT = { has_perk = hopscotch_perk } } add_perk = hopscotch_perk }
-    if = { limit = { NOT = { has_perk = mooch_perk } } add_perk = mooch_perk }
-    if = { limit = { NOT = { has_perk = oakenshield_perk } } add_perk = oakenshield_perk }
-    if = { limit = { NOT = { has_perk = omen_perk } } add_perk = omen_perk }
-    if = { limit = { NOT = { has_perk = phantom_shadows_perk } } add_perk = phantom_shadows_perk }
-    if = { limit = { NOT = { has_perk = portal_passage_perk } } add_perk = portal_passage_perk }
-    if = { limit = { NOT = { has_perk = quicksilver_perk } } add_perk = quicksilver_perk }
-    if = { limit = { NOT = { has_perk = tattletale_perk } } add_perk = tattletale_perk }
-    if = { limit = { NOT = { has_perk = veiled_eyes_perk } } add_perk = veiled_eyes_perk }
-    if = { limit = { NOT = { has_perk = willow_whisper_perk } } add_perk = willow_whisper_perk }
-    if = { limit = { NOT = { has_perk = wind_runner_perk } } add_perk = wind_runner_perk }
+    if = { limit = { NOT = { has_perk = common_arts_augury_perk } } add_perk = common_arts_augury_perk }
+    if = { limit = { NOT = { has_perk = common_arts_beastskin_perk } } add_perk = common_arts_beastskin_perk }
+    if = { limit = { NOT = { has_perk = common_arts_chimeric_exultation_perk } } add_perk = common_arts_chimeric_exultation_perk }
+    if = { limit = { NOT = { has_perk = common_arts_dance_of_the_five_kings_perk } } add_perk = common_arts_dance_of_the_five_kings_perk }
+    if = { limit = { NOT = { has_perk = common_arts_dream_craft_perk } } add_perk = common_arts_dream_craft_perk }
+    if = { limit = { NOT = { has_perk = common_arts_dream_logic_perk } } add_perk = common_arts_dream_logic_perk }
+    if = { limit = { NOT = { has_perk = common_arts_dream_portal_perk } } add_perk = common_arts_dream_portal_perk }
+    if = { limit = { NOT = { has_perk = common_arts_dream_puppet_perk } } add_perk = common_arts_dream_puppet_perk }
+    if = { limit = { NOT = { has_perk = common_arts_dream_walk_perk } } add_perk = common_arts_dream_walk_perk }
+    if = { limit = { NOT = { has_perk = common_arts_effigy_perk } } add_perk = common_arts_effigy_perk }
+    if = { limit = { NOT = { has_perk = common_arts_elder_form_perk } } add_perk = common_arts_elder_form_perk }
+    if = { limit = { NOT = { has_perk = common_arts_eldritch_prime_perk } } add_perk = common_arts_eldritch_prime_perk }
+    if = { limit = { NOT = { has_perk = common_arts_electric_gremlins_perk } } add_perk = common_arts_electric_gremlins_perk }
+    if = { limit = { NOT = { has_perk = common_arts_engulf_perk } } add_perk = common_arts_engulf_perk }
+    if = { limit = { NOT = { has_perk = common_arts_ensnare_perk } } add_perk = common_arts_ensnare_perk }
+    if = { limit = { NOT = { has_perk = common_arts_face_fate_perk } } add_perk = common_arts_face_fate_perk }
+    if = { limit = { NOT = { has_perk = common_arts_flicker_flash_perk } } add_perk = common_arts_flicker_flash_perk }
+    if = { limit = { NOT = { has_perk = common_arts_gimmix_perk } } add_perk = common_arts_gimmix_perk }
+    if = { limit = { NOT = { has_perk = common_arts_hopscotch_perk } } add_perk = common_arts_hopscotch_perk }
+    if = { limit = { NOT = { has_perk = common_arts_howling_gale_perk } } add_perk = common_arts_howling_gale_perk }
+    if = { limit = { NOT = { has_perk = common_arts_hurricane_speed_perk } } add_perk = common_arts_hurricane_speed_perk }
+    if = { limit = { NOT = { has_perk = common_arts_illuminate_perk } } add_perk = common_arts_illuminate_perk }
+    if = { limit = { NOT = { has_perk = common_arts_kindle_perk } } add_perk = common_arts_kindle_perk }
+    if = { limit = { NOT = { has_perk = common_arts_lord_of_levin_perk } } add_perk = common_arts_lord_of_levin_perk }
+    if = { limit = { NOT = { has_perk = common_arts_lost_in_the_mists_perk } } add_perk = common_arts_lost_in_the_mists_perk }
+    if = { limit = { NOT = { has_perk = common_arts_manifest_perk } } add_perk = common_arts_manifest_perk }
+    if = { limit = { NOT = { has_perk = common_arts_mooch_perk } } add_perk = common_arts_mooch_perk }
+    if = { limit = { NOT = { has_perk = common_arts_oakenshield_perk } } add_perk = common_arts_oakenshield_perk }
+    if = { limit = { NOT = { has_perk = common_arts_omen_perk } } add_perk = common_arts_omen_perk }
+    if = { limit = { NOT = { has_perk = common_arts_phoenix_song_perk } } add_perk = common_arts_phoenix_song_perk }
+    if = { limit = { NOT = { has_perk = common_arts_portal_passage_perk } } add_perk = common_arts_portal_passage_perk }
+    if = { limit = { NOT = { has_perk = common_arts_purity_perk } } add_perk = common_arts_purity_perk }
+    if = { limit = { NOT = { has_perk = common_arts_quicksilver_perk } } add_perk = common_arts_quicksilver_perk }
+    if = { limit = { NOT = { has_perk = common_arts_seers_wisp_perk } } add_perk = common_arts_seers_wisp_perk }
+    if = { limit = { NOT = { has_perk = common_arts_smoke_and_mirrors_perk } } add_perk = common_arts_smoke_and_mirrors_perk }
+    if = { limit = { NOT = { has_perk = common_arts_sparrows_and_nightingales_perk } } add_perk = common_arts_sparrows_and_nightingales_perk }
+    if = { limit = { NOT = { has_perk = common_arts_storm_shroud_perk } } add_perk = common_arts_storm_shroud_perk }
+    if = { limit = { NOT = { has_perk = common_arts_tattletale_perk } } add_perk = common_arts_tattletale_perk }
+    if = { limit = { NOT = { has_perk = common_arts_thousandskins_perk } } add_perk = common_arts_thousandskins_perk }
+    if = { limit = { NOT = { has_perk = common_arts_trick_of_the_light_perk } } add_perk = common_arts_trick_of_the_light_perk }
+    if = { limit = { NOT = { has_perk = common_arts_veiled_eyes_perk } } add_perk = common_arts_veiled_eyes_perk }
+    if = { limit = { NOT = { has_perk = common_arts_veiled_mind_perk } } add_perk = common_arts_veiled_mind_perk }
+    if = { limit = { NOT = { has_perk = common_arts_willow_whispers_perk } } add_perk = common_arts_willow_whispers_perk }
+    if = { limit = { NOT = { has_perk = common_arts_wind_runner_perk } } add_perk = common_arts_wind_runner_perk }
+    if = { limit = { NOT = { has_perk = common_arts_worms_and_giants_perk } } add_perk = common_arts_worms_and_giants_perk }
     add_character_modifier = {
         modifier = no_lifestyle_common_arts
         days = -1
@@ -1422,35 +1442,56 @@ DI_lifestyle_common_arts_present_effect = {
 }
 
 DI_lifestyle_common_arts_present_no_effect = {
-    if = { limit = { has_perk = art_ensnare_perk } remove_perk = art_ensnare_perk }
-    if = { limit = { has_perk = augury_perk } remove_perk = augury_perk }
-    if = { limit = { has_perk = captive_heart_perk } remove_perk = captive_heart_perk }
-    if = { limit = { has_perk = effigy_perk } remove_perk = effigy_perk }
-    if = { limit = { has_perk = elder_form_perk } remove_perk = elder_form_perk }
-    if = { limit = { has_perk = eldritch_prime_perk } remove_perk = eldritch_prime_perk }
-    if = { limit = { has_perk = fair_is_foul_foul_is_fair_perk } remove_perk = fair_is_foul_foul_is_fair_perk }
-    if = { limit = { has_perk = fate_fire_perk } remove_perk = fate_fire_perk }
-    if = { limit = { has_perk = flicker_flash_perk } remove_perk = flicker_flash_perk }
-    if = { limit = { has_perk = fuddle_perk } remove_perk = fuddle_perk }
-    if = { limit = { has_perk = fugue_perk } remove_perk = fugue_perk }
-    if = { limit = { has_perk = gimmix_perk } remove_perk = gimmix_perk }
-    if = { limit = { has_perk = haunted_heart_perk } remove_perk = haunted_heart_perk }
-    if = { limit = { has_perk = heathe_balm_holly_strike_perk } remove_perk = heathe_balm_holly_strike_perk }
-    if = { limit = { has_perk = hopscotch_perk } remove_perk = hopscotch_perk }
-    if = { limit = { has_perk = mooch_perk } remove_perk = mooch_perk }
-    if = { limit = { has_perk = oakenshield_perk } remove_perk = oakenshield_perk }
-    if = { limit = { has_perk = omen_perk } remove_perk = omen_perk }
-    if = { limit = { has_perk = phantom_shadows_perk } remove_perk = phantom_shadows_perk }
-    if = { limit = { has_perk = portal_passage_perk } remove_perk = portal_passage_perk }
-    if = { limit = { has_perk = quicksilver_perk } remove_perk = quicksilver_perk }
-    if = { limit = { has_perk = tattletale_perk } remove_perk = tattletale_perk }
-    if = { limit = { has_perk = veiled_eyes_perk } remove_perk = veiled_eyes_perk }
-    if = { limit = { has_perk = willow_whisper_perk } remove_perk = willow_whisper_perk }
-    if = { limit = { has_perk = wind_runner_perk } remove_perk = wind_runner_perk }
+    if = { limit = { has_perk = common_arts_augury_perk } remove_perk = common_arts_augury_perk }
+    if = { limit = { has_perk = common_arts_beastskin_perk } remove_perk = common_arts_beastskin_perk }
+    if = { limit = { has_perk = common_arts_chimeric_exultation_perk } remove_perk = common_arts_chimeric_exultation_perk }
+    if = { limit = { has_perk = common_arts_dance_of_the_five_kings_perk } remove_perk = common_arts_dance_of_the_five_kings_perk }
+    if = { limit = { has_perk = common_arts_dream_craft_perk } remove_perk = common_arts_dream_craft_perk }
+    if = { limit = { has_perk = common_arts_dream_logic_perk } remove_perk = common_arts_dream_logic_perk }
+    if = { limit = { has_perk = common_arts_dream_portal_perk } remove_perk = common_arts_dream_portal_perk }
+    if = { limit = { has_perk = common_arts_dream_puppet_perk } remove_perk = common_arts_dream_puppet_perk }
+    if = { limit = { has_perk = common_arts_dream_walk_perk } remove_perk = common_arts_dream_walk_perk }
+    if = { limit = { has_perk = common_arts_effigy_perk } remove_perk = common_arts_effigy_perk }
+    if = { limit = { has_perk = common_arts_elder_form_perk } remove_perk = common_arts_elder_form_perk }
+    if = { limit = { has_perk = common_arts_eldritch_prime_perk } remove_perk = common_arts_eldritch_prime_perk }
+    if = { limit = { has_perk = common_arts_electric_gremlins_perk } remove_perk = common_arts_electric_gremlins_perk }
+    if = { limit = { has_perk = common_arts_engulf_perk } remove_perk = common_arts_engulf_perk }
+    if = { limit = { has_perk = common_arts_ensnare_perk } remove_perk = common_arts_ensnare_perk }
+    if = { limit = { has_perk = common_arts_face_fate_perk } remove_perk = common_arts_face_fate_perk }
+    if = { limit = { has_perk = common_arts_flicker_flash_perk } remove_perk = common_arts_flicker_flash_perk }
+    if = { limit = { has_perk = common_arts_gimmix_perk } remove_perk = common_arts_gimmix_perk }
+    if = { limit = { has_perk = common_arts_hopscotch_perk } remove_perk = common_arts_hopscotch_perk }
+    if = { limit = { has_perk = common_arts_howling_gale_perk } remove_perk = common_arts_howling_gale_perk }
+    if = { limit = { has_perk = common_arts_hurricane_speed_perk } remove_perk = common_arts_hurricane_speed_perk }
+    if = { limit = { has_perk = common_arts_illuminate_perk } remove_perk = common_arts_illuminate_perk }
+    if = { limit = { has_perk = common_arts_kindle_perk } remove_perk = common_arts_kindle_perk }
+    if = { limit = { has_perk = common_arts_lord_of_levin_perk } remove_perk = common_arts_lord_of_levin_perk }
+    if = { limit = { has_perk = common_arts_lost_in_the_mists_perk } remove_perk = common_arts_lost_in_the_mists_perk }
+    if = { limit = { has_perk = common_arts_manifest_perk } remove_perk = common_arts_manifest_perk }
+    if = { limit = { has_perk = common_arts_mooch_perk } remove_perk = common_arts_mooch_perk }
+    if = { limit = { has_perk = common_arts_oakenshield_perk } remove_perk = common_arts_oakenshield_perk }
+    if = { limit = { has_perk = common_arts_omen_perk } remove_perk = common_arts_omen_perk }
+    if = { limit = { has_perk = common_arts_phoenix_song_perk } remove_perk = common_arts_phoenix_song_perk }
+    if = { limit = { has_perk = common_arts_portal_passage_perk } remove_perk = common_arts_portal_passage_perk }
+    if = { limit = { has_perk = common_arts_purity_perk } remove_perk = common_arts_purity_perk }
+    if = { limit = { has_perk = common_arts_quicksilver_perk } remove_perk = common_arts_quicksilver_perk }
+    if = { limit = { has_perk = common_arts_seers_wisp_perk } remove_perk = common_arts_seers_wisp_perk }
+    if = { limit = { has_perk = common_arts_smoke_and_mirrors_perk } remove_perk = common_arts_smoke_and_mirrors_perk }
+    if = { limit = { has_perk = common_arts_sparrows_and_nightingales_perk } remove_perk = common_arts_sparrows_and_nightingales_perk }
+    if = { limit = { has_perk = common_arts_storm_shroud_perk } remove_perk = common_arts_storm_shroud_perk }
+    if = { limit = { has_perk = common_arts_tattletale_perk } remove_perk = common_arts_tattletale_perk }
+    if = { limit = { has_perk = common_arts_thousandskins_perk } remove_perk = common_arts_thousandskins_perk }
+    if = { limit = { has_perk = common_arts_trick_of_the_light_perk } remove_perk = common_arts_trick_of_the_light_perk }
+    if = { limit = { has_perk = common_arts_veiled_eyes_perk } remove_perk = common_arts_veiled_eyes_perk }
+    if = { limit = { has_perk = common_arts_veiled_mind_perk } remove_perk = common_arts_veiled_mind_perk }
+    if = { limit = { has_perk = common_arts_willow_whispers_perk } remove_perk = common_arts_willow_whispers_perk }
+    if = { limit = { has_perk = common_arts_wind_runner_perk } remove_perk = common_arts_wind_runner_perk }
+    if = { limit = { has_perk = common_arts_worms_and_giants_perk } remove_perk = common_arts_worms_and_giants_perk }
     remove_character_modifier = no_lifestyle_common_arts
 }
 
 DI_lifestyle_commongifts_present_effect = {
+    if = { limit = { NOT = { has_perk = axis_mundi_perk } } add_perk = axis_mundi_perk }
     if = { limit = { NOT = { has_perk = blessings_of_the_nest_perk } } add_perk = blessings_of_the_nest_perk }
     if = { limit = { NOT = { has_perk = cheshire_prank_perk } } add_perk = cheshire_prank_perk }
     if = { limit = { NOT = { has_perk = cocoon_perk } } add_perk = cocoon_perk }
@@ -1460,7 +1501,6 @@ DI_lifestyle_commongifts_present_effect = {
     if = { limit = { NOT = { has_perk = freyjas_blessing_perk } } add_perk = freyjas_blessing_perk }
     if = { limit = { NOT = { has_perk = grasp_the_beyond_perk } } add_perk = grasp_the_beyond_perk }
     if = { limit = { NOT = { has_perk = jump_to_the_moon_perk } } add_perk = jump_to_the_moon_perk }
-    if = { limit = { NOT = { has_perk = mokole_axis_mundi_perk } } add_perk = mokole_axis_mundi_perk }
     if = { limit = { NOT = { has_perk = mokole_walking_between_worlds_perk } } add_perk = mokole_walking_between_worlds_perk }
     if = { limit = { NOT = { has_perk = pathfinders_pride_perk } } add_perk = pathfinders_pride_perk }
     if = { limit = { NOT = { has_perk = razor_claws_perk } } add_perk = razor_claws_perk }
@@ -1477,6 +1517,7 @@ DI_lifestyle_commongifts_present_effect = {
 }
 
 DI_lifestyle_commongifts_present_no_effect = {
+    if = { limit = { has_perk = axis_mundi_perk } remove_perk = axis_mundi_perk }
     if = { limit = { has_perk = blessings_of_the_nest_perk } remove_perk = blessings_of_the_nest_perk }
     if = { limit = { has_perk = cheshire_prank_perk } remove_perk = cheshire_prank_perk }
     if = { limit = { has_perk = cocoon_perk } remove_perk = cocoon_perk }
@@ -1486,7 +1527,6 @@ DI_lifestyle_commongifts_present_no_effect = {
     if = { limit = { has_perk = freyjas_blessing_perk } remove_perk = freyjas_blessing_perk }
     if = { limit = { has_perk = grasp_the_beyond_perk } remove_perk = grasp_the_beyond_perk }
     if = { limit = { has_perk = jump_to_the_moon_perk } remove_perk = jump_to_the_moon_perk }
-    if = { limit = { has_perk = mokole_axis_mundi_perk } remove_perk = mokole_axis_mundi_perk }
     if = { limit = { has_perk = mokole_walking_between_worlds_perk } remove_perk = mokole_walking_between_worlds_perk }
     if = { limit = { has_perk = pathfinders_pride_perk } remove_perk = pathfinders_pride_perk }
     if = { limit = { has_perk = razor_claws_perk } remove_perk = razor_claws_perk }
@@ -2854,77 +2894,6 @@ DI_lifestyle_jade_arcanoi_present_no_effect = {
     remove_character_modifier = no_lifestyle_jade_arcanoi
 }
 
-DI_lifestyle_kith_arts_present_effect = {
-    if = { limit = { NOT = { has_perk = agemos_blessing_perk } } add_perk = agemos_blessing_perk }
-    if = { limit = { NOT = { has_perk = animantis_perk } } add_perk = animantis_perk }
-    if = { limit = { NOT = { has_perk = attunement_perk } } add_perk = attunement_perk }
-    if = { limit = { NOT = { has_perk = backward_glance_perk } } add_perk = backward_glance_perk }
-    if = { limit = { NOT = { has_perk = determinism_perk } } add_perk = determinism_perk }
-    if = { limit = { NOT = { has_perk = dictum_perk } } add_perk = dictum_perk }
-    if = { limit = { NOT = { has_perk = dream_time_perk } } add_perk = dream_time_perk }
-    if = { limit = { NOT = { has_perk = dream_weaving_perk } } add_perk = dream_weaving_perk }
-    if = { limit = { NOT = { has_perk = find_silver_path_perk } } add_perk = find_silver_path_perk }
-    if = { limit = { NOT = { has_perk = flickering_firelight_perk } } add_perk = flickering_firelight_perk }
-    if = { limit = { NOT = { has_perk = fubar_generation_perk } } add_perk = fubar_generation_perk }
-    if = { limit = { NOT = { has_perk = geas_ban_perk } } add_perk = geas_ban_perk }
-    if = { limit = { NOT = { has_perk = gilgul_perk } } add_perk = gilgul_perk }
-    if = { limit = { NOT = { has_perk = grandeur_perk } } add_perk = grandeur_perk }
-    if = { limit = { NOT = { has_perk = harden_perk } } add_perk = harden_perk }
-    if = { limit = { NOT = { has_perk = homestead_perk } } add_perk = homestead_perk }
-    if = { limit = { NOT = { has_perk = moment_of_truth_perk } } add_perk = moment_of_truth_perk }
-    if = { limit = { NOT = { has_perk = murmur_in_the_crowd_perk } } add_perk = murmur_in_the_crowd_perk }
-    if = { limit = { NOT = { has_perk = permanence_perk } } add_perk = permanence_perk }
-    if = { limit = { NOT = { has_perk = protocol_perk } } add_perk = protocol_perk }
-    if = { limit = { NOT = { has_perk = reversa_of_fortune_perk } } add_perk = reversa_of_fortune_perk }
-    if = { limit = { NOT = { has_perk = reweaving_perk } } add_perk = reweaving_perk }
-    if = { limit = { NOT = { has_perk = rune_perk } } add_perk = rune_perk }
-    if = { limit = { NOT = { has_perk = runic_circle_perk } } add_perk = runic_circle_perk }
-    if = { limit = { NOT = { has_perk = saining_perk } } add_perk = saining_perk }
-    if = { limit = { NOT = { has_perk = seek_n_spell_perk } } add_perk = seek_n_spell_perk }
-    if = { limit = { NOT = { has_perk = sticks_and_stones_perk } } add_perk = sticks_and_stones_perk }
-    if = { limit = { NOT = { has_perk = toughen_perk } } add_perk = toughen_perk }
-    if = { limit = { NOT = { has_perk = weaver_ward_perk } } add_perk = weaver_ward_perk }
-    if = { limit = { NOT = { has_perk = wyrd_perk } } add_perk = wyrd_perk }
-    add_character_modifier = {
-        modifier = no_lifestyle_kith_arts
-        days = -1
-    }
-}
-
-DI_lifestyle_kith_arts_present_no_effect = {
-    if = { limit = { has_perk = agemos_blessing_perk } remove_perk = agemos_blessing_perk }
-    if = { limit = { has_perk = animantis_perk } remove_perk = animantis_perk }
-    if = { limit = { has_perk = attunement_perk } remove_perk = attunement_perk }
-    if = { limit = { has_perk = backward_glance_perk } remove_perk = backward_glance_perk }
-    if = { limit = { has_perk = determinism_perk } remove_perk = determinism_perk }
-    if = { limit = { has_perk = dictum_perk } remove_perk = dictum_perk }
-    if = { limit = { has_perk = dream_time_perk } remove_perk = dream_time_perk }
-    if = { limit = { has_perk = dream_weaving_perk } remove_perk = dream_weaving_perk }
-    if = { limit = { has_perk = find_silver_path_perk } remove_perk = find_silver_path_perk }
-    if = { limit = { has_perk = flickering_firelight_perk } remove_perk = flickering_firelight_perk }
-    if = { limit = { has_perk = fubar_generation_perk } remove_perk = fubar_generation_perk }
-    if = { limit = { has_perk = geas_ban_perk } remove_perk = geas_ban_perk }
-    if = { limit = { has_perk = gilgul_perk } remove_perk = gilgul_perk }
-    if = { limit = { has_perk = grandeur_perk } remove_perk = grandeur_perk }
-    if = { limit = { has_perk = harden_perk } remove_perk = harden_perk }
-    if = { limit = { has_perk = homestead_perk } remove_perk = homestead_perk }
-    if = { limit = { has_perk = moment_of_truth_perk } remove_perk = moment_of_truth_perk }
-    if = { limit = { has_perk = murmur_in_the_crowd_perk } remove_perk = murmur_in_the_crowd_perk }
-    if = { limit = { has_perk = permanence_perk } remove_perk = permanence_perk }
-    if = { limit = { has_perk = protocol_perk } remove_perk = protocol_perk }
-    if = { limit = { has_perk = reversa_of_fortune_perk } remove_perk = reversa_of_fortune_perk }
-    if = { limit = { has_perk = reweaving_perk } remove_perk = reweaving_perk }
-    if = { limit = { has_perk = rune_perk } remove_perk = rune_perk }
-    if = { limit = { has_perk = runic_circle_perk } remove_perk = runic_circle_perk }
-    if = { limit = { has_perk = saining_perk } remove_perk = saining_perk }
-    if = { limit = { has_perk = seek_n_spell_perk } remove_perk = seek_n_spell_perk }
-    if = { limit = { has_perk = sticks_and_stones_perk } remove_perk = sticks_and_stones_perk }
-    if = { limit = { has_perk = toughen_perk } remove_perk = toughen_perk }
-    if = { limit = { has_perk = weaver_ward_perk } remove_perk = weaver_ward_perk }
-    if = { limit = { has_perk = wyrd_perk } remove_perk = wyrd_perk }
-    remove_character_modifier = no_lifestyle_kith_arts
-}
-
 DI_lifestyle_learning_present_effect = {
     if = { limit = { NOT = { has_perk = anatomical_studies_perk } } add_perk = anatomical_studies_perk }
     if = { limit = { NOT = { has_perk = apostate_perk } } add_perk = apostate_perk }
@@ -2932,6 +2901,7 @@ DI_lifestyle_learning_present_effect = {
     if = { limit = { NOT = { has_perk = church_and_state_perk } } add_perk = church_and_state_perk }
     if = { limit = { NOT = { has_perk = clerical_justifications_perk } } add_perk = clerical_justifications_perk }
     if = { limit = { NOT = { has_perk = defender_of_the_faith_perk } } add_perk = defender_of_the_faith_perk }
+    if = { limit = { NOT = { has_perk = erudite_perk } } add_perk = erudite_perk }
     if = { limit = { NOT = { has_perk = faithful_perk } } add_perk = faithful_perk }
     if = { limit = { NOT = { has_perk = healthy_perk } } add_perk = healthy_perk }
     if = { limit = { NOT = { has_perk = iron_constitution_perk } } add_perk = iron_constitution_perk }
@@ -2946,7 +2916,6 @@ DI_lifestyle_learning_present_effect = {
     if = { limit = { NOT = { has_perk = religious_icon_perk } } add_perk = religious_icon_perk }
     if = { limit = { NOT = { has_perk = restraint_perk } } add_perk = restraint_perk }
     if = { limit = { NOT = { has_perk = sanctioned_loopholes_perk } } add_perk = sanctioned_loopholes_perk }
-    if = { limit = { NOT = { has_perk = scholar_perk } } add_perk = scholar_perk }
     if = { limit = { NOT = { has_perk = scholarly_circles_perk } } add_perk = scholarly_circles_perk }
     if = { limit = { NOT = { has_perk = scientific_perk } } add_perk = scientific_perk }
     if = { limit = { NOT = { has_perk = theologian_perk } } add_perk = theologian_perk }
@@ -2966,6 +2935,7 @@ DI_lifestyle_learning_present_no_effect = {
     if = { limit = { has_perk = church_and_state_perk } remove_perk = church_and_state_perk }
     if = { limit = { has_perk = clerical_justifications_perk } remove_perk = clerical_justifications_perk }
     if = { limit = { has_perk = defender_of_the_faith_perk } remove_perk = defender_of_the_faith_perk }
+    if = { limit = { has_perk = erudite_perk } remove_perk = erudite_perk }
     if = { limit = { has_perk = faithful_perk } remove_perk = faithful_perk }
     if = { limit = { has_perk = healthy_perk } remove_perk = healthy_perk }
     if = { limit = { has_perk = iron_constitution_perk } remove_perk = iron_constitution_perk }
@@ -2980,14 +2950,13 @@ DI_lifestyle_learning_present_no_effect = {
     if = { limit = { has_perk = religious_icon_perk } remove_perk = religious_icon_perk }
     if = { limit = { has_perk = restraint_perk } remove_perk = restraint_perk }
     if = { limit = { has_perk = sanctioned_loopholes_perk } remove_perk = sanctioned_loopholes_perk }
-    if = { limit = { has_perk = scholar_perk } remove_perk = scholar_perk }
     if = { limit = { has_perk = scholarly_circles_perk } remove_perk = scholarly_circles_perk }
     if = { limit = { has_perk = scientific_perk } remove_perk = scientific_perk }
     if = { limit = { has_perk = theologian_perk } remove_perk = theologian_perk }
     if = { limit = { has_perk = wash_your_hands_perk } remove_perk = wash_your_hands_perk }
     if = { limit = { has_perk = whole_of_body_perk } remove_perk = whole_of_body_perk }
     if = { limit = { has_perk = zealous_proselytizer_perk } remove_perk = zealous_proselytizer_perk }
-    remove_trait = scholar
+    remove_trait = erudite
     remove_trait = theologian
     remove_trait = whole_of_body
     remove_character_modifier = no_lifestyle_learning
@@ -3095,51 +3064,61 @@ DI_lifestyle_lore_present_no_effect = {
 }
 
 DI_lifestyle_lunar_auspicegifts_present_effect = {
-    if = { limit = { NOT = { has_perk = aura_leadership_perk } } add_perk = aura_leadership_perk }
-    if = { limit = { NOT = { has_perk = battlesense_perk } } add_perk = battlesense_perk }
-    if = { limit = { NOT = { has_perk = bonds_us_perk } } add_perk = bonds_us_perk }
-    if = { limit = { NOT = { has_perk = bridge_walker_perk } } add_perk = bridge_walker_perk }
-    if = { limit = { NOT = { has_perk = challenge_combat_perk } } add_perk = challenge_combat_perk }
-    if = { limit = { NOT = { has_perk = command_gathering_perk } } add_perk = command_gathering_perk }
-    if = { limit = { NOT = { has_perk = deliberate_misinformation_perk } } add_perk = deliberate_misinformation_perk }
-    if = { limit = { NOT = { has_perk = fangs_judgment_perk } } add_perk = fangs_judgment_perk }
+    if = { limit = { NOT = { has_perk = airt_perception_perk } } add_perk = airt_perception_perk }
+    if = { limit = { NOT = { has_perk = aura_of_the_just_perk } } add_perk = aura_of_the_just_perk }
+    if = { limit = { NOT = { has_perk = balance_man_and_beast_perk } } add_perk = balance_man_and_beast_perk }
+    if = { limit = { NOT = { has_perk = bonds_that_tie_us_perk } } add_perk = bonds_that_tie_us_perk }
+    if = { limit = { NOT = { has_perk = break_the_bonds_perk } } add_perk = break_the_bonds_perk }
+    if = { limit = { NOT = { has_perk = building_a_legend_perk } } add_perk = building_a_legend_perk }
+    if = { limit = { NOT = { has_perk = canine_call_perk } } add_perk = canine_call_perk }
+    if = { limit = { NOT = { has_perk = chimerical_form_perk } } add_perk = chimerical_form_perk }
+    if = { limit = { NOT = { has_perk = command_the_gathering_perk } } add_perk = command_the_gathering_perk }
+    if = { limit = { NOT = { has_perk = curse_the_betrayer_perk } } add_perk = curse_the_betrayer_perk }
+    if = { limit = { NOT = { has_perk = eyes_of_the_lynx_perk } } add_perk = eyes_of_the_lynx_perk }
     if = { limit = { NOT = { has_perk = firebringer_perk } } add_perk = firebringer_perk }
-    if = { limit = { NOT = { has_perk = fool_luck_perk } } add_perk = fool_luck_perk }
-    if = { limit = { NOT = { has_perk = hear_silence_perk } } add_perk = hear_silence_perk }
-    if = { limit = { NOT = { has_perk = howls_night_perk } } add_perk = howls_night_perk }
-    if = { limit = { NOT = { has_perk = inspiration_perk } } add_perk = inspiration_perk }
-    if = { limit = { NOT = { has_perk = liar_face_perk } } add_perk = liar_face_perk }
-    if = { limit = { NOT = { has_perk = mimic_perk } } add_perk = mimic_perk }
-    if = { limit = { NOT = { has_perk = name_spirit_perk } } add_perk = name_spirit_perk }
-    if = { limit = { NOT = { has_perk = obscure_truth_perk } } add_perk = obscure_truth_perk }
-    if = { limit = { NOT = { has_perk = pack_tactics_perk } } add_perk = pack_tactics_perk }
-    if = { limit = { NOT = { has_perk = peace_counselor_perk } } add_perk = peace_counselor_perk }
+    if = { limit = { NOT = { has_perk = fools_gold_perk } } add_perk = fools_gold_perk }
+    if = { limit = { NOT = { has_perk = full_moons_light_perk } } add_perk = full_moons_light_perk }
+    if = { limit = { NOT = { has_perk = healing_the_soul_perk } } add_perk = healing_the_soul_perk }
+    if = { limit = { NOT = { has_perk = honour_bound_perk } } add_perk = honour_bound_perk }
+    if = { limit = { NOT = { has_perk = howl_of_assembly_perk } } add_perk = howl_of_assembly_perk }
+    if = { limit = { NOT = { has_perk = invoked_presence_perk } } add_perk = invoked_presence_perk }
+    if = { limit = { NOT = { has_perk = iron_claws_perk } } add_perk = iron_claws_perk }
+    if = { limit = { NOT = { has_perk = lunas_armor_perk } } add_perk = lunas_armor_perk }
+    if = { limit = { NOT = { has_perk = madness_season_perk } } add_perk = madness_season_perk }
+    if = { limit = { NOT = { has_perk = mark_of_shame_perk } } add_perk = mark_of_shame_perk }
+    if = { limit = { NOT = { has_perk = mold_the_spirit_perk } } add_perk = mold_the_spirit_perk }
+    if = { limit = { NOT = { has_perk = name_the_spirit_perk } } add_perk = name_the_spirit_perk }
+    if = { limit = { NOT = { has_perk = open_seal_perk } } add_perk = open_seal_perk }
+    if = { limit = { NOT = { has_perk = placation_perk } } add_perk = placation_perk }
+    if = { limit = { NOT = { has_perk = primal_anger_perk } } add_perk = primal_anger_perk }
     if = { limit = { NOT = { has_perk = primal_song_perk } } add_perk = primal_song_perk }
-    if = { limit = { NOT = { has_perk = prophetic_vision_perk } } add_perk = prophetic_vision_perk }
-    if = { limit = { NOT = { has_perk = rebirthing_perk } } add_perk = rebirthing_perk }
-    if = { limit = { NOT = { has_perk = release_from_bondage_perk } } add_perk = release_from_bondage_perk }
-    if = { limit = { NOT = { has_perk = reynard_lie_perk } } add_perk = reynard_lie_perk }
-    if = { limit = { NOT = { has_perk = roll_over_perk } } add_perk = roll_over_perk }
-    if = { limit = { NOT = { has_perk = scent_beyond_perk } } add_perk = scent_beyond_perk }
+    if = { limit = { NOT = { has_perk = prophecy_perk } } add_perk = prophecy_perk }
+    if = { limit = { NOT = { has_perk = rally_to_the_cause_perk } } add_perk = rally_to_the_cause_perk }
+    if = { limit = { NOT = { has_perk = reynards_lie_perk } } add_perk = reynards_lie_perk }
+    if = { limit = { NOT = { has_perk = rhythm_of_war_perk } } add_perk = rhythm_of_war_perk }
     if = { limit = { NOT = { has_perk = sense_chiminage_perk } } add_perk = sense_chiminage_perk }
-    if = { limit = { NOT = { has_perk = sense_wyrm_perk } } add_perk = sense_wyrm_perk }
-    if = { limit = { NOT = { has_perk = shake_earth_perk } } add_perk = shake_earth_perk }
-    if = { limit = { NOT = { has_perk = shared_strength_perk } } add_perk = shared_strength_perk }
-    if = { limit = { NOT = { has_perk = snow_running_perk } } add_perk = snow_running_perk }
-    if = { limit = { NOT = { has_perk = song_heroes_perk } } add_perk = song_heroes_perk }
-    if = { limit = { NOT = { has_perk = song_rage_perk } } add_perk = song_rage_perk }
-    if = { limit = { NOT = { has_perk = song_siren_perk } } add_perk = song_siren_perk }
+    if = { limit = { NOT = { has_perk = shake_the_earth_perk } } add_perk = shake_the_earth_perk }
+    if = { limit = { NOT = { has_perk = snarl_of_challenge_perk } } add_perk = snarl_of_challenge_perk }
+    if = { limit = { NOT = { has_perk = song_of_mockery_perk } } add_perk = song_of_mockery_perk }
+    if = { limit = { NOT = { has_perk = song_of_rage_perk } } add_perk = song_of_rage_perk }
+    if = { limit = { NOT = { has_perk = song_of_serenity_perk } } add_perk = song_of_serenity_perk }
+    if = { limit = { NOT = { has_perk = song_of_the_siren_perk } } add_perk = song_of_the_siren_perk }
+    if = { limit = { NOT = { has_perk = song_of_the_storm_perk } } add_perk = song_of_the_storm_perk }
+    if = { limit = { NOT = { has_perk = song_of_valor_perk } } add_perk = song_of_valor_perk }
     if = { limit = { NOT = { has_perk = spirit_skin_perk } } add_perk = spirit_skin_perk }
-    if = { limit = { NOT = { has_perk = spirit_speech_perk } } add_perk = spirit_speech_perk }
     if = { limit = { NOT = { has_perk = spirit_vessel_perk } } add_perk = spirit_vessel_perk }
-    if = { limit = { NOT = { has_perk = sticky_fingers_perk } } add_perk = sticky_fingers_perk }
+    if = { limit = { NOT = { has_perk = steadfast_perk } } add_perk = steadfast_perk }
     if = { limit = { NOT = { has_perk = storyteller_perk } } add_perk = storyteller_perk }
-    if = { limit = { NOT = { has_perk = strength_will_perk } } add_perk = strength_will_perk }
+    if = { limit = { NOT = { has_perk = strength_of_will_perk } } add_perk = strength_of_will_perk }
+    if = { limit = { NOT = { has_perk = taking_the_forgotten_perk } } add_perk = taking_the_forgotten_perk }
+    if = { limit = { NOT = { has_perk = terrain_shift_perk } } add_perk = terrain_shift_perk }
     if = { limit = { NOT = { has_perk = true_fear_perk } } add_perk = true_fear_perk }
-    if = { limit = { NOT = { has_perk = truth_gaia_perk } } add_perk = truth_gaia_perk }
-    if = { limit = { NOT = { has_perk = undisputed_ruler_perk } } add_perk = undisputed_ruler_perk }
+    if = { limit = { NOT = { has_perk = truth_of_gaia_perk } } add_perk = truth_of_gaia_perk }
+    if = { limit = { NOT = { has_perk = turn_the_moon_perk } } add_perk = turn_the_moon_perk }
+    if = { limit = { NOT = { has_perk = umbral_dodge_perk } } add_perk = umbral_dodge_perk }
     if = { limit = { NOT = { has_perk = unstoppable_warrior_perk } } add_perk = unstoppable_warrior_perk }
-    if = { limit = { NOT = { has_perk = veil_mother_perk } } add_perk = veil_mother_perk }
+    if = { limit = { NOT = { has_perk = wisdom_of_the_ancient_ways_perk } } add_perk = wisdom_of_the_ancient_ways_perk }
+    if = { limit = { NOT = { has_perk = words_like_wind_perk } } add_perk = words_like_wind_perk }
     add_character_modifier = {
         modifier = no_lifestyle_lunar_auspicegifts
         days = -1
@@ -3147,53 +3126,113 @@ DI_lifestyle_lunar_auspicegifts_present_effect = {
 }
 
 DI_lifestyle_lunar_auspicegifts_present_no_effect = {
-    if = { limit = { has_perk = aura_leadership_perk } remove_perk = aura_leadership_perk }
-    if = { limit = { has_perk = battlesense_perk } remove_perk = battlesense_perk }
-    if = { limit = { has_perk = bonds_us_perk } remove_perk = bonds_us_perk }
-    if = { limit = { has_perk = bridge_walker_perk } remove_perk = bridge_walker_perk }
-    if = { limit = { has_perk = challenge_combat_perk } remove_perk = challenge_combat_perk }
-    if = { limit = { has_perk = command_gathering_perk } remove_perk = command_gathering_perk }
-    if = { limit = { has_perk = deliberate_misinformation_perk } remove_perk = deliberate_misinformation_perk }
-    if = { limit = { has_perk = fangs_judgment_perk } remove_perk = fangs_judgment_perk }
+    if = { limit = { has_perk = airt_perception_perk } remove_perk = airt_perception_perk }
+    if = { limit = { has_perk = aura_of_the_just_perk } remove_perk = aura_of_the_just_perk }
+    if = { limit = { has_perk = balance_man_and_beast_perk } remove_perk = balance_man_and_beast_perk }
+    if = { limit = { has_perk = bonds_that_tie_us_perk } remove_perk = bonds_that_tie_us_perk }
+    if = { limit = { has_perk = break_the_bonds_perk } remove_perk = break_the_bonds_perk }
+    if = { limit = { has_perk = building_a_legend_perk } remove_perk = building_a_legend_perk }
+    if = { limit = { has_perk = canine_call_perk } remove_perk = canine_call_perk }
+    if = { limit = { has_perk = chimerical_form_perk } remove_perk = chimerical_form_perk }
+    if = { limit = { has_perk = command_the_gathering_perk } remove_perk = command_the_gathering_perk }
+    if = { limit = { has_perk = curse_the_betrayer_perk } remove_perk = curse_the_betrayer_perk }
+    if = { limit = { has_perk = eyes_of_the_lynx_perk } remove_perk = eyes_of_the_lynx_perk }
     if = { limit = { has_perk = firebringer_perk } remove_perk = firebringer_perk }
-    if = { limit = { has_perk = fool_luck_perk } remove_perk = fool_luck_perk }
-    if = { limit = { has_perk = hear_silence_perk } remove_perk = hear_silence_perk }
-    if = { limit = { has_perk = howls_night_perk } remove_perk = howls_night_perk }
-    if = { limit = { has_perk = inspiration_perk } remove_perk = inspiration_perk }
-    if = { limit = { has_perk = liar_face_perk } remove_perk = liar_face_perk }
-    if = { limit = { has_perk = mimic_perk } remove_perk = mimic_perk }
-    if = { limit = { has_perk = name_spirit_perk } remove_perk = name_spirit_perk }
-    if = { limit = { has_perk = obscure_truth_perk } remove_perk = obscure_truth_perk }
-    if = { limit = { has_perk = pack_tactics_perk } remove_perk = pack_tactics_perk }
-    if = { limit = { has_perk = peace_counselor_perk } remove_perk = peace_counselor_perk }
+    if = { limit = { has_perk = fools_gold_perk } remove_perk = fools_gold_perk }
+    if = { limit = { has_perk = full_moons_light_perk } remove_perk = full_moons_light_perk }
+    if = { limit = { has_perk = healing_the_soul_perk } remove_perk = healing_the_soul_perk }
+    if = { limit = { has_perk = honour_bound_perk } remove_perk = honour_bound_perk }
+    if = { limit = { has_perk = howl_of_assembly_perk } remove_perk = howl_of_assembly_perk }
+    if = { limit = { has_perk = invoked_presence_perk } remove_perk = invoked_presence_perk }
+    if = { limit = { has_perk = iron_claws_perk } remove_perk = iron_claws_perk }
+    if = { limit = { has_perk = lunas_armor_perk } remove_perk = lunas_armor_perk }
+    if = { limit = { has_perk = madness_season_perk } remove_perk = madness_season_perk }
+    if = { limit = { has_perk = mark_of_shame_perk } remove_perk = mark_of_shame_perk }
+    if = { limit = { has_perk = mold_the_spirit_perk } remove_perk = mold_the_spirit_perk }
+    if = { limit = { has_perk = name_the_spirit_perk } remove_perk = name_the_spirit_perk }
+    if = { limit = { has_perk = open_seal_perk } remove_perk = open_seal_perk }
+    if = { limit = { has_perk = placation_perk } remove_perk = placation_perk }
+    if = { limit = { has_perk = primal_anger_perk } remove_perk = primal_anger_perk }
     if = { limit = { has_perk = primal_song_perk } remove_perk = primal_song_perk }
-    if = { limit = { has_perk = prophetic_vision_perk } remove_perk = prophetic_vision_perk }
-    if = { limit = { has_perk = rebirthing_perk } remove_perk = rebirthing_perk }
-    if = { limit = { has_perk = release_from_bondage_perk } remove_perk = release_from_bondage_perk }
-    if = { limit = { has_perk = reynard_lie_perk } remove_perk = reynard_lie_perk }
-    if = { limit = { has_perk = roll_over_perk } remove_perk = roll_over_perk }
-    if = { limit = { has_perk = scent_beyond_perk } remove_perk = scent_beyond_perk }
+    if = { limit = { has_perk = prophecy_perk } remove_perk = prophecy_perk }
+    if = { limit = { has_perk = rally_to_the_cause_perk } remove_perk = rally_to_the_cause_perk }
+    if = { limit = { has_perk = reynards_lie_perk } remove_perk = reynards_lie_perk }
+    if = { limit = { has_perk = rhythm_of_war_perk } remove_perk = rhythm_of_war_perk }
     if = { limit = { has_perk = sense_chiminage_perk } remove_perk = sense_chiminage_perk }
-    if = { limit = { has_perk = sense_wyrm_perk } remove_perk = sense_wyrm_perk }
-    if = { limit = { has_perk = shake_earth_perk } remove_perk = shake_earth_perk }
-    if = { limit = { has_perk = shared_strength_perk } remove_perk = shared_strength_perk }
-    if = { limit = { has_perk = snow_running_perk } remove_perk = snow_running_perk }
-    if = { limit = { has_perk = song_heroes_perk } remove_perk = song_heroes_perk }
-    if = { limit = { has_perk = song_rage_perk } remove_perk = song_rage_perk }
-    if = { limit = { has_perk = song_siren_perk } remove_perk = song_siren_perk }
+    if = { limit = { has_perk = shake_the_earth_perk } remove_perk = shake_the_earth_perk }
+    if = { limit = { has_perk = snarl_of_challenge_perk } remove_perk = snarl_of_challenge_perk }
+    if = { limit = { has_perk = song_of_mockery_perk } remove_perk = song_of_mockery_perk }
+    if = { limit = { has_perk = song_of_rage_perk } remove_perk = song_of_rage_perk }
+    if = { limit = { has_perk = song_of_serenity_perk } remove_perk = song_of_serenity_perk }
+    if = { limit = { has_perk = song_of_the_siren_perk } remove_perk = song_of_the_siren_perk }
+    if = { limit = { has_perk = song_of_the_storm_perk } remove_perk = song_of_the_storm_perk }
+    if = { limit = { has_perk = song_of_valor_perk } remove_perk = song_of_valor_perk }
     if = { limit = { has_perk = spirit_skin_perk } remove_perk = spirit_skin_perk }
-    if = { limit = { has_perk = spirit_speech_perk } remove_perk = spirit_speech_perk }
     if = { limit = { has_perk = spirit_vessel_perk } remove_perk = spirit_vessel_perk }
-    if = { limit = { has_perk = sticky_fingers_perk } remove_perk = sticky_fingers_perk }
+    if = { limit = { has_perk = steadfast_perk } remove_perk = steadfast_perk }
     if = { limit = { has_perk = storyteller_perk } remove_perk = storyteller_perk }
-    if = { limit = { has_perk = strength_will_perk } remove_perk = strength_will_perk }
+    if = { limit = { has_perk = strength_of_will_perk } remove_perk = strength_of_will_perk }
+    if = { limit = { has_perk = taking_the_forgotten_perk } remove_perk = taking_the_forgotten_perk }
+    if = { limit = { has_perk = terrain_shift_perk } remove_perk = terrain_shift_perk }
     if = { limit = { has_perk = true_fear_perk } remove_perk = true_fear_perk }
-    if = { limit = { has_perk = truth_gaia_perk } remove_perk = truth_gaia_perk }
-    if = { limit = { has_perk = undisputed_ruler_perk } remove_perk = undisputed_ruler_perk }
+    if = { limit = { has_perk = truth_of_gaia_perk } remove_perk = truth_of_gaia_perk }
+    if = { limit = { has_perk = turn_the_moon_perk } remove_perk = turn_the_moon_perk }
+    if = { limit = { has_perk = umbral_dodge_perk } remove_perk = umbral_dodge_perk }
     if = { limit = { has_perk = unstoppable_warrior_perk } remove_perk = unstoppable_warrior_perk }
-    if = { limit = { has_perk = veil_mother_perk } remove_perk = veil_mother_perk }
-    remove_trait = unbondable
+    if = { limit = { has_perk = wisdom_of_the_ancient_ways_perk } remove_perk = wisdom_of_the_ancient_ways_perk }
+    if = { limit = { has_perk = words_like_wind_perk } remove_perk = words_like_wind_perk }
     remove_character_modifier = no_lifestyle_lunar_auspicegifts
+}
+
+DI_lifestyle_maeljingifts_present_effect = {
+    if = { limit = { NOT = { has_perk = bane_stomach_perk } } add_perk = bane_stomach_perk }
+    if = { limit = { NOT = { has_perk = bestial_limbs_perk } } add_perk = bestial_limbs_perk }
+    if = { limit = { NOT = { has_perk = dancing_shadows_perk } } add_perk = dancing_shadows_perk }
+    if = { limit = { NOT = { has_perk = dominance_perk } } add_perk = dominance_perk }
+    if = { limit = { NOT = { has_perk = embrace_oblivion_perk } } add_perk = embrace_oblivion_perk }
+    if = { limit = { NOT = { has_perk = forked_tongue_perk } } add_perk = forked_tongue_perk }
+    if = { limit = { NOT = { has_perk = fragmented_psyche_perk } } add_perk = fragmented_psyche_perk }
+    if = { limit = { NOT = { has_perk = indulgence_perk } } add_perk = indulgence_perk }
+    if = { limit = { NOT = { has_perk = malformed_bone_perk } } add_perk = malformed_bone_perk }
+    if = { limit = { NOT = { has_perk = malformed_flesh_perk } } add_perk = malformed_flesh_perk }
+    if = { limit = { NOT = { has_perk = malformed_muscle_perk } } add_perk = malformed_muscle_perk }
+    if = { limit = { NOT = { has_perk = maniacal_mind_perk } } add_perk = maniacal_mind_perk }
+    if = { limit = { NOT = { has_perk = obsession_perk } } add_perk = obsession_perk }
+    if = { limit = { NOT = { has_perk = profaned_lungs_perk } } add_perk = profaned_lungs_perk }
+    if = { limit = { NOT = { has_perk = reversed_eye_perk } } add_perk = reversed_eye_perk }
+    if = { limit = { NOT = { has_perk = sanguine_spirit_perk } } add_perk = sanguine_spirit_perk }
+    if = { limit = { NOT = { has_perk = splintered_soul_perk } } add_perk = splintered_soul_perk }
+    if = { limit = { NOT = { has_perk = thundering_throat_perk } } add_perk = thundering_throat_perk }
+    if = { limit = { NOT = { has_perk = unholy_heart_perk } } add_perk = unholy_heart_perk }
+    if = { limit = { NOT = { has_perk = warped_reflection_perk } } add_perk = warped_reflection_perk }
+    add_character_modifier = {
+        modifier = no_lifestyle_maeljingifts
+        days = -1
+    }
+}
+
+DI_lifestyle_maeljingifts_present_no_effect = {
+    if = { limit = { has_perk = bane_stomach_perk } remove_perk = bane_stomach_perk }
+    if = { limit = { has_perk = bestial_limbs_perk } remove_perk = bestial_limbs_perk }
+    if = { limit = { has_perk = dancing_shadows_perk } remove_perk = dancing_shadows_perk }
+    if = { limit = { has_perk = dominance_perk } remove_perk = dominance_perk }
+    if = { limit = { has_perk = embrace_oblivion_perk } remove_perk = embrace_oblivion_perk }
+    if = { limit = { has_perk = forked_tongue_perk } remove_perk = forked_tongue_perk }
+    if = { limit = { has_perk = fragmented_psyche_perk } remove_perk = fragmented_psyche_perk }
+    if = { limit = { has_perk = indulgence_perk } remove_perk = indulgence_perk }
+    if = { limit = { has_perk = malformed_bone_perk } remove_perk = malformed_bone_perk }
+    if = { limit = { has_perk = malformed_flesh_perk } remove_perk = malformed_flesh_perk }
+    if = { limit = { has_perk = malformed_muscle_perk } remove_perk = malformed_muscle_perk }
+    if = { limit = { has_perk = maniacal_mind_perk } remove_perk = maniacal_mind_perk }
+    if = { limit = { has_perk = obsession_perk } remove_perk = obsession_perk }
+    if = { limit = { has_perk = profaned_lungs_perk } remove_perk = profaned_lungs_perk }
+    if = { limit = { has_perk = reversed_eye_perk } remove_perk = reversed_eye_perk }
+    if = { limit = { has_perk = sanguine_spirit_perk } remove_perk = sanguine_spirit_perk }
+    if = { limit = { has_perk = splintered_soul_perk } remove_perk = splintered_soul_perk }
+    if = { limit = { has_perk = thundering_throat_perk } remove_perk = thundering_throat_perk }
+    if = { limit = { has_perk = unholy_heart_perk } remove_perk = unholy_heart_perk }
+    if = { limit = { has_perk = warped_reflection_perk } remove_perk = warped_reflection_perk }
+    remove_character_modifier = no_lifestyle_maeljingifts
 }
 
 DI_lifestyle_martial_present_effect = {
@@ -3790,6 +3829,107 @@ DI_lifestyle_necro_magic_present_no_effect = {
     remove_character_modifier = no_lifestyle_necro_magic
 }
 
+DI_lifestyle_noble_arts_present_effect = {
+    if = { limit = { NOT = { has_perk = noble_arts_aphrodisia_perk } } add_perk = noble_arts_aphrodisia_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_autumn_eyes_perk } } add_perk = noble_arts_autumn_eyes_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_awaken_perk } } add_perk = noble_arts_awaken_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_backwards_glance_perk } } add_perk = noble_arts_backwards_glance_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_between_the_lines_perk } } add_perk = noble_arts_between_the_lines_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_burning_chew_perk } } add_perk = noble_arts_burning_chew_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_castigate_perk } } add_perk = noble_arts_castigate_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_casual_contract_perk } } add_perk = noble_arts_casual_contract_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_chill_perk } } add_perk = noble_arts_chill_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_confounding_coils_perk } } add_perk = noble_arts_confounding_coils_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_creeping_shadows_perk } } add_perk = noble_arts_creeping_shadows_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_deja_vu_perk } } add_perk = noble_arts_deja_vu_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_dictum_perk } } add_perk = noble_arts_dictum_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_done_deal_perk } } add_perk = noble_arts_done_deal_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_dragonscales_perk } } add_perk = noble_arts_dragonscales_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_effect_and_cause_perk } } add_perk = noble_arts_effect_and_cause_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_enkindle_perk } } add_perk = noble_arts_enkindle_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_faerie_ring_perk } } add_perk = noble_arts_faerie_ring_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_flicker_files_perk } } add_perk = noble_arts_flicker_files_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_geas_perk } } add_perk = noble_arts_geas_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_grandeur_perk } } add_perk = noble_arts_grandeur_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_guest_list_perk } } add_perk = noble_arts_guest_list_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_hardened_heart_perk } } add_perk = noble_arts_hardened_heart_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_holy_strike_perk } } add_perk = noble_arts_holy_strike_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_liars_bell_perk } } add_perk = noble_arts_liars_bell_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_nicknames_perk } } add_perk = noble_arts_nicknames_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_protocol_perk } } add_perk = noble_arts_protocol_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_renewal_perk } } add_perk = noble_arts_renewal_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_reweaving_perk } } add_perk = noble_arts_reweaving_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_runic_imprint_perk } } add_perk = noble_arts_runic_imprint_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_saining_perk } } add_perk = noble_arts_saining_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_sanctified_words_perk } } add_perk = noble_arts_sanctified_words_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_sculpt_perk } } add_perk = noble_arts_sculpt_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_set_in_stone_perk } } add_perk = noble_arts_set_in_stone_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_shivers_perk } } add_perk = noble_arts_shivers_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_stasis_perk } } add_perk = noble_arts_stasis_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_terror_of_the_long_night_perk } } add_perk = noble_arts_terror_of_the_long_night_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_the_beltane_blade_perk } } add_perk = noble_arts_the_beltane_blade_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_the_poisoned_apple_perk } } add_perk = noble_arts_the_poisoned_apple_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_the_withering_perk } } add_perk = noble_arts_the_withering_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_time_dilation_perk } } add_perk = noble_arts_time_dilation_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_tripping_the_ire_perk } } add_perk = noble_arts_tripping_the_ire_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_verdant_reclamation_perk } } add_perk = noble_arts_verdant_reclamation_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_vestas_blessing_perk } } add_perk = noble_arts_vestas_blessing_perk }
+    if = { limit = { NOT = { has_perk = noble_arts_well_of_life_perk } } add_perk = noble_arts_well_of_life_perk }
+    add_character_modifier = {
+        modifier = no_lifestyle_noble_arts
+        days = -1
+    }
+}
+
+DI_lifestyle_noble_arts_present_no_effect = {
+    if = { limit = { has_perk = noble_arts_aphrodisia_perk } remove_perk = noble_arts_aphrodisia_perk }
+    if = { limit = { has_perk = noble_arts_autumn_eyes_perk } remove_perk = noble_arts_autumn_eyes_perk }
+    if = { limit = { has_perk = noble_arts_awaken_perk } remove_perk = noble_arts_awaken_perk }
+    if = { limit = { has_perk = noble_arts_backwards_glance_perk } remove_perk = noble_arts_backwards_glance_perk }
+    if = { limit = { has_perk = noble_arts_between_the_lines_perk } remove_perk = noble_arts_between_the_lines_perk }
+    if = { limit = { has_perk = noble_arts_burning_chew_perk } remove_perk = noble_arts_burning_chew_perk }
+    if = { limit = { has_perk = noble_arts_castigate_perk } remove_perk = noble_arts_castigate_perk }
+    if = { limit = { has_perk = noble_arts_casual_contract_perk } remove_perk = noble_arts_casual_contract_perk }
+    if = { limit = { has_perk = noble_arts_chill_perk } remove_perk = noble_arts_chill_perk }
+    if = { limit = { has_perk = noble_arts_confounding_coils_perk } remove_perk = noble_arts_confounding_coils_perk }
+    if = { limit = { has_perk = noble_arts_creeping_shadows_perk } remove_perk = noble_arts_creeping_shadows_perk }
+    if = { limit = { has_perk = noble_arts_deja_vu_perk } remove_perk = noble_arts_deja_vu_perk }
+    if = { limit = { has_perk = noble_arts_dictum_perk } remove_perk = noble_arts_dictum_perk }
+    if = { limit = { has_perk = noble_arts_done_deal_perk } remove_perk = noble_arts_done_deal_perk }
+    if = { limit = { has_perk = noble_arts_dragonscales_perk } remove_perk = noble_arts_dragonscales_perk }
+    if = { limit = { has_perk = noble_arts_effect_and_cause_perk } remove_perk = noble_arts_effect_and_cause_perk }
+    if = { limit = { has_perk = noble_arts_enkindle_perk } remove_perk = noble_arts_enkindle_perk }
+    if = { limit = { has_perk = noble_arts_faerie_ring_perk } remove_perk = noble_arts_faerie_ring_perk }
+    if = { limit = { has_perk = noble_arts_flicker_files_perk } remove_perk = noble_arts_flicker_files_perk }
+    if = { limit = { has_perk = noble_arts_geas_perk } remove_perk = noble_arts_geas_perk }
+    if = { limit = { has_perk = noble_arts_grandeur_perk } remove_perk = noble_arts_grandeur_perk }
+    if = { limit = { has_perk = noble_arts_guest_list_perk } remove_perk = noble_arts_guest_list_perk }
+    if = { limit = { has_perk = noble_arts_hardened_heart_perk } remove_perk = noble_arts_hardened_heart_perk }
+    if = { limit = { has_perk = noble_arts_holy_strike_perk } remove_perk = noble_arts_holy_strike_perk }
+    if = { limit = { has_perk = noble_arts_liars_bell_perk } remove_perk = noble_arts_liars_bell_perk }
+    if = { limit = { has_perk = noble_arts_nicknames_perk } remove_perk = noble_arts_nicknames_perk }
+    if = { limit = { has_perk = noble_arts_protocol_perk } remove_perk = noble_arts_protocol_perk }
+    if = { limit = { has_perk = noble_arts_renewal_perk } remove_perk = noble_arts_renewal_perk }
+    if = { limit = { has_perk = noble_arts_reweaving_perk } remove_perk = noble_arts_reweaving_perk }
+    if = { limit = { has_perk = noble_arts_runic_imprint_perk } remove_perk = noble_arts_runic_imprint_perk }
+    if = { limit = { has_perk = noble_arts_saining_perk } remove_perk = noble_arts_saining_perk }
+    if = { limit = { has_perk = noble_arts_sanctified_words_perk } remove_perk = noble_arts_sanctified_words_perk }
+    if = { limit = { has_perk = noble_arts_sculpt_perk } remove_perk = noble_arts_sculpt_perk }
+    if = { limit = { has_perk = noble_arts_set_in_stone_perk } remove_perk = noble_arts_set_in_stone_perk }
+    if = { limit = { has_perk = noble_arts_shivers_perk } remove_perk = noble_arts_shivers_perk }
+    if = { limit = { has_perk = noble_arts_stasis_perk } remove_perk = noble_arts_stasis_perk }
+    if = { limit = { has_perk = noble_arts_terror_of_the_long_night_perk } remove_perk = noble_arts_terror_of_the_long_night_perk }
+    if = { limit = { has_perk = noble_arts_the_beltane_blade_perk } remove_perk = noble_arts_the_beltane_blade_perk }
+    if = { limit = { has_perk = noble_arts_the_poisoned_apple_perk } remove_perk = noble_arts_the_poisoned_apple_perk }
+    if = { limit = { has_perk = noble_arts_the_withering_perk } remove_perk = noble_arts_the_withering_perk }
+    if = { limit = { has_perk = noble_arts_time_dilation_perk } remove_perk = noble_arts_time_dilation_perk }
+    if = { limit = { has_perk = noble_arts_tripping_the_ire_perk } remove_perk = noble_arts_tripping_the_ire_perk }
+    if = { limit = { has_perk = noble_arts_verdant_reclamation_perk } remove_perk = noble_arts_verdant_reclamation_perk }
+    if = { limit = { has_perk = noble_arts_vestas_blessing_perk } remove_perk = noble_arts_vestas_blessing_perk }
+    if = { limit = { has_perk = noble_arts_well_of_life_perk } remove_perk = noble_arts_well_of_life_perk }
+    remove_character_modifier = no_lifestyle_noble_arts
+}
+
 DI_lifestyle_phlegmatic_present_effect = {
     if = { limit = { NOT = { has_perk = absorb_the_mind_perk } } add_perk = absorb_the_mind_perk }
     if = { limit = { NOT = { has_perk = aura_absorption_perk } } add_perk = aura_absorption_perk }
@@ -3985,11 +4125,13 @@ DI_lifestyle_phlegmatic_present_no_effect = {
 
 DI_lifestyle_planetarygifts_present_effect = {
     if = { limit = { NOT = { has_perk = aura_of_leadership_perk } } add_perk = aura_of_leadership_perk }
+    if = { limit = { NOT = { has_perk = battlesense_perk } } add_perk = battlesense_perk }
     if = { limit = { NOT = { has_perk = blank_slate_perk } } add_perk = blank_slate_perk }
     if = { limit = { NOT = { has_perk = bring_forth_the_future_perk } } add_perk = bring_forth_the_future_perk }
     if = { limit = { NOT = { has_perk = burden_of_knowledge_perk } } add_perk = burden_of_knowledge_perk }
     if = { limit = { NOT = { has_perk = challenge_of_single_combat_perk } } add_perk = challenge_of_single_combat_perk }
     if = { limit = { NOT = { has_perk = cleansing_flame_perk } } add_perk = cleansing_flame_perk }
+    if = { limit = { NOT = { has_perk = deliberate_misinformation_perk } } add_perk = deliberate_misinformation_perk }
     if = { limit = { NOT = { has_perk = diplomatic_immunity_perk } } add_perk = diplomatic_immunity_perk }
     if = { limit = { NOT = { has_perk = drown_perk } } add_perk = drown_perk }
     if = { limit = { NOT = { has_perk = earth_heal_perk } } add_perk = earth_heal_perk }
@@ -4025,11 +4167,7 @@ DI_lifestyle_planetarygifts_present_effect = {
     if = { limit = { NOT = { has_perk = pack_mind_perk } } add_perk = pack_mind_perk }
     if = { limit = { NOT = { has_perk = pall_of_despair_perk } } add_perk = pall_of_despair_perk }
     if = { limit = { NOT = { has_perk = peace_of_the_counselor_perk } } add_perk = peace_of_the_counselor_perk }
-    if = { limit = { NOT = { has_perk = planetarygifts_battlesense_perk } } add_perk = planetarygifts_battlesense_perk }
-    if = { limit = { NOT = { has_perk = planetarygifts_deliberate_misinformation_perk } } add_perk = planetarygifts_deliberate_misinformation_perk }
     if = { limit = { NOT = { has_perk = planetarygifts_ebon_binding_perk } } add_perk = planetarygifts_ebon_binding_perk }
-    if = { limit = { NOT = { has_perk = planetarygifts_sticky_fingers_perk } } add_perk = planetarygifts_sticky_fingers_perk }
-    if = { limit = { NOT = { has_perk = planetarygifts_undisputed_ruler_perk } } add_perk = planetarygifts_undisputed_ruler_perk }
     if = { limit = { NOT = { has_perk = proclamation_of_action_perk } } add_perk = proclamation_of_action_perk }
     if = { limit = { NOT = { has_perk = ride_the_solar_winds_perk } } add_perk = ride_the_solar_winds_perk }
     if = { limit = { NOT = { has_perk = rouse_to_anger_perk } } add_perk = rouse_to_anger_perk }
@@ -4042,9 +4180,11 @@ DI_lifestyle_planetarygifts_present_effect = {
     if = { limit = { NOT = { has_perk = shorten_the_road_perk } } add_perk = shorten_the_road_perk }
     if = { limit = { NOT = { has_perk = sleeps_travels_perk } } add_perk = sleeps_travels_perk }
     if = { limit = { NOT = { has_perk = speed_of_the_messenger_perk } } add_perk = speed_of_the_messenger_perk }
+    if = { limit = { NOT = { has_perk = sticky_fingers_perk } } add_perk = sticky_fingers_perk }
     if = { limit = { NOT = { has_perk = tangling_the_skein_perk } } add_perk = tangling_the_skein_perk }
     if = { limit = { NOT = { has_perk = threads_of_the_tapestry_perk } } add_perk = threads_of_the_tapestry_perk }
     if = { limit = { NOT = { has_perk = uncloak_the_hidden_perk } } add_perk = uncloak_the_hidden_perk }
+    if = { limit = { NOT = { has_perk = undisputed_ruler_perk } } add_perk = undisputed_ruler_perk }
     if = { limit = { NOT = { has_perk = unravel_perk } } add_perk = unravel_perk }
     if = { limit = { NOT = { has_perk = veil_of_the_mother_perk } } add_perk = veil_of_the_mother_perk }
     if = { limit = { NOT = { has_perk = whisper_in_the_dark_perk } } add_perk = whisper_in_the_dark_perk }
@@ -4057,11 +4197,13 @@ DI_lifestyle_planetarygifts_present_effect = {
 
 DI_lifestyle_planetarygifts_present_no_effect = {
     if = { limit = { has_perk = aura_of_leadership_perk } remove_perk = aura_of_leadership_perk }
+    if = { limit = { has_perk = battlesense_perk } remove_perk = battlesense_perk }
     if = { limit = { has_perk = blank_slate_perk } remove_perk = blank_slate_perk }
     if = { limit = { has_perk = bring_forth_the_future_perk } remove_perk = bring_forth_the_future_perk }
     if = { limit = { has_perk = burden_of_knowledge_perk } remove_perk = burden_of_knowledge_perk }
     if = { limit = { has_perk = challenge_of_single_combat_perk } remove_perk = challenge_of_single_combat_perk }
     if = { limit = { has_perk = cleansing_flame_perk } remove_perk = cleansing_flame_perk }
+    if = { limit = { has_perk = deliberate_misinformation_perk } remove_perk = deliberate_misinformation_perk }
     if = { limit = { has_perk = diplomatic_immunity_perk } remove_perk = diplomatic_immunity_perk }
     if = { limit = { has_perk = drown_perk } remove_perk = drown_perk }
     if = { limit = { has_perk = earth_heal_perk } remove_perk = earth_heal_perk }
@@ -4097,11 +4239,7 @@ DI_lifestyle_planetarygifts_present_no_effect = {
     if = { limit = { has_perk = pack_mind_perk } remove_perk = pack_mind_perk }
     if = { limit = { has_perk = pall_of_despair_perk } remove_perk = pall_of_despair_perk }
     if = { limit = { has_perk = peace_of_the_counselor_perk } remove_perk = peace_of_the_counselor_perk }
-    if = { limit = { has_perk = planetarygifts_battlesense_perk } remove_perk = planetarygifts_battlesense_perk }
-    if = { limit = { has_perk = planetarygifts_deliberate_misinformation_perk } remove_perk = planetarygifts_deliberate_misinformation_perk }
     if = { limit = { has_perk = planetarygifts_ebon_binding_perk } remove_perk = planetarygifts_ebon_binding_perk }
-    if = { limit = { has_perk = planetarygifts_sticky_fingers_perk } remove_perk = planetarygifts_sticky_fingers_perk }
-    if = { limit = { has_perk = planetarygifts_undisputed_ruler_perk } remove_perk = planetarygifts_undisputed_ruler_perk }
     if = { limit = { has_perk = proclamation_of_action_perk } remove_perk = proclamation_of_action_perk }
     if = { limit = { has_perk = ride_the_solar_winds_perk } remove_perk = ride_the_solar_winds_perk }
     if = { limit = { has_perk = rouse_to_anger_perk } remove_perk = rouse_to_anger_perk }
@@ -4114,9 +4252,11 @@ DI_lifestyle_planetarygifts_present_no_effect = {
     if = { limit = { has_perk = shorten_the_road_perk } remove_perk = shorten_the_road_perk }
     if = { limit = { has_perk = sleeps_travels_perk } remove_perk = sleeps_travels_perk }
     if = { limit = { has_perk = speed_of_the_messenger_perk } remove_perk = speed_of_the_messenger_perk }
+    if = { limit = { has_perk = sticky_fingers_perk } remove_perk = sticky_fingers_perk }
     if = { limit = { has_perk = tangling_the_skein_perk } remove_perk = tangling_the_skein_perk }
     if = { limit = { has_perk = threads_of_the_tapestry_perk } remove_perk = threads_of_the_tapestry_perk }
     if = { limit = { has_perk = uncloak_the_hidden_perk } remove_perk = uncloak_the_hidden_perk }
+    if = { limit = { has_perk = undisputed_ruler_perk } remove_perk = undisputed_ruler_perk }
     if = { limit = { has_perk = unravel_perk } remove_perk = unravel_perk }
     if = { limit = { has_perk = veil_of_the_mother_perk } remove_perk = veil_of_the_mother_perk }
     if = { limit = { has_perk = whisper_in_the_dark_perk } remove_perk = whisper_in_the_dark_perk }
@@ -5001,57 +5141,6 @@ DI_lifestyle_qiao_present_no_effect = {
     remove_character_modifier = no_lifestyle_qiao
 }
 
-DI_lifestyle_rare_arts_present_effect = {
-    if = { limit = { NOT = { has_perk = burn_and_boil_perk } } add_perk = burn_and_boil_perk }
-    if = { limit = { NOT = { has_perk = cold_shock_perk } } add_perk = cold_shock_perk }
-    if = { limit = { NOT = { has_perk = coldheart_perk } } add_perk = coldheart_perk }
-    if = { limit = { NOT = { has_perk = covet_perk } } add_perk = covet_perk }
-    if = { limit = { NOT = { has_perk = crave_perk } } add_perk = crave_perk }
-    if = { limit = { NOT = { has_perk = crysta_prison_perk } } add_perk = crysta_prison_perk }
-    if = { limit = { NOT = { has_perk = fancy_perk } } add_perk = fancy_perk }
-    if = { limit = { NOT = { has_perk = frost_facsimile_perk } } add_perk = frost_facsimile_perk }
-    if = { limit = { NOT = { has_perk = gelid_rime_perk } } add_perk = gelid_rime_perk }
-    if = { limit = { NOT = { has_perk = go_ask_alice_perk } } add_perk = go_ask_alice_perk }
-    if = { limit = { NOT = { has_perk = hidden_form_perk } } add_perk = hidden_form_perk }
-    if = { limit = { NOT = { has_perk = impersonate_perk } } add_perk = impersonate_perk }
-    if = { limit = { NOT = { has_perk = merlins_lessons_perk } } add_perk = merlins_lessons_perk }
-    if = { limit = { NOT = { has_perk = mythic_transformation_perk } } add_perk = mythic_transformation_perk }
-    if = { limit = { NOT = { has_perk = need_perk } } add_perk = need_perk }
-    if = { limit = { NOT = { has_perk = prometheus_fist_perk } } add_perk = prometheus_fist_perk }
-    if = { limit = { NOT = { has_perk = star_body_perk } } add_perk = star_body_perk }
-    if = { limit = { NOT = { has_perk = wil_o_the_wisp_perk } } add_perk = wil_o_the_wisp_perk }
-    if = { limit = { NOT = { has_perk = willow_light_perk } } add_perk = willow_light_perk }
-    if = { limit = { NOT = { has_perk = yearn_perk } } add_perk = yearn_perk }
-    add_character_modifier = {
-        modifier = no_lifestyle_rare_arts
-        days = -1
-    }
-}
-
-DI_lifestyle_rare_arts_present_no_effect = {
-    if = { limit = { has_perk = burn_and_boil_perk } remove_perk = burn_and_boil_perk }
-    if = { limit = { has_perk = cold_shock_perk } remove_perk = cold_shock_perk }
-    if = { limit = { has_perk = coldheart_perk } remove_perk = coldheart_perk }
-    if = { limit = { has_perk = covet_perk } remove_perk = covet_perk }
-    if = { limit = { has_perk = crave_perk } remove_perk = crave_perk }
-    if = { limit = { has_perk = crysta_prison_perk } remove_perk = crysta_prison_perk }
-    if = { limit = { has_perk = fancy_perk } remove_perk = fancy_perk }
-    if = { limit = { has_perk = frost_facsimile_perk } remove_perk = frost_facsimile_perk }
-    if = { limit = { has_perk = gelid_rime_perk } remove_perk = gelid_rime_perk }
-    if = { limit = { has_perk = go_ask_alice_perk } remove_perk = go_ask_alice_perk }
-    if = { limit = { has_perk = hidden_form_perk } remove_perk = hidden_form_perk }
-    if = { limit = { has_perk = impersonate_perk } remove_perk = impersonate_perk }
-    if = { limit = { has_perk = merlins_lessons_perk } remove_perk = merlins_lessons_perk }
-    if = { limit = { has_perk = mythic_transformation_perk } remove_perk = mythic_transformation_perk }
-    if = { limit = { has_perk = need_perk } remove_perk = need_perk }
-    if = { limit = { has_perk = prometheus_fist_perk } remove_perk = prometheus_fist_perk }
-    if = { limit = { has_perk = star_body_perk } remove_perk = star_body_perk }
-    if = { limit = { has_perk = wil_o_the_wisp_perk } remove_perk = wil_o_the_wisp_perk }
-    if = { limit = { has_perk = willow_light_perk } remove_perk = willow_light_perk }
-    if = { limit = { has_perk = yearn_perk } remove_perk = yearn_perk }
-    remove_character_modifier = no_lifestyle_rare_arts
-}
-
 DI_lifestyle_realm_present_effect = {
     if = { limit = { NOT = { has_perk = realm_actor_1_perk } } add_perk = realm_actor_1_perk }
     if = { limit = { NOT = { has_perk = realm_actor_2_perk } } add_perk = realm_actor_2_perk }
@@ -5153,16 +5242,11 @@ DI_lifestyle_sanguine_present_effect = {
     if = { limit = { NOT = { has_perk = condemnation_perk } } add_perk = condemnation_perk }
     if = { limit = { NOT = { has_perk = conflagration_perk } } add_perk = conflagration_perk }
     if = { limit = { NOT = { has_perk = cooperation_perk } } add_perk = cooperation_perk }
-    if = { limit = { NOT = { has_perk = counterfeit_1_perk } } add_perk = counterfeit_1_perk }
-    if = { limit = { NOT = { has_perk = counterfeit_2_perk } } add_perk = counterfeit_2_perk }
-    if = { limit = { NOT = { has_perk = counterfeit_3_perk } } add_perk = counterfeit_3_perk }
-    if = { limit = { NOT = { has_perk = counterfeit_4_perk } } add_perk = counterfeit_4_perk }
     if = { limit = { NOT = { has_perk = daimyos_law_perk } } add_perk = daimyos_law_perk }
     if = { limit = { NOT = { has_perk = daunt_perk } } add_perk = daunt_perk }
     if = { limit = { NOT = { has_perk = dread_gaze_perk } } add_perk = dread_gaze_perk }
     if = { limit = { NOT = { has_perk = entrancement_perk } } add_perk = entrancement_perk }
     if = { limit = { NOT = { has_perk = erosion_perk } } add_perk = erosion_perk }
-    if = { limit = { NOT = { has_perk = far_reach_perk } } add_perk = far_reach_perk }
     if = { limit = { NOT = { has_perk = fear_the_void_below_perk } } add_perk = fear_the_void_below_perk }
     if = { limit = { NOT = { has_perk = focused_strike_perk } } add_perk = focused_strike_perk }
     if = { limit = { NOT = { has_perk = foul_blood_perk } } add_perk = foul_blood_perk }
@@ -5202,7 +5286,6 @@ DI_lifestyle_sanguine_present_effect = {
     if = { limit = { NOT = { has_perk = taste_of_death_perk } } add_perk = taste_of_death_perk }
     if = { limit = { NOT = { has_perk = the_re_embrace_perk } } add_perk = the_re_embrace_perk }
     if = { limit = { NOT = { has_perk = thin_blood_perk } } add_perk = thin_blood_perk }
-    if = { limit = { NOT = { has_perk = thinbloodalchemyadvanced_perk } } add_perk = thinbloodalchemyadvanced_perk }
     if = { limit = { NOT = { has_perk = truth_of_blood_perk } } add_perk = truth_of_blood_perk }
     if = { limit = { NOT = { has_perk = vizierquietusadvanced_perk } } add_perk = vizierquietusadvanced_perk }
     if = { limit = { NOT = { has_perk = warrior_baals_caress_perk } } add_perk = warrior_baals_caress_perk }
@@ -5240,16 +5323,11 @@ DI_lifestyle_sanguine_present_no_effect = {
     if = { limit = { has_perk = condemnation_perk } remove_perk = condemnation_perk }
     if = { limit = { has_perk = conflagration_perk } remove_perk = conflagration_perk }
     if = { limit = { has_perk = cooperation_perk } remove_perk = cooperation_perk }
-    if = { limit = { has_perk = counterfeit_1_perk } remove_perk = counterfeit_1_perk }
-    if = { limit = { has_perk = counterfeit_2_perk } remove_perk = counterfeit_2_perk }
-    if = { limit = { has_perk = counterfeit_3_perk } remove_perk = counterfeit_3_perk }
-    if = { limit = { has_perk = counterfeit_4_perk } remove_perk = counterfeit_4_perk }
     if = { limit = { has_perk = daimyos_law_perk } remove_perk = daimyos_law_perk }
     if = { limit = { has_perk = daunt_perk } remove_perk = daunt_perk }
     if = { limit = { has_perk = dread_gaze_perk } remove_perk = dread_gaze_perk }
     if = { limit = { has_perk = entrancement_perk } remove_perk = entrancement_perk }
     if = { limit = { has_perk = erosion_perk } remove_perk = erosion_perk }
-    if = { limit = { has_perk = far_reach_perk } remove_perk = far_reach_perk }
     if = { limit = { has_perk = fear_the_void_below_perk } remove_perk = fear_the_void_below_perk }
     if = { limit = { has_perk = focused_strike_perk } remove_perk = focused_strike_perk }
     if = { limit = { has_perk = foul_blood_perk } remove_perk = foul_blood_perk }
@@ -5289,7 +5367,6 @@ DI_lifestyle_sanguine_present_no_effect = {
     if = { limit = { has_perk = taste_of_death_perk } remove_perk = taste_of_death_perk }
     if = { limit = { has_perk = the_re_embrace_perk } remove_perk = the_re_embrace_perk }
     if = { limit = { has_perk = thin_blood_perk } remove_perk = thin_blood_perk }
-    if = { limit = { has_perk = thinbloodalchemyadvanced_perk } remove_perk = thinbloodalchemyadvanced_perk }
     if = { limit = { has_perk = truth_of_blood_perk } remove_perk = truth_of_blood_perk }
     if = { limit = { has_perk = vizierquietusadvanced_perk } remove_perk = vizierquietusadvanced_perk }
     if = { limit = { has_perk = warrior_baals_caress_perk } remove_perk = warrior_baals_caress_perk }
@@ -5302,7 +5379,6 @@ DI_lifestyle_sanguine_present_no_effect = {
     remove_trait = kaiadvanced
     remove_trait = presenceadvanced
     remove_trait = quietusadvanced
-    remove_trait = thinbloodalchemyadvanced
     remove_character_modifier = no_lifestyle_sanguine
 }
 
@@ -5418,31 +5494,31 @@ DI_lifestyle_shintai_present_no_effect = {
 }
 
 DI_lifestyle_slivers_present_effect = {
-    if = { limit = { NOT = { has_perk = ares_fist_perk } } add_perk = ares_fist_perk }
-    if = { limit = { NOT = { has_perk = art_phantasm_perk } } add_perk = art_phantasm_perk }
-    if = { limit = { NOT = { has_perk = art_stasis_perk } } add_perk = art_stasis_perk }
-    if = { limit = { NOT = { has_perk = art_tempus_fugit_perk } } add_perk = art_tempus_fugit_perk }
-    if = { limit = { NOT = { has_perk = aura_perception_perk } } add_perk = aura_perception_perk }
-    if = { limit = { NOT = { has_perk = babel_perk } } add_perk = babel_perk }
-    if = { limit = { NOT = { has_perk = coalesce_perk } } add_perk = coalesce_perk }
-    if = { limit = { NOT = { has_perk = conceal_confuse_perk } } add_perk = conceal_confuse_perk }
-    if = { limit = { NOT = { has_perk = flame_perk } } add_perk = flame_perk }
-    if = { limit = { NOT = { has_perk = flight_perk } } add_perk = flight_perk }
-    if = { limit = { NOT = { has_perk = friction_perk } } add_perk = friction_perk }
-    if = { limit = { NOT = { has_perk = healing_waters_perk } } add_perk = healing_waters_perk }
-    if = { limit = { NOT = { has_perk = hold_perk } } add_perk = hold_perk }
-    if = { limit = { NOT = { has_perk = illusion_perk } } add_perk = illusion_perk }
-    if = { limit = { NOT = { has_perk = inferno_perk } } add_perk = inferno_perk }
-    if = { limit = { NOT = { has_perk = ironarm_perk } } add_perk = ironarm_perk }
-    if = { limit = { NOT = { has_perk = living_rock_perk } } add_perk = living_rock_perk }
-    if = { limit = { NOT = { has_perk = marathon_perk } } add_perk = marathon_perk }
-    if = { limit = { NOT = { has_perk = mold_perk } } add_perk = mold_perk }
-    if = { limit = { NOT = { has_perk = quake_perk } } add_perk = quake_perk }
-    if = { limit = { NOT = { has_perk = solarium_perk } } add_perk = solarium_perk }
-    if = { limit = { NOT = { has_perk = stoneskin_perk } } add_perk = stoneskin_perk }
-    if = { limit = { NOT = { has_perk = strings_of_the_soul_perk } } add_perk = strings_of_the_soul_perk }
-    if = { limit = { NOT = { has_perk = tortured_heart_perk } } add_perk = tortured_heart_perk }
-    if = { limit = { NOT = { has_perk = web_of_life_perk } } add_perk = web_of_life_perk }
+    if = { limit = { NOT = { has_perk = slivers_aquis_perfect_perk } } add_perk = slivers_aquis_perfect_perk }
+    if = { limit = { NOT = { has_perk = slivers_aquis_semi_stable_perk } } add_perk = slivers_aquis_semi_stable_perk }
+    if = { limit = { NOT = { has_perk = slivers_aquis_stable_perk } } add_perk = slivers_aquis_stable_perk }
+    if = { limit = { NOT = { has_perk = slivers_aquis_uncontrolled_perk } } add_perk = slivers_aquis_uncontrolled_perk }
+    if = { limit = { NOT = { has_perk = slivers_aquis_unstable_perk } } add_perk = slivers_aquis_unstable_perk }
+    if = { limit = { NOT = { has_perk = slivers_petros_perfect_perk } } add_perk = slivers_petros_perfect_perk }
+    if = { limit = { NOT = { has_perk = slivers_petros_semi_stable_perk } } add_perk = slivers_petros_semi_stable_perk }
+    if = { limit = { NOT = { has_perk = slivers_petros_stable_perk } } add_perk = slivers_petros_stable_perk }
+    if = { limit = { NOT = { has_perk = slivers_petros_uncontrolled_perk } } add_perk = slivers_petros_uncontrolled_perk }
+    if = { limit = { NOT = { has_perk = slivers_petros_unstable_perk } } add_perk = slivers_petros_unstable_perk }
+    if = { limit = { NOT = { has_perk = slivers_pyros_perfect_perk } } add_perk = slivers_pyros_perfect_perk }
+    if = { limit = { NOT = { has_perk = slivers_pyros_semi_stable_perk } } add_perk = slivers_pyros_semi_stable_perk }
+    if = { limit = { NOT = { has_perk = slivers_pyros_stable_perk } } add_perk = slivers_pyros_stable_perk }
+    if = { limit = { NOT = { has_perk = slivers_pyros_uncontrolled_perk } } add_perk = slivers_pyros_uncontrolled_perk }
+    if = { limit = { NOT = { has_perk = slivers_pyros_unstable_perk } } add_perk = slivers_pyros_unstable_perk }
+    if = { limit = { NOT = { has_perk = slivers_stratus_perfect_perk } } add_perk = slivers_stratus_perfect_perk }
+    if = { limit = { NOT = { has_perk = slivers_stratus_semi_stable_perk } } add_perk = slivers_stratus_semi_stable_perk }
+    if = { limit = { NOT = { has_perk = slivers_stratus_stable_perk } } add_perk = slivers_stratus_stable_perk }
+    if = { limit = { NOT = { has_perk = slivers_stratus_uncontrolled_perk } } add_perk = slivers_stratus_uncontrolled_perk }
+    if = { limit = { NOT = { has_perk = slivers_stratus_unstable_perk } } add_perk = slivers_stratus_unstable_perk }
+    if = { limit = { NOT = { has_perk = slivers_verdage_perfect_perk } } add_perk = slivers_verdage_perfect_perk }
+    if = { limit = { NOT = { has_perk = slivers_verdage_semi_stable_perk } } add_perk = slivers_verdage_semi_stable_perk }
+    if = { limit = { NOT = { has_perk = slivers_verdage_stable_perk } } add_perk = slivers_verdage_stable_perk }
+    if = { limit = { NOT = { has_perk = slivers_verdage_uncontrolled_perk } } add_perk = slivers_verdage_uncontrolled_perk }
+    if = { limit = { NOT = { has_perk = slivers_verdage_unstable_perk } } add_perk = slivers_verdage_unstable_perk }
     add_character_modifier = {
         modifier = no_lifestyle_slivers
         days = -1
@@ -5450,31 +5526,31 @@ DI_lifestyle_slivers_present_effect = {
 }
 
 DI_lifestyle_slivers_present_no_effect = {
-    if = { limit = { has_perk = ares_fist_perk } remove_perk = ares_fist_perk }
-    if = { limit = { has_perk = art_phantasm_perk } remove_perk = art_phantasm_perk }
-    if = { limit = { has_perk = art_stasis_perk } remove_perk = art_stasis_perk }
-    if = { limit = { has_perk = art_tempus_fugit_perk } remove_perk = art_tempus_fugit_perk }
-    if = { limit = { has_perk = aura_perception_perk } remove_perk = aura_perception_perk }
-    if = { limit = { has_perk = babel_perk } remove_perk = babel_perk }
-    if = { limit = { has_perk = coalesce_perk } remove_perk = coalesce_perk }
-    if = { limit = { has_perk = conceal_confuse_perk } remove_perk = conceal_confuse_perk }
-    if = { limit = { has_perk = flame_perk } remove_perk = flame_perk }
-    if = { limit = { has_perk = flight_perk } remove_perk = flight_perk }
-    if = { limit = { has_perk = friction_perk } remove_perk = friction_perk }
-    if = { limit = { has_perk = healing_waters_perk } remove_perk = healing_waters_perk }
-    if = { limit = { has_perk = hold_perk } remove_perk = hold_perk }
-    if = { limit = { has_perk = illusion_perk } remove_perk = illusion_perk }
-    if = { limit = { has_perk = inferno_perk } remove_perk = inferno_perk }
-    if = { limit = { has_perk = ironarm_perk } remove_perk = ironarm_perk }
-    if = { limit = { has_perk = living_rock_perk } remove_perk = living_rock_perk }
-    if = { limit = { has_perk = marathon_perk } remove_perk = marathon_perk }
-    if = { limit = { has_perk = mold_perk } remove_perk = mold_perk }
-    if = { limit = { has_perk = quake_perk } remove_perk = quake_perk }
-    if = { limit = { has_perk = solarium_perk } remove_perk = solarium_perk }
-    if = { limit = { has_perk = stoneskin_perk } remove_perk = stoneskin_perk }
-    if = { limit = { has_perk = strings_of_the_soul_perk } remove_perk = strings_of_the_soul_perk }
-    if = { limit = { has_perk = tortured_heart_perk } remove_perk = tortured_heart_perk }
-    if = { limit = { has_perk = web_of_life_perk } remove_perk = web_of_life_perk }
+    if = { limit = { has_perk = slivers_aquis_perfect_perk } remove_perk = slivers_aquis_perfect_perk }
+    if = { limit = { has_perk = slivers_aquis_semi_stable_perk } remove_perk = slivers_aquis_semi_stable_perk }
+    if = { limit = { has_perk = slivers_aquis_stable_perk } remove_perk = slivers_aquis_stable_perk }
+    if = { limit = { has_perk = slivers_aquis_uncontrolled_perk } remove_perk = slivers_aquis_uncontrolled_perk }
+    if = { limit = { has_perk = slivers_aquis_unstable_perk } remove_perk = slivers_aquis_unstable_perk }
+    if = { limit = { has_perk = slivers_petros_perfect_perk } remove_perk = slivers_petros_perfect_perk }
+    if = { limit = { has_perk = slivers_petros_semi_stable_perk } remove_perk = slivers_petros_semi_stable_perk }
+    if = { limit = { has_perk = slivers_petros_stable_perk } remove_perk = slivers_petros_stable_perk }
+    if = { limit = { has_perk = slivers_petros_uncontrolled_perk } remove_perk = slivers_petros_uncontrolled_perk }
+    if = { limit = { has_perk = slivers_petros_unstable_perk } remove_perk = slivers_petros_unstable_perk }
+    if = { limit = { has_perk = slivers_pyros_perfect_perk } remove_perk = slivers_pyros_perfect_perk }
+    if = { limit = { has_perk = slivers_pyros_semi_stable_perk } remove_perk = slivers_pyros_semi_stable_perk }
+    if = { limit = { has_perk = slivers_pyros_stable_perk } remove_perk = slivers_pyros_stable_perk }
+    if = { limit = { has_perk = slivers_pyros_uncontrolled_perk } remove_perk = slivers_pyros_uncontrolled_perk }
+    if = { limit = { has_perk = slivers_pyros_unstable_perk } remove_perk = slivers_pyros_unstable_perk }
+    if = { limit = { has_perk = slivers_stratus_perfect_perk } remove_perk = slivers_stratus_perfect_perk }
+    if = { limit = { has_perk = slivers_stratus_semi_stable_perk } remove_perk = slivers_stratus_semi_stable_perk }
+    if = { limit = { has_perk = slivers_stratus_stable_perk } remove_perk = slivers_stratus_stable_perk }
+    if = { limit = { has_perk = slivers_stratus_uncontrolled_perk } remove_perk = slivers_stratus_uncontrolled_perk }
+    if = { limit = { has_perk = slivers_stratus_unstable_perk } remove_perk = slivers_stratus_unstable_perk }
+    if = { limit = { has_perk = slivers_verdage_perfect_perk } remove_perk = slivers_verdage_perfect_perk }
+    if = { limit = { has_perk = slivers_verdage_semi_stable_perk } remove_perk = slivers_verdage_semi_stable_perk }
+    if = { limit = { has_perk = slivers_verdage_stable_perk } remove_perk = slivers_verdage_stable_perk }
+    if = { limit = { has_perk = slivers_verdage_uncontrolled_perk } remove_perk = slivers_verdage_uncontrolled_perk }
+    if = { limit = { has_perk = slivers_verdage_unstable_perk } remove_perk = slivers_verdage_unstable_perk }
     remove_character_modifier = no_lifestyle_slivers
 }
 
@@ -5519,20 +5595,20 @@ DI_lifestyle_solar_auspicegifts_present_effect = {
     if = { limit = { NOT = { has_perk = mokole_awe_perk } } add_perk = mokole_awe_perk }
     if = { limit = { NOT = { has_perk = mokole_living_treasure_perk } } add_perk = mokole_living_treasure_perk }
     if = { limit = { NOT = { has_perk = mokole_mastery_perk } } add_perk = mokole_mastery_perk }
-    if = { limit = { NOT = { has_perk = mokole_pack_tactics_perk } } add_perk = mokole_pack_tactics_perk }
-    if = { limit = { NOT = { has_perk = mokole_spirit_speech_perk } } add_perk = mokole_spirit_speech_perk }
+    if = { limit = { NOT = { has_perk = mokole_reshape_object_perk } } add_perk = mokole_reshape_object_perk }
     if = { limit = { NOT = { has_perk = mothers_touch_perk } } add_perk = mothers_touch_perk }
     if = { limit = { NOT = { has_perk = open_sun_bridge_perk } } add_perk = open_sun_bridge_perk }
+    if = { limit = { NOT = { has_perk = pack_tactics_perk } } add_perk = pack_tactics_perk }
     if = { limit = { NOT = { has_perk = paint_the_meadows_perk } } add_perk = paint_the_meadows_perk }
     if = { limit = { NOT = { has_perk = pilot_snake_perk } } add_perk = pilot_snake_perk }
     if = { limit = { NOT = { has_perk = rage_of_the_nest_mother_perk } } add_perk = rage_of_the_nest_mother_perk }
     if = { limit = { NOT = { has_perk = raptors_gaze_perk } } add_perk = raptors_gaze_perk }
-    if = { limit = { NOT = { has_perk = reshape_object_perk } } add_perk = reshape_object_perk }
     if = { limit = { NOT = { has_perk = resist_pain_perk } } add_perk = resist_pain_perk }
     if = { limit = { NOT = { has_perk = scream_of_gaia_perk } } add_perk = scream_of_gaia_perk }
     if = { limit = { NOT = { has_perk = sense_magic_perk } } add_perk = sense_magic_perk }
     if = { limit = { NOT = { has_perk = shadows_by_the_firelight_perk } } add_perk = shadows_by_the_firelight_perk }
     if = { limit = { NOT = { has_perk = sleep_of_the_dragon_perk } } add_perk = sleep_of_the_dragon_perk }
+    if = { limit = { NOT = { has_perk = spirit_speech_perk } } add_perk = spirit_speech_perk }
     if = { limit = { NOT = { has_perk = spirits_of_laughter_perk } } add_perk = spirits_of_laughter_perk }
     if = { limit = { NOT = { has_perk = strength_of_purpose_perk } } add_perk = strength_of_purpose_perk }
     if = { limit = { NOT = { has_perk = strength_of_the_dominator_perk } } add_perk = strength_of_the_dominator_perk }
@@ -5596,20 +5672,20 @@ DI_lifestyle_solar_auspicegifts_present_no_effect = {
     if = { limit = { has_perk = mokole_awe_perk } remove_perk = mokole_awe_perk }
     if = { limit = { has_perk = mokole_living_treasure_perk } remove_perk = mokole_living_treasure_perk }
     if = { limit = { has_perk = mokole_mastery_perk } remove_perk = mokole_mastery_perk }
-    if = { limit = { has_perk = mokole_pack_tactics_perk } remove_perk = mokole_pack_tactics_perk }
-    if = { limit = { has_perk = mokole_spirit_speech_perk } remove_perk = mokole_spirit_speech_perk }
+    if = { limit = { has_perk = mokole_reshape_object_perk } remove_perk = mokole_reshape_object_perk }
     if = { limit = { has_perk = mothers_touch_perk } remove_perk = mothers_touch_perk }
     if = { limit = { has_perk = open_sun_bridge_perk } remove_perk = open_sun_bridge_perk }
+    if = { limit = { has_perk = pack_tactics_perk } remove_perk = pack_tactics_perk }
     if = { limit = { has_perk = paint_the_meadows_perk } remove_perk = paint_the_meadows_perk }
     if = { limit = { has_perk = pilot_snake_perk } remove_perk = pilot_snake_perk }
     if = { limit = { has_perk = rage_of_the_nest_mother_perk } remove_perk = rage_of_the_nest_mother_perk }
     if = { limit = { has_perk = raptors_gaze_perk } remove_perk = raptors_gaze_perk }
-    if = { limit = { has_perk = reshape_object_perk } remove_perk = reshape_object_perk }
     if = { limit = { has_perk = resist_pain_perk } remove_perk = resist_pain_perk }
     if = { limit = { has_perk = scream_of_gaia_perk } remove_perk = scream_of_gaia_perk }
     if = { limit = { has_perk = sense_magic_perk } remove_perk = sense_magic_perk }
     if = { limit = { has_perk = shadows_by_the_firelight_perk } remove_perk = shadows_by_the_firelight_perk }
     if = { limit = { has_perk = sleep_of_the_dragon_perk } remove_perk = sleep_of_the_dragon_perk }
+    if = { limit = { has_perk = spirit_speech_perk } remove_perk = spirit_speech_perk }
     if = { limit = { has_perk = spirits_of_laughter_perk } remove_perk = spirits_of_laughter_perk }
     if = { limit = { has_perk = strength_of_purpose_perk } remove_perk = strength_of_purpose_perk }
     if = { limit = { has_perk = strength_of_the_dominator_perk } remove_perk = strength_of_the_dominator_perk }
@@ -6344,11 +6420,11 @@ DI_lifestyle_tribalgifts_present_effect = {
     if = { limit = { NOT = { has_perk = aura_of_confidence_perk } } add_perk = aura_of_confidence_perk }
     if = { limit = { NOT = { has_perk = banish_burning_perk } } add_perk = banish_burning_perk }
     if = { limit = { NOT = { has_perk = banish_cahlashs_brood_perk } } add_perk = banish_cahlashs_brood_perk }
+    if = { limit = { NOT = { has_perk = banish_totem_perk } } add_perk = banish_totem_perk }
     if = { limit = { NOT = { has_perk = bastet_majesty_perk } } add_perk = bastet_majesty_perk }
     if = { limit = { NOT = { has_perk = beg_perk } } add_perk = beg_perk }
     if = { limit = { NOT = { has_perk = blessing_of_the_first_pack_perk } } add_perk = blessing_of_the_first_pack_perk }
     if = { limit = { NOT = { has_perk = blizzard_of_arrows_perk } } add_perk = blizzard_of_arrows_perk }
-    if = { limit = { NOT = { has_perk = blooding_fury_perk } } add_perk = blooding_fury_perk }
     if = { limit = { NOT = { has_perk = brew_perk } } add_perk = brew_perk }
     if = { limit = { NOT = { has_perk = burning_scars_perk } } add_perk = burning_scars_perk }
     if = { limit = { NOT = { has_perk = call_great_fenris_perk } } add_perk = call_great_fenris_perk }
@@ -6375,6 +6451,7 @@ DI_lifestyle_tribalgifts_present_effect = {
     if = { limit = { NOT = { has_perk = faerie_kin_perk } } add_perk = faerie_kin_perk }
     if = { limit = { NOT = { has_perk = fair_path_perk } } add_perk = fair_path_perk }
     if = { limit = { NOT = { has_perk = fenris_bite_perk } } add_perk = fenris_bite_perk }
+    if = { limit = { NOT = { has_perk = fetish_doll_perk } } add_perk = fetish_doll_perk }
     if = { limit = { NOT = { has_perk = fireroar_perk } } add_perk = fireroar_perk }
     if = { limit = { NOT = { has_perk = fog_on_the_moor_perk } } add_perk = fog_on_the_moor_perk }
     if = { limit = { NOT = { has_perk = forms_of_cernunnos_perk } } add_perk = forms_of_cernunnos_perk }
@@ -6403,6 +6480,7 @@ DI_lifestyle_tribalgifts_present_effect = {
     if = { limit = { NOT = { has_perk = leshiis_boon_perk } } add_perk = leshiis_boon_perk }
     if = { limit = { NOT = { has_perk = ley_lines_perk } } add_perk = ley_lines_perk }
     if = { limit = { NOT = { has_perk = liberation_of_flesh_perk } } add_perk = liberation_of_flesh_perk }
+    if = { limit = { NOT = { has_perk = lions_bite_perk } } add_perk = lions_bite_perk }
     if = { limit = { NOT = { has_perk = living_treasure_perk } } add_perk = living_treasure_perk }
     if = { limit = { NOT = { has_perk = lokis_touch_perk } } add_perk = lokis_touch_perk }
     if = { limit = { NOT = { has_perk = long_running_perk } } add_perk = long_running_perk }
@@ -6417,7 +6495,6 @@ DI_lifestyle_tribalgifts_present_effect = {
     if = { limit = { NOT = { has_perk = new_moons_laughter_perk } } add_perk = new_moons_laughter_perk }
     if = { limit = { NOT = { has_perk = obedience_perk } } add_perk = obedience_perk }
     if = { limit = { NOT = { has_perk = ojas_surge_perk } } add_perk = ojas_surge_perk }
-    if = { limit = { NOT = { has_perk = pain_strength_perk } } add_perk = pain_strength_perk }
     if = { limit = { NOT = { has_perk = paralyzing_stare_perk } } add_perk = paralyzing_stare_perk }
     if = { limit = { NOT = { has_perk = part_the_curtain_perk } } add_perk = part_the_curtain_perk }
     if = { limit = { NOT = { has_perk = paws_of_the_raging_spirit_tiger_perk } } add_perk = paws_of_the_raging_spirit_tiger_perk }
@@ -6440,6 +6517,7 @@ DI_lifestyle_tribalgifts_present_effect = {
     if = { limit = { NOT = { has_perk = scholars_friend_perk } } add_perk = scholars_friend_perk }
     if = { limit = { NOT = { has_perk = seed_of_speech_perk } } add_perk = seed_of_speech_perk }
     if = { limit = { NOT = { has_perk = sense_guilt_perk } } add_perk = sense_guilt_perk }
+    if = { limit = { NOT = { has_perk = sense_of_the_deep_perk } } add_perk = sense_of_the_deep_perk }
     if = { limit = { NOT = { has_perk = shadow_brethren_perk } } add_perk = shadow_brethren_perk }
     if = { limit = { NOT = { has_perk = shadow_pack_perk } } add_perk = shadow_pack_perk }
     if = { limit = { NOT = { has_perk = shadow_the_moons_light_perk } } add_perk = shadow_the_moons_light_perk }
@@ -6453,10 +6531,13 @@ DI_lifestyle_tribalgifts_present_effect = {
     if = { limit = { NOT = { has_perk = snap_mans_chains_perk } } add_perk = snap_mans_chains_perk }
     if = { limit = { NOT = { has_perk = song_of_the_city_beast_perk } } add_perk = song_of_the_city_beast_perk }
     if = { limit = { NOT = { has_perk = sorcerers_blade_perk } } add_perk = sorcerers_blade_perk }
+    if = { limit = { NOT = { has_perk = spectral_authority_perk } } add_perk = spectral_authority_perk }
     if = { limit = { NOT = { has_perk = speech_of_all_things_perk } } add_perk = speech_of_all_things_perk }
     if = { limit = { NOT = { has_perk = speed_beyond_thought_perk } } add_perk = speed_beyond_thought_perk }
     if = { limit = { NOT = { has_perk = spellbinding_oration_perk } } add_perk = spellbinding_oration_perk }
     if = { limit = { NOT = { has_perk = spiral_shadow_dance_perk } } add_perk = spiral_shadow_dance_perk }
+    if = { limit = { NOT = { has_perk = spirit_bird_perk } } add_perk = spirit_bird_perk }
+    if = { limit = { NOT = { has_perk = spirit_fish_perk } } add_perk = spirit_fish_perk }
     if = { limit = { NOT = { has_perk = spirit_friend_perk } } add_perk = spirit_friend_perk }
     if = { limit = { NOT = { has_perk = spirit_wall_perk } } add_perk = spirit_wall_perk }
     if = { limit = { NOT = { has_perk = storm_of_mothers_wrath_perk } } add_perk = storm_of_mothers_wrath_perk }
@@ -6486,11 +6567,12 @@ DI_lifestyle_tribalgifts_present_effect = {
     if = { limit = { NOT = { has_perk = true_shot_perk } } add_perk = true_shot_perk }
     if = { limit = { NOT = { has_perk = trust_of_gaia_perk } } add_perk = trust_of_gaia_perk }
     if = { limit = { NOT = { has_perk = two_tongues_perk } } add_perk = two_tongues_perk }
+    if = { limit = { NOT = { has_perk = uktena_call_elemental_perk } } add_perk = uktena_call_elemental_perk }
+    if = { limit = { NOT = { has_perk = uktena_invisibility_perk } } add_perk = uktena_invisibility_perk }
     if = { limit = { NOT = { has_perk = unicorns_grace_perk } } add_perk = unicorns_grace_perk }
     if = { limit = { NOT = { has_perk = unseelie_faerie_kin_perk } } add_perk = unseelie_faerie_kin_perk }
     if = { limit = { NOT = { has_perk = visage_of_fenris_perk } } add_perk = visage_of_fenris_perk }
     if = { limit = { NOT = { has_perk = visuddha_perk } } add_perk = visuddha_perk }
-    if = { limit = { NOT = { has_perk = waking_the_dead_perk } } add_perk = waking_the_dead_perk }
     if = { limit = { NOT = { has_perk = walk_with_hades_perk } } add_perk = walk_with_hades_perk }
     if = { limit = { NOT = { has_perk = walking_between_worlds_perk } } add_perk = walking_between_worlds_perk }
     if = { limit = { NOT = { has_perk = water_conning_perk } } add_perk = water_conning_perk }
@@ -6517,11 +6599,11 @@ DI_lifestyle_tribalgifts_present_no_effect = {
     if = { limit = { has_perk = aura_of_confidence_perk } remove_perk = aura_of_confidence_perk }
     if = { limit = { has_perk = banish_burning_perk } remove_perk = banish_burning_perk }
     if = { limit = { has_perk = banish_cahlashs_brood_perk } remove_perk = banish_cahlashs_brood_perk }
+    if = { limit = { has_perk = banish_totem_perk } remove_perk = banish_totem_perk }
     if = { limit = { has_perk = bastet_majesty_perk } remove_perk = bastet_majesty_perk }
     if = { limit = { has_perk = beg_perk } remove_perk = beg_perk }
     if = { limit = { has_perk = blessing_of_the_first_pack_perk } remove_perk = blessing_of_the_first_pack_perk }
     if = { limit = { has_perk = blizzard_of_arrows_perk } remove_perk = blizzard_of_arrows_perk }
-    if = { limit = { has_perk = blooding_fury_perk } remove_perk = blooding_fury_perk }
     if = { limit = { has_perk = brew_perk } remove_perk = brew_perk }
     if = { limit = { has_perk = burning_scars_perk } remove_perk = burning_scars_perk }
     if = { limit = { has_perk = call_great_fenris_perk } remove_perk = call_great_fenris_perk }
@@ -6548,6 +6630,7 @@ DI_lifestyle_tribalgifts_present_no_effect = {
     if = { limit = { has_perk = faerie_kin_perk } remove_perk = faerie_kin_perk }
     if = { limit = { has_perk = fair_path_perk } remove_perk = fair_path_perk }
     if = { limit = { has_perk = fenris_bite_perk } remove_perk = fenris_bite_perk }
+    if = { limit = { has_perk = fetish_doll_perk } remove_perk = fetish_doll_perk }
     if = { limit = { has_perk = fireroar_perk } remove_perk = fireroar_perk }
     if = { limit = { has_perk = fog_on_the_moor_perk } remove_perk = fog_on_the_moor_perk }
     if = { limit = { has_perk = forms_of_cernunnos_perk } remove_perk = forms_of_cernunnos_perk }
@@ -6576,6 +6659,7 @@ DI_lifestyle_tribalgifts_present_no_effect = {
     if = { limit = { has_perk = leshiis_boon_perk } remove_perk = leshiis_boon_perk }
     if = { limit = { has_perk = ley_lines_perk } remove_perk = ley_lines_perk }
     if = { limit = { has_perk = liberation_of_flesh_perk } remove_perk = liberation_of_flesh_perk }
+    if = { limit = { has_perk = lions_bite_perk } remove_perk = lions_bite_perk }
     if = { limit = { has_perk = living_treasure_perk } remove_perk = living_treasure_perk }
     if = { limit = { has_perk = lokis_touch_perk } remove_perk = lokis_touch_perk }
     if = { limit = { has_perk = long_running_perk } remove_perk = long_running_perk }
@@ -6590,7 +6674,6 @@ DI_lifestyle_tribalgifts_present_no_effect = {
     if = { limit = { has_perk = new_moons_laughter_perk } remove_perk = new_moons_laughter_perk }
     if = { limit = { has_perk = obedience_perk } remove_perk = obedience_perk }
     if = { limit = { has_perk = ojas_surge_perk } remove_perk = ojas_surge_perk }
-    if = { limit = { has_perk = pain_strength_perk } remove_perk = pain_strength_perk }
     if = { limit = { has_perk = paralyzing_stare_perk } remove_perk = paralyzing_stare_perk }
     if = { limit = { has_perk = part_the_curtain_perk } remove_perk = part_the_curtain_perk }
     if = { limit = { has_perk = paws_of_the_raging_spirit_tiger_perk } remove_perk = paws_of_the_raging_spirit_tiger_perk }
@@ -6613,6 +6696,7 @@ DI_lifestyle_tribalgifts_present_no_effect = {
     if = { limit = { has_perk = scholars_friend_perk } remove_perk = scholars_friend_perk }
     if = { limit = { has_perk = seed_of_speech_perk } remove_perk = seed_of_speech_perk }
     if = { limit = { has_perk = sense_guilt_perk } remove_perk = sense_guilt_perk }
+    if = { limit = { has_perk = sense_of_the_deep_perk } remove_perk = sense_of_the_deep_perk }
     if = { limit = { has_perk = shadow_brethren_perk } remove_perk = shadow_brethren_perk }
     if = { limit = { has_perk = shadow_pack_perk } remove_perk = shadow_pack_perk }
     if = { limit = { has_perk = shadow_the_moons_light_perk } remove_perk = shadow_the_moons_light_perk }
@@ -6626,10 +6710,13 @@ DI_lifestyle_tribalgifts_present_no_effect = {
     if = { limit = { has_perk = snap_mans_chains_perk } remove_perk = snap_mans_chains_perk }
     if = { limit = { has_perk = song_of_the_city_beast_perk } remove_perk = song_of_the_city_beast_perk }
     if = { limit = { has_perk = sorcerers_blade_perk } remove_perk = sorcerers_blade_perk }
+    if = { limit = { has_perk = spectral_authority_perk } remove_perk = spectral_authority_perk }
     if = { limit = { has_perk = speech_of_all_things_perk } remove_perk = speech_of_all_things_perk }
     if = { limit = { has_perk = speed_beyond_thought_perk } remove_perk = speed_beyond_thought_perk }
     if = { limit = { has_perk = spellbinding_oration_perk } remove_perk = spellbinding_oration_perk }
     if = { limit = { has_perk = spiral_shadow_dance_perk } remove_perk = spiral_shadow_dance_perk }
+    if = { limit = { has_perk = spirit_bird_perk } remove_perk = spirit_bird_perk }
+    if = { limit = { has_perk = spirit_fish_perk } remove_perk = spirit_fish_perk }
     if = { limit = { has_perk = spirit_friend_perk } remove_perk = spirit_friend_perk }
     if = { limit = { has_perk = spirit_wall_perk } remove_perk = spirit_wall_perk }
     if = { limit = { has_perk = storm_of_mothers_wrath_perk } remove_perk = storm_of_mothers_wrath_perk }
@@ -6659,11 +6746,12 @@ DI_lifestyle_tribalgifts_present_no_effect = {
     if = { limit = { has_perk = true_shot_perk } remove_perk = true_shot_perk }
     if = { limit = { has_perk = trust_of_gaia_perk } remove_perk = trust_of_gaia_perk }
     if = { limit = { has_perk = two_tongues_perk } remove_perk = two_tongues_perk }
+    if = { limit = { has_perk = uktena_call_elemental_perk } remove_perk = uktena_call_elemental_perk }
+    if = { limit = { has_perk = uktena_invisibility_perk } remove_perk = uktena_invisibility_perk }
     if = { limit = { has_perk = unicorns_grace_perk } remove_perk = unicorns_grace_perk }
     if = { limit = { has_perk = unseelie_faerie_kin_perk } remove_perk = unseelie_faerie_kin_perk }
     if = { limit = { has_perk = visage_of_fenris_perk } remove_perk = visage_of_fenris_perk }
     if = { limit = { has_perk = visuddha_perk } remove_perk = visuddha_perk }
-    if = { limit = { has_perk = waking_the_dead_perk } remove_perk = waking_the_dead_perk }
     if = { limit = { has_perk = walk_with_hades_perk } remove_perk = walk_with_hades_perk }
     if = { limit = { has_perk = walking_between_worlds_perk } remove_perk = walking_between_worlds_perk }
     if = { limit = { has_perk = water_conning_perk } remove_perk = water_conning_perk }
@@ -6675,57 +6763,6 @@ DI_lifestyle_tribalgifts_present_no_effect = {
     remove_trait = immortal
     remove_trait = lifestyle_reveler
     remove_character_modifier = no_lifestyle_tribalgifts
-}
-
-DI_lifestyle_urgetaints_present_effect = {
-    if = { limit = { NOT = { has_perk = bane_stomach_perk } } add_perk = bane_stomach_perk }
-    if = { limit = { NOT = { has_perk = bestial_limbs_perk } } add_perk = bestial_limbs_perk }
-    if = { limit = { NOT = { has_perk = dancing_shadows_perk } } add_perk = dancing_shadows_perk }
-    if = { limit = { NOT = { has_perk = dominance_perk } } add_perk = dominance_perk }
-    if = { limit = { NOT = { has_perk = embrace_oblivion_perk } } add_perk = embrace_oblivion_perk }
-    if = { limit = { NOT = { has_perk = forked_tongue_perk } } add_perk = forked_tongue_perk }
-    if = { limit = { NOT = { has_perk = fragmented_psyche_perk } } add_perk = fragmented_psyche_perk }
-    if = { limit = { NOT = { has_perk = indulgence_perk } } add_perk = indulgence_perk }
-    if = { limit = { NOT = { has_perk = malformed_bone_perk } } add_perk = malformed_bone_perk }
-    if = { limit = { NOT = { has_perk = malformed_flesh_perk } } add_perk = malformed_flesh_perk }
-    if = { limit = { NOT = { has_perk = malformed_muscle_perk } } add_perk = malformed_muscle_perk }
-    if = { limit = { NOT = { has_perk = maniacal_mind_perk } } add_perk = maniacal_mind_perk }
-    if = { limit = { NOT = { has_perk = obsession_perk } } add_perk = obsession_perk }
-    if = { limit = { NOT = { has_perk = profaned_lungs_perk } } add_perk = profaned_lungs_perk }
-    if = { limit = { NOT = { has_perk = reversed_eye_perk } } add_perk = reversed_eye_perk }
-    if = { limit = { NOT = { has_perk = sanguine_spirit_perk } } add_perk = sanguine_spirit_perk }
-    if = { limit = { NOT = { has_perk = splintered_soul_perk } } add_perk = splintered_soul_perk }
-    if = { limit = { NOT = { has_perk = thundering_throat_perk } } add_perk = thundering_throat_perk }
-    if = { limit = { NOT = { has_perk = unholy_heart_perk } } add_perk = unholy_heart_perk }
-    if = { limit = { NOT = { has_perk = warped_reflection_perk } } add_perk = warped_reflection_perk }
-    add_character_modifier = {
-        modifier = no_lifestyle_urgetaints
-        days = -1
-    }
-}
-
-DI_lifestyle_urgetaints_present_no_effect = {
-    if = { limit = { has_perk = bane_stomach_perk } remove_perk = bane_stomach_perk }
-    if = { limit = { has_perk = bestial_limbs_perk } remove_perk = bestial_limbs_perk }
-    if = { limit = { has_perk = dancing_shadows_perk } remove_perk = dancing_shadows_perk }
-    if = { limit = { has_perk = dominance_perk } remove_perk = dominance_perk }
-    if = { limit = { has_perk = embrace_oblivion_perk } remove_perk = embrace_oblivion_perk }
-    if = { limit = { has_perk = forked_tongue_perk } remove_perk = forked_tongue_perk }
-    if = { limit = { has_perk = fragmented_psyche_perk } remove_perk = fragmented_psyche_perk }
-    if = { limit = { has_perk = indulgence_perk } remove_perk = indulgence_perk }
-    if = { limit = { has_perk = malformed_bone_perk } remove_perk = malformed_bone_perk }
-    if = { limit = { has_perk = malformed_flesh_perk } remove_perk = malformed_flesh_perk }
-    if = { limit = { has_perk = malformed_muscle_perk } remove_perk = malformed_muscle_perk }
-    if = { limit = { has_perk = maniacal_mind_perk } remove_perk = maniacal_mind_perk }
-    if = { limit = { has_perk = obsession_perk } remove_perk = obsession_perk }
-    if = { limit = { has_perk = profaned_lungs_perk } remove_perk = profaned_lungs_perk }
-    if = { limit = { has_perk = reversed_eye_perk } remove_perk = reversed_eye_perk }
-    if = { limit = { has_perk = sanguine_spirit_perk } remove_perk = sanguine_spirit_perk }
-    if = { limit = { has_perk = splintered_soul_perk } remove_perk = splintered_soul_perk }
-    if = { limit = { has_perk = thundering_throat_perk } remove_perk = thundering_throat_perk }
-    if = { limit = { has_perk = unholy_heart_perk } remove_perk = unholy_heart_perk }
-    if = { limit = { has_perk = warped_reflection_perk } remove_perk = warped_reflection_perk }
-    remove_character_modifier = no_lifestyle_urgetaints
 }
 
 DI_lifestyle_wanderer_present_effect = {

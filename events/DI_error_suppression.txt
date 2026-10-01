@@ -26,6 +26,8 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = al_qarawiyyin_university }
         DI_fix_variable_error = { X = alamut }
         DI_fix_variable_error = { X = alamut_castle }
+        DI_fix_variable_error = { X = albaicin_quarter }
+        DI_fix_variable_error = { X = alcazaba_badajoz }
         DI_fix_variable_error = { X = alcazar_of_segovia }
         DI_fix_variable_error = { X = alhambra }
         DI_fix_variable_error = { X = aljaferia_palace }
@@ -40,6 +42,8 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = architect_workshop }
         DI_fix_variable_error = { X = argentiera_mines }
         DI_fix_variable_error = { X = ark_of_bukhara }
+        DI_fix_variable_error = { X = arkwasiye_caern }
+        DI_fix_variable_error = { X = artic_axe_caern }
         DI_fix_variable_error = { X = ashen_commandery }
         DI_fix_variable_error = { X = ashen_court }
         DI_fix_variable_error = { X = ashen_cult_site }
@@ -49,6 +53,42 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = assassin_castle }
         DI_fix_variable_error = { X = assassins_cell }
         DI_fix_variable_error = { X = aurelian_walls }
+        DI_fix_variable_error = { X = baba_yaga_stone }
+        DI_fix_variable_error = { X = baghdad_center_of_the_world_learning }
+        DI_fix_variable_error = { X = baghdad_city_of_a_thousand_mosques }
+        DI_fix_variable_error = { X = baghdad_desecrated_mosques }
+        DI_fix_variable_error = { X = baghdad_destroyed_infrastructure }
+        DI_fix_variable_error = { X = baghdad_heart_of_trade }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_abou_hanifaa_mosque }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_al_adudi_bimaristan }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_al_mustansiriyah_university }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_baghdad }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_house_of_wisdom }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_madrasa_mirjaniyya }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_palace_of_the_abbasids }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_taj_palace }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_zumurrud_kathun_mausoleum }
+        DI_fix_variable_error = { X = baghdad_looted_baghdad }
+        DI_fix_variable_error = { X = baghdad_oldest_city }
+        DI_fix_variable_error = { X = baghdad_rebuilt_baghdad }
+        DI_fix_variable_error = { X = baghdad_rivers_of_ink }
+        DI_fix_variable_error = { X = baghdad_ruined_palaces }
+        DI_fix_variable_error = { X = baghdad_sinful_baghdad }
+        DI_fix_variable_error = { X = baghdad_sinful_desecrated_second_temple }
+        DI_fix_variable_error = { X = baghdad_sinful_enforced_rest_times }
+        DI_fix_variable_error = { X = baghdad_sinful_feast_halls }
+        DI_fix_variable_error = { X = baghdad_sinful_fighting_pits }
+        DI_fix_variable_error = { X = baghdad_sinful_gate_of_ishtar }
+        DI_fix_variable_error = { X = baghdad_sinful_gold_hoard }
+        DI_fix_variable_error = { X = baghdad_sinful_hanging_gardens }
+        DI_fix_variable_error = { X = baghdad_sinful_palace_of_etemenanki }
+        DI_fix_variable_error = { X = baghdad_sinful_pleasure_houses }
+        DI_fix_variable_error = { X = baghdad_sinful_prideful_statue }
+        DI_fix_variable_error = { X = baghdad_sinful_spy_passages }
+        DI_fix_variable_error = { X = baghdad_sinful_temples_of_the_gods }
+        DI_fix_variable_error = { X = baghdad_sinful_tomb_of_nergal }
+        DI_fix_variable_error = { X = baghdad_sinful_tower_of_babel }
+        DI_fix_variable_error = { X = baghdad_starving_population }
         DI_fix_variable_error = { X = balors_tower }
         DI_fix_variable_error = { X = baofeng_mines }
         DI_fix_variable_error = { X = barcelona_library }
@@ -58,14 +98,46 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = beijing_temples }
         DI_fix_variable_error = { X = besakih_temple }
         DI_fix_variable_error = { X = beta_giyorgis }
+        DI_fix_variable_error = { X = bjarkarey_ashen_throne }
+        DI_fix_variable_error = { X = bjarkarey_blodga_langhus }
+        DI_fix_variable_error = { X = bjarkarey_blothaugr }
+        DI_fix_variable_error = { X = bjarkarey_bones_njord }
+        DI_fix_variable_error = { X = bjarkarey_cathedral_caine }
+        DI_fix_variable_error = { X = bjarkarey_cathedral_god }
+        DI_fix_variable_error = { X = bjarkarey_dark_libraries }
+        DI_fix_variable_error = { X = bjarkarey_divided_throndarnes }
+        DI_fix_variable_error = { X = bjarkarey_drekafloti }
+        DI_fix_variable_error = { X = bjarkarey_frjalsir_menn }
+        DI_fix_variable_error = { X = bjarkarey_godfearing_subjects }
+        DI_fix_variable_error = { X = bjarkarey_grimsson_armory }
+        DI_fix_variable_error = { X = bjarkarey_gullveigr_lundi }
+        DI_fix_variable_error = { X = bjarkarey_hall_judgment }
+        DI_fix_variable_error = { X = bjarkarey_hammer_caine }
+        DI_fix_variable_error = { X = bjarkarey_hammer_god }
+        DI_fix_variable_error = { X = bjarkarey_hollr }
+        DI_fix_variable_error = { X = bjarkarey_hvitakristr }
+        DI_fix_variable_error = { X = bjarkarey_knight_fortress }
+        DI_fix_variable_error = { X = bjarkarey_leynikirkja }
+        DI_fix_variable_error = { X = bjarkarey_loyal_thralls }
+        DI_fix_variable_error = { X = bjarkarey_myrkvidir }
+        DI_fix_variable_error = { X = bjarkarey_prized_jewels }
+        DI_fix_variable_error = { X = bjarkarey_shadow_fleets }
+        DI_fix_variable_error = { X = bjarkarey_solarhvelfing }
+        DI_fix_variable_error = { X = bjarkarey_taema }
+        DI_fix_variable_error = { X = bjarkarey_terror_christ }
+        DI_fix_variable_error = { X = bjarkarey_throndarnes }
+        DI_fix_variable_error = { X = bjarkarey_ulf_hall }
+        DI_fix_variable_error = { X = bjarkarey_ulfahus }
         DI_fix_variable_error = { X = black_college }
         DI_fix_variable_error = { X = black_dragon_nest }
         DI_fix_variable_error = { X = black_lotus_temple }
         DI_fix_variable_error = { X = black_spiral }
         DI_fix_variable_error = { X = blacksmiths }
         DI_fix_variable_error = { X = blood_fist }
+        DI_fix_variable_error = { X = blood_sea_caern }
         DI_fix_variable_error = { X = blood_tax }
         DI_fix_variable_error = { X = bloodflowers_fleshpits }
+        DI_fix_variable_error = { X = boderia_ritual_stones }
         DI_fix_variable_error = { X = bookshop }
         DI_fix_variable_error = { X = borobudur }
         DI_fix_variable_error = { X = boudhanath }
@@ -74,6 +146,7 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = brides_lodge }
         DI_fix_variable_error = { X = bright_promise }
         DI_fix_variable_error = { X = brihadeeswarar_temple }
+        DI_fix_variable_error = { X = brooding_sky }
         DI_fix_variable_error = { X = buddha_kamakura }
         DI_fix_variable_error = { X = buddhas_of_bamian }
         DI_fix_variable_error = { X = bullring }
@@ -82,7 +155,12 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = bush_retreat }
         DI_fix_variable_error = { X = byeokran_port }
         DI_fix_variable_error = { X = bygone_visions }
+        DI_fix_variable_error = { X = caern_amber_mount }
+        DI_fix_variable_error = { X = caern_azure_bassin }
+        DI_fix_variable_error = { X = caern_black_tumulus }
+        DI_fix_variable_error = { X = caern_enchanted_enclosure }
         DI_fix_variable_error = { X = caern_enigmas }
+        DI_fix_variable_error = { X = caern_grey_rock }
         DI_fix_variable_error = { X = caern_leadership }
         DI_fix_variable_error = { X = caern_rage }
         DI_fix_variable_error = { X = caern_sybil }
@@ -149,7 +227,7 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = charnel_grounds }
         DI_fix_variable_error = { X = chaw_gully_mine }
         DI_fix_variable_error = { X = chihu_mines }
-        DI_fix_variable_error = { X = chimerical_trod }
+        DI_fix_variable_error = { X = chimtarga_peak_caern }
         DI_fix_variable_error = { X = chinjufu }
         DI_fix_variable_error = { X = chocolate_hills }
         DI_fix_variable_error = { X = chui_mal }
@@ -202,11 +280,28 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = crescent_moon_dragon_nest }
         DI_fix_variable_error = { X = crocodilopolis }
         DI_fix_variable_error = { X = crypt }
+        DI_fix_variable_error = { X = crystal_mind_caern }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_bagh_i_hinduvan }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_ctesiphon }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_dastagerd }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_first_holdouts_of_the_cult }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_grandest_blasphemy_shrine }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_newest_pyramid }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_sacred_flame }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_taq_kasra }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_temple_of_osiris }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_temple_to_jupiter }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_the_suns_birth }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_valashabad }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_veh_antiok_xusro }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_veh_ardashir }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_white_palace }
         DI_fix_variable_error = { X = culai_academy }
         DI_fix_variable_error = { X = cult_of_amkhat }
         DI_fix_variable_error = { X = curtain_walls }
         DI_fix_variable_error = { X = daisen_mountain }
         DI_fix_variable_error = { X = damascus_mosque }
+        DI_fix_variable_error = { X = damburrow }
         DI_fix_variable_error = { X = danevirke }
         DI_fix_variable_error = { X = dau_temple }
         DI_fix_variable_error = { X = dazaifu }
@@ -238,6 +333,7 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = emerald_palace }
         DI_fix_variable_error = { X = enryaku_ji }
         DI_fix_variable_error = { X = erciyes }
+        DI_fix_variable_error = { X = ergenekon }
         DI_fix_variable_error = { X = etchmiadzin_cathedral }
         DI_fix_variable_error = { X = eternal_parish }
         DI_fix_variable_error = { X = eternal_story }
@@ -245,11 +341,10 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = everard_players }
         DI_fix_variable_error = { X = examination_hall }
         DI_fix_variable_error = { X = extended_dragon_nest }
-        DI_fix_variable_error = { X = eyrie_freehold }
-        DI_fix_variable_error = { X = faerie_ring_freehold }
         DI_fix_variable_error = { X = fairy_chimneys }
         DI_fix_variable_error = { X = falak_ol_aflak_citadel }
         DI_fix_variable_error = { X = fallen_church }
+        DI_fix_variable_error = { X = falling_water }
         DI_fix_variable_error = { X = falun_mines }
         DI_fix_variable_error = { X = family_connections }
         DI_fix_variable_error = { X = family_enterprise }
@@ -291,7 +386,7 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = ghana_palace }
         DI_fix_variable_error = { X = giant_wild_goose_pagoda }
         DI_fix_variable_error = { X = giovanni_mausoleum }
-        DI_fix_variable_error = { X = glade_freehold }
+        DI_fix_variable_error = { X = gish_abbai_caern }
         DI_fix_variable_error = { X = glenlea }
         DI_fix_variable_error = { X = goguryeo_tomb }
         DI_fix_variable_error = { X = golden_gate_of_kiev }
@@ -300,9 +395,10 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = grand_bazaar }
         DI_fix_variable_error = { X = grand_city }
         DI_fix_variable_error = { X = great_megalith }
+        DI_fix_variable_error = { X = great_project_cathedral }
+        DI_fix_variable_error = { X = great_project_cathedral_under_construction }
         DI_fix_variable_error = { X = great_wall_of_gorgan }
         DI_fix_variable_error = { X = grimsfen_tor }
-        DI_fix_variable_error = { X = grotto_freehold }
         DI_fix_variable_error = { X = guild_halls }
         DI_fix_variable_error = { X = guiyang_mines }
         DI_fix_variable_error = { X = gunung_api }
@@ -317,7 +413,6 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = hall_of_the_black_tortoise }
         DI_fix_variable_error = { X = hamadan_bazaar }
         DI_fix_variable_error = { X = hamilcar_palaestra }
-        DI_fix_variable_error = { X = hanging_gardens }
         DI_fix_variable_error = { X = hanging_temple }
         DI_fix_variable_error = { X = hanshii_arena }
         DI_fix_variable_error = { X = hanxing_mines }
@@ -328,7 +423,7 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = haunted_mansions }
         DI_fix_variable_error = { X = haunted_workshops }
         DI_fix_variable_error = { X = haven }
-        DI_fix_variable_error = { X = hearth_freehold }
+        DI_fix_variable_error = { X = hearth }
         DI_fix_variable_error = { X = heddal_stave_church }
         DI_fix_variable_error = { X = heian_palace }
         DI_fix_variable_error = { X = herat_bazaar }
@@ -364,7 +459,7 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = holy_site_se_asia_pagan_temple }
         DI_fix_variable_error = { X = holy_site_st_peters_basilica }
         DI_fix_variable_error = { X = holy_wisdom }
-        DI_fix_variable_error = { X = homestead_freehold }
+        DI_fix_variable_error = { X = homestead }
         DI_fix_variable_error = { X = horse_pastures }
         DI_fix_variable_error = { X = horus_hidden_tomb }
         DI_fix_variable_error = { X = hoshi_ryokan }
@@ -433,7 +528,6 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = iron_pillar_of_dhar }
         DI_fix_variable_error = { X = iron_wood }
         DI_fix_variable_error = { X = ise_jingu }
-        DI_fix_variable_error = { X = isle_freehold }
         DI_fix_variable_error = { X = itoigawa_mines }
         DI_fix_variable_error = { X = itownsfolk }
         DI_fix_variable_error = { X = itsukushima_jinja }
@@ -446,12 +540,9 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = jerusalem_christian_lazarus }
         DI_fix_variable_error = { X = jerusalem_christian_sepulchre }
         DI_fix_variable_error = { X = jerusalem_christian_supreme_templar }
-        DI_fix_variable_error = { X = jerusalem_divided_armenian_quarter }
-        DI_fix_variable_error = { X = jerusalem_divided_christian_quarter }
-        DI_fix_variable_error = { X = jerusalem_divided_jewish_quarter }
-        DI_fix_variable_error = { X = jerusalem_divided_muslim_quarter }
         DI_fix_variable_error = { X = jerusalem_divided_temple_mount_catacombs }
         DI_fix_variable_error = { X = jerusalem_jewish_castle }
+        DI_fix_variable_error = { X = jerusalem_jewish_demonology }
         DI_fix_variable_error = { X = jerusalem_jewish_library }
         DI_fix_variable_error = { X = jerusalem_jewish_palace }
         DI_fix_variable_error = { X = jerusalem_jewish_pools }
@@ -496,8 +587,8 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = kutna_hora_mines }
         DI_fix_variable_error = { X = kyz_kala }
         DI_fix_variable_error = { X = lahur_bazaar }
+        DI_fix_variable_error = { X = lake_moutniy_caern }
         DI_fix_variable_error = { X = land_nexus }
-        DI_fix_variable_error = { X = land_trod }
         DI_fix_variable_error = { X = lantian_mines }
         DI_fix_variable_error = { X = legacies_gathering }
         DI_fix_variable_error = { X = legacy }
@@ -513,11 +604,11 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = library_malta }
         DI_fix_variable_error = { X = library_of_the_jade_court }
         DI_fix_variable_error = { X = lingyin_temple }
+        DI_fix_variable_error = { X = lion_fury }
         DI_fix_variable_error = { X = lion_green }
         DI_fix_variable_error = { X = liuhe_pagoda }
         DI_fix_variable_error = { X = lize_academy }
         DI_fix_variable_error = { X = loch_ness }
-        DI_fix_variable_error = { X = lodge_freehold }
         DI_fix_variable_error = { X = logging_camps }
         DI_fix_variable_error = { X = london_bridge }
         DI_fix_variable_error = { X = london_mithraeum }
@@ -528,17 +619,20 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = lund_cathedral }
         DI_fix_variable_error = { X = lux_veritatis }
         DI_fix_variable_error = { X = maats_haven }
+        DI_fix_variable_error = { X = madinat_al_zahra }
         DI_fix_variable_error = { X = magda_purge }
         DI_fix_variable_error = { X = maharloo_lake }
         DI_fix_variable_error = { X = maiden_tower }
         DI_fix_variable_error = { X = maijishan_grottoes }
         DI_fix_variable_error = { X = mali_mines }
         DI_fix_variable_error = { X = mandala_capital }
-        DI_fix_variable_error = { X = manor_freehold }
+        DI_fix_variable_error = { X = manor }
         DI_fix_variable_error = { X = maoshan_academy }
         DI_fix_variable_error = { X = march }
-        DI_fix_variable_error = { X = market_freehold }
+        DI_fix_variable_error = { X = market }
         DI_fix_variable_error = { X = market_villages }
+        DI_fix_variable_error = { X = maryb_well_of_sacrifice }
+        DI_fix_variable_error = { X = masculine_dignity }
         DI_fix_variable_error = { X = megalith }
         DI_fix_variable_error = { X = mestha_farmstead }
         DI_fix_variable_error = { X = meteora }
@@ -552,11 +646,12 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = ministry_of_lions }
         DI_fix_variable_error = { X = mogok_mines }
         DI_fix_variable_error = { X = mokole_wallow }
+        DI_fix_variable_error = { X = monastery_sao_vicente }
         DI_fix_variable_error = { X = monastic_schools }
         DI_fix_variable_error = { X = mont_st_michel }
-        DI_fix_variable_error = { X = moon_trod }
         DI_fix_variable_error = { X = mortal_army }
         DI_fix_variable_error = { X = mother_garden }
+        DI_fix_variable_error = { X = mother_peach_trees }
         DI_fix_variable_error = { X = motley_haunt }
         DI_fix_variable_error = { X = mount_apo }
         DI_fix_variable_error = { X = mount_athos }
@@ -575,7 +670,6 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = nest_defences }
         DI_fix_variable_error = { X = night_sky }
         DI_fix_variable_error = { X = night_terror }
-        DI_fix_variable_error = { X = nightmare_trod }
         DI_fix_variable_error = { X = nishapur_mines }
         DI_fix_variable_error = { X = noble_cults }
         DI_fix_variable_error = { X = noble_trappings }
@@ -600,6 +694,10 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = palace_of_aachen }
         DI_fix_variable_error = { X = palace_of_ctesiphon }
         DI_fix_variable_error = { X = palisades }
+        DI_fix_variable_error = { X = pam_abbey_of_st_gall }
+        DI_fix_variable_error = { X = pam_lateran_basilica }
+        DI_fix_variable_error = { X = pam_palais_de_papes }
+        DI_fix_variable_error = { X = pam_reims_cathedral }
         DI_fix_variable_error = { X = pansjhir_mines }
         DI_fix_variable_error = { X = paris }
         DI_fix_variable_error = { X = paris_alexander_court }
@@ -654,11 +752,14 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = pit_of_malkav }
         DI_fix_variable_error = { X = plain_of_jars }
         DI_fix_variable_error = { X = plantations }
+        DI_fix_variable_error = { X = plaza_zocodover }
         DI_fix_variable_error = { X = pleasure_dome }
         DI_fix_variable_error = { X = po_klong_garai }
         DI_fix_variable_error = { X = pookas_favor }
+        DI_fix_variable_error = { X = portus_hispalensis }
         DI_fix_variable_error = { X = powder_magazine }
         DI_fix_variable_error = { X = prince_city }
+        DI_fix_variable_error = { X = protector_caern }
         DI_fix_variable_error = { X = pseudo_angelic_cults }
         DI_fix_variable_error = { X = pyramid_lingapura }
         DI_fix_variable_error = { X = qanats }
@@ -674,9 +775,12 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = ramparts }
         DI_fix_variable_error = { X = ransacked_court_samhach }
         DI_fix_variable_error = { X = ratnapura_mines }
+        DI_fix_variable_error = { X = red_cedar }
+        DI_fix_variable_error = { X = red_thermae }
         DI_fix_variable_error = { X = regimental_grounds }
         DI_fix_variable_error = { X = rock_of_cashel }
         DI_fix_variable_error = { X = rock_of_gibraltar }
+        DI_fix_variable_error = { X = rock_three_kingdoms }
         DI_fix_variable_error = { X = roman_wall_of_lugo }
         DI_fix_variable_error = { X = rome }
         DI_fix_variable_error = { X = rome_aqueduct }
@@ -724,6 +828,7 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = sanchi_stupa }
         DI_fix_variable_error = { X = sanctified_area }
         DI_fix_variable_error = { X = sanctuary_of_flesh }
+        DI_fix_variable_error = { X = sanctum_st_james }
         DI_fix_variable_error = { X = sankore_university }
         DI_fix_variable_error = { X = sar_i_sang_mines }
         DI_fix_variable_error = { X = saurian_armory }
@@ -752,10 +857,12 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = shrine_of_telyavel }
         DI_fix_variable_error = { X = shrine_st_olwen }
         DI_fix_variable_error = { X = shwedagon_pagoda }
+        DI_fix_variable_error = { X = siberian_wilds_caern }
         DI_fix_variable_error = { X = siderokausia_mines }
         DI_fix_variable_error = { X = siege_works }
         DI_fix_variable_error = { X = siena_university }
         DI_fix_variable_error = { X = silbury_hill }
+        DI_fix_variable_error = { X = silver_mines_baebelo }
         DI_fix_variable_error = { X = silver_refuge }
         DI_fix_variable_error = { X = silver_tara }
         DI_fix_variable_error = { X = silvers_gate }
@@ -767,10 +874,12 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = special_greenhouse }
         DI_fix_variable_error = { X = special_sicilian_parliament }
         DI_fix_variable_error = { X = spice_plantation }
+        DI_fix_variable_error = { X = spirit_stone }
         DI_fix_variable_error = { X = spiritual_sanctuary }
         DI_fix_variable_error = { X = spring_yzebel }
         DI_fix_variable_error = { X = srebrenica_mines }
         DI_fix_variable_error = { X = st_andrew }
+        DI_fix_variable_error = { X = st_brigid }
         DI_fix_variable_error = { X = st_cecila }
         DI_fix_variable_error = { X = st_james }
         DI_fix_variable_error = { X = st_john }
@@ -779,14 +888,15 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = stilted_granaries }
         DI_fix_variable_error = { X = stone_pagoda }
         DI_fix_variable_error = { X = stonehenge }
+        DI_fix_variable_error = { X = stronghold }
         DI_fix_variable_error = { X = sumela_monastery }
         DI_fix_variable_error = { X = summoning_chamber }
         DI_fix_variable_error = { X = sun_glory }
-        DI_fix_variable_error = { X = sun_trod }
         DI_fix_variable_error = { X = sunday_bazaar }
         DI_fix_variable_error = { X = sundervere_cult }
         DI_fix_variable_error = { X = suvarnadvipa_mines }
         DI_fix_variable_error = { X = suwalesi_megaliths }
+        DI_fix_variable_error = { X = suzhou_creek_caern }
         DI_fix_variable_error = { X = swahili_port_lamu }
         DI_fix_variable_error = { X = swahili_port_mombasa }
         DI_fix_variable_error = { X = swahili_port_pate }
@@ -819,16 +929,19 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = the_tower_of_london }
         DI_fix_variable_error = { X = theistic_cults }
         DI_fix_variable_error = { X = theodosian_walls }
-        DI_fix_variable_error = { X = thorpe_freehold }
+        DI_fix_variable_error = { X = thorpe }
         DI_fix_variable_error = { X = thousand_crane_monastery }
+        DI_fix_variable_error = { X = three_gorges_caern }
         DI_fix_variable_error = { X = three_pagodas_dali }
         DI_fix_variable_error = { X = throne_sunlight }
         DI_fix_variable_error = { X = thunder_blade }
+        DI_fix_variable_error = { X = thunderstrike_caern }
         DI_fix_variable_error = { X = thuriang_kilns }
         DI_fix_variable_error = { X = tianchi_dragon_nest }
         DI_fix_variable_error = { X = tiantai_monasteries }
         DI_fix_variable_error = { X = tithe_of_the_dead }
         DI_fix_variable_error = { X = tomb }
+        DI_fix_variable_error = { X = tomb_el_cid }
         DI_fix_variable_error = { X = tomb_of_cyrus }
         DI_fix_variable_error = { X = toulouse_university }
         DI_fix_variable_error = { X = tower_flies }
@@ -837,17 +950,20 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = travelers_lodging }
         DI_fix_variable_error = { X = trepca_mines }
         DI_fix_variable_error = { X = tribe }
+        DI_fix_variable_error = { X = trods }
         DI_fix_variable_error = { X = trosky_castle }
         DI_fix_variable_error = { X = tsushima_mines }
         DI_fix_variable_error = { X = tuath_of_chronos }
+        DI_fix_variable_error = { X = tullu_demtu }
         DI_fix_variable_error = { X = turda_mines }
+        DI_fix_variable_error = { X = uktena_hunter_lodge }
         DI_fix_variable_error = { X = umbral_lake_tele }
+        DI_fix_variable_error = { X = underground_forum_caern }
         DI_fix_variable_error = { X = underworld_portal }
         DI_fix_variable_error = { X = unending_party }
         DI_fix_variable_error = { X = unique_dragon_nest }
         DI_fix_variable_error = { X = unshriven_zealot }
         DI_fix_variable_error = { X = uppsala }
-        DI_fix_variable_error = { X = urban_freehold }
         DI_fix_variable_error = { X = vatapi_caves }
         DI_fix_variable_error = { X = verespatak_mines }
         DI_fix_variable_error = { X = vienna_chantry }
@@ -865,7 +981,6 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = wartburg }
         DI_fix_variable_error = { X = watchtowers }
         DI_fix_variable_error = { X = water_temples }
-        DI_fix_variable_error = { X = water_trod }
         DI_fix_variable_error = { X = watermills }
         DI_fix_variable_error = { X = waterworks }
         DI_fix_variable_error = { X = wawel_cathedral }
@@ -881,12 +996,12 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = white_deer_grotto_academy }
         DI_fix_variable_error = { X = white_nights }
         DI_fix_variable_error = { X = white_sea }
-        DI_fix_variable_error = { X = wild_portal }
         DI_fix_variable_error = { X = wild_sea }
         DI_fix_variable_error = { X = wilwatikta_palace }
         DI_fix_variable_error = { X = wind_furnace }
         DI_fix_variable_error = { X = windmills }
         DI_fix_variable_error = { X = winter_forest }
+        DI_fix_variable_error = { X = workshop }
         DI_fix_variable_error = { X = workshops }
         DI_fix_variable_error = { X = wounded_unicorn }
         DI_fix_variable_error = { X = wudang_mountain_temples }
@@ -916,6 +1031,13 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = alamut_03 }
         DI_fix_variable_error = { X = alamut_castle_01 }
         DI_fix_variable_error = { X = alamut_castle_02 }
+        DI_fix_variable_error = { X = albaicin_quarter_01 }
+        DI_fix_variable_error = { X = albaicin_quarter_02 }
+        DI_fix_variable_error = { X = albaicin_quarter_03 }
+        DI_fix_variable_error = { X = albaicin_quarter_04 }
+        DI_fix_variable_error = { X = alcazaba_badajoz_01 }
+        DI_fix_variable_error = { X = alcazaba_badajoz_02 }
+        DI_fix_variable_error = { X = alcazaba_badajoz_03 }
         DI_fix_variable_error = { X = alcazar_of_segovia_01 }
         DI_fix_variable_error = { X = alhambra_01 }
         DI_fix_variable_error = { X = alhambra_02 }
@@ -945,6 +1067,8 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = argentiera_mines_03 }
         DI_fix_variable_error = { X = argentiera_mines_04 }
         DI_fix_variable_error = { X = ark_of_bukhara_01 }
+        DI_fix_variable_error = { X = arkwasiye_caern_01 }
+        DI_fix_variable_error = { X = artic_axe_caern_01 }
         DI_fix_variable_error = { X = ashen_commandery_01 }
         DI_fix_variable_error = { X = ashen_commandery_02 }
         DI_fix_variable_error = { X = ashen_commandery_03 }
@@ -968,6 +1092,127 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = assassins_cell_02 }
         DI_fix_variable_error = { X = assassins_cell_03 }
         DI_fix_variable_error = { X = aurelian_walls_01 }
+        DI_fix_variable_error = { X = baba_yaga_stone_01 }
+        DI_fix_variable_error = { X = baghdad_center_of_the_world_learning_01 }
+        DI_fix_variable_error = { X = baghdad_center_of_the_world_learning_02 }
+        DI_fix_variable_error = { X = baghdad_center_of_the_world_learning_03 }
+        DI_fix_variable_error = { X = baghdad_city_of_a_thousand_mosques_01 }
+        DI_fix_variable_error = { X = baghdad_city_of_a_thousand_mosques_02 }
+        DI_fix_variable_error = { X = baghdad_city_of_a_thousand_mosques_03 }
+        DI_fix_variable_error = { X = baghdad_desecrated_mosques_01 }
+        DI_fix_variable_error = { X = baghdad_desecrated_mosques_02 }
+        DI_fix_variable_error = { X = baghdad_desecrated_mosques_03 }
+        DI_fix_variable_error = { X = baghdad_destroyed_infrastructure_01 }
+        DI_fix_variable_error = { X = baghdad_destroyed_infrastructure_02 }
+        DI_fix_variable_error = { X = baghdad_destroyed_infrastructure_03 }
+        DI_fix_variable_error = { X = baghdad_heart_of_trade_01 }
+        DI_fix_variable_error = { X = baghdad_heart_of_trade_02 }
+        DI_fix_variable_error = { X = baghdad_heart_of_trade_03 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_abou_hanifaa_mosque_01 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_abou_hanifaa_mosque_02 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_abou_hanifaa_mosque_03 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_abou_hanifaa_mosque_04 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_abou_hanifaa_mosque_05 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_al_adudi_bimaristan_01 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_al_adudi_bimaristan_02 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_al_adudi_bimaristan_03 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_al_adudi_bimaristan_04 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_al_adudi_bimaristan_05 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_al_mustansiriyah_university_01 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_al_mustansiriyah_university_02 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_al_mustansiriyah_university_03 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_al_mustansiriyah_university_04 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_al_mustansiriyah_university_05 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_baghdad_01 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_baghdad_02 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_baghdad_03 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_house_of_wisdom_01 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_house_of_wisdom_02 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_house_of_wisdom_03 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_house_of_wisdom_04 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_house_of_wisdom_05 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_madrasa_mirjaniyya_01 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_madrasa_mirjaniyya_02 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_madrasa_mirjaniyya_03 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_madrasa_mirjaniyya_04 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_madrasa_mirjaniyya_05 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_palace_of_the_abbasids_01 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_palace_of_the_abbasids_02 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_palace_of_the_abbasids_03 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_palace_of_the_abbasids_04 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_palace_of_the_abbasids_05 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_taj_palace_01 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_taj_palace_02 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_taj_palace_03 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_taj_palace_04 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_taj_palace_05 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_zumurrud_kathun_mausoleum_01 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_zumurrud_kathun_mausoleum_02 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_zumurrud_kathun_mausoleum_03 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_zumurrud_kathun_mausoleum_04 }
+        DI_fix_variable_error = { X = baghdad_jewel_of_allah_zumurrud_kathun_mausoleum_05 }
+        DI_fix_variable_error = { X = baghdad_looted_baghdad_01 }
+        DI_fix_variable_error = { X = baghdad_looted_baghdad_02 }
+        DI_fix_variable_error = { X = baghdad_oldest_city_01 }
+        DI_fix_variable_error = { X = baghdad_oldest_city_02 }
+        DI_fix_variable_error = { X = baghdad_oldest_city_03 }
+        DI_fix_variable_error = { X = baghdad_rebuilt_baghdad_01 }
+        DI_fix_variable_error = { X = baghdad_rebuilt_baghdad_02 }
+        DI_fix_variable_error = { X = baghdad_rebuilt_baghdad_03 }
+        DI_fix_variable_error = { X = baghdad_rivers_of_ink_01 }
+        DI_fix_variable_error = { X = baghdad_rivers_of_ink_02 }
+        DI_fix_variable_error = { X = baghdad_rivers_of_ink_03 }
+        DI_fix_variable_error = { X = baghdad_ruined_palaces_01 }
+        DI_fix_variable_error = { X = baghdad_ruined_palaces_02 }
+        DI_fix_variable_error = { X = baghdad_ruined_palaces_03 }
+        DI_fix_variable_error = { X = baghdad_sinful_baghdad_01 }
+        DI_fix_variable_error = { X = baghdad_sinful_baghdad_02 }
+        DI_fix_variable_error = { X = baghdad_sinful_baghdad_03 }
+        DI_fix_variable_error = { X = baghdad_sinful_desecrated_second_temple_01 }
+        DI_fix_variable_error = { X = baghdad_sinful_desecrated_second_temple_02 }
+        DI_fix_variable_error = { X = baghdad_sinful_desecrated_second_temple_03 }
+        DI_fix_variable_error = { X = baghdad_sinful_desecrated_second_temple_04 }
+        DI_fix_variable_error = { X = baghdad_sinful_desecrated_second_temple_05 }
+        DI_fix_variable_error = { X = baghdad_sinful_enforced_rest_times }
+        DI_fix_variable_error = { X = baghdad_sinful_feast_halls }
+        DI_fix_variable_error = { X = baghdad_sinful_fighting_pits }
+        DI_fix_variable_error = { X = baghdad_sinful_gate_of_ishtar_01 }
+        DI_fix_variable_error = { X = baghdad_sinful_gate_of_ishtar_02 }
+        DI_fix_variable_error = { X = baghdad_sinful_gate_of_ishtar_03 }
+        DI_fix_variable_error = { X = baghdad_sinful_gate_of_ishtar_04 }
+        DI_fix_variable_error = { X = baghdad_sinful_gate_of_ishtar_05 }
+        DI_fix_variable_error = { X = baghdad_sinful_gold_hoard }
+        DI_fix_variable_error = { X = baghdad_sinful_hanging_gardens_01 }
+        DI_fix_variable_error = { X = baghdad_sinful_hanging_gardens_02 }
+        DI_fix_variable_error = { X = baghdad_sinful_hanging_gardens_03 }
+        DI_fix_variable_error = { X = baghdad_sinful_hanging_gardens_04 }
+        DI_fix_variable_error = { X = baghdad_sinful_hanging_gardens_05 }
+        DI_fix_variable_error = { X = baghdad_sinful_palace_of_etemenanki_01 }
+        DI_fix_variable_error = { X = baghdad_sinful_palace_of_etemenanki_02 }
+        DI_fix_variable_error = { X = baghdad_sinful_palace_of_etemenanki_03 }
+        DI_fix_variable_error = { X = baghdad_sinful_palace_of_etemenanki_04 }
+        DI_fix_variable_error = { X = baghdad_sinful_palace_of_etemenanki_05 }
+        DI_fix_variable_error = { X = baghdad_sinful_pleasure_houses }
+        DI_fix_variable_error = { X = baghdad_sinful_prideful_statue }
+        DI_fix_variable_error = { X = baghdad_sinful_spy_passages }
+        DI_fix_variable_error = { X = baghdad_sinful_temples_of_the_gods_01 }
+        DI_fix_variable_error = { X = baghdad_sinful_temples_of_the_gods_02 }
+        DI_fix_variable_error = { X = baghdad_sinful_temples_of_the_gods_03 }
+        DI_fix_variable_error = { X = baghdad_sinful_temples_of_the_gods_04 }
+        DI_fix_variable_error = { X = baghdad_sinful_temples_of_the_gods_05 }
+        DI_fix_variable_error = { X = baghdad_sinful_tomb_of_nergal_01 }
+        DI_fix_variable_error = { X = baghdad_sinful_tomb_of_nergal_02 }
+        DI_fix_variable_error = { X = baghdad_sinful_tomb_of_nergal_03 }
+        DI_fix_variable_error = { X = baghdad_sinful_tomb_of_nergal_04 }
+        DI_fix_variable_error = { X = baghdad_sinful_tomb_of_nergal_05 }
+        DI_fix_variable_error = { X = baghdad_sinful_tower_of_babel_01 }
+        DI_fix_variable_error = { X = baghdad_sinful_tower_of_babel_02 }
+        DI_fix_variable_error = { X = baghdad_sinful_tower_of_babel_03 }
+        DI_fix_variable_error = { X = baghdad_sinful_tower_of_babel_04 }
+        DI_fix_variable_error = { X = baghdad_sinful_tower_of_babel_05 }
+        DI_fix_variable_error = { X = baghdad_starving_population_01 }
+        DI_fix_variable_error = { X = baghdad_starving_population_02 }
+        DI_fix_variable_error = { X = baghdad_starving_population_03 }
         DI_fix_variable_error = { X = balors_tower_01 }
         DI_fix_variable_error = { X = baofeng_mines_01 }
         DI_fix_variable_error = { X = baofeng_mines_02 }
@@ -996,6 +1241,123 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = beijing_temples_01 }
         DI_fix_variable_error = { X = besakih_temple_01 }
         DI_fix_variable_error = { X = beta_giyorgis_01 }
+        DI_fix_variable_error = { X = bjarkarey_ashen_throne_01 }
+        DI_fix_variable_error = { X = bjarkarey_ashen_throne_02 }
+        DI_fix_variable_error = { X = bjarkarey_ashen_throne_03 }
+        DI_fix_variable_error = { X = bjarkarey_ashen_throne_04 }
+        DI_fix_variable_error = { X = bjarkarey_blodga_langhus_01 }
+        DI_fix_variable_error = { X = bjarkarey_blodga_langhus_02 }
+        DI_fix_variable_error = { X = bjarkarey_blodga_langhus_03 }
+        DI_fix_variable_error = { X = bjarkarey_blodga_langhus_04 }
+        DI_fix_variable_error = { X = bjarkarey_blothaugr_01 }
+        DI_fix_variable_error = { X = bjarkarey_blothaugr_02 }
+        DI_fix_variable_error = { X = bjarkarey_blothaugr_03 }
+        DI_fix_variable_error = { X = bjarkarey_blothaugr_04 }
+        DI_fix_variable_error = { X = bjarkarey_bones_njord_01 }
+        DI_fix_variable_error = { X = bjarkarey_bones_njord_02 }
+        DI_fix_variable_error = { X = bjarkarey_bones_njord_03 }
+        DI_fix_variable_error = { X = bjarkarey_bones_njord_04 }
+        DI_fix_variable_error = { X = bjarkarey_cathedral_caine_01 }
+        DI_fix_variable_error = { X = bjarkarey_cathedral_caine_02 }
+        DI_fix_variable_error = { X = bjarkarey_cathedral_caine_03 }
+        DI_fix_variable_error = { X = bjarkarey_cathedral_caine_04 }
+        DI_fix_variable_error = { X = bjarkarey_cathedral_god_01 }
+        DI_fix_variable_error = { X = bjarkarey_cathedral_god_02 }
+        DI_fix_variable_error = { X = bjarkarey_cathedral_god_03 }
+        DI_fix_variable_error = { X = bjarkarey_cathedral_god_04 }
+        DI_fix_variable_error = { X = bjarkarey_dark_libraries_01 }
+        DI_fix_variable_error = { X = bjarkarey_dark_libraries_02 }
+        DI_fix_variable_error = { X = bjarkarey_dark_libraries_03 }
+        DI_fix_variable_error = { X = bjarkarey_dark_libraries_04 }
+        DI_fix_variable_error = { X = bjarkarey_divided_throndarnes_01 }
+        DI_fix_variable_error = { X = bjarkarey_divided_throndarnes_02 }
+        DI_fix_variable_error = { X = bjarkarey_divided_throndarnes_03 }
+        DI_fix_variable_error = { X = bjarkarey_divided_throndarnes_04 }
+        DI_fix_variable_error = { X = bjarkarey_drekafloti_01 }
+        DI_fix_variable_error = { X = bjarkarey_drekafloti_02 }
+        DI_fix_variable_error = { X = bjarkarey_drekafloti_03 }
+        DI_fix_variable_error = { X = bjarkarey_drekafloti_04 }
+        DI_fix_variable_error = { X = bjarkarey_frjalsir_menn_01 }
+        DI_fix_variable_error = { X = bjarkarey_frjalsir_menn_02 }
+        DI_fix_variable_error = { X = bjarkarey_frjalsir_menn_03 }
+        DI_fix_variable_error = { X = bjarkarey_frjalsir_menn_04 }
+        DI_fix_variable_error = { X = bjarkarey_godfearing_subjects_01 }
+        DI_fix_variable_error = { X = bjarkarey_godfearing_subjects_02 }
+        DI_fix_variable_error = { X = bjarkarey_godfearing_subjects_03 }
+        DI_fix_variable_error = { X = bjarkarey_godfearing_subjects_04 }
+        DI_fix_variable_error = { X = bjarkarey_grimsson_armory_01 }
+        DI_fix_variable_error = { X = bjarkarey_grimsson_armory_02 }
+        DI_fix_variable_error = { X = bjarkarey_grimsson_armory_03 }
+        DI_fix_variable_error = { X = bjarkarey_grimsson_armory_04 }
+        DI_fix_variable_error = { X = bjarkarey_gullveigr_lundi_01 }
+        DI_fix_variable_error = { X = bjarkarey_gullveigr_lundi_02 }
+        DI_fix_variable_error = { X = bjarkarey_gullveigr_lundi_03 }
+        DI_fix_variable_error = { X = bjarkarey_gullveigr_lundi_04 }
+        DI_fix_variable_error = { X = bjarkarey_hall_judgment_01 }
+        DI_fix_variable_error = { X = bjarkarey_hall_judgment_02 }
+        DI_fix_variable_error = { X = bjarkarey_hall_judgment_03 }
+        DI_fix_variable_error = { X = bjarkarey_hall_judgment_04 }
+        DI_fix_variable_error = { X = bjarkarey_hammer_caine_01 }
+        DI_fix_variable_error = { X = bjarkarey_hammer_caine_02 }
+        DI_fix_variable_error = { X = bjarkarey_hammer_caine_03 }
+        DI_fix_variable_error = { X = bjarkarey_hammer_caine_04 }
+        DI_fix_variable_error = { X = bjarkarey_hammer_god_01 }
+        DI_fix_variable_error = { X = bjarkarey_hammer_god_02 }
+        DI_fix_variable_error = { X = bjarkarey_hammer_god_03 }
+        DI_fix_variable_error = { X = bjarkarey_hammer_god_04 }
+        DI_fix_variable_error = { X = bjarkarey_hollr_01 }
+        DI_fix_variable_error = { X = bjarkarey_hollr_02 }
+        DI_fix_variable_error = { X = bjarkarey_hollr_03 }
+        DI_fix_variable_error = { X = bjarkarey_hvitakristr_01 }
+        DI_fix_variable_error = { X = bjarkarey_hvitakristr_02 }
+        DI_fix_variable_error = { X = bjarkarey_hvitakristr_03 }
+        DI_fix_variable_error = { X = bjarkarey_knight_fortress_01 }
+        DI_fix_variable_error = { X = bjarkarey_knight_fortress_02 }
+        DI_fix_variable_error = { X = bjarkarey_knight_fortress_03 }
+        DI_fix_variable_error = { X = bjarkarey_knight_fortress_04 }
+        DI_fix_variable_error = { X = bjarkarey_leynikirkja_01 }
+        DI_fix_variable_error = { X = bjarkarey_leynikirkja_02 }
+        DI_fix_variable_error = { X = bjarkarey_leynikirkja_03 }
+        DI_fix_variable_error = { X = bjarkarey_leynikirkja_04 }
+        DI_fix_variable_error = { X = bjarkarey_loyal_thralls_01 }
+        DI_fix_variable_error = { X = bjarkarey_loyal_thralls_02 }
+        DI_fix_variable_error = { X = bjarkarey_loyal_thralls_03 }
+        DI_fix_variable_error = { X = bjarkarey_loyal_thralls_04 }
+        DI_fix_variable_error = { X = bjarkarey_myrkvidir_01 }
+        DI_fix_variable_error = { X = bjarkarey_myrkvidir_02 }
+        DI_fix_variable_error = { X = bjarkarey_myrkvidir_03 }
+        DI_fix_variable_error = { X = bjarkarey_myrkvidir_04 }
+        DI_fix_variable_error = { X = bjarkarey_prized_jewels_01 }
+        DI_fix_variable_error = { X = bjarkarey_prized_jewels_02 }
+        DI_fix_variable_error = { X = bjarkarey_prized_jewels_03 }
+        DI_fix_variable_error = { X = bjarkarey_prized_jewels_04 }
+        DI_fix_variable_error = { X = bjarkarey_shadow_fleets_01 }
+        DI_fix_variable_error = { X = bjarkarey_shadow_fleets_02 }
+        DI_fix_variable_error = { X = bjarkarey_shadow_fleets_03 }
+        DI_fix_variable_error = { X = bjarkarey_shadow_fleets_04 }
+        DI_fix_variable_error = { X = bjarkarey_solarhvelfing_01 }
+        DI_fix_variable_error = { X = bjarkarey_solarhvelfing_02 }
+        DI_fix_variable_error = { X = bjarkarey_solarhvelfing_03 }
+        DI_fix_variable_error = { X = bjarkarey_solarhvelfing_04 }
+        DI_fix_variable_error = { X = bjarkarey_taema_01 }
+        DI_fix_variable_error = { X = bjarkarey_taema_02 }
+        DI_fix_variable_error = { X = bjarkarey_taema_03 }
+        DI_fix_variable_error = { X = bjarkarey_terror_christ_01 }
+        DI_fix_variable_error = { X = bjarkarey_terror_christ_02 }
+        DI_fix_variable_error = { X = bjarkarey_terror_christ_03 }
+        DI_fix_variable_error = { X = bjarkarey_terror_christ_04 }
+        DI_fix_variable_error = { X = bjarkarey_throndarnes_01 }
+        DI_fix_variable_error = { X = bjarkarey_throndarnes_02 }
+        DI_fix_variable_error = { X = bjarkarey_throndarnes_03 }
+        DI_fix_variable_error = { X = bjarkarey_throndarnes_04 }
+        DI_fix_variable_error = { X = bjarkarey_ulf_hall_01 }
+        DI_fix_variable_error = { X = bjarkarey_ulf_hall_02 }
+        DI_fix_variable_error = { X = bjarkarey_ulf_hall_03 }
+        DI_fix_variable_error = { X = bjarkarey_ulf_hall_04 }
+        DI_fix_variable_error = { X = bjarkarey_ulfahus_01 }
+        DI_fix_variable_error = { X = bjarkarey_ulfahus_02 }
+        DI_fix_variable_error = { X = bjarkarey_ulfahus_03 }
+        DI_fix_variable_error = { X = bjarkarey_ulfahus_04 }
         DI_fix_variable_error = { X = black_college_01 }
         DI_fix_variable_error = { X = black_college_02 }
         DI_fix_variable_error = { X = black_college_03 }
@@ -1010,10 +1372,14 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = blacksmiths_02 }
         DI_fix_variable_error = { X = blacksmiths_03 }
         DI_fix_variable_error = { X = blood_fist_01 }
+        DI_fix_variable_error = { X = blood_sea_caern_01 }
         DI_fix_variable_error = { X = blood_tax_01 }
         DI_fix_variable_error = { X = blood_tax_02 }
         DI_fix_variable_error = { X = blood_tax_03 }
         DI_fix_variable_error = { X = bloodflowers_fleshpits_01 }
+        DI_fix_variable_error = { X = boderia_ritual_stones_01 }
+        DI_fix_variable_error = { X = boderia_ritual_stones_02 }
+        DI_fix_variable_error = { X = boderia_ritual_stones_03 }
         DI_fix_variable_error = { X = bookshop_01 }
         DI_fix_variable_error = { X = bookshop_02 }
         DI_fix_variable_error = { X = bookshop_03 }
@@ -1035,6 +1401,7 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = bright_promise_02 }
         DI_fix_variable_error = { X = bright_promise_03 }
         DI_fix_variable_error = { X = brihadeeswarar_temple_01 }
+        DI_fix_variable_error = { X = brooding_sky_01 }
         DI_fix_variable_error = { X = buddha_kamakura_01 }
         DI_fix_variable_error = { X = buddhas_of_bamian_01 }
         DI_fix_variable_error = { X = bullring_01 }
@@ -1047,11 +1414,16 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = bush_retreat_03 }
         DI_fix_variable_error = { X = byeokran_port_01 }
         DI_fix_variable_error = { X = bygone_visions_01 }
+        DI_fix_variable_error = { X = caern_amber_mount_01 }
+        DI_fix_variable_error = { X = caern_azure_bassin_01 }
+        DI_fix_variable_error = { X = caern_black_tumulus_01 }
+        DI_fix_variable_error = { X = caern_enchanted_enclosure_01 }
         DI_fix_variable_error = { X = caern_enigmas_01 }
         DI_fix_variable_error = { X = caern_enigmas_02 }
         DI_fix_variable_error = { X = caern_enigmas_03 }
         DI_fix_variable_error = { X = caern_enigmas_04 }
         DI_fix_variable_error = { X = caern_enigmas_05 }
+        DI_fix_variable_error = { X = caern_grey_rock_01 }
         DI_fix_variable_error = { X = caern_leadership_01 }
         DI_fix_variable_error = { X = caern_leadership_02 }
         DI_fix_variable_error = { X = caern_leadership_03 }
@@ -1298,9 +1670,7 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = chihu_mines_02 }
         DI_fix_variable_error = { X = chihu_mines_03 }
         DI_fix_variable_error = { X = chihu_mines_04 }
-        DI_fix_variable_error = { X = chimerical_trod_01 }
-        DI_fix_variable_error = { X = chimerical_trod_02 }
-        DI_fix_variable_error = { X = chimerical_trod_03 }
+        DI_fix_variable_error = { X = chimtarga_peak_caern_01 }
         DI_fix_variable_error = { X = chinjufu_01 }
         DI_fix_variable_error = { X = chocolate_hills_01 }
         DI_fix_variable_error = { X = chui_mal_01 }
@@ -1529,6 +1899,52 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = crypt_01 }
         DI_fix_variable_error = { X = crypt_02 }
         DI_fix_variable_error = { X = crypt_03 }
+        DI_fix_variable_error = { X = crystal_mind_caern_01 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_bagh_i_hinduvan_01 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_bagh_i_hinduvan_02 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_bagh_i_hinduvan_03 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_bagh_i_hinduvan_04 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_bagh_i_hinduvan_05 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_ctesiphon_01 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_ctesiphon_02 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_ctesiphon_03 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_dastagerd_01 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_dastagerd_02 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_dastagerd_03 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_dastagerd_04 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_dastagerd_05 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_first_holdouts_of_the_cult }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_grandest_blasphemy_shrine }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_newest_pyramid }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_sacred_flame }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_taq_kasra_01 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_taq_kasra_02 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_taq_kasra_03 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_taq_kasra_04 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_taq_kasra_05 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_temple_of_osiris }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_temple_to_jupiter }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_the_suns_birth }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_valashabad_01 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_valashabad_02 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_valashabad_03 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_valashabad_04 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_valashabad_05 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_veh_antiok_xusro_01 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_veh_antiok_xusro_02 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_veh_antiok_xusro_03 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_veh_antiok_xusro_04 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_veh_antiok_xusro_05 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_veh_ardashir_01 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_veh_ardashir_02 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_veh_ardashir_03 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_veh_ardashir_04 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_veh_ardashir_05 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_white_palace_01 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_white_palace_02 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_white_palace_03 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_white_palace_04 }
+        DI_fix_variable_error = { X = ctesiphon_the_shadowed_pheonix_white_palace_05 }
         DI_fix_variable_error = { X = culai_academy_01 }
         DI_fix_variable_error = { X = cult_of_amkhat_01 }
         DI_fix_variable_error = { X = cult_of_amkhat_02 }
@@ -1548,6 +1964,7 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = curtain_walls_08 }
         DI_fix_variable_error = { X = daisen_mountain_01 }
         DI_fix_variable_error = { X = damascus_mosque_01 }
+        DI_fix_variable_error = { X = damburrow_01 }
         DI_fix_variable_error = { X = danevirke_01 }
         DI_fix_variable_error = { X = dau_temple_01 }
         DI_fix_variable_error = { X = dazaifu_01 }
@@ -1631,6 +2048,7 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = erciyes_01 }
         DI_fix_variable_error = { X = erciyes_02 }
         DI_fix_variable_error = { X = erciyes_03 }
+        DI_fix_variable_error = { X = ergenekon_01 }
         DI_fix_variable_error = { X = etchmiadzin_cathedral }
         DI_fix_variable_error = { X = eternal_parish_01 }
         DI_fix_variable_error = { X = eternal_parish_02 }
@@ -1645,17 +2063,12 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = examination_hall_03 }
         DI_fix_variable_error = { X = extended_dragon_nest_01 }
         DI_fix_variable_error = { X = extended_dragon_nest_02 }
-        DI_fix_variable_error = { X = eyrie_freehold_01 }
-        DI_fix_variable_error = { X = eyrie_freehold_02 }
-        DI_fix_variable_error = { X = eyrie_freehold_03 }
-        DI_fix_variable_error = { X = faerie_ring_freehold_01 }
-        DI_fix_variable_error = { X = faerie_ring_freehold_02 }
-        DI_fix_variable_error = { X = faerie_ring_freehold_03 }
         DI_fix_variable_error = { X = fairy_chimneys }
         DI_fix_variable_error = { X = falak_ol_aflak_citadel_01 }
         DI_fix_variable_error = { X = fallen_church_01 }
         DI_fix_variable_error = { X = fallen_church_02 }
         DI_fix_variable_error = { X = fallen_church_03 }
+        DI_fix_variable_error = { X = falling_water_01 }
         DI_fix_variable_error = { X = falun_mines_01 }
         DI_fix_variable_error = { X = falun_mines_02 }
         DI_fix_variable_error = { X = falun_mines_03 }
@@ -1771,9 +2184,7 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = giovanni_mausoleum_01 }
         DI_fix_variable_error = { X = giovanni_mausoleum_02 }
         DI_fix_variable_error = { X = giovanni_mausoleum_03 }
-        DI_fix_variable_error = { X = glade_freehold_01 }
-        DI_fix_variable_error = { X = glade_freehold_02 }
-        DI_fix_variable_error = { X = glade_freehold_03 }
+        DI_fix_variable_error = { X = gish_abbai_caern_01 }
         DI_fix_variable_error = { X = glenlea_01 }
         DI_fix_variable_error = { X = goguryeo_tomb_01 }
         DI_fix_variable_error = { X = golden_gate_of_kiev_01 }
@@ -1786,12 +2197,14 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = grand_city_02 }
         DI_fix_variable_error = { X = grand_city_03 }
         DI_fix_variable_error = { X = grand_city_04 }
+        DI_fix_variable_error = { X = grand_city_05 }
         DI_fix_variable_error = { X = great_megalith_01 }
+        DI_fix_variable_error = { X = great_project_cathedral_01 }
+        DI_fix_variable_error = { X = great_project_cathedral_02 }
+        DI_fix_variable_error = { X = great_project_cathedral_03 }
+        DI_fix_variable_error = { X = great_project_cathedral_under_construction }
         DI_fix_variable_error = { X = great_wall_of_gorgan_01 }
         DI_fix_variable_error = { X = grimsfen_tor_01 }
-        DI_fix_variable_error = { X = grotto_freehold_01 }
-        DI_fix_variable_error = { X = grotto_freehold_02 }
-        DI_fix_variable_error = { X = grotto_freehold_03 }
         DI_fix_variable_error = { X = guild_halls_01 }
         DI_fix_variable_error = { X = guild_halls_02 }
         DI_fix_variable_error = { X = guild_halls_03 }
@@ -1826,7 +2239,6 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = hamilcar_palaestra_01 }
         DI_fix_variable_error = { X = hamilcar_palaestra_02 }
         DI_fix_variable_error = { X = hamilcar_palaestra_03 }
-        DI_fix_variable_error = { X = hanging_gardens_01 }
         DI_fix_variable_error = { X = hanging_temple_01 }
         DI_fix_variable_error = { X = hanshii_arena_01 }
         DI_fix_variable_error = { X = hanshii_arena_02 }
@@ -1868,9 +2280,11 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = haven_01 }
         DI_fix_variable_error = { X = haven_02 }
         DI_fix_variable_error = { X = haven_03 }
-        DI_fix_variable_error = { X = hearth_freehold_01 }
-        DI_fix_variable_error = { X = hearth_freehold_02 }
-        DI_fix_variable_error = { X = hearth_freehold_03 }
+        DI_fix_variable_error = { X = hearth_01 }
+        DI_fix_variable_error = { X = hearth_02 }
+        DI_fix_variable_error = { X = hearth_03 }
+        DI_fix_variable_error = { X = hearth_04 }
+        DI_fix_variable_error = { X = hearth_05 }
         DI_fix_variable_error = { X = heddal_stave_church_01 }
         DI_fix_variable_error = { X = heian_palace_01 }
         DI_fix_variable_error = { X = herat_bazaar_01 }
@@ -1944,9 +2358,11 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = holy_site_se_asia_pagan_temple_01 }
         DI_fix_variable_error = { X = holy_site_st_peters_basilica_01 }
         DI_fix_variable_error = { X = holy_wisdom_01 }
-        DI_fix_variable_error = { X = homestead_freehold_01 }
-        DI_fix_variable_error = { X = homestead_freehold_02 }
-        DI_fix_variable_error = { X = homestead_freehold_03 }
+        DI_fix_variable_error = { X = homestead_01 }
+        DI_fix_variable_error = { X = homestead_02 }
+        DI_fix_variable_error = { X = homestead_03 }
+        DI_fix_variable_error = { X = homestead_04 }
+        DI_fix_variable_error = { X = homestead_05 }
         DI_fix_variable_error = { X = horse_pastures_01 }
         DI_fix_variable_error = { X = horse_pastures_02 }
         DI_fix_variable_error = { X = horse_pastures_03 }
@@ -2168,9 +2584,6 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = iron_pillar_of_dhar_01 }
         DI_fix_variable_error = { X = iron_wood_01 }
         DI_fix_variable_error = { X = ise_jingu_01 }
-        DI_fix_variable_error = { X = isle_freehold_01 }
-        DI_fix_variable_error = { X = isle_freehold_02 }
-        DI_fix_variable_error = { X = isle_freehold_03 }
         DI_fix_variable_error = { X = itoigawa_mines_01 }
         DI_fix_variable_error = { X = itoigawa_mines_02 }
         DI_fix_variable_error = { X = itoigawa_mines_03 }
@@ -2190,6 +2603,7 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = jerusalem_christian_german_mary_01 }
         DI_fix_variable_error = { X = jerusalem_christian_german_mary_02 }
         DI_fix_variable_error = { X = jerusalem_christian_german_mary_03 }
+        DI_fix_variable_error = { X = jerusalem_christian_german_mary_04 }
         DI_fix_variable_error = { X = jerusalem_christian_holy_sepulcher_01 }
         DI_fix_variable_error = { X = jerusalem_christian_holy_sepulcher_02 }
         DI_fix_variable_error = { X = jerusalem_christian_holy_sepulcher_03 }
@@ -2197,31 +2611,19 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = jerusalem_christian_john_01 }
         DI_fix_variable_error = { X = jerusalem_christian_john_02 }
         DI_fix_variable_error = { X = jerusalem_christian_john_03 }
+        DI_fix_variable_error = { X = jerusalem_christian_john_04 }
         DI_fix_variable_error = { X = jerusalem_christian_lazarus_01 }
         DI_fix_variable_error = { X = jerusalem_christian_lazarus_02 }
         DI_fix_variable_error = { X = jerusalem_christian_lazarus_03 }
+        DI_fix_variable_error = { X = jerusalem_christian_lazarus_04 }
         DI_fix_variable_error = { X = jerusalem_christian_sepulchre_01 }
         DI_fix_variable_error = { X = jerusalem_christian_sepulchre_02 }
         DI_fix_variable_error = { X = jerusalem_christian_sepulchre_03 }
+        DI_fix_variable_error = { X = jerusalem_christian_sepulchre_04 }
         DI_fix_variable_error = { X = jerusalem_christian_supreme_templar_01 }
         DI_fix_variable_error = { X = jerusalem_christian_supreme_templar_02 }
         DI_fix_variable_error = { X = jerusalem_christian_supreme_templar_03 }
-        DI_fix_variable_error = { X = jerusalem_divided_armenian_quarter_01 }
-        DI_fix_variable_error = { X = jerusalem_divided_armenian_quarter_02 }
-        DI_fix_variable_error = { X = jerusalem_divided_armenian_quarter_03 }
-        DI_fix_variable_error = { X = jerusalem_divided_armenian_quarter_04 }
-        DI_fix_variable_error = { X = jerusalem_divided_christian_quarter_01 }
-        DI_fix_variable_error = { X = jerusalem_divided_christian_quarter_02 }
-        DI_fix_variable_error = { X = jerusalem_divided_christian_quarter_03 }
-        DI_fix_variable_error = { X = jerusalem_divided_christian_quarter_04 }
-        DI_fix_variable_error = { X = jerusalem_divided_jewish_quarter_01 }
-        DI_fix_variable_error = { X = jerusalem_divided_jewish_quarter_02 }
-        DI_fix_variable_error = { X = jerusalem_divided_jewish_quarter_03 }
-        DI_fix_variable_error = { X = jerusalem_divided_jewish_quarter_04 }
-        DI_fix_variable_error = { X = jerusalem_divided_muslim_quarter_01 }
-        DI_fix_variable_error = { X = jerusalem_divided_muslim_quarter_02 }
-        DI_fix_variable_error = { X = jerusalem_divided_muslim_quarter_03 }
-        DI_fix_variable_error = { X = jerusalem_divided_muslim_quarter_04 }
+        DI_fix_variable_error = { X = jerusalem_christian_supreme_templar_04 }
         DI_fix_variable_error = { X = jerusalem_divided_temple_mount_catacombs_01 }
         DI_fix_variable_error = { X = jerusalem_divided_temple_mount_catacombs_02 }
         DI_fix_variable_error = { X = jerusalem_divided_temple_mount_catacombs_03 }
@@ -2229,15 +2631,23 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = jerusalem_jewish_castle_01 }
         DI_fix_variable_error = { X = jerusalem_jewish_castle_02 }
         DI_fix_variable_error = { X = jerusalem_jewish_castle_03 }
+        DI_fix_variable_error = { X = jerusalem_jewish_castle_04 }
+        DI_fix_variable_error = { X = jerusalem_jewish_demonology_01 }
+        DI_fix_variable_error = { X = jerusalem_jewish_demonology_02 }
+        DI_fix_variable_error = { X = jerusalem_jewish_demonology_03 }
+        DI_fix_variable_error = { X = jerusalem_jewish_demonology_04 }
         DI_fix_variable_error = { X = jerusalem_jewish_library_01 }
         DI_fix_variable_error = { X = jerusalem_jewish_library_02 }
         DI_fix_variable_error = { X = jerusalem_jewish_library_03 }
+        DI_fix_variable_error = { X = jerusalem_jewish_library_04 }
         DI_fix_variable_error = { X = jerusalem_jewish_palace_01 }
         DI_fix_variable_error = { X = jerusalem_jewish_palace_02 }
         DI_fix_variable_error = { X = jerusalem_jewish_palace_03 }
+        DI_fix_variable_error = { X = jerusalem_jewish_palace_04 }
         DI_fix_variable_error = { X = jerusalem_jewish_pools_01 }
         DI_fix_variable_error = { X = jerusalem_jewish_pools_02 }
         DI_fix_variable_error = { X = jerusalem_jewish_pools_03 }
+        DI_fix_variable_error = { X = jerusalem_jewish_pools_04 }
         DI_fix_variable_error = { X = jerusalem_jewish_synagogue_01 }
         DI_fix_variable_error = { X = jerusalem_jewish_synagogue_02 }
         DI_fix_variable_error = { X = jerusalem_jewish_synagogue_03 }
@@ -2249,12 +2659,15 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = jerusalem_muslim_al_khanqah_salahiyya_01 }
         DI_fix_variable_error = { X = jerusalem_muslim_al_khanqah_salahiyya_02 }
         DI_fix_variable_error = { X = jerusalem_muslim_al_khanqah_salahiyya_03 }
+        DI_fix_variable_error = { X = jerusalem_muslim_al_khanqah_salahiyya_04 }
         DI_fix_variable_error = { X = jerusalem_muslim_al_yaqubi_01 }
         DI_fix_variable_error = { X = jerusalem_muslim_al_yaqubi_02 }
         DI_fix_variable_error = { X = jerusalem_muslim_al_yaqubi_03 }
+        DI_fix_variable_error = { X = jerusalem_muslim_al_yaqubi_04 }
         DI_fix_variable_error = { X = jerusalem_muslim_damascus_market_01 }
         DI_fix_variable_error = { X = jerusalem_muslim_damascus_market_02 }
         DI_fix_variable_error = { X = jerusalem_muslim_damascus_market_03 }
+        DI_fix_variable_error = { X = jerusalem_muslim_damascus_market_04 }
         DI_fix_variable_error = { X = jerusalem_muslim_dome_rock_01 }
         DI_fix_variable_error = { X = jerusalem_muslim_dome_rock_02 }
         DI_fix_variable_error = { X = jerusalem_muslim_dome_rock_03 }
@@ -2262,9 +2675,11 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = jerusalem_muslim_madrasa_01 }
         DI_fix_variable_error = { X = jerusalem_muslim_madrasa_02 }
         DI_fix_variable_error = { X = jerusalem_muslim_madrasa_03 }
+        DI_fix_variable_error = { X = jerusalem_muslim_madrasa_04 }
         DI_fix_variable_error = { X = jerusalem_muslim_zawiya_01 }
         DI_fix_variable_error = { X = jerusalem_muslim_zawiya_02 }
         DI_fix_variable_error = { X = jerusalem_muslim_zawiya_03 }
+        DI_fix_variable_error = { X = jerusalem_muslim_zawiya_04 }
         DI_fix_variable_error = { X = jiaodong_mines_01 }
         DI_fix_variable_error = { X = jiaodong_mines_02 }
         DI_fix_variable_error = { X = jiaodong_mines_03 }
@@ -2347,12 +2762,10 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = kyz_kala_01 }
         DI_fix_variable_error = { X = lahur_bazaar_01 }
         DI_fix_variable_error = { X = lahur_bazaar_02 }
+        DI_fix_variable_error = { X = lake_moutniy_caern_01 }
         DI_fix_variable_error = { X = land_nexus_01 }
         DI_fix_variable_error = { X = land_nexus_02 }
         DI_fix_variable_error = { X = land_nexus_03 }
-        DI_fix_variable_error = { X = land_trod_01 }
-        DI_fix_variable_error = { X = land_trod_02 }
-        DI_fix_variable_error = { X = land_trod_03 }
         DI_fix_variable_error = { X = lantian_mines_01 }
         DI_fix_variable_error = { X = lantian_mines_02 }
         DI_fix_variable_error = { X = lantian_mines_03 }
@@ -2386,15 +2799,15 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = library_malta_03 }
         DI_fix_variable_error = { X = library_of_the_jade_court_01 }
         DI_fix_variable_error = { X = lingyin_temple_01 }
+        DI_fix_variable_error = { X = lion_fury_01 }
+        DI_fix_variable_error = { X = lion_fury_02 }
+        DI_fix_variable_error = { X = lion_fury_03 }
         DI_fix_variable_error = { X = lion_green_01 }
         DI_fix_variable_error = { X = lion_green_02 }
         DI_fix_variable_error = { X = lion_green_03 }
         DI_fix_variable_error = { X = liuhe_pagoda_01 }
         DI_fix_variable_error = { X = lize_academy_01 }
         DI_fix_variable_error = { X = loch_ness_01 }
-        DI_fix_variable_error = { X = lodge_freehold_01 }
-        DI_fix_variable_error = { X = lodge_freehold_02 }
-        DI_fix_variable_error = { X = lodge_freehold_03 }
         DI_fix_variable_error = { X = logging_camps_01 }
         DI_fix_variable_error = { X = logging_camps_02 }
         DI_fix_variable_error = { X = logging_camps_03 }
@@ -2427,6 +2840,10 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = maats_haven_06 }
         DI_fix_variable_error = { X = maats_haven_07 }
         DI_fix_variable_error = { X = maats_haven_08 }
+        DI_fix_variable_error = { X = madinat_al_zahra_01 }
+        DI_fix_variable_error = { X = madinat_al_zahra_02 }
+        DI_fix_variable_error = { X = madinat_al_zahra_03 }
+        DI_fix_variable_error = { X = madinat_al_zahra_04 }
         DI_fix_variable_error = { X = magda_purge_01 }
         DI_fix_variable_error = { X = magda_purge_02 }
         DI_fix_variable_error = { X = maharloo_lake_01 }
@@ -2441,18 +2858,27 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = mandala_capital_03 }
         DI_fix_variable_error = { X = mandala_capital_04 }
         DI_fix_variable_error = { X = mandala_capital_05 }
-        DI_fix_variable_error = { X = manor_freehold_01 }
-        DI_fix_variable_error = { X = manor_freehold_02 }
-        DI_fix_variable_error = { X = manor_freehold_03 }
+        DI_fix_variable_error = { X = manor_01 }
+        DI_fix_variable_error = { X = manor_02 }
+        DI_fix_variable_error = { X = manor_03 }
+        DI_fix_variable_error = { X = manor_04 }
+        DI_fix_variable_error = { X = manor_05 }
         DI_fix_variable_error = { X = maoshan_academy_01 }
         DI_fix_variable_error = { X = march_01 }
         DI_fix_variable_error = { X = march_02 }
         DI_fix_variable_error = { X = march_03 }
-        DI_fix_variable_error = { X = market_freehold_01 }
-        DI_fix_variable_error = { X = market_freehold_02 }
-        DI_fix_variable_error = { X = market_freehold_03 }
+        DI_fix_variable_error = { X = market_01 }
+        DI_fix_variable_error = { X = market_02 }
+        DI_fix_variable_error = { X = market_03 }
+        DI_fix_variable_error = { X = market_04 }
+        DI_fix_variable_error = { X = market_05 }
         DI_fix_variable_error = { X = market_villages_01 }
         DI_fix_variable_error = { X = market_villages_02 }
+        DI_fix_variable_error = { X = maryb_well_of_sacrifice_01 }
+        DI_fix_variable_error = { X = maryb_well_of_sacrifice_02 }
+        DI_fix_variable_error = { X = maryb_well_of_sacrifice_03 }
+        DI_fix_variable_error = { X = maryb_well_of_sacrifice_04 }
+        DI_fix_variable_error = { X = masculine_dignity_01 }
         DI_fix_variable_error = { X = megalith_01 }
         DI_fix_variable_error = { X = megalith_02 }
         DI_fix_variable_error = { X = megalith_03 }
@@ -2517,6 +2943,9 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = mokole_wallow_03 }
         DI_fix_variable_error = { X = mokole_wallow_04 }
         DI_fix_variable_error = { X = mokole_wallow_05 }
+        DI_fix_variable_error = { X = monastery_sao_vicente_01 }
+        DI_fix_variable_error = { X = monastery_sao_vicente_02 }
+        DI_fix_variable_error = { X = monastery_sao_vicente_03 }
         DI_fix_variable_error = { X = monastic_schools_01 }
         DI_fix_variable_error = { X = monastic_schools_02 }
         DI_fix_variable_error = { X = monastic_schools_03 }
@@ -2529,9 +2958,6 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = mont_st_michel_02 }
         DI_fix_variable_error = { X = mont_st_michel_03 }
         DI_fix_variable_error = { X = mont_st_michel_04 }
-        DI_fix_variable_error = { X = moon_trod_01 }
-        DI_fix_variable_error = { X = moon_trod_02 }
-        DI_fix_variable_error = { X = moon_trod_03 }
         DI_fix_variable_error = { X = mortal_army_01 }
         DI_fix_variable_error = { X = mortal_army_02 }
         DI_fix_variable_error = { X = mortal_army_03 }
@@ -2543,6 +2969,7 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = mother_garden_01 }
         DI_fix_variable_error = { X = mother_garden_02 }
         DI_fix_variable_error = { X = mother_garden_03 }
+        DI_fix_variable_error = { X = mother_peach_trees_01 }
         DI_fix_variable_error = { X = motley_haunt_01 }
         DI_fix_variable_error = { X = motley_haunt_02 }
         DI_fix_variable_error = { X = motley_haunt_03 }
@@ -2580,9 +3007,6 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = night_terror_01 }
         DI_fix_variable_error = { X = night_terror_02 }
         DI_fix_variable_error = { X = night_terror_03 }
-        DI_fix_variable_error = { X = nightmare_trod_01 }
-        DI_fix_variable_error = { X = nightmare_trod_02 }
-        DI_fix_variable_error = { X = nightmare_trod_03 }
         DI_fix_variable_error = { X = nishapur_mines_01 }
         DI_fix_variable_error = { X = nishapur_mines_02 }
         DI_fix_variable_error = { X = nishapur_mines_03 }
@@ -2633,6 +3057,7 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = open_rule_01 }
         DI_fix_variable_error = { X = open_rule_02 }
         DI_fix_variable_error = { X = open_rule_03 }
+        DI_fix_variable_error = { X = open_rule_04 }
         DI_fix_variable_error = { X = orchards_01 }
         DI_fix_variable_error = { X = orchards_02 }
         DI_fix_variable_error = { X = orchards_03 }
@@ -2666,6 +3091,10 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = palace_of_ctesiphon_02 }
         DI_fix_variable_error = { X = palisades_01 }
         DI_fix_variable_error = { X = palisades_02 }
+        DI_fix_variable_error = { X = pam_abbey_of_st_gall_01 }
+        DI_fix_variable_error = { X = pam_lateran_basilica_01 }
+        DI_fix_variable_error = { X = pam_palais_de_papes_01 }
+        DI_fix_variable_error = { X = pam_reims_cathedral_01 }
         DI_fix_variable_error = { X = pansjhir_mines_01 }
         DI_fix_variable_error = { X = pansjhir_mines_02 }
         DI_fix_variable_error = { X = pansjhir_mines_03 }
@@ -2859,9 +3288,19 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = plantations_06 }
         DI_fix_variable_error = { X = plantations_07 }
         DI_fix_variable_error = { X = plantations_08 }
+        DI_fix_variable_error = { X = plaza_zocodover_01 }
+        DI_fix_variable_error = { X = plaza_zocodover_02 }
+        DI_fix_variable_error = { X = plaza_zocodover_03 }
+        DI_fix_variable_error = { X = plaza_zocodover_04 }
+        DI_fix_variable_error = { X = plaza_zocodover_05 }
+        DI_fix_variable_error = { X = plaza_zocodover_06 }
         DI_fix_variable_error = { X = pleasure_dome }
         DI_fix_variable_error = { X = po_klong_garai_01 }
         DI_fix_variable_error = { X = pookas_favor_01 }
+        DI_fix_variable_error = { X = portus_hispalensis_01 }
+        DI_fix_variable_error = { X = portus_hispalensis_02 }
+        DI_fix_variable_error = { X = portus_hispalensis_03 }
+        DI_fix_variable_error = { X = portus_hispalensis_04 }
         DI_fix_variable_error = { X = powder_magazine_01 }
         DI_fix_variable_error = { X = powder_magazine_02 }
         DI_fix_variable_error = { X = powder_magazine_03 }
@@ -2879,6 +3318,7 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = prince_city_07 }
         DI_fix_variable_error = { X = prince_city_08 }
         DI_fix_variable_error = { X = prince_city_09 }
+        DI_fix_variable_error = { X = protector_caern_01 }
         DI_fix_variable_error = { X = pseudo_angelic_cults_01 }
         DI_fix_variable_error = { X = pseudo_angelic_cults_02 }
         DI_fix_variable_error = { X = pseudo_angelic_cults_03 }
@@ -2932,6 +3372,10 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = ratnapura_mines_02 }
         DI_fix_variable_error = { X = ratnapura_mines_03 }
         DI_fix_variable_error = { X = ratnapura_mines_04 }
+        DI_fix_variable_error = { X = red_cedar_01 }
+        DI_fix_variable_error = { X = red_thermae_01 }
+        DI_fix_variable_error = { X = red_thermae_02 }
+        DI_fix_variable_error = { X = red_thermae_03 }
         DI_fix_variable_error = { X = regimental_grounds_01 }
         DI_fix_variable_error = { X = regimental_grounds_02 }
         DI_fix_variable_error = { X = regimental_grounds_03 }
@@ -2942,6 +3386,7 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = regimental_grounds_08 }
         DI_fix_variable_error = { X = rock_of_cashel_01 }
         DI_fix_variable_error = { X = rock_of_gibraltar_01 }
+        DI_fix_variable_error = { X = rock_three_kingdoms_01 }
         DI_fix_variable_error = { X = roman_wall_of_lugo_01 }
         DI_fix_variable_error = { X = rome_01 }
         DI_fix_variable_error = { X = rome_02 }
@@ -3084,6 +3529,10 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = sanctified_area_01 }
         DI_fix_variable_error = { X = sanctified_area_02 }
         DI_fix_variable_error = { X = sanctuary_of_flesh_01 }
+        DI_fix_variable_error = { X = sanctum_st_james_01 }
+        DI_fix_variable_error = { X = sanctum_st_james_02 }
+        DI_fix_variable_error = { X = sanctum_st_james_03 }
+        DI_fix_variable_error = { X = sanctum_st_james_04 }
         DI_fix_variable_error = { X = sankore_university }
         DI_fix_variable_error = { X = sar_i_sang_mines_01 }
         DI_fix_variable_error = { X = sar_i_sang_mines_02 }
@@ -3179,6 +3628,7 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = shrine_of_telyavel_03 }
         DI_fix_variable_error = { X = shrine_st_olwen_01 }
         DI_fix_variable_error = { X = shwedagon_pagoda_01 }
+        DI_fix_variable_error = { X = siberian_wilds_caern_01 }
         DI_fix_variable_error = { X = siderokausia_mines_01 }
         DI_fix_variable_error = { X = siderokausia_mines_02 }
         DI_fix_variable_error = { X = siderokausia_mines_03 }
@@ -3188,6 +3638,11 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = siege_works_03 }
         DI_fix_variable_error = { X = siena_university }
         DI_fix_variable_error = { X = silbury_hill_01 }
+        DI_fix_variable_error = { X = silver_mines_baebelo_01 }
+        DI_fix_variable_error = { X = silver_mines_baebelo_02 }
+        DI_fix_variable_error = { X = silver_mines_baebelo_03 }
+        DI_fix_variable_error = { X = silver_mines_baebelo_04 }
+        DI_fix_variable_error = { X = silver_mines_baebelo_05 }
         DI_fix_variable_error = { X = silver_refuge_01 }
         DI_fix_variable_error = { X = silver_tara_01 }
         DI_fix_variable_error = { X = silvers_gate_01 }
@@ -3215,6 +3670,7 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = spice_plantation_06 }
         DI_fix_variable_error = { X = spice_plantation_07 }
         DI_fix_variable_error = { X = spice_plantation_08 }
+        DI_fix_variable_error = { X = spirit_stone_01 }
         DI_fix_variable_error = { X = spiritual_sanctuary_01 }
         DI_fix_variable_error = { X = spiritual_sanctuary_02 }
         DI_fix_variable_error = { X = spiritual_sanctuary_03 }
@@ -3228,6 +3684,7 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = st_andrew_01 }
         DI_fix_variable_error = { X = st_andrew_02 }
         DI_fix_variable_error = { X = st_andrew_03 }
+        DI_fix_variable_error = { X = st_brigid_01 }
         DI_fix_variable_error = { X = st_cecila_01 }
         DI_fix_variable_error = { X = st_cecila_02 }
         DI_fix_variable_error = { X = st_cecila_03 }
@@ -3254,6 +3711,11 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = stilted_granaries_04 }
         DI_fix_variable_error = { X = stone_pagoda_01 }
         DI_fix_variable_error = { X = stonehenge_01 }
+        DI_fix_variable_error = { X = stronghold_01 }
+        DI_fix_variable_error = { X = stronghold_02 }
+        DI_fix_variable_error = { X = stronghold_03 }
+        DI_fix_variable_error = { X = stronghold_04 }
+        DI_fix_variable_error = { X = stronghold_05 }
         DI_fix_variable_error = { X = sumela_monastery_01 }
         DI_fix_variable_error = { X = sumela_monastery_02 }
         DI_fix_variable_error = { X = summoning_chamber_01 }
@@ -3262,9 +3724,6 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = sun_glory_01 }
         DI_fix_variable_error = { X = sun_glory_02 }
         DI_fix_variable_error = { X = sun_glory_03 }
-        DI_fix_variable_error = { X = sun_trod_01 }
-        DI_fix_variable_error = { X = sun_trod_02 }
-        DI_fix_variable_error = { X = sun_trod_03 }
         DI_fix_variable_error = { X = sunday_bazaar_01 }
         DI_fix_variable_error = { X = sunday_bazaar_02 }
         DI_fix_variable_error = { X = sundervere_cult_01 }
@@ -3275,6 +3734,7 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = suvarnadvipa_mines_03 }
         DI_fix_variable_error = { X = suvarnadvipa_mines_04 }
         DI_fix_variable_error = { X = suwalesi_megaliths_01 }
+        DI_fix_variable_error = { X = suzhou_creek_caern_01 }
         DI_fix_variable_error = { X = swahili_port_lamu }
         DI_fix_variable_error = { X = swahili_port_mombasa }
         DI_fix_variable_error = { X = swahili_port_pate }
@@ -3345,15 +3805,19 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = theistic_cults_05 }
         DI_fix_variable_error = { X = theistic_cults_06 }
         DI_fix_variable_error = { X = theodosian_walls_01 }
-        DI_fix_variable_error = { X = thorpe_freehold_01 }
-        DI_fix_variable_error = { X = thorpe_freehold_02 }
-        DI_fix_variable_error = { X = thorpe_freehold_03 }
+        DI_fix_variable_error = { X = thorpe_01 }
+        DI_fix_variable_error = { X = thorpe_02 }
+        DI_fix_variable_error = { X = thorpe_03 }
+        DI_fix_variable_error = { X = thorpe_04 }
+        DI_fix_variable_error = { X = thorpe_05 }
         DI_fix_variable_error = { X = thousand_crane_monastery_01 }
+        DI_fix_variable_error = { X = three_gorges_caern_01 }
         DI_fix_variable_error = { X = three_pagodas_dali_01 }
         DI_fix_variable_error = { X = throne_sunlight_01 }
         DI_fix_variable_error = { X = thunder_blade_01 }
         DI_fix_variable_error = { X = thunder_blade_02 }
         DI_fix_variable_error = { X = thunder_blade_03 }
+        DI_fix_variable_error = { X = thunderstrike_caern_01 }
         DI_fix_variable_error = { X = thuriang_kilns_01 }
         DI_fix_variable_error = { X = tianchi_dragon_nest_01 }
         DI_fix_variable_error = { X = tiantai_monasteries_01 }
@@ -3368,6 +3832,10 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = tomb_06 }
         DI_fix_variable_error = { X = tomb_07 }
         DI_fix_variable_error = { X = tomb_08 }
+        DI_fix_variable_error = { X = tomb_el_cid_01 }
+        DI_fix_variable_error = { X = tomb_el_cid_02 }
+        DI_fix_variable_error = { X = tomb_el_cid_03 }
+        DI_fix_variable_error = { X = tomb_el_cid_04 }
         DI_fix_variable_error = { X = tomb_of_cyrus_01 }
         DI_fix_variable_error = { X = toulouse_university_01 }
         DI_fix_variable_error = { X = toulouse_university_02 }
@@ -3386,19 +3854,30 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = trepca_mines_04 }
         DI_fix_variable_error = { X = tribe_01 }
         DI_fix_variable_error = { X = tribe_02 }
+        DI_fix_variable_error = { X = trods_01 }
+        DI_fix_variable_error = { X = trods_02 }
+        DI_fix_variable_error = { X = trods_03 }
+        DI_fix_variable_error = { X = trods_04 }
+        DI_fix_variable_error = { X = trods_05 }
+        DI_fix_variable_error = { X = trods_06 }
         DI_fix_variable_error = { X = trosky_castle_01 }
         DI_fix_variable_error = { X = tsushima_mines_01 }
         DI_fix_variable_error = { X = tsushima_mines_02 }
         DI_fix_variable_error = { X = tsushima_mines_03 }
         DI_fix_variable_error = { X = tsushima_mines_04 }
         DI_fix_variable_error = { X = tuath_of_chronos_01 }
+        DI_fix_variable_error = { X = tullu_demtu_01 }
         DI_fix_variable_error = { X = turda_mines_01 }
         DI_fix_variable_error = { X = turda_mines_02 }
         DI_fix_variable_error = { X = turda_mines_03 }
         DI_fix_variable_error = { X = turda_mines_04 }
+        DI_fix_variable_error = { X = uktena_hunter_lodge_01 }
+        DI_fix_variable_error = { X = uktena_hunter_lodge_02 }
+        DI_fix_variable_error = { X = uktena_hunter_lodge_03 }
         DI_fix_variable_error = { X = umbral_lake_tele_01 }
         DI_fix_variable_error = { X = umbral_lake_tele_02 }
         DI_fix_variable_error = { X = umbral_lake_tele_03 }
+        DI_fix_variable_error = { X = underground_forum_caern_01 }
         DI_fix_variable_error = { X = underworld_portal_01 }
         DI_fix_variable_error = { X = unending_party_01 }
         DI_fix_variable_error = { X = unending_party_02 }
@@ -3408,9 +3887,6 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = uppsala_01 }
         DI_fix_variable_error = { X = uppsala_02 }
         DI_fix_variable_error = { X = uppsala_03 }
-        DI_fix_variable_error = { X = urban_freehold_01 }
-        DI_fix_variable_error = { X = urban_freehold_02 }
-        DI_fix_variable_error = { X = urban_freehold_03 }
         DI_fix_variable_error = { X = vatapi_caves_01 }
         DI_fix_variable_error = { X = verespatak_mines_01 }
         DI_fix_variable_error = { X = verespatak_mines_02 }
@@ -3467,9 +3943,6 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = water_temples_02 }
         DI_fix_variable_error = { X = water_temples_03 }
         DI_fix_variable_error = { X = water_temples_04 }
-        DI_fix_variable_error = { X = water_trod_01 }
-        DI_fix_variable_error = { X = water_trod_02 }
-        DI_fix_variable_error = { X = water_trod_03 }
         DI_fix_variable_error = { X = watermills_01 }
         DI_fix_variable_error = { X = watermills_02 }
         DI_fix_variable_error = { X = watermills_03 }
@@ -3526,9 +3999,6 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = white_sea_01 }
         DI_fix_variable_error = { X = white_sea_02 }
         DI_fix_variable_error = { X = white_sea_03 }
-        DI_fix_variable_error = { X = wild_portal_01 }
-        DI_fix_variable_error = { X = wild_portal_02 }
-        DI_fix_variable_error = { X = wild_portal_03 }
         DI_fix_variable_error = { X = wild_sea_01 }
         DI_fix_variable_error = { X = wild_sea_02 }
         DI_fix_variable_error = { X = wild_sea_03 }
@@ -3552,6 +4022,11 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = winter_forest_01 }
         DI_fix_variable_error = { X = winter_forest_02 }
         DI_fix_variable_error = { X = winter_forest_03 }
+        DI_fix_variable_error = { X = workshop_01 }
+        DI_fix_variable_error = { X = workshop_02 }
+        DI_fix_variable_error = { X = workshop_03 }
+        DI_fix_variable_error = { X = workshop_04 }
+        DI_fix_variable_error = { X = workshop_05 }
         DI_fix_variable_error = { X = workshops_01 }
         DI_fix_variable_error = { X = workshops_02 }
         DI_fix_variable_error = { X = workshops_03 }
@@ -3601,10 +4076,12 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = ashen_caravan }
         DI_fix_variable_error = { X = ashen_cult }
         DI_fix_variable_error = { X = ashen_grandmaster }
+        DI_fix_variable_error = { X = aye }
         DI_fix_variable_error = { X = bandit }
         DI_fix_variable_error = { X = bow }
         DI_fix_variable_error = { X = brewing }
         DI_fix_variable_error = { X = danger }
+        DI_fix_variable_error = { X = elixir_of_eternal_life }
         DI_fix_variable_error = { X = enhancing }
         DI_fix_variable_error = { X = falconer }
         DI_fix_variable_error = { X = fetter }
@@ -3614,7 +4091,14 @@ DI_error_suppression.1 = {
         DI_fix_variable_error = { X = horse }
         DI_fix_variable_error = { X = hunter }
         DI_fix_variable_error = { X = marauder }
+        DI_fix_variable_error = { X = orun }
         DI_fix_variable_error = { X = poacher }
+        DI_fix_variable_error = { X = spell_of_life }
+        DI_fix_variable_error = { X = tale_of_herald }
+        DI_fix_variable_error = { X = tale_of_marshal }
+        DI_fix_variable_error = { X = tale_of_sage }
+        DI_fix_variable_error = { X = tale_of_shadow }
+        DI_fix_variable_error = { X = tale_of_steward }
         DI_fix_variable_error = { X = thief }
         DI_fix_variable_error = { X = travel }
         DI_fix_variable_error = { X = trickster }

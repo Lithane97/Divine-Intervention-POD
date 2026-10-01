@@ -209,5 +209,175 @@ types DICharSpawnerCourtPositionTypes
                 }
             }
         }
+
+        hbox = {
+            layoutpolicy_horizontal = expanding
+            widget = {
+                layoutpolicy_horizontal = expanding
+                size = { 0 35 }
+                background = { using = Background_Area_Dark }
+                text_single = { text = "DI_court_position_category_target_county" parentanchor = left|vcenter margin_left = 8 }
+                button_standard = {
+                    parentanchor = left|vcenter
+                    size = { 100% 100% }
+                    alpha = 0
+                    text = ""
+                    onclick = "[GetVariableSystem.Toggle('DI_cs_court_position_category_target_county')]"
+                }
+            }
+            button_list_expand = {
+                size = { 26 26 }
+                checked = "[GetVariableSystem.Exists('DI_cs_court_position_category_target_county')]"
+                onclick = "[GetVariableSystem.Toggle('DI_cs_court_position_category_target_county')]"
+            }
+        }
+
+        vbox = {
+            visible = "[GetVariableSystem.Exists('DI_cs_court_position_category_target_county')]"
+            layoutpolicy_horizontal = expanding
+            datamodel = "[GetAllCourtPositionTypes]"
+            item = {
+                DI_character_spawner_button = {
+                    visible = "[And(GetScriptedGui('DI_court_position_category_target_county_sgui').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('court_position_type', CourtPositionType.MakeScope).End), GetScriptedGui('DI_court_position_available').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('court_position_type', CourtPositionType.MakeScope).End))]"
+                    onclick = "[GetScriptedGui('DI_spawn_court_position').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('court_position_type', CourtPositionType.MakeScope).End)]"
+                }
+            }
+        }
+
+        hbox = {
+            layoutpolicy_horizontal = expanding
+            widget = {
+                layoutpolicy_horizontal = expanding
+                size = { 0 35 }
+                background = { using = Background_Area_Dark }
+                text_single = { text = "DI_court_position_category_target_duchy" parentanchor = left|vcenter margin_left = 8 }
+                button_standard = {
+                    parentanchor = left|vcenter
+                    size = { 100% 100% }
+                    alpha = 0
+                    text = ""
+                    onclick = "[GetVariableSystem.Toggle('DI_cs_court_position_category_target_duchy')]"
+                }
+            }
+            button_list_expand = {
+                size = { 26 26 }
+                checked = "[GetVariableSystem.Exists('DI_cs_court_position_category_target_duchy')]"
+                onclick = "[GetVariableSystem.Toggle('DI_cs_court_position_category_target_duchy')]"
+            }
+        }
+
+        vbox = {
+            visible = "[GetVariableSystem.Exists('DI_cs_court_position_category_target_duchy')]"
+            layoutpolicy_horizontal = expanding
+            datamodel = "[GetAllCourtPositionTypes]"
+            item = {
+                DI_character_spawner_button = {
+                    visible = "[And(GetScriptedGui('DI_court_position_category_target_duchy_sgui').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('court_position_type', CourtPositionType.MakeScope).End), GetScriptedGui('DI_court_position_available').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('court_position_type', CourtPositionType.MakeScope).End))]"
+                    onclick = "[GetScriptedGui('DI_spawn_court_position').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('court_position_type', CourtPositionType.MakeScope).End)]"
+                }
+            }
+        }
+
+        hbox = {
+            layoutpolicy_horizontal = expanding
+            widget = {
+                layoutpolicy_horizontal = expanding
+                size = { 0 35 }
+                background = { using = Background_Area_Dark }
+                text_single = { text = "DI_court_position_category_target_kingdom" parentanchor = left|vcenter margin_left = 8 }
+                button_standard = {
+                    parentanchor = left|vcenter
+                    size = { 100% 100% }
+                    alpha = 0
+                    text = ""
+                    onclick = "[GetVariableSystem.Toggle('DI_cs_court_position_category_target_kingdom')]"
+                }
+            }
+            button_list_expand = {
+                size = { 26 26 }
+                checked = "[GetVariableSystem.Exists('DI_cs_court_position_category_target_kingdom')]"
+                onclick = "[GetVariableSystem.Toggle('DI_cs_court_position_category_target_kingdom')]"
+            }
+        }
+
+        vbox = {
+            visible = "[GetVariableSystem.Exists('DI_cs_court_position_category_target_kingdom')]"
+            layoutpolicy_horizontal = expanding
+            datamodel = "[GetAllCourtPositionTypes]"
+            item = {
+                DI_character_spawner_button = {
+                    visible = "[And(GetScriptedGui('DI_court_position_category_target_kingdom_sgui').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('court_position_type', CourtPositionType.MakeScope).End), GetScriptedGui('DI_court_position_available').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('court_position_type', CourtPositionType.MakeScope).End))]"
+                    onclick = "[GetScriptedGui('DI_spawn_court_position').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('court_position_type', CourtPositionType.MakeScope).End)]"
+                }
+            }
+        }
+
+        hbox = {
+            layoutpolicy_horizontal = expanding
+            widget = {
+                layoutpolicy_horizontal = expanding
+                size = { 0 35 }
+                background = { using = Background_Area_Dark }
+                text_single = { text = "DI_court_position_category_target_empire" parentanchor = left|vcenter margin_left = 8 }
+                button_standard = {
+                    parentanchor = left|vcenter
+                    size = { 100% 100% }
+                    alpha = 0
+                    text = ""
+                    onclick = "[GetVariableSystem.Toggle('DI_cs_court_position_category_target_empire')]"
+                }
+            }
+            button_list_expand = {
+                size = { 26 26 }
+                checked = "[GetVariableSystem.Exists('DI_cs_court_position_category_target_empire')]"
+                onclick = "[GetVariableSystem.Toggle('DI_cs_court_position_category_target_empire')]"
+            }
+        }
+
+        vbox = {
+            visible = "[GetVariableSystem.Exists('DI_cs_court_position_category_target_empire')]"
+            layoutpolicy_horizontal = expanding
+            datamodel = "[GetAllCourtPositionTypes]"
+            item = {
+                DI_character_spawner_button = {
+                    visible = "[And(GetScriptedGui('DI_court_position_category_target_empire_sgui').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('court_position_type', CourtPositionType.MakeScope).End), GetScriptedGui('DI_court_position_available').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('court_position_type', CourtPositionType.MakeScope).End))]"
+                    onclick = "[GetScriptedGui('DI_spawn_court_position').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('court_position_type', CourtPositionType.MakeScope).End)]"
+                }
+            }
+        }
+
+        hbox = {
+            layoutpolicy_horizontal = expanding
+            widget = {
+                layoutpolicy_horizontal = expanding
+                size = { 0 35 }
+                background = { using = Background_Area_Dark }
+                text_single = { text = "DI_court_position_category_target_other" parentanchor = left|vcenter margin_left = 8 }
+                button_standard = {
+                    parentanchor = left|vcenter
+                    size = { 100% 100% }
+                    alpha = 0
+                    text = ""
+                    onclick = "[GetVariableSystem.Toggle('DI_cs_court_position_category_target_other')]"
+                }
+            }
+            button_list_expand = {
+                size = { 26 26 }
+                checked = "[GetVariableSystem.Exists('DI_cs_court_position_category_target_other')]"
+                onclick = "[GetVariableSystem.Toggle('DI_cs_court_position_category_target_other')]"
+            }
+        }
+
+        vbox = {
+            visible = "[GetVariableSystem.Exists('DI_cs_court_position_category_target_other')]"
+            layoutpolicy_horizontal = expanding
+            datamodel = "[GetAllCourtPositionTypes]"
+            item = {
+                DI_character_spawner_button = {
+                    visible = "[And(GetScriptedGui('DI_court_position_category_target_other_sgui').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('court_position_type', CourtPositionType.MakeScope).End), GetScriptedGui('DI_court_position_available').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('court_position_type', CourtPositionType.MakeScope).End))]"
+                    onclick = "[GetScriptedGui('DI_spawn_court_position').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('court_position_type', CourtPositionType.MakeScope).End)]"
+                }
+            }
+        }
     }
 }
