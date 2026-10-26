@@ -13,8 +13,6 @@ DI_ce_remove_all_innovations = {
             DI_remove_innovations_high_medieval_effect = yes
             DI_remove_innovations_late_medieval_effect = yes
             DI_remove_innovations_dark_fantastic_effect = yes
-            DI_remove_innovations_gothic_victorian_effect = yes
-            DI_remove_innovations_final_nights_effect = yes
         }
     }
 }
@@ -32,8 +30,6 @@ DI_ce_add_all_innovations = {
             DI_add_innovations_high_medieval_effect = yes
             DI_add_innovations_late_medieval_effect = yes
             DI_add_innovations_dark_fantastic_effect = yes
-            DI_add_innovations_gothic_victorian_effect = yes
-            DI_add_innovations_final_nights_effect = yes
         }
     }
 }
@@ -171,7 +167,6 @@ DI_ce_add_gothic_victorian_innovations = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            DI_add_innovations_gothic_victorian_effect = yes
         }
     }
 }
@@ -183,7 +178,6 @@ DI_ce_remove_gothic_victorian_innovations = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            DI_remove_innovations_gothic_victorian_effect = yes
         }
     }
 }
@@ -196,7 +190,6 @@ DI_ce_add_final_nights_innovations = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            DI_add_innovations_final_nights_effect = yes
         }
     }
 }
@@ -208,7 +201,6 @@ DI_ce_remove_final_nights_innovations = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            DI_remove_innovations_final_nights_effect = yes
         }
     }
 }

@@ -3,16 +3,16 @@
   "status": "ready",
   "base_di": {
     "name": "Divine Intervention Cheat Menu",
-    "descriptor_hash": "43c2dc48d37d874aab0d5da9bd1d26bad93cfd28217902460ebda4fc2d8e04d1"
+    "descriptor_hash": "77c03fb353ff62219265ad1eec8a88a85975630b0eb3b5ff2fdc1dafa07832d7"
   },
   "target_mod": {
     "name": "Princes of Darkness",
-    "descriptor_hash": "fcd7e5f7db16659aa289743c23a3ba2418a3499c00e960cdd3d4397dd1dc8173"
+    "descriptor_hash": "52503a02736b36e342eaaff069aefd8073629f3e29eebb890e7781298f6254cd"
   },
   "managed_files": {
     "events/DI_error_suppression.txt": {
       "kind": "generated",
-      "last_written_hash": "e7caddd8eb251a7ba62c38be46bf69a7769406b810ac42e283f99137f01b11c1"
+      "last_written_hash": "5aae97526f4cecaaa9d0a1a596ba130d1f257b9708c4e9e8f49ddb4cf7e206a1"
     },
     "common/modifiers/DI_lifestyle_present_modifiers.txt": {
       "kind": "generated",
@@ -28,7 +28,7 @@
     },
     "common/scripted_effects/DI_generated_court_position_profiles.txt": {
       "kind": "generated",
-      "last_written_hash": "7d04cb7b4b45543e3e58bb35016575300a958ad307b23db26abb67b243a43c78"
+      "last_written_hash": "2a7ab1ebb01063dc500143e4ff4e8bc7e66fa75401c9379da52fa2e2f8bb529f"
     },
     "common/scripted_effects/DI_lifestyle_present_effects.txt": {
       "kind": "generated",
@@ -48,7 +48,7 @@
     },
     "common/scripted_guis/DI_cultural_editor_pillars_sgui.txt": {
       "kind": "generated",
-      "last_written_hash": "96d416543c2721876f6aa175bc8c5695654b229d64775eab0ebe5ea8ac4c4f01"
+      "last_written_hash": "e629770c8cac6d942d6666996fb32b9dbfb3cab5734e6877c91fbcef7330b199"
     },
     "common/scripted_guis/DI_dynamic_court_position_spawner_sgui.txt": {
       "kind": "generated",
@@ -60,11 +60,11 @@
     },
     "common/scripted_guis/DI_innovations_sgui.txt": {
       "kind": "generated",
-      "last_written_hash": "cf66124e4f8d35a5152c534b0c2be1535f1349174b6668efeaa8355a62386640"
+      "last_written_hash": "654f319e1b10c55da1c9cc46dedb0f64216cd809c7a564cc680d198091d2413e"
     },
     "common/scripted_guis/DI_innovation_by_era_sgui.txt": {
       "kind": "generated",
-      "last_written_hash": "8695f035aba6b1fa2ff1222dc4bc34d61f556f113e554ddf53a0e6e449e90a50"
+      "last_written_hash": "8c4acc12258d491d8449078aea30fe01065aa789e8b8751ec51b9f8f0f465452"
     },
     "common/scripted_guis/DI_perk_point_sgui.txt": {
       "kind": "generated",
@@ -108,11 +108,11 @@
     },
     "gui/DI_cultural_editor_templates/DI_cultural_editor_era_template.gui": {
       "kind": "generated",
-      "last_written_hash": "67e27870d18f572c07f7ac8811701d496895a1723f57b6679e2239b045c26403"
+      "last_written_hash": "e923d248e07fa2e48bab3ce6e6209cace817d2218b3496c446502b37ac913bba"
     },
     "gui/DI_cultural_editor_templates/DI_ethos_template.gui": {
       "kind": "generated",
-      "last_written_hash": "73aa71ab58ef27ae79714ace65c2d6eaa219640c4fbd4f2e3c91e224b4079861"
+      "last_written_hash": "95c565f20bbb09102923e5721ad02ca9f91df92855b57ccda25e8baa03b6fef1"
     },
     "gui/DI_cultural_editor_templates/DI_heritage_template.gui": {
       "kind": "generated",
@@ -120,7 +120,7 @@
     },
     "gui/DI_cultural_editor_templates/DI_innovation_all_vanilla.gui": {
       "kind": "generated",
-      "last_written_hash": "cd26e06f2c517291a5aae60c66088bcb735eb8a0166c3a15a8613894080b8ee0"
+      "last_written_hash": "b7371043232ae66fec9526c90efafc0f154ae4385db0d5fc9aac5281767c4d47"
     },
     "gui/DI_cultural_editor_templates/DI_language_template.gui": {
       "kind": "generated",
@@ -188,7 +188,7 @@
     },
     "localization/french/gui/DI_court_position_categories_l_french.yml": {
       "kind": "generated",
-      "last_written_hash": "341ea45d6852d673176a43981353a16a67869bef7c203bc52b83c4686dd96933"
+      "last_written_hash": "31ac0e66f8efa119e11de6c9af2a0f85c5ce7fe216175564ba3f0023908fd5d3"
     },
     "localization/german/gui/DI_building_categories_l_german.yml": {
       "kind": "generated",
@@ -196,7 +196,7 @@
     },
     "localization/german/gui/DI_court_position_categories_l_german.yml": {
       "kind": "generated",
-      "last_written_hash": "3a9db0eabdbb8daabaf2d4537f6fb1698a5d183462be35f2bb64655d9515aa42"
+      "last_written_hash": "9b4fcf3897048c767f8833d46f214b9c441f4a9787e04ad6fcbbd2a0e72fae1a"
     },
     "localization/japanese/gui/DI_building_categories_l_japanese.yml": {
       "kind": "generated",
@@ -204,7 +204,7 @@
     },
     "localization/japanese/gui/DI_court_position_categories_l_japanese.yml": {
       "kind": "generated",
-      "last_written_hash": "c76cea7b755da654c05e59224547fb7cd36a79ac68b3557f9f55caca2d852e18"
+      "last_written_hash": "29c0b1a1294669b71ef6b12951240bffd5101116fc4f23b95bc1348e662e9176"
     },
     "localization/korean/gui/DI_building_categories_l_korean.yml": {
       "kind": "generated",
@@ -212,7 +212,7 @@
     },
     "localization/korean/gui/DI_court_position_categories_l_korean.yml": {
       "kind": "generated",
-      "last_written_hash": "e755dfcb2cb52303ede556624af7d9dd2080d0e9498591aabf29b1799009e92f"
+      "last_written_hash": "03efad9fe2b25858452d5ddd2cdb2b283c77f1cc269b1b33d9d3206248997683"
     },
     "localization/polish/gui/DI_building_categories_l_polish.yml": {
       "kind": "generated",
@@ -220,7 +220,7 @@
     },
     "localization/polish/gui/DI_court_position_categories_l_polish.yml": {
       "kind": "generated",
-      "last_written_hash": "5f3ba64ac8e83f3f574d30fc1990681d1131f1898a3b53122c8400bc0c4b9533"
+      "last_written_hash": "6a2b1696a3cf1e0e70162f79270dce0a248a4f34bdc2c05e394b5caa7344d6f5"
     },
     "localization/russian/gui/DI_building_categories_l_russian.yml": {
       "kind": "generated",
@@ -228,7 +228,7 @@
     },
     "localization/russian/gui/DI_court_position_categories_l_russian.yml": {
       "kind": "generated",
-      "last_written_hash": "6f78b4ee7f512279f3789f11f6f047f08301217fe45adedc50b43870787dd1b9"
+      "last_written_hash": "3d5d90b4f177ec628478c140503f99c466900d33a3289cd9174372be2305b018"
     },
     "localization/simp_chinese/gui/DI_building_categories_l_simp_chinese.yml": {
       "kind": "generated",
@@ -236,7 +236,7 @@
     },
     "localization/simp_chinese/gui/DI_court_position_categories_l_simp_chinese.yml": {
       "kind": "generated",
-      "last_written_hash": "b3a3df5791dc97f1af659939796a664bd7104fdc4dd350895538d44cf22681d9"
+      "last_written_hash": "4fd52dc766b3a6a0e64c3e18f59f0ad5a64b4f0ab9e18181b369e3b5d1349f8b"
     },
     "localization/spanish/gui/DI_building_categories_l_spanish.yml": {
       "kind": "generated",
@@ -244,7 +244,7 @@
     },
     "localization/spanish/gui/DI_court_position_categories_l_spanish.yml": {
       "kind": "generated",
-      "last_written_hash": "e0488c24ef16a91156f660e1b6d124ca95754609e3b4046f4ad6b58fbb1b24f3"
+      "last_written_hash": "b5c753c3d0b59816a32ba7ae010f26ddec2494df7bf94bbdc12521b8aef097cd"
     },
     "common/character_interaction_categories/00_character_interaction_categories.txt": {
       "kind": "generated",
@@ -300,15 +300,48 @@
     },
     "gui/DI_faith_editor_templates/DI_fe_generated_catalogue.gui": {
       "kind": "generated",
-      "last_written_hash": "56015387c4d6bae3e3a663a3715b42dd83022a29ed7a3f653f5725b0f4504cca"
+      "last_written_hash": "16d00881f8c25a11efad5efca58956245331e15a9946f7488d4ba8e38dedc2de"
     },
     "common/scripted_guis/DI_fe_generated_catalogue_sgui.txt": {
       "kind": "generated",
-      "last_written_hash": "49bcf5e7bec0add3c7300bfb10316fb048bdd192aa228ca214ef115cdbd8a860"
+      "last_written_hash": "180727f731ded8ba06e86b8122166c6cc8c744259515844d0bf3213c44ae07c1"
     },
     "reports/court_position_validity.json": {
       "kind": "generated",
-      "last_written_hash": "3a50a4e1c5d3ef8ad7ca12e512d7c55c423426f16d3ed61518a43048f8990536"
+      "last_written_hash": "62c9bd3ac7b51586920ebe820d524b7421c3bc4dec51be16200a744d7c018227"
+    },
+    "common/scripted_effects/DI_innovation_picker_categories_effects.txt": {
+      "kind": "generated",
+      "last_written_hash": "231717fd75a3effa6bf7c9ff93ae4470c8bf3e677d3925af2b5a0b79d27842d3"
+    },
+    "common/scripted_triggers/DI_tradition_dlc_triggers.txt": {
+      "kind": "generated",
+      "last_written_hash": "1ae9f705e80cfbf7ea261da362c725e53977770672eea4cd516478e6b7d0e031"
+    },
+    "common/scripted_effects/DI_tradition_picker_use_effects.txt": {
+      "kind": "generated",
+      "last_written_hash": "00745688588495c8ff004899680c3d957b43d5765c698801e83987c5b4133bc5"
+    },
+    "common/scripted_effects/DI_fe_generated_catalogue_effects.txt": {
+      "kind": "generated",
+      "last_written_hash": "ded2cb7383ec83c159081c31b3bb67dd0e4d219f0bdaa61b6d371dc921c67b0c"
+    },
+    "gui/DI_button.gui": {
+      "kind": "baseline_copy",
+      "source_hash": "8085b58124a12e88dee29e1f770e9845a2e21e30d1e2ce5d45b0764c0261702e",
+      "last_written_hash": "4985dd53fd26e88d940805c58fea32d7d09b6d2553bde9b8926da5d9f378bd50"
+    },
+    "reports/hud_button_placement.json": {
+      "kind": "generated",
+      "last_written_hash": "c40b1e147d24e0608eb178ec2b593c6ec8017832475cd5d1bfdbcd9259b6f6f5"
+    },
+    "gui/DI_cultural_editor_templates/DI_innovation_bulk_template.gui": {
+      "kind": "generated",
+      "last_written_hash": "2deaef38b44690755922b2b2e2cdac3a61838730e98d831cef83d18450fdf055"
+    },
+    "common/scripted_guis/DI_innovation_bulk_sgui.txt": {
+      "kind": "generated",
+      "last_written_hash": "b85982b71569ca60dc2647f37ebc71a580d3c32a90c85d9215f44e3b8c4a8213"
     }
   }
 }
